@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from '../assets/images/logov2.svg'
 import { useRouter } from "next/router";
+import LangSelect from '../components/LangSelect'
 
 const Header = ({ headerObject }) => {
 
@@ -9,9 +10,7 @@ const Header = ({ headerObject }) => {
 
     return (
         <>
-            <div className="">
-                
-            </div>
+            <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
             <nav className="navbar navbar-expand-lg bg-light border-bottom">
                 <div className="container-fluid p-1 mx-4">
                     <Link href="/">

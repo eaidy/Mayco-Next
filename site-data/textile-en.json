@@ -1,9 +1,13 @@
 {
-    "site": "textile",
-    "lang": "en",
     "header": {
         "navbar": [
-        ]
+            { "label": "Home",  "path": "/" },
+            { "label": "Corporative",  "path": "/corporative" },
+            { "label": "Products",  "path": "/products"},
+            { "label": "Contact",  "path": "/contact" }
+        ],
+        "site": "textile",
+        "lang": "en"
     },
     "footer": {
 

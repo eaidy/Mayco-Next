@@ -4,9 +4,9 @@
             { "label": "Anasayfa",  "path": "/" },
             { "label": "Kurumsal",  "path": "/corporative" },
             { "label": "Ürünlerimiz",  "path": "/products", "dropdown": [
-                { "label": "J-45",  "path": "/corporative" },
-                { "label": "J-80",  "path": "/corporative" },
-                { "label": "J-110",  "path": "/corporative" }
+                { "label": "J-45",  "path": "/J45" },
+                { "label": "J-80",  "path": "/J80" },
+                { "label": "J-110",  "path": "/J110" }
             ]},
             { "label": "İletişim",  "path": "/contact" }
         ],

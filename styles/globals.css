@@ -183,6 +183,14 @@ ul.siteRoutes li {
   width: 1.4em;
 }
 
+.not-found {
+  text-align: center;
+}
+.not-found a{
+  color: #4979ff;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 800px) {
   .index-icon {
     height: 50vh;

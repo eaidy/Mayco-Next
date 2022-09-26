@@ -3,8 +3,19 @@
     "lang": "en",
     "header": {
         "navbar": [
-            {}
-        ]
+            { "label": "Home",  "path": "/" },
+            { "label": "Corporative",  "path": "/corporative" },
+            { "label": "Products",  "path": "/products", "dropdown": [
+                { "label": "J-45",  "path": "/J45" },
+                { "label": "J-80",  "path": "/J80" },
+                { "label": "J-110",  "path": "/J110" }
+            ]},
+            { "label": "Boat Rental",  "path": "/rental" },
+            { "label": "Deck Covering",  "path": "/deckcovering" },
+            { "label": "Contact",  "path": "/contact" }
+        ],
+        "site": "marine",
+        "lang": "en"
     },
     "footer": {
 

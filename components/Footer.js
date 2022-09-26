@@ -1,6 +1,6 @@
 import { BsInstagram, BsFacebook } from 'react-icons/bs'
 
-const Footer = () => {
+const Footer = ({ footerObject }) => {
     return (
         <div>
         </div>
