@@ -1,26 +1,195 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.App {
+  text-align: center;
 }
 
-a {
-  color: inherit;
+ul.siteRoutes {
+  list-style-type: none;
+}
+
+ul.siteRoutes li {
+  margin-bottom: 10px;
+}
+
+.siteRoute {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.flagIcon {
+  width: 2rem;
+  height: 1.3em;
+  display: inline-block;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.flagIcon:hover {
+  cursor: pointer;
+}
+
+.langSelect {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 0.1rem;
+  z-index: 1;
+}
+
+.index-icon {
+  height:100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button-link {
+  text-decoration: none;
+  color: #413F42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  font-family: 'Montserrat';
+}
+
+.nav-button-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.navigationBar {
+  display: flex;
+  max-width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigationBarWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageHeader {
+  padding: 0.7em;
+}
+
+.navbarDiv {
+  padding: 0.5em;
+  margin: 0.3em;
+}
+
+.nav-button-normal {
+  border-radius: 1em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9em;
+}
+
+.nav-button-dropdown {
+  border-radius: 1em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9em;
+}
+
+.nav-button:hover ~ .nav-button-link {
+  cursor: pointer;
+}
+
+.ownmenu {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.ownmenu li {
+	display: inline-block;
+}
+.ownmenu a {
+	-o-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+	outline: none;
+	z-index: 10;
+}
+
+.down-logo {
+  margin-left: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.nav-list-logo {
+  text-align: center;
+  display: none;
+}
+
+.responsive-icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.site-link-textile {
+  background-image: url('../assets/images/textile-link-bg.jpg');
+}
+
+.site-link-marine {
+  background-image: url('../assets/images/marine-link-bg.jpeg');
+}
+
+.site-link {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.site-link:hover {
+  opacity: 0.95;
+}
+
+.site-route {
+  text-decoration: none;
+  color:#413F42;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 200;
+  transition: color 0.3s;
+}
+
+.site-route:hover {
+  color:#2C3639;
+}
+
+.nav-item-mine {
+  border-bottom: 2px solid;
+  border-color: transparent;
+}
+
+.nav-item-mine:hover {
+  border-color: gray;
+}
+
+.comp-logo:hover {
+  cursor: pointer;
+}
+
+.social-logo {
+  height: 1.4em;
+  width: 1.4em;
+}
+
+@media screen and (max-width: 800px) {
+  .index-icon {
+    height: 50vh;
   }
-  body {
-    color: white;
-    background: black;
+  .nav-item-mine {
+    border-bottom: none;
+    border-color: transparent;
   }
 }
+

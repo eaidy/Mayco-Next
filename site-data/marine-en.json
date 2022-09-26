@@ -1,0 +1,20 @@
+{
+    "site": "marine",
+    "lang": "en",
+    "header": {
+        "navbar": [
+            {}
+        ]
+    },
+    "footer": {
+
+    },
+    "content": {
+        "homepage": {
+
+        },
+        "contact": {
+            
+        }
+    }
+}

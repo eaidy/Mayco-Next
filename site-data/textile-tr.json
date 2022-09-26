@@ -1,0 +1,27 @@
+{
+    "header": {
+        "navbar": [
+            { "label": "Anasayfa",  "path": "/" },
+            { "label": "Kurumsal",  "path": "/corporative" },
+            { "label": "Ürünlerimiz",  "path": "/products", "dropdown": [
+                { "label": "J-45",  "path": "/corporative" },
+                { "label": "J-80",  "path": "/corporative" },
+                { "label": "J-110",  "path": "/corporative" }
+            ]},
+            { "label": "İletişim",  "path": "/contact" }
+        ],
+        "site": "textile",
+        "lang": "tr"
+    },
+    "footer": {
+
+    },
+    "content": {
+        "homepage": {
+
+        },
+        "contact": {
+            
+        }
+    }
+}

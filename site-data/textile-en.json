@@ -1,0 +1,19 @@
+{
+    "site": "textile",
+    "lang": "en",
+    "header": {
+        "navbar": [
+        ]
+    },
+    "footer": {
+
+    },
+    "content": {
+        "homepage": {
+
+        },
+        "contact": {
+            
+        }
+    }
+}
