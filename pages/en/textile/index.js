@@ -6,7 +6,9 @@ const TextileEN = () => {
     return (
         <div className="content">
             <Header headerObject={TextileObjectEN.header} />
-            TextileEN
+            <main className="textile-home">
+
+            </main>
             <Footer footerObject={TextileObjectEN.footer} />
         </div>
     );

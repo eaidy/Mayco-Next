@@ -13,7 +13,7 @@ const Header = ({ headerObject }) => {
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
             <nav className="navbar navbar-expand-lg bg-light border-bottom">
                 <div className="container-fluid p-1 mx-4">
-                    <Link href="/">
+                    <Link href={"/" + headerObject.lang === "en" ? "en" : "" + headerObject.site}>
                         <Image src={Logo} className="comp-logo" alt="MAYCO" height="70" width="184"/>
                     </Link>
 
