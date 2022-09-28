@@ -20,12 +20,25 @@
     "footer": {
 
     },
-    "content": {
-        "homepage": {
-
-        },
-        "contact": {
-            
+    "home": {
+        "article1": {
+            "title": "",
+            "paragraph": ""
         }
+    },
+    "corporate": {
+
+    },
+    "products": {
+
+    },
+    "boatrental": {
+
+    },
+    "deckcovering": {
+
+    },
+    "contact": {
+
     }
 }

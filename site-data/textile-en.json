@@ -12,12 +12,16 @@
     "footer": {
 
     },
-    "content": {
-        "homepage": {
+    "home": {
 
-        },
-        "contact": {
-            
-        }
+    },
+    "corporate": {
+
+    },
+    "products": {
+
+    },
+    "contact": {
+        
     }
 }

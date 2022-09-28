@@ -3,10 +3,13 @@ import Header from "../../components/Header";
 import TextileObject from "../../site-data/textile-tr.json"
 
 const Textile = () => {
+
+
     return (
         <div>
             <Header headerObject={TextileObject.header} />
-            Textile
+            <main className="textile-home">
+            </main>
             <Footer footerObject={TextileObject.footer} />
         </div>
     );

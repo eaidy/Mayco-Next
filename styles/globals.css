@@ -191,6 +191,86 @@ ul.siteRoutes li {
   text-decoration: underline;
 }
 
+/* FOOTER */
+
+footer i {
+  font-size: 40px;
+  color: #000;
+  opacity: 0.65;
+}
+footer p {
+  color: #000;
+  opacity: 0.65;
+}
+footer a {
+  color: #000;
+  opacity: 0.65;
+}
+footer .col-12 {
+  background-color: #F8F9FA;
+}
+.footer-left {
+  background-color: #F8F9FA;
+}
+.footer-left-container {
+  height: 10em;
+}
+.footer-right-container {
+  height: 10em;
+}
+.footer-right {
+  background-color: #F8F9FA;
+}
+.footer-right p {
+  margin: 0;
+}
+.social-links {
+  list-style: none;
+  margin-top: 0.7em;
+  padding: 0;
+}
+.social-links li {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.social-links a {
+  border: 0.1em solid transparent;
+  padding: 0.4em;
+  border-radius: 1.1em;
+  transition: border 0.1s;
+}
+.social-links .facebook a:hover {
+  border: 0.1em solid #11468F ;
+}
+.social-links .instagram a:hover {
+  border: 0.1em solid #BD4B4B ;
+}
+.social-links .facebook .social-icon:hover {
+  color: #11468F;
+  opacity: 1;
+}
+.social-links .instagram .social-icon:hover {
+  color: #BD4B4B;
+  opacity: 1;
+}
+.social-icon {
+  width: 1.3em;
+  height: 1.3em;
+  margin-bottom: 0.3em;
+  color: #000;
+  opacity: 0.65;
+  transition: color 0.1s;
+}
+.textile-home {
+  height: 70vh;
+}
+
+
+
+
+/* MEDİA QUERIES */
+
 @media screen and (max-width: 800px) {
   .index-icon {
     height: 50vh;

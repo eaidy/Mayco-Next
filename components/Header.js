@@ -9,7 +9,7 @@ const Header = ({ headerObject }) => {
     const router = useRouter()
 
     return (
-        <>
+        <header>
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
             <nav className="navbar navbar-expand-lg bg-light border-bottom">
                 <div className="container-fluid p-1 mx-4">
@@ -59,7 +59,7 @@ const Header = ({ headerObject }) => {
                     </div>
                 </div>
             </nav>
-        </>
+        </header>
     );
 }
  
