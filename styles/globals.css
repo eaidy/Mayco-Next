@@ -238,7 +238,7 @@ footer .col-12 {
   border: 0.1em solid transparent;
   padding: 0.4em;
   border-radius: 1.1em;
-  transition: border 0.1s;
+  transition: border 0.3s;
 }
 .social-links .facebook a:hover {
   border: 0.1em solid #11468F ;
@@ -246,11 +246,11 @@ footer .col-12 {
 .social-links .instagram a:hover {
   border: 0.1em solid #BD4B4B ;
 }
-.social-links .facebook .social-icon:hover {
+.social-links .facebook a:hover .social-icon {
   color: #11468F;
   opacity: 1;
 }
-.social-links .instagram .social-icon:hover {
+.social-links .instagram a:hover .social-icon {
   color: #BD4B4B;
   opacity: 1;
 }
