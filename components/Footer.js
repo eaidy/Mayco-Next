@@ -17,19 +17,19 @@ const Footer = ({ footerObject }) => {
                             <p className="mt-3">{ footerObject.socialexp }</p>
                             <ul className="social-links px-0">
                                 <li className="facebook">
-                                    <a className="facebook" href="https://www.facebook.com/MaycoMarine" target="_blank"><FaFacebookF className="social-icon"/></a>
+                                    <a className="facebook" href={footerObject.facebooklink} target="_blank"><FaFacebookF className="social-icon"/></a>
                                 </li>
                                 <li className="instagram">
-                                    <a className="instagram" href="https://www.instagram.com/maycomarine" target="_blank"><BsInstagram className="social-icon"/></a>
+                                    <a className="instagram" href={footerObject.instagramlink} target="_blank"><BsInstagram className="social-icon"/></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row d-flex align-items-center">
                     <div className="col-12 border-top border-bottom">
                         <div className="d-flex h-75 justify-content-center py-4">
-                            <p className="text-center text-muted">&copy; {footerObject.company}</p>
+                            <p className="text-center text-muted company">&copy; {footerObject.company}</p>
                         </div>
                     </div>
                 </div>
