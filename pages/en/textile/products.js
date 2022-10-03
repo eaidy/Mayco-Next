@@ -1,8 +1,16 @@
+import Footer from "../../../components/Footer";
+import Header from "../../../components/Header";
+import TextileObjectEN from "../../../site-data/textile-en.json"
+
 const ProductsTextileEN = () => {
     return (
-        <div>
-            Products Textile
-        </div>
+        <>
+            <Header headerObject={TextileObjectEN.header}/>
+            <div>
+                Products Textile
+            </div>
+            <Footer footerObject={TextileObjectEN.footer}/>
+        </>
     );
 }
  

@@ -134,11 +134,11 @@ ul.siteRoutes li {
 }
 
 .site-link-textile {
-  background-image: url('../assets/images/textile-link-bg.jpg');
+  background-image: url('/images/textile-link-bg.jpg');
 }
 
 .site-link-marine {
-  background-image: url('../assets/images/marine-link-bg.jpeg');
+  background-image: url('/images/marine-link-bg.jpeg');
 }
 
 .site-link {
@@ -207,6 +207,31 @@ footer a {
   color: #000;
   opacity: 0.65;
 }
+.info-list-container {
+}
+.info-list-container h6 {
+  margin-bottom: 1em;
+  opacity: 0.85;
+}
+.footer-info-list {
+  list-style: none;
+  padding: 0;
+}
+.footer-info-item {
+
+}
+.footer-info-item p {
+  font-size: 0.9em;
+}
+.footer-info-phones {
+  list-style: none;
+  padding:0;
+}
+.footer-info-phones p {
+  font-size: 0.8em;
+}
+.phone-item {
+}
 footer .col-12 {
   background-color: #F8F9FA;
 }
@@ -239,10 +264,10 @@ footer .col-12 {
   border: 0.1em solid transparent;
   padding: 0.4em;
   border-radius: 1.1em;
-  transition: border 0.3s;
+  transition: border 0.1s;
 }
 .social-links .social-icon {
-  transition: color 0.3s;
+  transition: color 0.1s;
 }
 .social-links .facebook a:hover {
   border: 0.1em solid #11468F ;
@@ -273,6 +298,12 @@ footer .col-12 {
 .company {
   font-size: 0.8em;
   margin-bottom: 0;
+}
+.contract-link {
+  text-decoration: none;
+}
+.contracts-list-item {
+  margin-bottom: 0.7em;
 }
 
 /* CONTACT PAGE */
@@ -409,6 +440,12 @@ footer .col-12 {
 .contact-form .btn:hover {
 	background: #35373e;
 	color: #fff;
+}
+
+/* MARINE HOME */
+.marine-sub-article img {
+  height: 360px;
+  width: 360px;
 }
 
 /* MEDİA QUERIES */

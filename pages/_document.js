@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
         <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-        <link rel="stylesheet" type="text/css" href="../external/rs-plugin/css/settings.css" media="screen" />
       </Head>
       <body>
         <Main />

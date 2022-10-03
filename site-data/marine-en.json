@@ -4,13 +4,13 @@
     "header": {
         "navbar": [
             { "label": "Home",  "path": "/" },
-            { "label": "Corporative",  "path": "/corporative" },
-            { "label": "Products",  "path": "/products", "dropdown": [
+            { "label": "Corporate",  "path": "/corporate" },
+            { "label": "Our Models",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
                 { "label": "J-80",  "path": "/J80" },
                 { "label": "J-110",  "path": "/J110" }
             ]},
-            { "label": "Boat Rental",  "path": "/rental" },
+            { "label": "Boat Rental",  "path": "/boatrental" },
             { "label": "Deck Covering",  "path": "/deckcovering" },
             { "label": "Contact",  "path": "/contact" }
         ],
@@ -18,8 +18,16 @@
         "lang": "en"
     },
     "footer": {
-        "address": "İnöncü Caddesi, No: 47/4, PK: 34437 Gümüşsuyu, Beyoğlu  istanbul",
-        "socialexp": "Sosyal Medya bağlantılarımız",
+        "contactheader": "Contact Information",
+        "phone": {"no1": "+90 212 251 0895", "no2": "+90 212 251 0896"},
+        "address": "Inonu Avenue, No: 47/4, Postal Code: 34437 Gumussuyu, Beyoglu  Istanbul",
+        "contractsheader": "Contracts",
+        "contracts": {
+            "corporate": {"href": "", "text": "Company Policy"},
+            "personaldata": {"href": "", "text": "Personal Data Policy"},
+            "privacy": {"href": "", "text": "Privacy and Security"}
+        },
+        "socialexp": "Our Social Media Links",
         "company": "2021 Mayco Marine, Inc",
         "instagramlink": "https://www.instagram.com/maycomarine",
         "facebooklink": "https://www.facebook.com/MaycoMarine"
@@ -43,6 +51,18 @@
 
     },
     "contact": {
-
+        "title": "Contact Us",
+        "contactInfo": "Contact Information",
+        "address": { "header": "Address", "text": "Inonu Avene, No: 47/4, Postal Code: 34437 Gumussuyu, Beyoglu  Istanbul"},
+        "call": { "header": "Call  Us", "no1": "+90 212 251 0895", "no2": "+90 212 251 0896" },
+        "email": { "header": "E-Mail", "text": "info@maycotex.com.tr"},
+        "form": {
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "email": "E-Mail",
+            "subject": "Subject",
+            "message": "Message",
+            "buttontext": "Send"
+        }
     }
 }

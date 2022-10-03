@@ -1,8 +1,13 @@
+import Header from "../../../components/Header";
+import Footer from "../../../components/Footer";
+import MarineObjectEN from "../../../site-data/marine-en.json"
+
 const CorporateMarineEN = () => {
     return (
-        <div>
-            Corporate
-        </div>
+        <>
+            <Header headerObject={MarineObjectEN.header}/>
+            <Footer footerObject={MarineObjectEN.footer}/>
+        </>
     );
 }
  

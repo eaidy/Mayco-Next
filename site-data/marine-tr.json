@@ -2,13 +2,13 @@
     "header": {
         "navbar": [
             { "label": "Anasayfa",  "path": "/" },
-            { "label": "Kurumsal",  "path": "/corporative" },
-            { "label": "Ürünlerimiz",  "path": "/products", "dropdown": [
+            { "label": "Kurumsal",  "path": "/corporate" },
+            { "label": "Modellerimiz",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
                 { "label": "J-80",  "path": "/J80" },
                 { "label": "J-110",  "path": "/J110" }
             ]},
-            { "label": "Tekne Kiralama",  "path": "/rental" },
+            { "label": "Tekne Kiralama",  "path": "/boatrental" },
             { "label": "Güverte Kaplama",  "path": "/deckcovering" },
             { "label": "İletişim",  "path": "/contact" }
         ],
@@ -16,7 +16,15 @@
         "lang": "tr"
     },
     "footer": {
+        "contactheader": "İletişim bilgilerimiz",
         "address": "İnöncü Caddesi, No: 47/4, PK: 34437 Gümüşsuyu, Beyoğlu  istanbul",
+        "phone": {"no1": "+90 212 251 0895", "no2": "+90 212 251 0896"},
+        "contractsheader": "Sözleşmeler",
+        "contracts": {
+            "corporate": {"href": "", "text": "Kurumsal Politika"},
+            "personaldata": {"href": "", "text": "Kişisel Veriler Politikası"},
+            "privacy": {"href": "", "text": "Gizlilik ve Güvenlik"}
+        },
         "socialexp": "Sosyal Medya bağlantılarımız",
         "company": "2021 Mayco Marine, Inc",
         "instagramlink": "https://www.instagram.com/maycomarine",
@@ -41,6 +49,18 @@
         
     },
     "contact": {
-        
+        "title": "Bize Ulaşın",
+        "contactInfo": "İletişim Bilgilerimiz",
+        "address": { "header": "Adres", "text": "İnöncü Caddesi, No: 47/4, PK: 34437 Gümüşsuyu, Beyoğlu İstanbul"},
+        "call": { "header": "Bizi Arayın", "no1": "+90 212 251 0895", "no2": "+90 212 251 0896" },
+        "email": { "header": "E-Mail", "text": "info@maycotex.com.tr"},
+        "form": {
+            "name": "İsim",
+            "phone": "Telefon",
+            "email": "E-Mail",
+            "subject": "Konu",
+            "message": "İleti",
+            "buttontext": "Gönder"
+        }
     }
 }
