@@ -43,47 +43,62 @@ const MarineHome = ({ homeObject }) => {
                 </Carousel>
             </section>
 
-            <section class="marine-home-section p-md-4 my-md-4">
+            <section className="marine-home-section p-md-4">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12 p-md-4">
-                            <article className="marine-about">
-                                <h4>
-                                    HAKKIMIZDA
+                        <div className="col-12 pb-5 d-flex justify-content-center">
+                            <article className="marine-about text-center py-3 w-75">
+                                <h4 className="mb-4 py-3">
+                                    { homeObject.article1.title}
                                 </h4>
                                 <p>
-                                    J/Boats, Newport, Rhode Island merkezli ve 1977 yılında Rod Johnstone tarafından kurulmuş bir Amerikan tekne üreticisidir. Şirket, fiberglas yelkenli teknelerin tasarımı ve üretiminde uzmanlaşmıştır. Tüm J/Boat tasarımları, özlü sandviç fiberglastan yapılmış tek gövdeli, sloop donanımlı salma teknelerdir. Mevcut ürün hattı, J/70'den J/122E'ye, 22.75 ila 40 ft (6.9 ila 12,2 m) arasında değişen sekiz modelden oluşmaktadır.
-                                    2022 yılında J Boats Türkiye Distribütörlüğünü alan yönetim kurulu başkanımız Emir İçgören, aynı zamanda profesyonel yelken sporcusudur. Çocukluğundan beri yelkenle içiçe olan İçgören, bunu profesyonel hayatına taşımak istemiş ve distribütörlüğün yanı sıra; haftalık tekne kiralama ve güverte kaplama uygulayıcılığını da şirketin iş tanımına eklemiştir.
+                                    { homeObject.article1.paragraph1}
+                                </p>
+                                <p>
+                                    { homeObject.article1.paragraph2 }
                                 </p>
                             </article>
                         </div>
                     </div>
                     <div className="row px-md-3">
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article">
-                                <img className="img-responsive" src="/images/marinehome/about-1.jpeg" />
-                                <h6>TASARIM</h6>
-                                <p>
-                                    Özünde, bir J teknesi, performansla bağlantılı spesifikasyonlar ve yelken açmanın ne kadar kolay olduğu ile ilgilidir. İkinci olarak, alanları elimizden geldiğince optimize ederek iç mekanı geliştiriyoruz. Bir yelkenli teknenin birincil varlığının, onu yelken açmaktan aldığınız zevk olduğuna inanmaya devam ediyoruz.
-                                </p>
+                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1
+                            ">
+                                <article className="text-center">
+                                    <figure>
+                                        <img className="img-responsive" src="/images/marinehome/about-1.jpeg" />
+                                    </figure>
+                                    <h6>{ homeObject.subarticles.sub1.title }</h6>
+                                    <p>
+                                        { homeObject.subarticles.sub1.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article">
-                                <img className="img-responsive" src="/images/marinehome/J121-3.jpg" />
-                                <h6>STANDART EKİPMAN</h6>
-                                <p>
-                                    Standart versiyon, rakipsiz bir donanım standardı sunar. Geri çekilebilir bir karbon bowsprit üzerindeki standart spinnaker donanımı sadece böyle bir örnektir. Gövdenin bitişi ve eklentiler de bu pazarda benzersizdir.
-                                </p>
+                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
+                                <article className="text-center">
+                                    <figure>
+                                        <img className="img-responsive" src="/images/marinehome/J121-3.jpg" />
+                                    </figure>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
+                                    <p>
+                                        { homeObject.subarticles.sub2.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article">
-                                <img className="img-responsive" src="/images/marinehome/about-2.jpeg" />
-                                <h6>İNFÜZYON TEKNOLOJİSİ</h6>
-                                <p>
-                                    Sağlam ancak hafif bir tekne elde etmek için infüzyon tekniği en iyi yöntemdir! Fazla reçineyi önlemek için boşluk bırakılmaz. J'ler infüzyon açısından çığır açıcı olduğundan, başından beri ustalaştığımız bir tekniktir, bu da konuya olan ustalığımızın rakipsiz olduğu anlamına gelir.
-                                </p>
+                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
+                                <article className="text-center">
+                                    <figure>
+                                        <img className="img-responsive" src="/images/marinehome/about-2.jpeg" />
+                                    </figure>
+                                    <h6>{ homeObject.subarticles.sub3.title }</h6>
+                                    <p>
+                                        { homeObject.subarticles.sub3.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
                     </div>
@@ -100,7 +115,7 @@ const MarineHome = ({ homeObject }) => {
                         <AnyReactComponent
                         lat={41.036230}
                         lng={28.989316}
-                        text="My Marker"
+                        text="MAYCO Inc"
                         />
                     </GoogleMapReact>
                 </div>

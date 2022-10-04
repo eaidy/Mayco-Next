@@ -17,15 +17,54 @@ ul.siteRoutes li {
 }
 
 .flagIcon {
-  width: 2rem;
-  height: 1.3em;
+  width: 1.8rem;
+  height: 1em;
   display: inline-block;
+  border-radius: 0.3em;
+  margin-bottom: 0.1em;
+}
+.header-phones a {
+  text-decoration: none;
+  color:#444444;
+  font-size: 0.85em;
+  margin-right: 0.6em;
+  opacity: 0.7;
+  transition: color 0.2s;
+}
+.header-phones a:hover {
+  color:#4979ff;
+}
+.telephone-icon {
+  opacity: 0.9;
+  font-size: 0.9em;
+  margin-right: 0.6em;
 }
 
 .flagIcon:hover {
+  /* cursor: pointer; */
+}
+.lang-select-button {
+  width: 80%;
+  background-color: transparent;
+}
+.lang-list {
+  min-width: 8rem !important;
+}
+.lang-list-item {
+  background-color: #fff;
+  transition: background-color 0.28s;
+}
+.lang-select-button:hover {
   cursor: pointer;
 }
-
+.lang-list li:hover {
+  background-color: #e8e8e8;
+}
+.lang-select-button p {
+  display: inline-block;
+  margin-bottom: 0;
+  opacity: 0.9;
+}
 .langSelect {
   position: fixed;
   right: 0;
@@ -166,14 +205,14 @@ ul.siteRoutes li {
 }
 
 .nav-item-mine {
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid;
   border-color: transparent;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s; */
 }
 
-.nav-item-mine:hover {
+/* .nav-item-mine:hover {
   border-color: gray;
-}
+} */
 
 .comp-logo:hover {
   cursor: pointer;
@@ -443,9 +482,22 @@ footer .col-12 {
 }
 
 /* MARINE HOME */
+.marine-home-section {
+  background-color: #F8F9FA;
+}
+.marine-home-section p {
+  font-size: 1em;
+}
+.marine-home-section .col-12 p {
+  opacity: 0.9;
+  line-height: 1.8em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
 .marine-sub-article img {
   height: 360px;
-  width: 360px;
+  width: 100%;
+  border-radius: 0.12em;
 }
 
 /* MEDİA QUERIES */
@@ -457,5 +509,8 @@ footer .col-12 {
   .nav-item-mine {
     border-bottom: none;
     border-color: transparent;
+  }
+  .info-list-container {
+    text-align: center;
   }
 }

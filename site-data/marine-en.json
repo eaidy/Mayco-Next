@@ -34,9 +34,15 @@
     },
     "home": {
         "article1": {
-            "title": "",
-            "paragraph": ""
-        }
+            "title": "ABOUT US",
+            "paragraph1": "J/Boats is an American boat manufacturer based in Newport, Rhode Island and founded in 1977 by Rod Johnstone. The company specializes in the design and manufacture of fiberglass sailboats. All J/Boat designs are single hull, sloop-equipped keel boats made of core sandwich fiberglass. The current product line consists of eight models, from J/70 to J/122E, ranging from 22.75 to 40 ft (6.9 to 12.2 m).",
+            "paragraph2": "Emir İçgören, our chairman of the board of directors, who became the Turkey distributor of J Boats in 2022, is also a professional sailing athlete. Icgoren, who has been involved with sailing since his childhood, wanted to carry this into his professional life and besides being a distributor; He added weekly boat rental and deck coating application to the company's job description."
+        },
+        "subarticles": {
+            "sub1": { "title": "DESIGN", "text": "At its core, a J boat is all about performance-related specifications and how easy it is to sail. Secondly, we improve the interior by optimizing the spaces as much as we can. We continue to believe that the primary asset of a sailboat is the pleasure you get from sailing it."},
+            "sub2": { "title": "STANDARD EQUIPMENT", "text": "The standard version offers an unrivaled hardware standard. Standard spinnaker hardware on a retractable carbon bowsprit is just one such example. The body finish and inserts are also unique in this market."},
+            "sub3": { "title": "INFUSION TECHNOLOGY", "text": "The infusion technique is the best way to get a solid yet light boat! No gaps are left to prevent excess resin. Since J's are groundbreaking in terms of infusion, it's a technique we've mastered from the start, which means our mastery of the subject is unrivaled."}
+        } 
     },
     "corporate": {
 
