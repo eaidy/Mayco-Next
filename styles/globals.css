@@ -623,6 +623,30 @@ footer .col-12 {
   background-image: url('/images/textileproductnavs/tshirt.jpeg');
 }
 
+/* PRODUCTS TEXTILE */
+
+.product-image-right {
+  position: relative;
+  right: -100px;
+  transition: right 1s;
+}
+
+.product-image-right:hover {
+  right: 0px;
+}
+
+.product-image-left {
+  position: relative;
+  left: -100px;
+  transition: left 1s;
+}
+
+.product-image-left:hover {
+  left: 0px;
+}
+
+
+
 /* MEDİA QUERIES */
 
 @media screen and (max-width: 800px) {
@@ -643,6 +667,25 @@ footer .col-12 {
   
   .sidebar ul li:last-of-type {
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .footer-icon {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1200px) { 
+  .sidebar ul li:first-of-type {
+    border-top-left-radius: 10px;
+  }
+  .sidebar ul li:nth-of-type(2) {
+    border-top-right-radius: 10px;
+  }
+  .sidebar ul li:nth-of-type(3) {
+    border-bottom-left-radius: 10px;
+  }
+  .sidebar ul li:last-of-type {
     border-bottom-right-radius: 10px;
   }
 }
