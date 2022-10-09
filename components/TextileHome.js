@@ -47,7 +47,7 @@ const TextileHome = ({ homeObject }) => {
                 </div> */}
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12 d-flex justify-content-center">
+                        <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
                                 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="false">
                                     <div class="carousel-indicators">

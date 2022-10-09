@@ -1,7 +1,7 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import AboutUs from "../../components/AboutUs";
-import TextileObject from "../../site-data/textile-tr.json"
+import Footer from "../../../components/Footer";
+import Header from "../../../components/Header";
+import AboutUs from "../../../components/AboutUs";
+import TextileObject from "../../../site-data/textile-tr.json"
 
 const AboutUsTextile = () => {
     return (

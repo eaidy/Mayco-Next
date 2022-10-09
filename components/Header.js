@@ -13,10 +13,10 @@ const Header = ({ headerObject }) => {
     return (
         <header>
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
-            <nav className="navbar navbar-expand-lg bg-white border-bottom py-3 border">
+            <nav className="navbar navbar-expand-lg bg-white border-bottom py-2 border">
                 <div className="container-fluid p-1 mx-4">
                     <Link href={"/" + headerObject.lang === "en" ? "en/" : "" + headerObject.site}>
-                        <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="70" width="184"/>
+                        <Image src="/logos/mayco-textile.png" className="comp-logo" alt="MAYCO" height="70" width="230"/>
                     </Link>
 
                     <button className="navbar-toggler my-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +37,18 @@ const Header = ({ headerObject }) => {
                                 : 
                                 (
                                     <li key={index} className="nav-item dropdown mx-xl-4 nav-item-mine">
-                                        <a className="nav-link dropdown-toggle fw-normal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            { nav.label }
-                                        </a>
+                                        <Link href={'/' + lang + headerObject.site + nav.path}>
+                                            <a className="nav-link dropdown-toggle fw-normal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                { nav.label }
+                                            </a>
+                                        </Link>
                                         <ul className="dropdown-menu">
                                             {   
                                                 nav.dropdown.map((dnav, dindex) => 
                                                 (
                                                     <li key={dindex}>
-                                                        <Link href={'/' + lang + headerObject.site + dnav.path}>
-                                                            <a className="dropdown-item" href="#">{ dnav.label }</a>
+                                                        <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
+                                                            <a className="dropdown-item">{ dnav.label }</a>
                                                         </Link>
                                                     </li>
                                                 )

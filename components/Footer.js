@@ -9,16 +9,14 @@ const Footer = ({ footerObject }) => {
         <footer>
             <div className="container-fluid border-top">
                 <div className="row">
-                    <div className="col-12 px-5">
-                        <div className="mt-2">
-                            <img src="/images/logov2.svg" width={200} height={65}/>
-                        </div>
+                    <div className="col-12">
+                        <img className="mt-3" src="/logos/mayco-textile-3.png" width={50} height={50}/>
                     </div>
                 </div>
                 <div className="row">
                     <div className="footer-left col-sm-4 d-flex justify-content-center">
-                        <div className="info-list-container p-5">
-                            <h6>{footerObject.contactheader}</h6>
+                        <div className="info-list-container p-5 pt-2">
+                            <h6 className="border-bottom mb-3 py-2">{footerObject.contactheader}</h6>
                             <ul className="footer-info-list">
                                 <li className="footer-info-item">
                                     <p>{footerObject.address}</p>
@@ -44,8 +42,8 @@ const Footer = ({ footerObject }) => {
                         </div>
                     </div>
                     <div className="footer-right col-sm-4 d-flex justify-content-center">
-                        <div className="info-list-container p-5">
-                            <h6>{footerObject.contractsheader}</h6>
+                        <div className="info-list-container p-5 pt-2">
+                            <h6 className="border-bottom mb-3 py-2">{footerObject.contractsheader}</h6>
                             <ul className="footer-info-list">
                                 <li className="contracts-list-item">
                                     <Link href={footerObject.contracts.corporate.href}><a className="contract-link" target="_blank" rel="noreferrer">{footerObject.contracts.corporate.text}</a></Link>
@@ -59,9 +57,9 @@ const Footer = ({ footerObject }) => {
                             </ul>
                         </div>
                     </div>
-                    <div className="footer-right col-sm-4 d-flex justify-content-center align-items-center">
-                        <div className="footer-right-container text-center py-4">
-                            <h6 className="my-3">{ footerObject.socialexp }</h6>
+                    <div className="footer-right col-sm-4 d-flex justify-content-center">
+                        <div className="info-list-container p-5 pt-2">
+                            <h6 className="border-bottom mb-3 py-2">{ footerObject.socialexp }</h6>
                             <ul className="social-links px-0">
                                 <li className="facebook">
                                     <a className="facebook" href={footerObject.facebooklink} target="_blank" rel="noreferrer"><FaFacebookF className="social-icon"/></a>
