@@ -23,6 +23,9 @@ ul.siteRoutes li {
   border-radius: 0.3em;
   margin-bottom: 0.1em;
 }
+.header-phones {
+  margin-left: 0.7em;
+}
 .header-phones a {
   text-decoration: none;
   color:#444444;
@@ -259,6 +262,9 @@ footer a {
 .footer-info-item {
 
 }
+.inactive-icon {
+  opacity: 0;
+}
 .footer-info-item p {
   font-size: 0.9em;
 }
@@ -270,6 +276,7 @@ footer a {
   font-size: 0.8em;
 }
 .phone-item {
+  margin-bottom: 0.3em;
 }
 footer .col-12 {
   background-color: #F8F9FA;
@@ -499,6 +506,49 @@ footer .col-12 {
   width: 100%;
   border-radius: 0.12em;
 }
+
+/* ABOUT US SECTION*/
+
+.about-us-section article {
+  width: 80%;
+}
+.about-us-section p {
+  line-height: 2em;
+  opacity: 0.7;
+}
+.about-us-section h4 {
+  opacity: 0.9;
+}
+.about-img {
+  height: 450px;
+  width: 600px;
+}
+
+/* TEXTILE HOME SECTION*/
+
+.textile-home-slider {
+  width: 100%;
+  height: 80%;
+}
+
+/* TEXTILE SLIDER */
+.carousel-edit {
+  width: 70%;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-text-box {
+  position: absolute;
+  background-color: transparent;
+  color: #35373e;
+  font-size: 2em;
+  padding: 2em;
+  border-radius: 2em;
+  left: 60px;
+  bottom: 60px;
+}
+
 
 /* MEDİA QUERIES */
 

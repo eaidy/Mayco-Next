@@ -2,7 +2,11 @@
     "header": {
         "navbar": [
             { "label": "Anasayfa",  "path": "/" },
-            { "label": "Hakkımızda",  "path": "/aboutus" },
+            { "label": "Kurumsal",  "path": "/corporate", "dropdown": [
+                { "label": "Hakkımızda",  "path": "/aboutus" },
+                { "label": "Vizyonumuz",  "path": "/vision" },
+                { "label": "Üretim",  "path": "/production" }
+            ]},
             { "label": "Ürünlerimiz",  "path": "/products"},
             { "label": "İletişim",  "path": "/contact" }
         ],
@@ -13,6 +17,7 @@
         "contactheader": "İletişim bilgilerimiz",
         "address": "İnöncü Caddesi, No: 47/4, PK: 34437 Gümüşsuyu, Beyoğlu  istanbul",
         "phone": {"no1": "+90 212 251 0895", "no2": "+90 212 251 0896"},
+        "email": "info@maycotex.com.tr",
         "contractsheader": "Sözleşmeler",
         "contracts": {
             "corporate": {"href": "", "text": "Kurumsal Politika"},
@@ -27,8 +32,9 @@
     "home": {
 
     },
-    "corporate": {
-
+    "about": {
+        "text": "Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır. En güvenilir üreticilerle en iyi hizmeti sağlamaya odaklı olan firmamız Avrupa’nın en bilinen markaları ile çalışmaktadır. Türkiye üretimi ürünlerini Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere’ye ihracatını sağlamaktadır. Şirketimizin güvenilir üreticileri sayesinde, müşterilerimize en kısa sürede uygun fiyatlı ve kaliteli ürünleri sağlamaktayız. Şirketimiz bünyesinde kurulan kalite kontrol departmanı sayesinde her yüklemeden önce kendi kalite kontrolümüzü sağlamaktayız. Müşterilerimiz metre bazında sipariş verirken aynı zamanda paketlenmiş ürünleri de rahatlıkla sipariş verebilmektedir.",
+        "header": "HAKKIMIZDA"
     },
     "products": {
 

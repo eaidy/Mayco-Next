@@ -1,12 +1,20 @@
 import { BsInstagram } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
 import { BiMapAlt } from 'react-icons/bi'
+import {BsTelephoneFill} from 'react-icons/bs'
 import Link from 'next/link'
 
 const Footer = ({ footerObject }) => {
     return (
         <footer>
             <div className="container-fluid border-top">
+                <div className="row">
+                    <div className="col-12 px-5">
+                        <div className="mt-2">
+                            <img src="/images/logov2.svg" width={200} height={65}/>
+                        </div>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="footer-left col-sm-4 d-flex justify-content-center">
                         <div className="info-list-container p-5">
@@ -16,15 +24,22 @@ const Footer = ({ footerObject }) => {
                                     <p>{footerObject.address}</p>
                                 </li>
                                 <li className="footer-info-item">
-                                    <ul className="footer-info-phones">
-                                        <li className="phone-item">
-                                            <p>{footerObject.phone.no1}</p>
-                                        </li>
-                                        <li className="phone-item">
-                                            <p>{footerObject.phone.no2}</p>
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        {footerObject.email}
+                                    </p>
                                 </li>
+                                <div className="footer-info-item">
+                                    <div className="footer-info-phones">
+                                        <p className="phone-item">
+                                            <BsTelephoneFill className="telephone-icon"/>
+                                            {footerObject.phone.no1}
+                                        </p>
+                                        <p className="phone-item">
+                                            <BsTelephoneFill className="telephone-icon inactive-icon"/>
+                                            {footerObject.phone.no2}
+                                        </p>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +75,7 @@ const Footer = ({ footerObject }) => {
                 </div>
                 <div className="row d-flex align-items-center">
                     <div className="col-12 border-top border-bottom">
-                        <div className="d-flex h-75 justify-content-center py-4">
+                        <div className="d-flex h-75 justify-content-center py-3">
                             <p className="text-center text-muted company">&copy; {footerObject.company}</p>
                         </div>
                     </div>

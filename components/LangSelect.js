@@ -11,12 +11,11 @@ const LangSelect = ({ currentSite, currentLang}) => {
             <div className="header-phones d-flex justify-content-center align-items-center">
                 <BsTelephoneFill className="telephone-icon"/>
                 <a href="tel:+90212-251-0895">+90 212 251 0895</a>
-                <a href="tel:+90212-251-0896">+90 212 251 0896</a>
             </div>
             <div className="dropdown">
                 <button className="btn btn-secondary bg-transparent text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     {
-                        currentLang === 'en' ? 'Site Dili' : 'Site Language'
+                        currentLang === 'en' ? 'En' : 'Tr'
                     }
                 </button>
                 <ul className="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1">

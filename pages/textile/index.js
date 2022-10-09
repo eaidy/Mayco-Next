@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import TextileHome from "../../components/TextileHome";
 import TextileObject from "../../site-data/textile-tr.json"
 
 const Textile = () => {
@@ -8,8 +9,7 @@ const Textile = () => {
     return (
         <div>
             <Header headerObject={TextileObject.header} />
-            <main className="textile-home">
-            </main>
+            <TextileHome homeObject={TextileObject.home}/>
             <Footer footerObject={TextileObject.footer} />
         </div>
     );
