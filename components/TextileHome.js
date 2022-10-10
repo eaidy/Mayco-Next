@@ -63,10 +63,10 @@ const TextileHome = ({ homeObject }) => {
                                     </div>
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src="/images/textilehome/home-2.jpg" className="d-block w-100" alt="..." />
+                                            <img src="/images/curtain-color.jpeg" className="d-block w-100" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="/images/textilehome/home-3.jpg" className="d-block w-100" alt="..." />
+                                            <img src="/images/production.jpeg" className="d-block w-100" alt="..." />
                                         </div>
                                     </div>
                                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

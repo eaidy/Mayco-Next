@@ -342,10 +342,10 @@ footer a {
   margin-bottom: 0.3em;
 }
 footer .col-12 {
-  background-color: #F8F9FA;
+  background-color: #fff;
 }
 .footer-left {
-  background-color: #F8F9FA;
+  background-color: #fff;
 }
 .footer-left-container {
   height: 10em;
@@ -354,7 +354,7 @@ footer .col-12 {
   height: 10em;
 }
 .footer-right {
-  background-color: #F8F9FA;
+  background-color: #fff;
 }
 .footer-right p {
   margin: 0;
@@ -674,7 +674,7 @@ footer .col-12 {
   display: inline-block;
   text-decoration: none;
   font-size: 1.5em;
-  color: #2C3639;
+  color: #e8e8e8;
 }
 
 .sidebar ul li a:hover {
@@ -682,16 +682,20 @@ footer .col-12 {
 }
 
 .sidebar-curtain {
-  background-image: url('/images/textileproductnavs/curtain.jpeg');
+  background: url('/images/textileproductnavs/curtain.jpeg');
+  background-size: cover;
 }
 .sidebar-towel {
-  background-image: url('/images/textileproductnavs/towel.jpeg');
+  background: url('/images/textileproductnavs/towel.jpeg');
+  background-size: cover;
 }
 .sidebar-fabric {
-  background-image: url('/images/textileproductnavs/fabric.jpeg');
+  background: url('/images/textileproductnavs/fabric.jpeg');
+  background-size: cover;
 }
 .sidebar-tshirt {
-  background-image: url('/images/textileproductnavs/tshirt.jpeg');
+  background: url('/images/textileproductnavs/tshirt.jpeg');
+  background-size: cover;
 }
 
 /* PRODUCTS TEXTILE */

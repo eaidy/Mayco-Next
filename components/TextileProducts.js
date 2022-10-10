@@ -9,7 +9,9 @@ const TextileProducts = ({ productsObject }) => {
         <>
             <section className="text-center mt-sm-5">
                 <h1 className="my-3">
+                    <span className="px-3 py-1">
                     { productsObject.header }
+                    </span>
                 </h1>
                 <div className="sidebar d-flex justify-content-center mt-2">
                     <ul>
@@ -17,7 +19,7 @@ const TextileProducts = ({ productsObject }) => {
                         productsObject.scrollNavs.map((scrollNav, index) => (
                             <li
                                 key={index}
-                                className={"sidebar-nav p-2" + " " + "sidebar-" + scrollNav.path }
+                                className={"sidebar-nav p-1" + " " + "sidebar-" + scrollNav.path }
                             >
                                 <div className="">
                                     <a href={"#" + scrollNav.path} className="m-4">
@@ -120,13 +122,10 @@ const TextileProducts = ({ productsObject }) => {
                                     animationHandler={"fade"}
                                 >
                                     <div>
-                                        <img src="/images/textilehome/home-1.jpg" />
+                                        <img src="/images/curtain-color.jpeg" />
                                     </div>
                                     <div>
-                                        <img src="/images/textilehome/home-2.jpg" />
-                                    </div>
-                                    <div>
-                                        <img src="/images/textilehome/home-3.jpg" />
+                                        <img src="/images/production.jpeg" />
                                     </div>
                                 </Carousel>
                             </div>
