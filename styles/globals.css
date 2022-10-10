@@ -8,11 +8,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8 !important;
 }
 
-body {
-  max-width: 98% !important;
-  margin: auto;
-}
-
 .design {
   background: url('/images/textilehome/desen-bg.png');
   color: #fff;
