@@ -62,8 +62,7 @@ const MarineHome = ({ homeObject }) => {
                     </div>
                     <div className="row px-md-3">
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1
-                            ">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className="text-center">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="..."/>
@@ -76,7 +75,7 @@ const MarineHome = ({ homeObject }) => {
                             </div>
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className="text-center">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="..."/>
@@ -89,7 +88,7 @@ const MarineHome = ({ homeObject }) => {
                             </div>
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
-                            <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className="text-center">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="..."/>
