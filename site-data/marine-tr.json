@@ -1,7 +1,6 @@
 {
     "header": {
         "navbar": [
-            { "label": "Anasayfa",  "path": "/" },
             { "label": "Kurumsal",  "path": "/corporate" },
             { "label": "Modellerimiz",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
@@ -28,7 +27,8 @@
         "socialexp": "Sosyal Medya bağlantılarımız",
         "company": "2021 Mayco Marine, Inc",
         "instagramlink": "https://www.instagram.com/maycomarine",
-        "facebooklink": "https://www.facebook.com/MaycoMarine"
+        "facebooklink": "https://www.facebook.com/MaycoMarine",
+        "site": "marine"
     },
     "home": {
         "article1": {

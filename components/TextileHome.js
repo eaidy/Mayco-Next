@@ -1,10 +1,16 @@
 import { Carousel } from "react-responsive-carousel";
 import GoogleMapReact from 'google-map-react';
+import Link from "next/link";
+import { AiOutlineArrowRight } from "react-icons/ai"
+import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { useState } from "react";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const TextileHome = ({ homeObject }) => {
+
+    const [lang, ] = useState(() => homeObject.lang === "en" ? "en/" : "")
 
     const defaultProps = {
         center: {
@@ -57,13 +63,6 @@ const TextileHome = ({ homeObject }) => {
                                     </div>
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src="/images/textilehome/home-1.jpg" className="d-block w-100" alt="..." />
-                                            <div className="carousel-text-box">
-                                                <h5>Ata</h5>
-                                                <p>deneme 1, 2!</p>
-                                            </div>
-                                        </div>
-                                        <div className="carousel-item">
                                             <img src="/images/textilehome/home-2.jpg" className="d-block w-100" alt="..." />
                                         </div>
                                         <div className="carousel-item">
@@ -82,9 +81,55 @@ const TextileHome = ({ homeObject }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                </div>
+            </section>
 
+            <section className="container-fluid p-5 my-3">
+                <div className="row">
+                    <div className="col-sm-6 d-flex align-items-center text-center">
+                        <article className="lh-lg">
+                            <h4>
+                                { homeObject.article1.header }
+                            </h4>
+                            <p>
+                                { homeObject.article1.text }
+                            </p>
+                        </article>
                     </div>
+                    <div className="col-sm-6">
+                        <Image src="/images/textilehome/home-2.jpg" width={650} height={350}/>
+                    </div>
+                </div>
+                <div className="row my-5">
+                    <div className="col-sm-6">
+                        <figure>
+                            <Image src="/images/textilehome/home-3.jpg" width={650} height={350}/>
+                        </figure>
+                    </div>
+                    <div className="col-sm-6 d-flex align-items-center text-center">
+                        <article className="lh-lg">
+                                <h4>
+                                    { homeObject.article2.header }
+                                </h4>
+                                <p>
+                                    { homeObject.article2.text }
+                                </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section className="design px-4 py-5">
+                <div className="container-fluid p-4">
+                    <h2 className="py-2 border-bottom border-secondary">
+                        { homeObject.design.header }
+                    </h2>
+                    <p>
+                        { homeObject.design.text }
+                    </p>
+                    <Link href={'/' + lang + homeObject.site + '/' + homeObject.design.link.path}>
+                        <a>{ homeObject.design.link.label } <AiOutlineArrowRight /></a>
+                    </Link>
                 </div>
             </section>
             

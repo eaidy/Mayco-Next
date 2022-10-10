@@ -10,7 +10,15 @@ const Footer = ({ footerObject }) => {
             <div className="container-fluid border-top">
                 <div className="row">
                     <div className="col-12 px-5 d-flex footer-icon">
-                        <img className="mt-3 mx-3" src="/logos/mayco-textile-3.png" width={50} height={50}/>
+                        {
+                            footerObject.site ?
+                            (
+                                <img className="mt-3 mx-2" src="/logos/mayco-marine.svg" width={200} height={70} />
+                            ) : 
+                            (
+                                <img className="mt-3 mx-2" src="/logos/mayco-textile.svg" width={200} height={70} />
+                            )
+                        }
                     </div>
                 </div>
                 <div className="row">

@@ -3,7 +3,6 @@
     "lang": "en",
     "header": {
         "navbar": [
-            { "label": "Home",  "path": "/" },
             { "label": "Corporate",  "path": "/corporate" },
             { "label": "Our Models",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
@@ -30,7 +29,8 @@
         "socialexp": "Our Social Media Links",
         "company": "2021 Mayco Marine, Inc",
         "instagramlink": "https://www.instagram.com/maycomarine",
-        "facebooklink": "https://www.facebook.com/MaycoMarine"
+        "facebooklink": "https://www.facebook.com/MaycoMarine",
+        "site": "marine"
     },
     "home": {
         "article1": {

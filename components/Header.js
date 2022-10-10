@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { GoLocation } from "react-icons/go"
 import { useRouter } from "next/router";
 import LangSelect from '../components/LangSelect'
 import { useState } from "react";
@@ -13,10 +14,10 @@ const Header = ({ headerObject }) => {
     return (
         <header>
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
-            <nav className="navbar navbar-expand-lg bg-white border-bottom py-2 border">
-                <div className="container-fluid p-1 mx-4">
-                    <Link href={"/" + headerObject.lang === "en" ? "en/" : "" + headerObject.site}>
-                        <Image src="/logos/mayco-textile.png" className="comp-logo" alt="MAYCO" height="70" width="230"/>
+            <nav className="navbar navbar-expand-lg bg-white border-bottom border navbar-mobile py-3">
+                <div className="container-fluid p-1 mx-3">
+                    <Link href={'/' + lang + headerObject.site}>
+                        <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="65" width="210"/>
                     </Link>
 
                     <button className="navbar-toggler my-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,18 +31,22 @@ const Header = ({ headerObject }) => {
                                 (
                                     <li key={index} className="nav-item mx-xl-1 nav-item-mine">
                                         <Link href={'/' + lang + headerObject.site + nav.path}>
-                                            <a className="nav-link fw-normal" aria-current="page">{ nav.label }</a>
+                                            <a className="nav-link" aria-current="page">
+                                                {
+                                                    nav.path === "/contact" &&
+                                                    (<GoLocation className="contact-icon" />)
+                                                }
+                                                { nav.label }
+                                            </a>
                                         </Link>
                                     </li>
                                 ) 
                                 : 
                                 (
                                     <li key={index} className="nav-item dropdown mx-xl-4 nav-item-mine">
-                                        <Link href={'/' + lang + headerObject.site + nav.path}>
-                                            <a className="nav-link dropdown-toggle fw-normal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                { nav.label }
-                                            </a>
-                                        </Link>
+                                        <a className="nav-link dropdown-toggle fw-normal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            { nav.label }
+                                        </a>
                                         <ul className="dropdown-menu">
                                             {   
                                                 nav.dropdown.map((dnav, dindex) => 

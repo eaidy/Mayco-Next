@@ -1,5 +1,6 @@
 import { GB, TR } from 'country-flag-icons/react/3x2'
 import { BsTelephoneFill } from'react-icons/bs'
+import { HiMail } from'react-icons/hi'
 import { useRouter } from 'next/router';
 
 const LangSelect = ({ currentSite, currentLang}) => {
@@ -7,15 +8,25 @@ const LangSelect = ({ currentSite, currentLang}) => {
     const router = useRouter()
 
     return (
-        <div className="container-fuild d-flex bg-light justify-content-between py-1 px-3">
+        <div className="container-fuild d-flex bg-light justify-content-between align-items-center px-2">
             <div className="header-phones d-flex justify-content-center align-items-center">
-                <BsTelephoneFill className="telephone-icon"/>
-                <a href="tel:+90212-251-0895">+90 212 251 0895</a>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-6 p-1 d-flex align-items-center">
+                            <BsTelephoneFill className="telephone-icon"/>
+                            <a href="tel:+90212-251-0895">+90 212 251 0895</a>
+                        </div>
+                        <div className="col-sm-6 p-1 d-flex align-items-center">
+                            <HiMail className="telephone-icon"/>
+                            <a href="mailto:info@maycotex.com.tr">info@maycotex.com.tr</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="dropdown">
                 <button className="btn btn-secondary bg-transparent text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     {
-                        currentLang === 'en' ? 'En' : 'Tr'
+                        currentLang === 'en' ? 'English' : 'Türkçe'
                     }
                 </button>
                 <ul className="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1">

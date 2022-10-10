@@ -1,12 +1,8 @@
 {
     "header": {
         "navbar": [
-            { "label": "Home",  "path": "/" },
-            { "label": "Corporate",  "path": "/corporate", "dropdown": [
-                { "label": "About Us",  "path": "/aboutus" },
-                { "label": "Our Vision",  "path": "/vision" },
-                { "label": "Production",  "path": "/production" }
-            ]},
+            { "label": "Home", "path": ""},
+            { "label": "Corporate",  "path": "/corporate/aboutus"},
             { "label": "Products",  "path": "/products"},
             { "label": "Contact",  "path": "/contact" }
         ],
@@ -30,14 +26,55 @@
         "facebooklink": ""
     },
     "home": {
-
+        "site": "textile",
+        "lang": "en",
+        "design": {
+            "header": "Different Designs Different Motives",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac convallis nisl. Phasellus sit amet vestibulum eros. Donec quis augue dui. Morbi at augue nibh. Proin a urna at sapien.",
+            "link": {"label": "About Us", "path": "/corporate/aboutus"}
+        },
+        "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
+        "article2": { "header": "Misyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." }
+    },
+    "corporate": {
+        "lang": "en",
+        "site": "textile",
+        "navbar": [
+            { "path": "aboutus", "label": "About Us"},
+            { "path": "vision", "label": "Our Vision"},
+            { "path": "production", "label": "Production"}
+        ]
+    },
+    "production": {
+        "header": "PRODUCTION",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/production.jpeg"
+    },
+    "vision": {
+        "header": "OUR VISION",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/vision.jpeg"
     },
     "about": {
         "text": "Mayco Textiles has been founded in 1984 by Mr. Bulent Icgoren in Istanbul, Turkey. With over 35 years of experience in home textiles and wowen fabrics, Mayco is specialized in curtain, upholstery and terry cloths. Committed to provide the best service with the most trusted suppliers to our customers, Mayco has been working with many well-known brands in Europe such as Netherlands, France, Germany, Switzerland, Finland and United Kingdom and introduced Turkish product possibilites to it's buyers. With Mayco's reliable network of fabrics producers in Turkey, we offer the best quality products and reasonable prices in the shortest given time possible. Our own quality control department makes random checks before every shipment to ensure high quality products. Our customers can easily buy meter goods and also packed ready made goods as well. We have huge variety of product range.",
-        "header": "About Us"
+        "header": "About Us",
+        "img": "/images/textilecorporate/about.jpeg"
     },
     "products": {
-
+        "header": "Our Products",
+        "scrollNavs": [
+            { "path": "curtain", "text": "Curtain"},
+            { "path": "fabric", "text": "Curtain Fabric"},
+            { "path": "towel", "text": "Towel"},
+            { "path": "tshirt", "text": "T-Shirt"}
+        ],
+        "products": {
+            "curtain": { "header": "Curtain", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "fabric": { "header": "Curtain Fabric", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "towel": { "header": "Towel", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "tshirt": { "header": "T-Shirt", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." }
+        },
+        "galleryheader": "Photo Gallery"
     },
     "contact": {
         "title": "Contact Us",

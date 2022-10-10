@@ -4,8 +4,8 @@ import AboutUs from "../../../components/AboutUs";
 import TextileObject from "../../../site-data/textile-tr.json"
 import CorporateNav from "../../../components/CorporateNav";
 
-const AboutUsTextile = () => {
-    return (
+const TextileProduction = () => {
+    return (  
         <>
             <Header headerObject={TextileObject.header}/>
             <div className="container-fluid py-3">
@@ -14,7 +14,7 @@ const AboutUsTextile = () => {
                         <CorporateNav corporateObject={TextileObject.corporate}/>
                     </div>
                     <div className="col-sm-9">
-                        <AboutUs corporotePageObject={TextileObject.about}/>
+                        <AboutUs corporotePageObject={TextileObject.production}/>
                     </div>
                 </div>
             </div>
@@ -23,4 +23,4 @@ const AboutUsTextile = () => {
     );
 }
  
-export default AboutUsTextile;
+export default TextileProduction;

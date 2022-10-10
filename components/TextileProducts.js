@@ -1,13 +1,15 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const TextileProducts = ({ productsObject }) => {
+
     return (
         <>
-            <section className="text-center">
+            <section className="text-center mt-sm-5">
                 <h1 className="my-3">
-                    ÜRÜNLERİMİZ
+                    { productsObject.header }
                 </h1>
                 <div className="sidebar d-flex justify-content-center mt-2">
                     <ul>
@@ -31,78 +33,77 @@ const TextileProducts = ({ productsObject }) => {
 
             <section className="p-3">
                 <div className="container-fluid p-3">
-                    <div id="curtain" className="row my-5 py-4 border-bottom border-secondary">
+                    <div id="curtain" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div>
+                            <div className="text-center">
                                 <h3>
-                                    Perde
+                                    { productsObject.products.curtain.header }
                                 </h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.
+                                    { productsObject.products.curtain.text }
                                 </p>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="product-image-right">
-                                <Image className="rounded-4" src="/images/textileproductimages/curtain.jpg" height={350} width={700} />
+                            <div className={"product-image-right"}>
+                                <Image className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} />
                             </div>
                         </div>
                     </div>
-                    <div id="fabric" className="row my-5 py-4 border-bottom border-secondary">
+                    <div id="fabric" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 product-item">
-                            <div className="product-image-left">
-                                    <Image className="rounded-4" src="/images/textileproductimages/fabric.jpg" height={350} width={700}/>
-                                </div>
+                            <div className={"product-image-left"}>
+                                <Image className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700}/>
                             </div>
+                        </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div>
+                            <div className="text-center">
                                     <h3>
-                                        Fabric
+                                        { productsObject.products.fabric.header }
                                     </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.
+                                        { productsObject.products.fabric.text }
                                     </p>
                                 </div>
                             </div>
                     </div>
-                    <div id="towel" className="row my-5 py-4 border-bottom border-secondary">
+                    <div id="towel" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div>
+                            <div className="text-center">
                                     <h3>
-                                        Towel
+                                        { productsObject.products.towel.header }
                                     </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.
+                                        { productsObject.products.towel.text }
                                     </p>
                                 </div>
                             </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="product-image-right">
-                                <Image className="rounded-4" src="/images/textileproductimages/towel.jpg" height={350} width={700}/>
+                            <div className={"product-image-right"}>
+                                <Image className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700}/>
                             </div>
                         </div>
                     </div>
-                    <div id="tshirt" className="row my-5 py-4 border-bottom border-secondary">
+                    <div id="tshirt" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="product-image-left">
-                                <Image className="rounded-4" src="/images/textileproductimages/tshirt.jpg" height={350} width={700}/>
+                            <div className={"product-image-right"}>
+                                <Image className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700}/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div>
+                            <div className="text-center">
                                 <h3>
-                                    T-Shirt
-                                </h3>
+                                    { productsObject.products.tshirt.header }                                </h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.
+                                    { productsObject.products.tshirt.text }
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div id="tshirt" className="row d-flex justify-content-center my-5 py-4">
+                    <div className="row d-flex justify-content-center my-5 py-4">
                         <div className="col-sm-11 text-center">
                             <h4>
-                                Fotoğraf Galerimiz
+                                { productsObject.galleryheader}
                             </h4>
                             <div className="textile-home-slider mt-4">
                                 <Carousel

@@ -1,6 +1,18 @@
 import { FaMapMarkerAlt, FaRegEnvelope, FaMobileAlt} from "react-icons/fa"
+import GoogleMapReact from "google-map-react";
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const Contact = ({ contactObject }) => {
+
+    const defaultProps = {
+        center: {
+          lat: 41.036230,
+          lng: 28.989316
+        },
+        zoom: 18
+      };
+
     return (
     <section className="contact-form px-sm-3 py-sm-5">
         <div className="container-fluid my-sm-4">
@@ -85,6 +97,23 @@ const Contact = ({ contactObject }) => {
                                 </ul>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+            <div className="row d-flex justify-content-center mt-4">
+                <div className="col-10">
+                    <div style={{ height: '50vh', width: '100%' }}>
+                        <GoogleMapReact
+                            bootstrapURLKeys={{ key: "" }}
+                            defaultCenter={defaultProps.center}
+                            defaultZoom={defaultProps.zoom}
+                        >
+                            <AnyReactComponent
+                            lat={41.036230}
+                            lng={28.989316}
+                            text="MAYCO Inc"
+                            />
+                        </GoogleMapReact>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+p, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Montserrat" !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  opacity: 0.8 !important;
+}
+
+body {
+  max-width: 98% !important;
+  margin: auto;
+}
+
+.design {
+  background: url('/images/textilehome/desen-bg.png');
+  color: #fff;
+}
+
+.design a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.design a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.product-row:hover {
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+.product-row:hover {
+  background-color: rgba(244, 244, 244, 0.75);
+}
+
+#dropdownMenuButton1 {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  transition: border-bottom 0.15s, background-color 0.15s;
+}
+
+#dropdownMenuButton1:hover {
+  background-color: #F1F6F9 !important;
+  border-bottom: 2px solid #11468F;
+  color: gray !important;
+}
+
 .App {
   text-align: center;
 }
@@ -30,7 +84,6 @@ ul.siteRoutes li {
   text-decoration: none;
   color:#444444;
   font-size: 0.85em;
-  margin-right: 0.6em;
   opacity: 0.7;
   transition: color 0.2s;
 }
@@ -39,7 +92,13 @@ ul.siteRoutes li {
 }
 .telephone-icon {
   opacity: 0.9;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
+  margin-right: 0.6em;
+}
+
+.mail-icon {
+  opacity: 0.9;
+  /* font-size: 1.1em; */
   margin-right: 0.6em;
 }
 
@@ -103,6 +162,10 @@ ul.siteRoutes li {
   max-width: 90%;
   align-items: center;
   justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.1em;
 }
 
 .navigationBarWrapper {
@@ -310,16 +373,16 @@ footer .col-12 {
   border: 0.1em solid transparent;
   padding: 0.4em;
   border-radius: 1.1em;
-  transition: border 0.1s;
 }
 .social-links .social-icon {
-  transition: color 0.1s;
 }
 .social-links .facebook a:hover {
   border: 0.1em solid #11468F ;
+  background-color: #fff;
 }
 .social-links .instagram a:hover {
   border: 0.1em solid #BD4B4B ;
+  background-color: #fff;
 }
 .social-links .facebook a:hover .social-icon {
   color: #11468F;
@@ -335,7 +398,6 @@ footer .col-12 {
   margin-bottom: 0.3em;
   color: #000;
   opacity: 0.65;
-  transition: color 0.1s;
 }
 .textile-home {
   height: 70vh;
@@ -387,6 +449,14 @@ footer .col-12 {
   padding: 0;
   margin: 0;
 }
+
+.contact-icon {
+  opacity: 0.9;
+  font-size: 0.9em;
+  margin-right: 0.5em;
+  margin-bottom: 0.3em;
+}
+
 .contact-info .media {
   display: flex;
   overflow: hidden;
@@ -533,6 +603,7 @@ footer .col-12 {
 
 /* TEXTILE SLIDER */
 .carousel-edit {
+  width: 100%;
 }
 .carousel-inner img {
   opacity: 0.95;
@@ -576,13 +647,13 @@ footer .col-12 {
 .sidebar ul li {
   width: 300px;
   height: 100px;
-  opacity: 0.8;
+  opacity: 0.6;
   display: inline-block;
   transition: opacity 0.3s;
 }
 
 .sidebar ul li:hover {
-  opacity: 1;
+  opacity: 0.85;
 }
 
 .sidebar ul li:first-of-type {
@@ -625,27 +696,41 @@ footer .col-12 {
 
 /* PRODUCTS TEXTILE */
 
-.product-image-right {
+
+/* CORPORATE */
+
+.corporate-navbar {
+  padding: 0.7em;
+  background-color: #f6f8fb;
+}
+
+.corporate-nav {
   position: relative;
-  right: -100px;
-  transition: right 1s;
+  display: block;
+  text-decoration: none;
+  color: gray;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: large;
+  width: 250px;
+  transition: color 0.3s;
 }
 
-.product-image-right:hover {
-  right: 0px;
+.corporate-nav:hover {
+  color: #5F9DF7;
 }
 
-.product-image-left {
-  position: relative;
-  left: -100px;
-  transition: left 1s;
+.corporate-navbar a:last-of-type {
+  border-bottom: none !important;
 }
 
-.product-image-left:hover {
-  left: 0px;
+.chevron-icon {
+  position: absolute;
+  right: 0;
+  font-size: 0.8em;
 }
-
-
 
 /* MEDİA QUERIES */
 
@@ -673,6 +758,9 @@ footer .col-12 {
   .footer-icon {
     justify-content: center;
   }
+  .navbar-mobile {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1200px) { 
@@ -687,5 +775,19 @@ footer .col-12 {
   }
   .sidebar ul li:last-of-type {
     border-bottom-right-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) { 
+  .product-image-right {
+    position: relative;
+    right: -100px;
+    transition: right 1s;
+  }
+  
+  .product-image-left {
+    position: relative;
+    left: -100px;
+    transition: left 1s;
   }
 }

@@ -1,12 +1,8 @@
 {
     "header": {
         "navbar": [
-            { "label": "Anasayfa",  "path": "/" },
-            { "label": "Kurumsal",  "path": "/corporate", "dropdown": [
-                { "label": "Hakkımızda",  "path": "/aboutus" },
-                { "label": "Vizyonumuz",  "path": "/vision" },
-                { "label": "Üretim",  "path": "/production" }
-            ]},
+            { "label": "Anasayfa", "path": ""},
+            { "label": "Kurumsal",  "path": "/corporate/aboutus"},
             { "label": "Ürünlerimiz",  "path": "/products"},
             { "label": "İletişim",  "path": "/contact" }
         ],
@@ -30,21 +26,55 @@
         "facebooklink": ""
     },
     "home": {
-
+        "site": "textile",
+        "lang": "",
+        "design": {
+            "header": "Farkle Desenler Farklı Canlılıklar",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac convallis nisl. Phasellus sit amet vestibulum eros. Donec quis augue dui. Morbi at augue nibh. Proin a urna at sapien.",
+            "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
+        },
+        "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
+        "article2": { "header": "Misyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." }
     },
     "corporate": {
+        "lang": "tr",
+        "site": "textile",
+        "navbar": [
+            { "path": "aboutus", "label": "Hakkımızda"},
+            { "path": "vision", "label": "Vizyonumuz"},
+            { "path": "production", "label": "Üretim"}
+        ]
+    },
+    "production": {
+        "header": "ÜRETİM",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/production.jpeg"
+    },
+    "vision": {
+        "header": "VİZYONUMUZ",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/vision.jpeg"
     },
     "about": {
         "text": "Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır. En güvenilir üreticilerle en iyi hizmeti sağlamaya odaklı olan firmamız Avrupa’nın en bilinen markaları ile çalışmaktadır. Türkiye üretimi ürünlerini Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere’ye ihracatını sağlamaktadır. Şirketimizin güvenilir üreticileri sayesinde, müşterilerimize en kısa sürede uygun fiyatlı ve kaliteli ürünleri sağlamaktayız. Şirketimiz bünyesinde kurulan kalite kontrol departmanı sayesinde her yüklemeden önce kendi kalite kontrolümüzü sağlamaktayız. Müşterilerimiz metre bazında sipariş verirken aynı zamanda paketlenmiş ürünleri de rahatlıkla sipariş verebilmektedir.",
-        "header": "HAKKIMIZDA"
+        "header": "HAKKIMIZDA",
+        "img": "/images/textilecorporate/about.jpeg"
     },
     "products": {
+        "header": "ÜRÜNLERİMİZ",
         "scrollNavs": [
             { "path": "curtain", "text": "Hazır Perde"},
             { "path": "fabric", "text": "Perdelik Kumaş"},
             { "path": "towel", "text": "Havlu"},
             { "path": "tshirt", "text": "T-Shirt"}
-        ]
+        ],
+        "products": {
+            "curtain": { "header": "Perde", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "fabric": { "header": "Perdelik Kumaş Fabric", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "towel": { "header": "Havlu", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
+            "tshirt": { "header": "T-Shirt", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." }
+        },
+        "galleryheader": "Fotoğraf Galerisi"
     },
     "contact": {
         "title": "Bize Ulaşın",
