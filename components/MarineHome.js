@@ -32,13 +32,13 @@ const MarineHome = ({ homeObject }) => {
                     animationHandler={"fade"}
                 >
                     <div>
-                        <img src="/images/marinehome/J121-2.jpg" />
+                        <Image src="/images/marinehome/J121-2.jpg" width={2000} height={1000} alt="..."/>
                     </div>
                     <div>
-                        <img src="/images/marinehome/J45-1.jpg" />
+                        <Image src="/images/marinehome/J45-1.jpg" width={2000} height={1000} alt="..."/>
                     </div>
                     <div>
-                        <img src="/images/marinehome/J80.jpg" />
+                        <Image src="/images/marinehome/J80.jpg" width={2000} height={1000} alt="..."/>
                     </div> 
                 </Carousel>
             </section>
@@ -66,7 +66,7 @@ const MarineHome = ({ homeObject }) => {
                             ">
                                 <article className="text-center">
                                     <figure>
-                                        <img className="img-responsive" src="/images/marinehome/about-1.jpeg" />
+                                        <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6>{ homeObject.subarticles.sub1.title }</h6>
                                     <p>
@@ -79,7 +79,7 @@ const MarineHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
                                 <article className="text-center">
                                     <figure>
-                                        <img className="img-responsive" src="/images/marinehome/J121-3.jpg" />
+                                        <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
                                     <p>
@@ -92,7 +92,7 @@ const MarineHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2 border border-seconday border-1">
                                 <article className="text-center">
                                     <figure>
-                                        <img className="img-responsive" src="/images/marinehome/about-2.jpeg" />
+                                        <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6>{ homeObject.subarticles.sub3.title }</h6>
                                     <p>

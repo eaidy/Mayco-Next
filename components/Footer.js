@@ -3,6 +3,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import { BiMapAlt } from 'react-icons/bi'
 import {BsTelephoneFill} from 'react-icons/bs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = ({ footerObject }) => {
     return (
@@ -13,10 +14,10 @@ const Footer = ({ footerObject }) => {
                         {
                             footerObject.site ?
                             (
-                                <img className="mt-3 mx-2" src="/logos/mayco-marine.svg" width={200} height={70} />
+                                <Image className="mt-3 mx-2" src="/logos/mayco-marine.svg" width={200} height={70} alt="..." />
                             ) : 
                             (
-                                <img className="mt-3 mx-2" src="/logos/mayco-textile.svg" width={200} height={70} />
+                                <Image className="mt-3 mx-2" src="/logos/mayco-textile.svg" width={200} height={70} alt="..."/>
                             )
                         }
                     </div>

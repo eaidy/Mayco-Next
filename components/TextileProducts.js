@@ -48,14 +48,14 @@ const TextileProducts = ({ productsObject }) => {
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} />
+                                <Image className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
                             </div>
                         </div>
                     </div>
                     <div id="fabric" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 product-item">
                             <div className={"product-image-left"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700}/>
+                                <Image className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
@@ -82,14 +82,14 @@ const TextileProducts = ({ productsObject }) => {
                             </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700}/>
+                                <Image className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                     </div>
                     <div id="tshirt" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700}/>
+                                <Image className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
@@ -122,10 +122,10 @@ const TextileProducts = ({ productsObject }) => {
                                     animationHandler={"fade"}
                                 >
                                     <div>
-                                        <img src="/images/curtain-color.jpeg" />
+                                        <Image src="/images/curtain-color.jpeg" width={1200} height={500} alt="..."/>
                                     </div>
                                     <div>
-                                        <img src="/images/production.jpeg" />
+                                        <Image src="/images/production.jpeg" width={1200} height={500} alt="..."/>
                                     </div>
                                 </Carousel>
                             </div>
