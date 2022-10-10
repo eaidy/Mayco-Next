@@ -122,10 +122,10 @@ const TextileProducts = ({ productsObject }) => {
                                     animationHandler={"fade"}
                                 >
                                     <div>
-                                        <Image src="/images/curtain-color.jpeg" width={1200} height={500} alt="..."/>
+                                        <Image src="/images/curtain-color.jpg" width={1200} height={500} alt="..."/>
                                     </div>
                                     <div>
-                                        <Image src="/images/production.jpeg" width={1200} height={500} alt="..."/>
+                                        <Image src="/images/production.jpg" width={1200} height={500} alt="..."/>
                                     </div>
                                 </Carousel>
                             </div>

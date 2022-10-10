@@ -240,14 +240,14 @@ ul.siteRoutes li {
 
 .site-link-marine {
   /* background-image: url('/images/marine-link-bg.jpeg'); */
-  background-color: #11468F;
+  background-color: #e8e8e8;
 }
 
 .site-link {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.95;
   transition: opacity 0.3s;
 }
 
