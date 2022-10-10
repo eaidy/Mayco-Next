@@ -739,6 +739,9 @@ footer .col-12 {
 /* MEDİA QUERIES */
 
 @media screen and (max-width: 800px) {
+  p, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
   .index-icon {
     height: 50vh;
   }
