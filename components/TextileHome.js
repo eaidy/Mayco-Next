@@ -41,10 +41,10 @@ const TextileHome = ({ homeObject }) => {
                                 animationHandler={"fade"}
                             >
                                 <div>
-                                    <img src="/images/textileabout/about-1.jpeg" />
+                                    <Image src="/images/textileabout/about-1.jpeg" alt="..."/>
                                 </div>
                                 <div>
-                                    <img src="/images/textileabout/about-2.jpeg" />
+                                    <Image src="/images/textileabout/about-2.jpeg" alt="..."/>
                                 </div>
                             </Carousel>
                             </div>
@@ -63,10 +63,10 @@ const TextileHome = ({ homeObject }) => {
                                     </div>
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src="/images/curtain-color.jpeg" className="d-block w-100" alt="..." />
+                                            <Image src="/images/curtain-color.jpeg" className="d-block w-100" alt="..." width={1500} height={500}/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="/images/production.jpeg" className="d-block w-100" alt="..." />
+                                            <Image src="/images/production.jpeg" className="d-block w-100" alt="..." width={1500} height={500}/>
                                         </div>
                                     </div>
                                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -97,13 +97,13 @@ const TextileHome = ({ homeObject }) => {
                         </article>
                     </div>
                     <div className="col-sm-6">
-                        <Image src="/images/textilehome/home-2.jpg" width={650} height={350}/>
+                        <Image src="/images/textilehome/home-2.jpg" width={650} height={350} alt="..."/>
                     </div>
                 </div>
                 <div className="row my-5">
                     <div className="col-sm-6">
                         <figure>
-                            <Image src="/images/textilehome/home-3.jpg" width={650} height={350}/>
+                            <Image src="/images/textilehome/home-3.jpg" width={650} height={350} alt="..."/>
                         </figure>
                     </div>
                     <div className="col-sm-6 d-flex align-items-center text-center">
