@@ -8,7 +8,7 @@ export default function Home() {
     <div className="index-wrapper">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6 cd-flex align-items-center justify-content-center text-center border border-right border-secondary site-link site-link-textile">
+          <div className="col-md-6 cd-flex align-items-center justify-content-center text-center border-end border-secondary site-link site-link-textile">
             <div className="index-icon">
               <h2>
                 <Link href="/textile">
