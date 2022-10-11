@@ -13,16 +13,22 @@ const imagesTowel = [
     "/images/textileproducts/towel/J121-2.jpg"
 ]
 
-const fabricImages = [
-
+const imagesCurtain = [
+    "/images/textileproducts/towel/J45-1.jpg",
+    "/images/textileproducts/towel/J80.jpg",
+    "/images/textileproducts/towel/J121-2.jpg"
 ]
 
-const tshirtImages = [
-
+const imagesTshirt = [
+    "/images/textileproducts/towel/J45-1.jpg",
+    "/images/textileproducts/towel/J80.jpg",
+    "/images/textileproducts/towel/J121-2.jpg"
 ]
 
-const curtainImages = [
-
+const imagesFabric = [
+    "/images/textileproducts/towel/J45-1.jpg",
+    "/images/textileproducts/towel/J80.jpg",
+    "/images/textileproducts/towel/J121-2.jpg"
 ]
 
 const TextileProducts = ({ productsObject }) => {
@@ -40,15 +46,15 @@ const TextileProducts = ({ productsObject }) => {
                 {
                     isOpenCurtain && (
                     <Lightbox
-                        mainSrc={imagesTowel[photoIndex]}
-                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
-                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        mainSrc={imagesCurtain[photoIndex]}
+                        nextSrc={imagesCurtain[(photoIndex + 1) % imagesCurtain.length]}
+                        prevSrc={imagesCurtain[(photoIndex + imagesCurtain.length - 1) % imagesCurtain.length]}
                         onCloseRequest={() => setIsOpenCurtain(false)}
                         onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + imagesCurtain.length - 1) % imagesCurtain.length)
                         }
                         onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + 1) % imagesCurtain.length)
                         }
                     />
                     )
@@ -72,15 +78,15 @@ const TextileProducts = ({ productsObject }) => {
                 {
                     isOpenFabric && (
                     <Lightbox
-                        mainSrc={imagesTowel[photoIndex]}
-                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
-                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        mainSrc={imagesFabric[photoIndex]}
+                        nextSrc={imagesFabric[(photoIndex + 1) % imagesFabric.length]}
+                        prevSrc={imagesFabric[(photoIndex + imagesFabric.length - 1) % imagesFabric.length]}
                         onCloseRequest={() => setIsOpenFabric(false)}
                         onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + imagesFabric.length - 1) % imagesFabric.length)
                         }
                         onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + 1) % imagesFabric.length)
                         }
                     />
                     )
@@ -88,15 +94,15 @@ const TextileProducts = ({ productsObject }) => {
                 {
                     isOpenTshirt && (
                     <Lightbox
-                        mainSrc={imagesTowel[photoIndex]}
-                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
-                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        mainSrc={imagesTshirt[photoIndex]}
+                        nextSrc={imagesTshirt[(photoIndex + 1) % imagesTshirt.length]}
+                        prevSrc={imagesTshirt[(photoIndex + imagesTshirt.length - 1) % imagesTshirt.length]}
                         onCloseRequest={() => setIsOpenTshirt(false)}
                         onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + imagesTshirt.length - 1) % imagesTshirt.length)
                         }
                         onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        setPhotoIndex((photoIndex + 1) % imagesTshirt.length)
                         }
                     />
                     )
