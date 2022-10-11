@@ -377,14 +377,6 @@ footer .col-12 {
 }
 .social-links .social-icon {
 }
-.social-links .facebook a:hover {
-  border: 0.1em solid #11468F ;
-  background-color: #fff;
-}
-.social-links .instagram a:hover {
-  border: 0.1em solid #BD4B4B ;
-  background-color: #fff;
-}
 .social-links .facebook a:hover .social-icon {
   color: #11468F;
   opacity: 1;

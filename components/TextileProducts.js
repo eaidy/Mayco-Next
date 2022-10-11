@@ -3,10 +3,105 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+import React, { Component } from 'react';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+
+const imagesTowel = [
+    "/images/textileproducts/towel/J45-1.jpg",
+    "/images/textileproducts/towel/J80.jpg",
+    "/images/textileproducts/towel/J121-2.jpg"
+]
+
+const fabricImages = [
+
+]
+
+const tshirtImages = [
+
+]
+
+const curtainImages = [
+
+]
+
 const TextileProducts = ({ productsObject }) => {
+
+    const [isOpenTowel, setIsOpenTowel] = useState(false)
+    const [isOpenCurtain, setIsOpenCurtain] = useState(false)
+    const [isOpenFabric, setIsOpenFabric] = useState(false)
+    const [isOpenTshirt, setIsOpenTshirt] = useState(false)
+
+    const [photoIndex, setPhotoIndex] = useState(0)
 
     return (
         <>
+            <div>
+                {
+                    isOpenCurtain && (
+                    <Lightbox
+                        mainSrc={imagesTowel[photoIndex]}
+                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
+                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        onCloseRequest={() => setIsOpenCurtain(false)}
+                        onMovePrevRequest={() =>
+                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        }
+                        onMoveNextRequest={() =>
+                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        }
+                    />
+                    )
+                }
+                {
+                    isOpenTowel && (
+                    <Lightbox
+                        mainSrc={imagesTowel[photoIndex]}
+                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
+                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        onCloseRequest={() => setIsOpenTowel(false)}
+                        onMovePrevRequest={() =>
+                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        }
+                        onMoveNextRequest={() =>
+                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        }
+                    />
+                    )
+                }
+                {
+                    isOpenFabric && (
+                    <Lightbox
+                        mainSrc={imagesTowel[photoIndex]}
+                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
+                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        onCloseRequest={() => setIsOpenFabric(false)}
+                        onMovePrevRequest={() =>
+                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        }
+                        onMoveNextRequest={() =>
+                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        }
+                    />
+                    )
+                }
+                {
+                    isOpenTshirt && (
+                    <Lightbox
+                        mainSrc={imagesTowel[photoIndex]}
+                        nextSrc={imagesTowel[(photoIndex + 1) % imagesTowel.length]}
+                        prevSrc={imagesTowel[(photoIndex + imagesTowel.length - 1) % imagesTowel.length]}
+                        onCloseRequest={() => setIsOpenTshirt(false)}
+                        onMovePrevRequest={() =>
+                        setPhotoIndex((photoIndex + imagesTowel.length - 1) % imagesTowel.length)
+                        }
+                        onMoveNextRequest={() =>
+                        setPhotoIndex((photoIndex + 1) % imagesTowel.length)
+                        }
+                    />
+                    )
+                }
+            </div>
             <section className="text-center mt-sm-5">
                 <h1 className="my-3">
                     <span className="px-3 py-1">
@@ -48,14 +143,14 @@ const TextileProducts = ({ productsObject }) => {
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
+                                <Image onClick={() => setIsOpenCurtain(true)} className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
                             </div>
                         </div>
                     </div>
                     <div id="fabric" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 product-item">
                             <div className={"product-image-left"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenFabric(true)} className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
@@ -82,14 +177,14 @@ const TextileProducts = ({ productsObject }) => {
                             </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenTowel(true)} className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                     </div>
                     <div id="tshirt" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenTshirt(true)} className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
