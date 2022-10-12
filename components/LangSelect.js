@@ -9,7 +9,8 @@ const LangSelect = ({ currentSite, currentLang}) => {
 
     return (
         <div className="container-fuild d-flex bg-light justify-content-between align-items-center px-2">
-            <div className="header-phones d-flex justify-content-center align-items-center">
+            
+            {/* <div className="header-phones d-flex justify-content-center align-items-center">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 p-1 d-flex align-items-center">
@@ -21,6 +22,14 @@ const LangSelect = ({ currentSite, currentLang}) => {
                             <a href="mailto:info@maycotex.com.tr">info@maycotex.com.tr</a>
                         </div>
                     </div>
+                </div>
+            </div> */}
+            <div className="header-phones d-flex">
+                <div className="px-2">
+                    <a href="tel:+90212-251-0895"><BsTelephoneFill className="telephone-icon"/>+90 212 251 0895</a>
+                </div>
+                <div className="px-2">
+                    <a href="mailto:info@maycotex.com.tr"><HiMail className="mail-icon"/>info@maycotex.com.tr</a>
                 </div>
             </div>
             <div className="dropdown">

@@ -24,7 +24,7 @@ const Header = ({ headerObject }) => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse d-flex-xl align-items-xl-center justify-content-xl-end" id="navbarNavDropdown">
+                    <div className="collapse navbar-collapse d-flex-xl align-items-center justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             {
                                 headerObject.navbar.map((nav, index) => !nav.dropdown ?

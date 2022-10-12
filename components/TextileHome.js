@@ -22,8 +22,9 @@ const TextileHome = ({ homeObject }) => {
 
     return (
         <>
-            <section>
-                {/* <div className="container-fluid px-0">
+                {/*
+                <section>
+                <div className="container-fluid px-0">
                     <div className="row px-0">
                         <div className="col-12 px-0">
                             <div className="textile-home-slider">
@@ -51,7 +52,7 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                 </div> */}
-                <div className="container-fluid">
+                {/* <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
@@ -82,7 +83,7 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="container-fluid p-5 my-3">
                 <div className="row">

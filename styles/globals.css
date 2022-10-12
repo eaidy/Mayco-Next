@@ -73,6 +73,8 @@ ul.siteRoutes li {
   margin-bottom: 0.1em;
 }
 .header-phones {
+  display: flex;
+  flex-direction: row;
   margin-left: 0.7em;
 }
 .header-phones a {
@@ -87,13 +89,14 @@ ul.siteRoutes li {
 }
 .telephone-icon {
   opacity: 0.9;
-  /* font-size: 0.9em; */
+  font-size: 0.9em;
   margin-right: 0.6em;
 }
 
 .mail-icon {
   opacity: 0.9;
-  /* font-size: 1.1em; */
+  font-size: 1.1em;
+  margin-bottom: 0.1em;
   margin-right: 0.6em;
 }
 
@@ -761,9 +764,20 @@ footer .col-12 {
   .navbar-mobile {
     text-align: center;
   }
+  .header-phones {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.7em;
+  }
+  .telephone-icon {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 1200px) { 
+  .navbar-mobile {
+    text-align: center;
+  }
   .sidebar ul li:first-of-type {
     border-top-left-radius: 10px;
   }
