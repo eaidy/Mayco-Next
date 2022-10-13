@@ -8,6 +8,15 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8 !important;
 }
 
+.site-toggle-button {
+  position: relative;
+}
+
+.site-toggle-img {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+}
 .design {
   background: url('/images/textilehome/desen-bg.png');
   color: #fff;

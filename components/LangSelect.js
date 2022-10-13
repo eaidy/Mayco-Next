@@ -1,6 +1,7 @@
 import { GB, TR } from 'country-flag-icons/react/3x2'
 import { BsTelephoneFill } from'react-icons/bs'
 import { HiMail } from'react-icons/hi'
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const LangSelect = ({ currentSite, currentLang}) => {
@@ -32,44 +33,54 @@ const LangSelect = ({ currentSite, currentLang}) => {
                     <a href="mailto:info@maycotex.com.tr"><HiMail className="mail-icon"/>info@maycotex.com.tr</a>
                 </div>
             </div>
-            <div className="dropdown">
-                <button className="btn btn-secondary bg-transparent text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    {
-                        currentLang === 'en' ? 'English' : 'Türkçe'
-                    }
-                </button>
-                <ul className="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1">
-                    <li className="text-center lang-list-item mb-2"> 
-                        <div 
-                            onClick={() => router.push(currentLang === 'tr' ? `/en/${router.pathname}` : router.pathname)}
-                            className="lang-select-button py-1 mx-auto"
-                        >
-                            <p className="px-1">English</p>
-                            <span>
-                                <GB 
-                                    title="English" 
-                                    className="flagIcon"
-                                />
-                            </span>
-                        </div>
-                    </li>
-                    <li className="text-center lang-list-item">
-                        <div
-                            onClick={() => router.push(currentLang === 'en' ? router.pathname.replace('/en', '') : router.pathname)}
-                            className="lang-select-button py-1 mx-auto"
-                        >
-                            <p className="px-1">
-                                Türkçe
-                            </p>
-                            <span>
-                                <TR 
-                                    title="Turkish" 
-                                    className="flagIcon"
-                                />
-                            </span>
-                        </div>
-                    </li>
-                </ul>
+
+            <div className="d-flex">
+                <div>
+                    <button onClick={() => router.push('/')} className="btn btn-secondary bg-transparent text-secondary" id="dropdownMenuButton1" type="button">
+                        {
+                            currentLang === 'en' ? "Enterence Page" : "Giriş Sayfası"
+                        }
+                    </button>
+                </div>
+                <div className="dropdown">
+                    <button className="btn btn-secondary bg-transparent d-sm-inline-block text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        {
+                            currentLang === 'en' ? 'English' : 'Türkçe'
+                        }
+                    </button>
+                    <ul className="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1">
+                        <li className="text-center lang-list-item mb-2"> 
+                            <div 
+                                onClick={() => router.push(currentLang === 'tr' ? `/en/${router.pathname}` : router.pathname)}
+                                className="lang-select-button py-1 mx-auto"
+                            >
+                                <p className="px-1">English</p>
+                                <span>
+                                    <GB 
+                                        title="English" 
+                                        className="flagIcon"
+                                    />
+                                </span>
+                            </div>
+                        </li>
+                        <li className="text-center lang-list-item">
+                            <div
+                                onClick={() => router.push(currentLang === 'en' ? router.pathname.replace('/en', '') : router.pathname)}
+                                className="lang-select-button py-1 mx-auto"
+                            >
+                                <p className="px-1">
+                                    Türkçe
+                                </p>
+                                <span>
+                                    <TR 
+                                        title="Turkish" 
+                                        className="flagIcon"
+                                    />
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         // <span className="langSelect">
