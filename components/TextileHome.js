@@ -22,8 +22,9 @@ const TextileHome = ({ homeObject }) => {
 
     return (
         <>
+            <section>
                 {/*
-                <section>
+                
                 <div className="container-fluid px-0">
                     <div className="row px-0">
                         <div className="col-12 px-0">
@@ -52,7 +53,7 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                 </div> */}
-                {/* <div className="container-fluid">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
@@ -65,9 +66,21 @@ const TextileHome = ({ homeObject }) => {
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <Image src="/images/curtain-color.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                            <div className="carousel-item-text-1">
+                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                            </div>
                                         </div>
                                         <div className="carousel-item">
                                             <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                            <div className="carousel-item-text-2">
+                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                            </div>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                            <div className="carousel-item-text-3">
+                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                            </div>
                                         </div>
                                     </div>
                                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -83,7 +96,7 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             <section className="container-fluid p-5 my-3">
                 <div className="row">

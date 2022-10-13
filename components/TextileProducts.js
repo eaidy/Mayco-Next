@@ -149,14 +149,14 @@ const TextileProducts = ({ productsObject }) => {
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenCurtain(true)} className="rounded-1" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
+                                <Image onClick={() => setIsOpenCurtain(true)} className="" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
                             </div>
                         </div>
                     </div>
                     <div id="fabric" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 product-item">
                             <div className={"product-image-left"}>
-                                <Image onClick={() => setIsOpenFabric(true)} className="rounded-1" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenFabric(true)} className="" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
@@ -183,14 +183,14 @@ const TextileProducts = ({ productsObject }) => {
                             </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenTowel(true)} className="rounded-1" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenTowel(true)} className="" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                     </div>
                     <div id="tshirt" className="row my-5 py-4 border-bottom border-light product-row">
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
                             <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenTshirt(true)} className="rounded-1" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
+                                <Image onClick={() => setIsOpenTshirt(true)} className="" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
                             </div>
                         </div>
                         <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
@@ -203,8 +203,8 @@ const TextileProducts = ({ productsObject }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="row d-flex justify-content-center my-5 py-4">
-                        <div className="col-sm-11 text-center">
+                    {/* <div className="row d-flex justify-content-center my-5 py-4">
+                        <div className="col-11 text-center">
                             <h4>
                                 { productsObject.galleryheader}
                             </h4>
@@ -231,7 +231,7 @@ const TextileProducts = ({ productsObject }) => {
                                 </Carousel>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

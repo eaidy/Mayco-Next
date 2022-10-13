@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 
 p, h1, h2, h3, h4, h5, h6, a {
   font-family: "Montserrat" !important;
@@ -160,6 +160,40 @@ ul.siteRoutes li {
   max-width: 90%;
   align-items: center;
   justify-content: center;
+}
+
+.nav-link-textile {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  transition: color 0.2s, border 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.nav-link-marine:hover {
+  color:#11468F;
+  border-bottom: 3px solid #11468F;
+}
+
+.nav-link-active-marine {
+  color:#11468F;
+  border-bottom: 3px solid #11468F;
+}
+
+.nav-link-marine {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  transition: color 0.2s, border 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.nav-link-textile:hover {
+  color:#BD4B4B;
+  border-bottom: 3px solid #BD4B4B;
+}
+
+.nav-link-active-textile {
+  color:#BD4B4B;
+  border-bottom: 3px solid #BD4B4B;
 }
 
 .nav-link {
@@ -570,7 +604,6 @@ footer .col-12 {
 .marine-sub-article img {
   height: 360px;
   width: 100%;
-  border-radius: 0.12em;
 }
 
 /* ABOUT US SECTION*/
@@ -607,14 +640,43 @@ footer .col-12 {
 .carousel-item {
   position: relative;
 }
-.carousel-text-box {
+.carousel-item-text-1 {
   position: absolute;
   background-color: transparent;
-  color: #35373e;
+  color: #F1F6F9;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  opacity: 0.8;
   font-size: 2em;
-  padding: 2em;
-  left: 60px;
-  bottom: 60px;
+  padding: 1em;
+  left: 100px;
+  right: 100px;
+  bottom: 50px;
+}
+.carousel-item-text-2 {
+  position: absolute;
+  background-color: transparent;
+  color: #F1F6F9;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  opacity: 0.9;
+  font-size: 2em;
+  padding: 1em;
+  top: 50px;
+  right: 50px;
+}
+.carousel-item-text-3 {
+  position: absolute;
+  background-color: transparent;
+  color: #F1F6F9;
+  font-style: italic;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  opacity: 0.9;
+  font-size: 2em;
+  padding: 1em;
+  top: 50px;
+  right: 50px;
 }
 
 /* 404 */
@@ -652,7 +714,7 @@ footer .col-12 {
   opacity: 0.85;
 }
 
-.sidebar ul li:first-of-type {
+/* .sidebar ul li:first-of-type {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -660,10 +722,15 @@ footer .col-12 {
 .sidebar ul li:last-of-type {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-}
+} */
 
 .sidebar ul li:hover {
   background-color: #e8e8e8;
+}
+
+.sidebar ul li:hover a {
+  color: #413F42;
+  font-weight: 500;
 }
 
 .sidebar ul li a {
@@ -778,7 +845,7 @@ footer .col-12 {
   .navbar-mobile {
     text-align: center;
   }
-  .sidebar ul li:first-of-type {
+  /* .sidebar ul li:first-of-type {
     border-top-left-radius: 10px;
   }
   .sidebar ul li:nth-of-type(2) {
@@ -789,19 +856,9 @@ footer .col-12 {
   }
   .sidebar ul li:last-of-type {
     border-bottom-right-radius: 10px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1600px) { 
-  .product-image-right {
-    position: relative;
-    right: -100px;
-    transition: right 1s;
-  }
-  
-  .product-image-left {
-    position: relative;
-    left: -100px;
-    transition: left 1s;
-  }
+
 }
