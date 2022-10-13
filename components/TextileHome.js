@@ -79,7 +79,7 @@ const TextileHome = ({ homeObject }) => {
                                         <div className="carousel-item">
                                             <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
                                             <div className="carousel-item-text-3">
-                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                                Üretimde bilinçi ve profesyonel yaklaşım...
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ const TextileHome = ({ homeObject }) => {
                 </div>
             </section>
 
-            <section className="container-fluid p-5 my-3">
+            {/* <section className="container-fluid p-5 my-3">
                 <div className="row">
                     <div className="col-sm-6 d-flex align-items-center text-center">
                         <article className="lh-lg">
@@ -131,7 +131,7 @@ const TextileHome = ({ homeObject }) => {
                         </article>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="design px-4 py-5">
                 <div className="container-fluid p-4">
