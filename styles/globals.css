@@ -179,12 +179,12 @@ ul.siteRoutes li {
 }
 
 .nav-link-marine:hover {
-  color:#11468F;
+  color:#11468F !important;
   border-bottom: 3px solid #11468F;
 }
 
 .nav-link-active-marine {
-  color:#11468F;
+  color:#11468F !important;
   border-bottom: 3px solid #11468F;
 }
 
@@ -197,13 +197,13 @@ ul.siteRoutes li {
 
 
 .nav-link-textile:hover {
-  color:#E41D4D;
+  color:#E41D4D !important;
   border-bottom: 3px solid #E41D4D;
 }
 
 
 .nav-link-active-textile {
-  color:#E41D4D;
+  color:#E41D4D !important;
   border-bottom: 3px solid #E41D4D;
 }
 
