@@ -196,13 +196,14 @@ ul.siteRoutes li {
 }
 
 .nav-link-textile:hover {
-  color:#BD4B4B;
-  border-bottom: 3px solid #BD4B4B;
+  color:#E41D4D;
+  border-bottom: 3px solid #E41D4D;
 }
 
+
 .nav-link-active-textile {
-  color:#BD4B4B;
-  border-bottom: 3px solid #BD4B4B;
+  color:#E41D4D;
+  border-bottom: 3px solid #E41D4D;
 }
 
 .nav-link {

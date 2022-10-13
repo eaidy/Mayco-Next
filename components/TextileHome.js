@@ -22,7 +22,6 @@ const TextileHome = ({ homeObject }) => {
 
     return (
         <>
-            <section>
                 {/*
                 
                 <div className="container-fluid px-0">
@@ -53,50 +52,51 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                 </div> */}
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-12 d-flex justify-content-center p-0">
-                            <div className="carousel-edit">
-                                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="false">
-                                    <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                {/* <section>
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center p-0">
+                                <div className="carousel-edit">
+                                    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="false">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div className="carousel-inner">
+                                            <div className="carousel-item active">
+                                                <Image src="/images/curtain-color.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                                <div className="carousel-item-text-1">
+                                                    MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                                </div>
+                                            </div>
+                                            <div className="carousel-item">
+                                                <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                                <div className="carousel-item-text-2">
+                                                    MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                                </div>
+                                            </div>
+                                            <div className="carousel-item">
+                                                <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
+                                                <div className="carousel-item-text-3">
+                                                    Üretimde bilinçi ve profesyonel yaklaşım...
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span className="visually-hidden">Previous</span>
+                                        </button>
+                                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span className="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div className="carousel-inner">
-                                        <div className="carousel-item active">
-                                            <Image src="/images/curtain-color.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                            <div className="carousel-item-text-1">
-                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                            </div>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                            <div className="carousel-item-text-2">
-                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                            </div>
-                                        </div>
-                                        <div className="carousel-item">
-                                            <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                            <div className="carousel-item-text-3">
-                                                Üretimde bilinçi ve profesyonel yaklaşım...
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span className="visually-hidden">Previous</span>
-                                    </button>
-                                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span className="visually-hidden">Next</span>
-                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section> */}
 
             {/* <section className="container-fluid p-5 my-3">
                 <div className="row">
@@ -132,6 +132,25 @@ const TextileHome = ({ homeObject }) => {
                     </div>
                 </div>
             </section> */}
+
+            <section className="container-fluid">
+                <div className="row">
+                    <div className="col-sm-8">
+
+                    </div>
+                    <div className="col-sm-4 d-flex align-items-center justify-content-center p-4">
+                        <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-6">
+
+                    </div>
+                    <div className="col-sm-6">
+
+                    </div>
+                </div>
+            </section>
 
             <section className="design px-4 py-5">
                 <div className="container-fluid p-4">

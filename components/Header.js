@@ -13,9 +13,9 @@ const Header = ({ headerObject }) => {
     return (
         <header>
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
-            <nav className="navbar navbar-expand-lg py-0 bg-white border navbar-mobile">
+            <nav className="navbar navbar-expand-lg py-0 bg-white border-top navbar-mobile">
                 <div className="container-fluid">
-                    <Link href={'/' + lang + headerObject.site}>
+                    <Link href={'/'}>
                         <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="65" width="210"/>
                     </Link>
 
