@@ -977,7 +977,7 @@ footer .col-12 {
     position: absolute;
     border-radius: 1px;
     left: 0;
-    bottom: 0;
+    bottom: -9px;
     display: block;
     height: 0;
     width: 100%;
