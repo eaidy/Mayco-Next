@@ -63,11 +63,11 @@ const MarineHome = ({ homeObject }) => {
                     <div className="row px-md-3">
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article className="text-center">
+                                <article className="">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
-                                    <h6>{ homeObject.subarticles.sub1.title }</h6>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub1.title }</h6>
                                     <p>
                                         { homeObject.subarticles.sub1.text }
                                     </p>
@@ -76,7 +76,7 @@ const MarineHome = ({ homeObject }) => {
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article className="text-center">
+                                <article className="">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="..."/>
                                     </figure>
@@ -89,11 +89,11 @@ const MarineHome = ({ homeObject }) => {
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article className="text-center">
+                                <article className="">
                                     <figure>
                                         <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
-                                    <h6>{ homeObject.subarticles.sub3.title }</h6>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
                                     <p>
                                         { homeObject.subarticles.sub3.text }
                                     </p>

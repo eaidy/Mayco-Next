@@ -132,22 +132,86 @@ const TextileHome = ({ homeObject }) => {
                     </div>
                 </div>
             </section> */}
-
-            <section className="container-fluid">
-                <div className="row">
-                    <div className="col-sm-8">
-
-                    </div>
+            {/* <div style={{ 
+                backgroundImage: 'url("/images/textilegeneral/kumas19.jpg")',
+                width: "100%",
+                height: 100,
+            }}></div> */}
+            <section className="container-fluid textile-home-cover">
+                <div className="row d-flex flex-sm-row-reverse border-bottom">
                     <div className="col-sm-4 d-flex align-items-center justify-content-center p-4">
                         <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
                     </div>
+                    <div className="col-sm-8 d-flex align-items-center justify-content-center home-article-main">
+                        <article>
+                            <p className="px-4 mx-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col-sm-6 py-3 d-flex justify-content-center">
+                        <div className="textile-home-product-card">
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas7.jpg")'}}></div>
+                            <div className="product-card-detail">
+                                <span>
+                                    { homeObject.curtainCard.header }
+                                </span>
+                                <Link href={homeObject.curtainCard.path}>
+                                    <a className="detail-button">
+                                        { homeObject.curtainCard.detail }
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 py-3 d-flex justify-content-center">
+                        <div className="textile-home-product-card">
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas6.jpg")'}}></div>
+                            <div className="product-card-detail">
+                                <span>
+                                    { homeObject.fabricCard.header }
+                                </span>
+                                <Link href={homeObject.fabricCard.path}>
+                                    <a className="detail-button">
+                                        { homeObject.fabricCard.detail }
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-6">
-
+                    <div className="col-sm-6 py-3 d-flex justify-content-center">
+                        <div className="textile-home-product-card">
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas10.jpg")'}}></div>
+                            <div className="product-card-detail">
+                                <span>
+                                    { homeObject.towelCard.header }
+                                </span>
+                                <Link href={homeObject.towelCard.path}>
+                                    <a className="detail-button">
+                                        { homeObject.towelCard.detail }
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-sm-6">
-
+                    <div className="col-sm-6 py-3 d-flex justify-content-center">
+                        <div className="textile-home-product-card">
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas11.jpg")'}}></div>
+                            <div className="product-card-detail">
+                                <span>
+                                    { homeObject.tshirtCard.header }
+                                </span>
+                                <Link href={homeObject.tshirtCard.path}>
+                                    <a className="detail-button">
+                                        { homeObject.tshirtCard.detail }
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -160,7 +224,7 @@ const TextileHome = ({ homeObject }) => {
                     <p>
                         { homeObject.design.text }
                     </p>
-                    <Link href={'/' + lang + homeObject.site + '/' + homeObject.design.link.path}>
+                    <Link href={'/' + lang + homeObject.site + homeObject.design.link.path}>
                         <a>{ homeObject.design.link.label } <AiOutlineArrowRight /></a>
                     </Link>
                 </div>

@@ -13,7 +13,7 @@ const Header = ({ headerObject }) => {
     return (
         <header>
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
-            <nav className="navbar navbar-expand-lg py-0 bg-white border-top navbar-mobile">
+            <nav className="navbar navbar-expand-lg py-2 bg-white border-top border-bottom navbar-mobile">
                 <div className="container-fluid">
                     <Link href={'/'}>
                         <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="65" width="210"/>
@@ -23,7 +23,7 @@ const Header = ({ headerObject }) => {
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse d-flex align-items-center justify-content-end" id="navbarNavDropdown">
+                    <div className="collapse navbar-collapse d-lg-flex align-items-lg-center justify-content-lg-end  navbar-mine" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             {
                                 headerObject.navbar.map((nav, index) => !nav.dropdown ?

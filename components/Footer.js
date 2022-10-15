@@ -10,7 +10,7 @@ const Footer = ({ footerObject }) => {
         <footer>
             <div className="container-fluid border-top">
                 <div className="row">
-                    <div className="col-12 px-5 d-flex footer-icon">
+                    <div className="col-12 px-5 my-3 d-flex footer-icon">
                         {
                             footerObject.site ?
                             (

@@ -33,6 +33,26 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac convallis nisl. Phasellus sit amet vestibulum eros. Donec quis augue dui. Morbi at augue nibh. Proin a urna at sapien.",
             "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
         },
+        "curtainCard": {
+            "header": "PERDE",
+            "path": "/textile/products#curtain",
+            "detail": "İNCELE"
+        },
+        "fabricCard": {
+            "header": "PERDE KUMAŞI",
+            "path": "/textile/products#fabric",
+            "detail": "İNCELE"
+        },
+        "towelCard": {
+            "header": "HAVLU",
+            "path": "/textile/products#towel",
+            "detail": "İNCELE"
+        },
+        "tshirtCard": {
+            "header": "T-SHIRT",
+            "path": "/textile/products#tshirt",
+            "detail": "İNCELE"
+        },
         "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
         "article2": { "header": "Misyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." }
     },
@@ -90,7 +110,7 @@
         "email": { "header": "E-Mail", "text": "info@maycotex.com.tr"},
         "form": {
             "name": "İsim",
-            "phone": "Telefon",
+            "phone": "Telefon : 555 444 33 22",
             "email": "E-Mail",
             "subject": "Konu",
             "message": "İleti",

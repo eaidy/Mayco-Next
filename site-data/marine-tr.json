@@ -1,11 +1,16 @@
 {
     "header": {
         "navbar": [
-            { "label": "Kurumsal",  "path": "/corporate" },
+            { "label": "Kurumsal",  "path": "/corporate/aboutus" },
             { "label": "Modellerimiz",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
+                { "label": "J-70",  "path": "/70" },
                 { "label": "J-80",  "path": "/J80" },
-                { "label": "J-110",  "path": "/J110" }
+                { "label": "J-99",  "path": "/J99" },
+                { "label": "J-121",  "path": "/J121" },
+                { "label": "J-110",  "path": "/J110" },
+                { "label": "J-112",  "path": "/J112" },
+                { "label": "J-9",  "path": "/J9" }
             ]},
             { "label": "Tekne Kiralama",  "path": "/boatrental" },
             { "label": "Güverte Kaplama",  "path": "/deckcovering" },
@@ -43,7 +48,34 @@
         } 
     },
     "corporate": {
-
+        "lang": "tr",
+        "site": "marine",
+        "navbar": [
+            { "path": "aboutus", "label": "Hakkımızda"},
+            { "path": "vision", "label": "Vizyonumuz"},
+            { "path": "mission", "label": "Misyonumuz"},
+            { "path": "production", "label": "Üretim"}
+        ]
+    },
+    "production": {
+        "header": "ÜRETİM",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/production.jpeg"
+    },
+    "mission": {
+        "header": "MİSYONUMUZ",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/vision.jpeg"
+    },
+    "vision": {
+        "header": "VİZYONUMUZ",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "img": "/images/textilecorporate/vision.jpeg"
+    },
+    "about": {
+        "text": "Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır. En güvenilir üreticilerle en iyi hizmeti sağlamaya odaklı olan firmamız Avrupa’nın en bilinen markaları ile çalışmaktadır. Türkiye üretimi ürünlerini Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere’ye ihracatını sağlamaktadır. Şirketimizin güvenilir üreticileri sayesinde, müşterilerimize en kısa sürede uygun fiyatlı ve kaliteli ürünleri sağlamaktayız. Şirketimiz bünyesinde kurulan kalite kontrol departmanı sayesinde her yüklemeden önce kendi kalite kontrolümüzü sağlamaktayız. Müşterilerimiz metre bazında sipariş verirken aynı zamanda paketlenmiş ürünleri de rahatlıkla sipariş verebilmektedir.",
+        "header": "HAKKIMIZDA",
+        "img": "/images/textilecorporate/about.jpeg"
     },
     "products": {
 

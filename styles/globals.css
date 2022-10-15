@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 20px;
 }
 .design {
-  background: url('/images/textilehome/desen-bg.png');
+  background-image: url('/images/textilehome/desen-bg.png');
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -169,42 +170,6 @@ ul.siteRoutes li {
   max-width: 90%;
   align-items: center;
   justify-content: center;
-}
-
-.nav-link-textile {
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid transparent;
-  transition: color 0.2s, border 0.2s;
-  transition-timing-function: ease-in;
-}
-
-.nav-link-marine:hover {
-  color:#11468F !important;
-  border-bottom: 3px solid #11468F;
-}
-
-.nav-link-active-marine {
-  color:#11468F !important;
-  border-bottom: 3px solid #11468F;
-}
-
-.nav-link-marine {
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid transparent;
-  transition: color 0.2s, border 0.2s;
-  transition-timing-function: ease-in;
-}
-
-
-.nav-link-textile:hover {
-  color:#E41D4D !important;
-  border-bottom: 3px solid #E41D4D;
-}
-
-
-.nav-link-active-textile {
-  color:#E41D4D !important;
-  border-bottom: 3px solid #E41D4D;
 }
 
 .nav-link {
@@ -457,6 +422,11 @@ footer .col-12 {
 
 /* CONTACT PAGE */
 
+.form-error {
+  color: red;
+  font-size: 0.8em;
+}
+
 .tittle {
 	text-align: center;
 	margin-bottom: 25px;
@@ -617,6 +587,17 @@ footer .col-12 {
   width: 100%;
 }
 
+.marine-sub-article h6 {
+  font-size: 16px;
+  opacity: 0.95 !important;
+}
+
+.marine-sub-article p {
+  font-size: 13px;
+  opacity: 0.85 !important;
+  line-height: 2em;
+}
+
 /* ABOUT US SECTION*/
 
 .about-us-section article {
@@ -635,6 +616,101 @@ footer .col-12 {
 }
 
 /* TEXTILE HOME SECTION*/
+
+.textile-home-product-card {
+  display: flex;
+  border-radius: 6px;
+  height: 320px;
+  width: 530px;
+  position: relative;
+  margin-bottom: 30px;
+  /* font-family: "Rajdhani", sans-serif; */
+  overflow: hidden;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.product-card-detail {
+  margin:0;
+  padding: 0;
+  font-size: 100%;
+  width: 100%;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.product-card-detail span {
+  display: block;
+  font-size: 1.8em;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.detail-button {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.detail-button:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: #fff;
+  margin-top: 5px;
+  transition: width 0.3s;
+}
+
+.detail-button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.detail-button:hover::after {
+  width: 100%;
+}
+
+
+.product-card-img {
+  /* background-image: url('/images/textilegeneral/kumas11.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  box-shadow: inset 0 0 100px 300px rgb(27 36 65 / 30%);
+}
+
+.textile-home-product-card:Hover {
+  -webkit-box-shadow: 0 0 0 2px #E41D4D;
+  box-shadow: 0 0 0 2px #E41D4D;
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02); 
+}
+
+.textile-home-product-card:Hover .product-card-img {
+  -webkit-filter: blur(6px);
+  -o-filter: blur(6px);
+  filter: blur(6px); 
+}
+
+.home-article-main {
+  line-height: 2.1em;
+  font-size: 1.1em;
+}
+
+.home-article-main p{
+  padding: 1em;
+}
 
 .textile-home-slider {
   width: 100%;
@@ -813,12 +889,21 @@ footer .col-12 {
 
 /* MEDİA QUERIES */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   p, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  .design .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
   .index-icon {
     height: 50vh;
+  }
+  .navbar-mine {
+    justify-content: center !important;
   }
   .nav-item-mine {
     border-bottom: none;
@@ -853,7 +938,7 @@ footer .col-12 {
   }
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 992px) { 
   .navbar-mobile {
     text-align: center;
   }
@@ -869,8 +954,66 @@ footer .col-12 {
   .sidebar ul li:last-of-type {
     border-bottom-right-radius: 10px;
   } */
+  
 }
 
-@media screen and (min-width: 1600px) { 
+@media screen and (min-width: 992px) { 
+  .nav-link-textile {
+    position: relative;
+    /* border-bottom: 3px solid transparent; */
+    transition: all 0.2s;
+    transition-timing-function: ease-in;
+  }
 
+  .nav-link-marine {
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+    transition: color 0.2s, border 0.2s;
+    transition-timing-function: ease-in;
+  }
+
+  .nav-link-textile:after {
+    content: '';
+    position: absolute;
+    border-radius: 1px;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: 0;
+    width: 100%;
+    background-color: #E41D4D;
+    transition: all 0.15s;
+  }
+
+  .nav-link-marine:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+    background-color: #4979ff;
+  }
+
+  .nav-link-marine:hover {
+    color:#11468F !important;
+    border-bottom: 3px solid #11468F;
+  }
+
+  .nav-link-textile:hover {
+    color:#E41D4D !important;
+    /* border-bottom: 3px solid #E41D4D; */
+  }
+
+  .nav-link-textile:hover:after {
+    height: 2px;
+  }
+  
+  .nav-link-active-marine {
+    color:#11468F !important;
+    border-bottom: 3px solid #11468F;
+  }
+  
+  .nav-link-active-textile {
+    color:#E41D4D !important;
+    border-bottom: 3px solid #E41D4D;
+  }
 }
