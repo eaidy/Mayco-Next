@@ -94,13 +94,60 @@
             { "path": "towel", "text": "Havlu"},
             { "path": "tshirt", "text": "T-Shirt"}
         ],
-        "products": {
-            "curtain": { "header": "Hazır Perde", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
-            "fabric": { "header": "Perdelik Kumaş", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
-            "towel": { "header": "Havlu", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." },
-            "tshirt": { "header": "T-Shirt", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor." }
-        },
-        "galleryheader": "Fotoğraf Galerisi"
+        "productsArray": [
+            {
+                "id": "curtain",
+                "header": "HAZIR PERDE",
+                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "specs": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ],
+                "img": "/images/textilegeneral/kumas17.jpg",
+                "imgExp": "GALERİYE GÖZAT"
+            },
+            {
+                "id": "fabric",
+                "header": "PERDE KUMAŞI",
+                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "specs": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ],
+                "img": "/images/textilegeneral/kumas19.jpg",
+                "imgExp": "GALERİYE GÖZAT"
+            },
+            {
+                "id": "towel",
+                "header": "HAVLU",
+                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "specs": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ],
+                "img": "/images/textilegeneral/kumas10.jpg",
+                "imgExp": "GALERİYE GÖZAT"
+            },
+            {
+                "id": "tshirt",
+                "header": "T-SHIRT",
+                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "specs": [
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                ],
+                "img": "/images/textilegeneral/kumas7.jpg",
+                "imgExp": "GALERİYE GÖZAT"
+            }
+        ]
     },
     "contact": {
         "title": "Bize Ulaşın",

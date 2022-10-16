@@ -134,104 +134,63 @@ const TextileProducts = ({ productsObject }) => {
                 </div>
             </section>
 
-            <section className="p-3">
-                <div className="container-fluid p-3">
-                    <div id="curtain" className="row my-5 py-4 border-bottom border-light product-row">
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="text-center">
-                                <h3>
-                                    { productsObject.products.curtain.header }
-                                </h3>
-                                <p>
-                                    { productsObject.products.curtain.text }
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenCurtain(true)} className="" src="/images/textileproductimages/curtain.jpg" height={350} width={700} alt="..." />
-                            </div>
-                        </div>
-                    </div>
-                    <div id="fabric" className="row my-5 py-4 border-bottom border-light product-row">
-                        <div className="col-sm-6 product-item">
-                            <div className={"product-image-left"}>
-                                <Image onClick={() => setIsOpenFabric(true)} className="" src="/images/textileproductimages/fabric.jpg" height={350} width={700} alt="..."/>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="text-center">
-                                    <h3>
-                                        { productsObject.products.fabric.header }
-                                    </h3>
-                                    <p>
-                                        { productsObject.products.fabric.text }
+            <section className="">
+                <div className="container-fluid">
+                    {
+                        productsObject.productsArray.map((product, index) => (
+                            <div 
+                                key={index}
+                                id={product.id} 
+                                className="row my-5 py-4 border-bottom border-light product-row"
+                            >
+                                <div className="col-12 py-5 d-flex flex-column justify-content-center align-items-center text-center">
+                                    <h4 className="my-3">
+                                        { product.header }
+                                    </h4>
+                                    <p className="my-3 d-flex w-75 px-3">
+                                        { product.exp }
                                     </p>
                                 </div>
-                            </div>
-                    </div>
-                    <div id="towel" className="row my-5 py-4 border-bottom border-light product-row">
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="text-center">
-                                    <h3>
-                                        { productsObject.products.towel.header }
-                                    </h3>
-                                    <p>
-                                        { productsObject.products.towel.text }
-                                    </p>
+                                <div className="col-sm-6 d-flex justify-content-center align-items-center">
+                                    <ul>
+                                        {
+                                            product.specs.map((spec, indexA) => (
+                                                <li key={indexA}>
+                                                    { spec }
+                                                </li>
+                                            ))
+                                        }
+                                    </ul>
+                                </div>
+                                <div className="col-sm-6 d-flex justify-content-center align-items-center">
+                                    <div className="textile-home-product-card">
+                                        <div className="product-card-img" style={{ backgroundImage: `url("${product.img}")`, borderColor: "gray"}}></div>
+                                        <div className="product-card-detail">
+                                            <span
+                                                onClick={() => {
+                                                    if(product.id === "curtain"){
+                                                        setIsOpenCurtain(true)
+                                                    }
+                                                    else if(product.id === "fabric"){
+                                                        setIsOpenFabric(true)
+                                                    }
+                                                    else if(product.id === "towel"){
+                                                        setIsOpenTowel(true)
+                                                    }
+                                                    else if(product.id === "tshirt"){
+                                                        setIsOpenTshirt(true)
+                                                    }
+                                                }}
+                                                className="textile-product-button"
+                                            >
+                                                { product.imgExp }
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenTowel(true)} className="" src="/images/textileproductimages/towel.jpg" height={350} width={700} alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="tshirt" className="row my-5 py-4 border-bottom border-light product-row">
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className={"product-image-right"}>
-                                <Image onClick={() => setIsOpenTshirt(true)} className="" src="/images/textileproductimages/tshirt.jpg" height={350} width={700} alt="..."/>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 d-flex justify-content-center align-items-center product-item">
-                            <div className="text-center">
-                                <h3>
-                                    { productsObject.products.tshirt.header }                                </h3>
-                                <p>
-                                    { productsObject.products.tshirt.text }
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <div className="row d-flex justify-content-center my-5 py-4">
-                        <div className="col-11 text-center">
-                            <h4>
-                                { productsObject.galleryheader}
-                            </h4>
-                            <div className="textile-home-slider mt-4">
-                                <Carousel
-                                    autoPlay={false}
-                                    interval={5000}
-                                    infiniteLoop={true}
-                                    stopOnHover={false}
-                                    dynamicHeight={false}
-                                    showThumbs={true}
-                                    emulateTouch={true}
-                                    swipeable={true}
-                                    showStatus={false}
-                                    transitionTime={1000}
-                                    animationHandler={"fade"}
-                                >
-                                    <div>
-                                        <Image src="/images/curtain-color.jpg" width={1200} height={500} alt="..."/>
-                                    </div>
-                                    <div>
-                                        <Image src="/images/production.jpg" width={1200} height={500} alt="..."/>
-                                    </div>
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div> */}
+                        ))
+                    }
                 </div>
             </section>
         </>

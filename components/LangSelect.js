@@ -3,10 +3,13 @@ import { BsTelephoneFill } from'react-icons/bs'
 import { HiMail } from'react-icons/hi'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 const LangSelect = ({ currentSite, currentLang}) => {
 
     const router = useRouter()
+
+    const [currentSiteState, ] = useState(currentSite)
 
     return (
         <div className="container-fuild d-flex bg-light justify-content-between align-items-center px-2">
@@ -43,7 +46,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
                     </button>
                 </div> */}
                 <div className="dropdown">
-                    <button className="btn btn-secondary bg-transparent d-sm-inline-block text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className={"btn btn-secondary bg-transparent d-sm-inline-block text-secondary dropdown-toggle dropdownMenuButton-" + currentSiteState} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         {
                             currentLang === 'en' ? 'English' : 'Türkçe'
                         }

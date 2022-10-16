@@ -138,13 +138,22 @@ const TextileHome = ({ homeObject }) => {
                 height: 100,
             }}></div> */}
             <section className="container-fluid textile-home-cover">
-                <div className="row d-flex flex-sm-row-reverse border-bottom">
+                {/* <div className="row d-flex flex-sm-row-reverse border-bottom">
                     <div className="col-sm-4 d-flex align-items-center justify-content-md-start p-4">
                         <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
                     </div>
                     <div className="col-sm-8 d-flex align-items-center justify-content-center home-article-main">
                         <article className="d-flex w-75 justify-content-center">
                             <p className="">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
+                            </p>
+                        </article>
+                    </div>
+                </div> */}
+                <div className="row">
+                    <div className="col-12 d-flex justify-content-center align-items-center">
+                        <article className="d-flex mx-4 py-4 w-100 justify-content-center">
+                            <p className="home-article-main text-center">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
                             </p>
                         </article>
@@ -217,6 +226,7 @@ const TextileHome = ({ homeObject }) => {
             </section>
 
             <section className="design px-4 py-5">
+                <div className="design-background"></div>
                 <div className="container-fluid p-4">
                     <h2 className="py-2 border-bottom border-secondary">
                         { homeObject.design.header }
