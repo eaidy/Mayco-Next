@@ -134,7 +134,7 @@ const TextileProducts = ({ productsObject }) => {
                 </div>
             </section>
 
-            <section className="">
+            <section className="mb-5">
                 <div className="container-fluid">
                     {
                         productsObject.productsArray.map((product, index) => (
