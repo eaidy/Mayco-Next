@@ -139,12 +139,12 @@ const TextileHome = ({ homeObject }) => {
             }}></div> */}
             <section className="container-fluid textile-home-cover">
                 <div className="row d-flex flex-sm-row-reverse border-bottom">
-                    <div className="col-sm-4 d-flex align-items-center justify-content-center p-4">
+                    <div className="col-sm-4 d-flex align-items-center justify-content-md-start p-4">
                         <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
                     </div>
                     <div className="col-sm-8 d-flex align-items-center justify-content-center home-article-main">
-                        <article>
-                            <p className="px-4 mx-3">
+                        <article className="d-flex w-75 justify-content-center">
+                            <p className="">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
                             </p>
                         </article>

@@ -31,14 +31,23 @@ const MarineHome = ({ homeObject }) => {
                     transitionTime={1000}
                     animationHandler={"fade"}
                 >
-                    <div>
+                    <div style={{ position: "relative" }}>
                         <Image src="/images/marinehome/J121-2.jpg" width={2000} height={1000} alt="..."/>
+                        <div className="marine-slider-box-1">
+                            Ata
+                        </div>
                     </div>
-                    <div>
+                    <div style={{ position: "relative" }}>
                         <Image src="/images/marinehome/J45-1.jpg" width={2000} height={1000} alt="..."/>
+                        <div className="marine-slider-box-1">
+
+                        </div>
                     </div>
-                    <div>
+                    <div style={{ position: "relative" }}>
                         <Image src="/images/marinehome/J80.jpg" width={2000} height={1000} alt="..."/>
+                        <div className="marine-slider-box-1">
+
+                        </div>
                     </div> 
                 </Carousel>
             </section>

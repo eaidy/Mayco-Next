@@ -39,12 +39,12 @@
             "detail": "BROWSE"
         },
         "fabricCard": {
-            "header": "PERDE KUMAŞI",
+            "header": "FABRIC",
             "path": "",
             "detail": "BROWSE"
         },
         "towelCard": {
-            "header": "HAVLU",
+            "header": "TOWEL",
             "path": "",
             "detail": "BROWSE"
         },

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import LangSelect from '../components/LangSelect'
+import { RiArrowDownSFill } from 'react-icons/ri'
 import { useState } from "react";
 
 const Header = ({ headerObject }) => {
@@ -41,6 +42,7 @@ const Header = ({ headerObject }) => {
                                     <li key={index} className="nav-item dropdown mx-xl-1 nav-item-mine">
                                         <a className={"nav-link dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             { nav.label }
+                                            <RiArrowDownSFill size={23} style={{ marginLeft: '2px', marginBottom: '2px'}} />
                                         </a>
                                         <ul className="dropdown-menu">
                                             {   

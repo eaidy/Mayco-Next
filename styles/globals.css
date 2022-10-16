@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 .design {
   background-image: url('/images/textilehome/desen-bg.png');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
@@ -887,6 +888,14 @@ footer .col-12 {
   font-size: 0.8em;
 }
 
+/* MARINE SLIDER */
+
+.marine-slider-box-1 {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
 /* MEDİA QUERIES */
 
 @media screen and (max-width: 992px) {
@@ -960,15 +969,13 @@ footer .col-12 {
 @media screen and (min-width: 992px) { 
   .nav-link-textile {
     position: relative;
-    /* border-bottom: 3px solid transparent; */
     transition: all 0.2s;
     transition-timing-function: ease-in;
   }
 
   .nav-link-marine {
-    border-bottom: 3px solid transparent;
-    border-top: 3px solid transparent;
-    transition: color 0.2s, border 0.2s;
+    position: relative;
+    transition: all 0.2s;
     transition-timing-function: ease-in;
   }
 
@@ -982,20 +989,27 @@ footer .col-12 {
     height: 0;
     width: 100%;
     background-color: #E41D4D;
+    border: none !important;
     transition: all 0.15s;
   }
 
   .nav-link-marine:after {
     content: '';
+    position: absolute;
+    border-radius: 1px;
+    left: 0;
+    bottom: -9px;
     display: block;
     height: 0;
     width: 100%;
-    background-color: #4979ff;
+    background-color: #11468F;
+    border: none !important;
+    transition: all 0.15s;
   }
 
   .nav-link-marine:hover {
     color:#11468F !important;
-    border-bottom: 3px solid #11468F;
+    /* border-bottom: 3px solid #11468F; */
   }
 
   .nav-link-textile:hover {
@@ -1004,6 +1018,10 @@ footer .col-12 {
   }
 
   .nav-link-textile:hover:after {
+    height: 2px;
+  }
+
+  .nav-link-marine:hover:after {
     height: 2px;
   }
   

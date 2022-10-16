@@ -3,6 +3,7 @@
     "lang": "en",
     "header": {
         "navbar": [
+            { "label": "Home",  "path": "/" },
             { "label": "Corporate",  "path": "/corporate" },
             { "label": "Our Models",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },

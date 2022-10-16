@@ -1,6 +1,7 @@
 {
     "header": {
         "navbar": [
+            { "label": "Anasayfa",  "path": "/" },
             { "label": "Kurumsal",  "path": "/corporate/aboutus" },
             { "label": "Modellerimiz",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
