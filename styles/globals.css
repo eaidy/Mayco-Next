@@ -36,13 +36,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .textile-product-button{
-  color: #e8e8e8 !important;
+  color: gray !important;
   transition: all 0.2s;
 }
 
 .textile-product-button:hover {
   cursor: pointer;
-  color: #fff !important;
+  color: #989898 !important;
 }
 
 .product-row {
@@ -799,7 +799,6 @@ footer .col-12 {
 }
 
 .sidebar-nav {
-
 }
 
 .sidebar ul {
@@ -812,7 +811,6 @@ footer .col-12 {
 }
 
 .sidebar ul li {
-  width: 25%;
   height: 100px;
   opacity: 0.6;
   display: inline-block;
@@ -879,13 +877,13 @@ footer .col-12 {
 .product-row h4 {
 }
 
-.product-row ul {
+.product-row-2 ul {
   padding: 1em;
-  font-size: 1.1em;
 }
 
-.product-row ul li {
+.product-row-3 ul li {
   margin-bottom: 1.5em;
+  font-size: 1.1em;
   opacity: 0.8;
 }
 
@@ -957,16 +955,6 @@ footer .col-12 {
   .info-list-container {
     text-align: center;
   }
-  .sidebar ul li:first-of-type {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  .sidebar ul li:last-of-type {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-
   .footer-icon {
     justify-content: center;
   }

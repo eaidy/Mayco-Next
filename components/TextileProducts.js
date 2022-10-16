@@ -1,7 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
@@ -115,12 +115,12 @@ const TextileProducts = ({ productsObject }) => {
                     </span>
                 </h1>
                 <div className="sidebar d-flex justify-content-center mt-2">
-                    <ul>
+                    <ul className="d-flex flex-row">
                     {
                         productsObject.scrollNavs.map((scrollNav, index) => (
                             <li
                                 key={index}
-                                className={"sidebar-nav p-1" + " " + "sidebar-" + scrollNav.path }
+                                className={"sidebar-nav d-flex w-25 justify-content-center p-1" + " " + "sidebar-" + scrollNav.path }
                             >
                                 <div className="">
                                     <a href={"#" + scrollNav.path} className="m-4">
@@ -138,12 +138,13 @@ const TextileProducts = ({ productsObject }) => {
                 <div className="container-fluid">
                     {
                         productsObject.productsArray.map((product, index) => (
+                        <Fragment className="product-row" key={index}>
                             <div 
                                 key={index}
                                 id={product.id} 
-                                className="row my-5 py-4 border-bottom border-light product-row"
+                                className="row mt-5 py-2 border-bottom border-light product-row-2"
                             >
-                                <div className="col-12 py-5 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div className="col-12 py-3 d-flex flex-column justify-content-center align-items-center text-center">
                                     <h4 className="my-3">
                                         { product.header }
                                     </h4>
@@ -151,6 +152,8 @@ const TextileProducts = ({ productsObject }) => {
                                         { product.exp }
                                     </p>
                                 </div>
+                            </div>
+                            <div className="row product-row-3 px-4">
                                 <div className="col-sm-6 d-flex justify-content-center align-items-center">
                                     <ul>
                                         {
@@ -162,33 +165,30 @@ const TextileProducts = ({ productsObject }) => {
                                         }
                                     </ul>
                                 </div>
-                                <div className="col-sm-6 d-flex justify-content-center align-items-center">
-                                    <div className="textile-home-product-card">
-                                        <div className="product-card-img" style={{ backgroundImage: `url("${product.img}")`, borderColor: "gray"}}></div>
-                                        <div className="product-card-detail">
-                                            <span
-                                                onClick={() => {
-                                                    if(product.id === "curtain"){
-                                                        setIsOpenCurtain(true)
-                                                    }
-                                                    else if(product.id === "fabric"){
-                                                        setIsOpenFabric(true)
-                                                    }
-                                                    else if(product.id === "towel"){
-                                                        setIsOpenTowel(true)
-                                                    }
-                                                    else if(product.id === "tshirt"){
-                                                        setIsOpenTshirt(true)
-                                                    }
-                                                }}
-                                                className="textile-product-button"
-                                            >
-                                                { product.imgExp }
-                                            </span>
-                                        </div>
-                                    </div>
+                                <div className="col-sm-6 py-3 d-flex flex-column justify-content-center">
+                                        <span
+                                            onClick={() => {
+                                                if(product.id === "curtain"){
+                                                    setIsOpenCurtain(true)
+                                                }
+                                                else if(product.id === "fabric"){
+                                                    setIsOpenFabric(true)
+                                                }
+                                                else if(product.id === "towel"){
+                                                    setIsOpenTowel(true)
+                                                }
+                                                else if(product.id === "tshirt"){
+                                                    setIsOpenTshirt(true)
+                                                }
+                                            }}
+                                            className="textile-product-button text-center"
+                                        >
+                                            { product.imgExp }
+                                        </span>
+                                        <Image style={{ borderRadius: 10 }} src={product.img} height={350} width={600} alt="..."/>
                                 </div>
                             </div>
+                            </Fragment>
                         ))
                     }
                 </div>
