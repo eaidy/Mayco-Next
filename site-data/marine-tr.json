@@ -78,8 +78,55 @@
         "header": "HAKKIMIZDA",
         "img": "/images/textilecorporate/about.jpeg"
     },
-    "products": {
+    "models": {
+        "J9": {
 
+        },
+        "J45": {
+            "logo": "/images/marinemodels/J45/J45-logo.jpeg",
+            "top": {
+
+            },
+            "article1": {
+                "img": "/images/marinemodels/J45/J45-Design.jpeg"
+            },
+            "article2": {
+                "img": "/images/marinemodels/J45/J45-1.jpeg"
+            },
+            "article3": {
+                "img": "/images/marinemodels/J45/J45-2.jpeg"
+            },
+            "article4": {
+                "img": "/images/marinemodels/J45/J45-3.jpeg"
+            },
+            "article5": {
+                "img": "/images/marinemodels/J45/J45-4.jpeg"
+            },
+            "article6": {
+                "img": "/images/marinemodels/J45/J45-5.jpeg"
+            },
+            "article7": {
+                "img": "/images/marinemodels/J45/J45-6.jpeg"
+            }
+        },
+        "J70": {
+
+        },
+        "J80": {
+
+        },
+        "J99": {
+
+        },
+        "J110": {
+
+        },
+        "J112": {
+
+        },
+        "J121": {
+
+        }
     },
     "boatrental": {
 

@@ -37,12 +37,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .textile-product-button{
   color: gray !important;
+  font-size: 1.1em;
+  margin-bottom: 5px;
   transition: all 0.2s;
 }
 
 .textile-product-button:hover {
   cursor: pointer;
-  color: #989898 !important;
+  color: #5F9DF7 !important;
 }
 
 .product-row {
@@ -649,7 +651,7 @@ footer .col-12 {
   /* font-family: "Rajdhani", sans-serif; */
   overflow: hidden;
   align-items: center;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .product-card-detail {
@@ -707,7 +709,7 @@ footer .col-12 {
   z-index: -1;
   width: 100%;
   height: 100%;
-  transition: all 0.5s;
+  transition: all 0.3s;
   box-shadow: inset 0 0 100px 300px rgb(27 36 65 / 30%);
 }
 
@@ -870,11 +872,30 @@ footer .col-12 {
 
 /* PRODUCTS TEXTILE */
 
+.parallax {
+  /* The image used */
+  background-image: url("/images/textilegeneral/kumas8.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .product-row {
   height: 100vh;
 }
 
-.product-row h4 {
+.product-row-2 p {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+.product-img {
+  display: flex;
+  box-shadow: 5px 8px 8px rgba(50, 50, 50, 0.4);
 }
 
 .product-row-2 ul {
@@ -991,6 +1012,12 @@ footer .col-12 {
 }
 
 @media screen and (min-width: 992px) { 
+
+  .model-under {
+    width: 98%;
+    background-color: #fff;
+  }
+
   .nav-link-textile {
     position: relative;
     transition: all 0.2s;

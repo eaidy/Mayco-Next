@@ -87,7 +87,7 @@
         "img": "/images/textilecorporate/about.jpeg"
     },
     "products": {
-        "header": "ÜRÜNLERİMİZ",
+        "header": "PRODUCTS",
         "scrollNavs": [
             { "path": "curtain", "text": "Curtain"},
             { "path": "fabric", "text": "Fabric"},
