@@ -800,9 +800,6 @@ footer .col-12 {
   display: flex;
 }
 
-.sidebar-nav {
-}
-
 .sidebar ul {
   list-style: none;
   background-color: transparent;
@@ -956,6 +953,9 @@ footer .col-12 {
 @media screen and (max-width: 992px) {
   p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
+  }
+  .sidebar-nav {
+    
   }
   .design .container-fluid {
     display: flex;

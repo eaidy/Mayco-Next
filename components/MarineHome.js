@@ -56,7 +56,7 @@ const MarineHome = ({ homeObject }) => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 pb-5 d-flex justify-content-center">
-                            <article className="marine-about text-center py-3 w-75">
+                            <article className="marine-about text-center py-3" style={{ width: "90%"}}>
                                 <h4 className="mb-4 py-3">
                                     { homeObject.article1.title}
                                 </h4>
