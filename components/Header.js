@@ -42,13 +42,13 @@ const Header = ({ headerObject }) => {
                                     <li key={index} className="nav-item dropdown mx-xl-1 nav-item-mine">
                                         <a className={"nav-link dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             { nav.label }
-                                            <RiArrowDownSFill size={23} style={{ marginLeft: '2px' }} />
+                                            <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ marginLeft: '2px', marginBottom: '2px' }} />
                                         </a>
-                                        <ul className="dropdown-menu">
+                                        <ul className="dropdown-menu text-center">
                                             {   
                                                 nav.dropdown.map((dnav, dindex) => 
                                                 (
-                                                    <li key={dindex}>
+                                                    <li key={dindex} className="p-2 fs-6">
                                                         <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
                                                             <a className="dropdown-item">{ dnav.label }</a>
                                                         </Link>

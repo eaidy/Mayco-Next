@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8 !important;
 }
 
+body {
+  text-rendering: optimizeSpeed;
+}
+
 .site-toggle-button {
   position: relative;
 }
@@ -948,6 +952,18 @@ footer .col-12 {
   top: 200px;
 }
 
+/* MODEL */
+
+.model-under {
+  background-color: #fff;
+}
+
+.model-top {
+  padding: 1em;
+  background-color: #fff;
+}
+
+
 /* MEDİA QUERIES */
 
 @media screen and (max-width: 992px) {
@@ -957,6 +973,11 @@ footer .col-12 {
   .sidebar-nav {
     
   }
+
+  .dropdown-below-icon {
+    display: none;
+  }
+
   .design .container-fluid {
     display: flex;
     flex-direction: column;
@@ -1013,8 +1034,36 @@ footer .col-12 {
 
 @media screen and (min-width: 992px) { 
 
+  .parallax {
+    /* The image used */
+    background-image: url("/images/marinehome/J45-1.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .model-under {
-    width: 98%;
+    width: 97%;
+    background-color: #fff;
+  }
+
+  .content {
+    position: relative;
+    top: -190px;
+  }
+
+  .model-image-top{
+    z-index: -1;
+  }
+
+  .model-top {
+    width: 97%;
+    padding: 1em;
     background-color: #fff;
   }
 
@@ -1084,5 +1133,23 @@ footer .col-12 {
   .nav-link-active-textile {
     color:#E41D4D !important;
     border-bottom: 3px solid #E41D4D;
+  }
+
+  .table-container h3 {
+    margin-bottom: 1.4em;
+  }
+
+  .table-container th {
+    color: #444444;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 0.5em;
+    opacity: 0.95;
+  }
+
+  .table-container td {
+    opacity: 0.9;
+    padding: 1em;
+    text-align: start;
   }
 }

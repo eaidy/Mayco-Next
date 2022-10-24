@@ -107,6 +107,24 @@
             },
             "article7": {
                 "img": "/images/marinemodels/J45/J45-6.jpeg"
+            },
+            "table": {
+                "header": "WHY J45 IS SPECIFIC !",
+                "thisHeader": "J45",
+                "othersHeader": "Yachts in the same category",
+                "rows": [
+                    { "this": "Hull, deck and structural elements made from infused sandwich", "others": "Solely the hull or deck made using infusion construction"},
+                    { "this": "‘Custom performance’ mast with rod rigging as standard", "others": "‘Cruising’ mast with wire rigging"},
+                    { "this": "Size 50 primary winches as standard", "others": "Combined mainsail and primary winch with a maximum size of 46"},
+                    { "this": "Standard jib track with adjustment", "others": "Self-tacking jib track"},
+                    { "this": "Spinnaker fittings as standard", "others": "No spinnaker fittings as standard"},
+                    { "this": "Standard carbon bowsprit", "others": "Standard composite bowsprit"},
+                    { "this": "Hydraulic backstay ram", "others": "Mechanical backstay ram"},
+                    { "this": "Retractable cleats including retractable intermediaries.", "others": "Non-retractable fore and aft cleats only"},
+                    { "this": "Lifeline gate on each side", "others": "Continuous lifelines"},
+                    { "this": "System of integrated curtains", "others": "Non-black-out hatches"},
+                    { "this": "Indirect LED lighting in the saloon", "others": "Standard lighting with no indirect illumination"}
+                ]
             }
         },
         "J70": {
