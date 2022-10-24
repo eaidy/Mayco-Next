@@ -1,9 +1,9 @@
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import Header from "../../../../components/Header";
+import Footer from "../../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../components/MarineBoatModel";
-import MarineObject from "../../../site-data/marine-tr.json"
+import MarineBoatModel from "../../../../components/MarineBoatModel";
+import MarineObject from "../../../../site-data/marine-en.json"
 import ReactPlayer from "react-player"
 
 const J45 = () => {

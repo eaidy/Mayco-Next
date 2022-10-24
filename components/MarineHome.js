@@ -92,7 +92,7 @@ const MarineHome = ({ homeObject }) => {
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
-                                <div id="carouselExampleFade" className="carousel slide carousel-fade">
+                                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="ride" data-bs-interval="6000" data-bs-pause="false">
                                     <div className="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>

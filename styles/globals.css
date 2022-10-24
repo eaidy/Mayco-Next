@@ -1055,6 +1055,7 @@ footer .col-12 {
   .content {
     position: relative;
     top: -190px;
+    bottom: 0px;
   }
 
   .model-image-top{
