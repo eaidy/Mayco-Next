@@ -1052,7 +1052,11 @@ footer .col-12 {
   .content-model {
     position: relative;
     top: -160px;
-    bottom: 0px;
+    transition: all 0.7s;
+  }
+
+  .content-model:hover {
+    top: -240px;
   }
 
   .model-image-top{

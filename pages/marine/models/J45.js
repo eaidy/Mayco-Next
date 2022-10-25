@@ -30,7 +30,7 @@ const J45 = () => {
                             </div>
                         </div>
                     </div> */}
-                    <div className="container-fluid model-under">
+                    <div className="container model-under">
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-2 d-flex justify-content-center">
                                 <div className="p-3">
