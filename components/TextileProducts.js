@@ -41,7 +41,7 @@ const TextileProducts = ({ productsObject }) => {
     const [photoIndex, setPhotoIndex] = useState(0)
 
     return (
-        <div className="products-wrapper">
+        <div className="products-wrapper parallax">
             <div>
                 {
                     isOpenCurtain && (
@@ -109,8 +109,8 @@ const TextileProducts = ({ productsObject }) => {
                 }
             </div>
             <section className="text-center">
-                <h1 className="pt-4">
-                    <span className="px-3 py-1">
+                <h1 className="py-5">
+                    <span className="px-3">
                     { productsObject.header }
                     </span>
                 </h1>
@@ -134,11 +134,11 @@ const TextileProducts = ({ productsObject }) => {
                 </div>
             </section>
 
-            <section className="mb-5">
-                <div className="container-fluid products-main">
+            <section>
+                <div className="container-fluid products-main py-3">
                     {
                         productsObject.productsArray.map((product, index) => (
-                        <Fragment className="product-row" key={index}>
+                        <div className="product-row bg-light rounded-2" key={index}>
                             <div 
                                 key={index}
                                 id={product.id} 
@@ -153,7 +153,7 @@ const TextileProducts = ({ productsObject }) => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="row product-row-3 border-bottom px-4 mx-2">
+                            <div className="row product-row-3 px-4 mx-2">
                                 <div className="col-sm-6 d-flex justify-content-center align-items-center">
                                     <ul className="mt-2">
                                         {
@@ -192,7 +192,7 @@ const TextileProducts = ({ productsObject }) => {
                                         </div>
                                 </div>
                             </div>
-                            </Fragment>
+                            </div>
                         ))
                     }
                 </div>

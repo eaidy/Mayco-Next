@@ -815,7 +815,7 @@ footer .col-12 {
 
 .sidebar ul li {
   height: 100px;
-  opacity: 0.6;
+  opacity: 0.7;
   display: inline-block;
   transition: opacity 0.3s;
 }
@@ -835,11 +835,12 @@ footer .col-12 {
 } */
 
 .sidebar ul li:hover {
-  background-color: #e8e8e8;
+  background-color: #000;
 }
 
 .sidebar ul li:hover a {
-  color: #413F42;
+  color: #000;
+  opacity: 0.8;
   font-weight: 500;
 }
 
@@ -851,7 +852,8 @@ footer .col-12 {
 }
 
 .sidebar ul li a:hover {
-  color: #413F42;
+  color: #000;
+  opacity: 0.8;
 }
 
 .sidebar-curtain {
@@ -875,7 +877,7 @@ footer .col-12 {
 
 .parallax {
   /* The image used */
-  background-image: url("/images/textilegeneral/kumas8.jpg");
+  background-image: url("/images/parallax.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -903,9 +905,17 @@ footer .col-12 {
   padding: 1em;
 }
 
+.product-row-2 p {
+  font-size: 1.2em !important;
+}
+
+.product-row-2 h3 {
+  font-size: 1.9em !important;
+}
+
 .product-row-3 ul li {
   margin-bottom: 1.5em;
-  font-size: 1.1em;
+  font-size: 1.15em;
   opacity: 0.8;
 }
 
@@ -1034,25 +1044,12 @@ footer .col-12 {
 
 @media screen and (min-width: 992px) { 
 
-  .parallax {
-    /* The image used */
-    background-image: url("/images/marinehome/J45-1.jpg");
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .model-under {
     width: 97%;
     background-color: #fff;
   }
 
-  .content {
+  .content-model {
     position: relative;
     top: -190px;
     bottom: 0px;

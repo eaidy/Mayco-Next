@@ -35,22 +35,22 @@
         },
         "curtainCard": {
             "header": "CURTAIN",
-            "path": "",
+            "path": "/en/textile/products#curtain",
             "detail": "BROWSE"
         },
         "fabricCard": {
             "header": "FABRIC",
-            "path": "",
+            "path": "/en/textile/products#fabric",
             "detail": "BROWSE"
         },
         "towelCard": {
             "header": "TOWEL",
-            "path": "",
+            "path": "/en/textile/products#towel",
             "detail": "BROWSE"
         },
         "tshirtCard": {
             "header": "T-SHIRT",
-            "path": "",
+            "path": "/en/textile/products#tshirt",
             "detail": "BROWSE"
         },
         "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },

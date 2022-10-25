@@ -141,8 +141,8 @@ const Contact = ({ contactObject }) => {
                     </div>
                 </div>
             </div>
-            <div className="row d-flex justify-content-center mt-4">
-                <div className="col-10">
+            <div className="row d-flex justify-content-center mt-5">
+                <div className="col-12">
                     <div style={{ height: '50vh', width: '100%' }}>
                         <GoogleMapReact
                             bootstrapURLKeys={{ key: "" }}

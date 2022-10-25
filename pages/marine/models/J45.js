@@ -17,7 +17,7 @@ const J45 = () => {
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinehome/J45-1.jpg" height={800} width={1600} alt="..."/>
                 </div>
-                <div className="content">
+                <div className="content-model">
                     {/* <div className="container-fluid model-top">
                         <div className="row">
                             <div className="col-12">

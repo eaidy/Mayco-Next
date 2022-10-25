@@ -46,7 +46,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
                     </button>
                 </div> */}
                 <div className="dropdown">
-                    <button className={"btn btn-secondary bg-transparent d-sm-inline-block text-secondary dropdown-toggle dropdownMenuButton-" + currentSiteState} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className={"p-1 bg-transparent d-sm-inline-block text-secondary dropdown-toggle dropdownMenuButton-" + currentSiteState} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         {
                             currentLang === 'en' ? 'English' : 'Türkçe'
                         }

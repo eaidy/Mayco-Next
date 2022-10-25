@@ -240,7 +240,7 @@ const TextileHome = ({ homeObject }) => {
                 </div>
             </section>
             
-            <section>
+            {/* <section>
                 <div style={{ height: '50vh', width: '100%' }}>
                     <GoogleMapReact
                         bootstrapURLKeys={{ key: "" }}
@@ -254,7 +254,7 @@ const TextileHome = ({ homeObject }) => {
                         />
                     </GoogleMapReact>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 }

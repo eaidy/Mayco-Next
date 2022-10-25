@@ -16,13 +16,6 @@ const MarineHome = ({ homeObject }) => {
         },
         zoom: 18
       };
-
-    const interval = 5000
-
-    const next = useRef(null)
-    const prev = useRef(null)
-    const [progress, setProgress] = useState(0)
-    const [myInterval, setMyInterval] = useState(0)
     
     // class intervalTracker {
 
@@ -79,10 +72,7 @@ const MarineHome = ({ homeObject }) => {
     // }
 
     useEffect(() => {
-        // const myTrack = new intervalTracker(() => {
-        //     next.current.click()
-        // }, 10000, 1000)
-        // myTrack.startInterval()
+
     }, [])
 
     return (
@@ -99,7 +89,6 @@ const MarineHome = ({ homeObject }) => {
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div className="carousel-inner">
-                                        {/* <progress style={{ borderRadius: 0 , color: "#4a5", background: "#fff", height: 5}} className="d-flex w-100" value={progress} max={myInterval}></progress> */}
                                         <div className="carousel-item active">
                                             <Image src="/images/marinehome/J45-1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
                                             <div className="carousel-item-text-1">
@@ -119,11 +108,11 @@ const MarineHome = ({ homeObject }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <button ref={prev} className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span className="visually-hidden">Previous</span>
                                     </button>
-                                    <button ref={next} className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span className="visually-hidden">Next</span>
                                     </button>
