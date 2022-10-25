@@ -137,6 +137,20 @@ const TextileHome = ({ homeObject }) => {
                 width: "100%",
                 height: 100,
             }}></div> */}
+            <section className="design px-4 py-4">
+                <div className="design-background"></div>
+                <div className="container-fluid p-4">
+                    <h2 className="py-2 border-bottom border-warning border-secondary">
+                        { homeObject.design.header }
+                    </h2>
+                    <p>
+                        { homeObject.design.text }
+                    </p>
+                    <Link href={'/' + lang + homeObject.site + homeObject.design.link.path}>
+                        <a>{ homeObject.design.link.label } <AiOutlineArrowRight /></a>
+                    </Link>
+                </div>
+            </section>
             <section className="container-fluid textile-home-cover">
                 {/* <div className="row d-flex flex-sm-row-reverse border-bottom">
                     <div className="col-sm-4 d-flex align-items-center justify-content-md-start p-4">
@@ -153,7 +167,7 @@ const TextileHome = ({ homeObject }) => {
                 <div className="row">
                     <div className="col-12 d-flex justify-content-center align-items-center">
                         <article className="d-flex mx-4 py-4 w-100 justify-content-center">
-                            <p className="home-article-main text-center">
+                            <p className="home-article-main pt-4 text-center">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
                             </p>
                         </article>
@@ -222,21 +236,6 @@ const TextileHome = ({ homeObject }) => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section className="design px-4 py-5">
-                <div className="design-background"></div>
-                <div className="container-fluid p-4">
-                    <h2 className="py-2 border-bottom border-secondary">
-                        { homeObject.design.header }
-                    </h2>
-                    <p>
-                        { homeObject.design.text }
-                    </p>
-                    <Link href={'/' + lang + homeObject.site + homeObject.design.link.path}>
-                        <a>{ homeObject.design.link.label } <AiOutlineArrowRight /></a>
-                    </Link>
                 </div>
             </section>
             

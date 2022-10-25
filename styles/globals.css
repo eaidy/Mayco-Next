@@ -22,21 +22,36 @@ body {
   bottom: 20px;
 }
 .design {
-  background-image: url('/images/textilehome/desen-bg.png');
+  background-image: url('/images/textilehome/textile-design.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
 
-.design a {
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.3s;
+.design h2 {
+  opacity: 1 !important;
 }
 
-.design a:hover {
-  border-bottom: 1px solid #fff;
+.design a {
+  text-decoration: none;
+  position: relative;
+  color: #F8F9FA;
+  opacity: 1 !important;
+}
+
+.design a:after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -5px;
+  background: #F8F9FA;
+  height: 1px;
+  width: 0;
+  transition: all 0.3s;
+}
+
+.design a:hover::after {
+  width: 100%;
 }
 
 .textile-product-button{
@@ -310,6 +325,19 @@ ul.siteRoutes li {
 
 .site-route:hover {
   color:#2C3639;
+}
+
+.dropdown-li-models:hover {
+  background-color: #f6f8fb;
+}
+
+.dropdown-li-models:hover a {
+  color: #11468F;
+}
+
+.dropdown-item:hover {
+  color: #11468F;
+  background-color: transparent;
 }
 
 .nav-item-mine {

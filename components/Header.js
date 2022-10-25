@@ -45,11 +45,11 @@ const Header = ({ headerObject }) => {
                                             { nav.label }
                                             <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />
                                         </a>
-                                        <ul className="dropdown-menu text-center">
+                                        <ul className="dropdown-menu text-center py-0">
                                             {   
                                                 nav.dropdown.map((dnav, dindex) => 
                                                 (
-                                                    <li key={dindex} className="p-2 fs-6">
+                                                    <li key={dindex} className="p-2 fs-6 dropdown-li-models">
                                                         <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
                                                             <a className="dropdown-item">{ dnav.label }</a>
                                                         </Link>
