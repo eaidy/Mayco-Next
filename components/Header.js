@@ -10,6 +10,7 @@ const Header = ({ headerObject }) => {
     const router = useRouter()
 
     const [lang, ] = useState(() => headerObject.lang === "en" ? "en/" : "")
+    const [currentNav, setCurrentNav ] = useState(null)
 
     return (
         <header>
@@ -40,9 +41,9 @@ const Header = ({ headerObject }) => {
                                 : 
                                 (
                                     <li key={index} className="nav-item dropdown mx-xl-1 nav-item-mine">
-                                        <a className={"nav-link dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a className={"nav-link pe-md-4 dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } style={{ position: "relative" }} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             { nav.label }
-                                            <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ marginLeft: '2px', marginBottom: '2px' }} />
+                                            <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />
                                         </a>
                                         <ul className="dropdown-menu text-center">
                                             {   

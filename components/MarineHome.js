@@ -91,21 +91,21 @@ const MarineHome = ({ homeObject }) => {
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <Image src="/images/marinehome/J45-1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                            <div className="carousel-item-text-1">
+                                            {/* <div className="carousel-item-text-1">
                                                 MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="carousel-item">
                                             <Image src="/images/marinehome/J121-2.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                            <div className="carousel-item-text-2">
+                                            {/* <div className="carousel-item-text-2">
                                                 MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="carousel-item">
                                             <Image src="/images/marinehome/J80.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                            <div className="carousel-item-text-3">
+                                            {/* <div className="carousel-item-text-3">
                                                 Üretimde bilinçi ve profesyonel yaklaşım...
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

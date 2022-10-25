@@ -1,6 +1,7 @@
 const MarineDeck = ({ deckObject }) => {
     return (
-        <></>
+        <main>
+        </main>
     );
 }
  
