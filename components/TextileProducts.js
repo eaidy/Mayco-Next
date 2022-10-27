@@ -41,7 +41,7 @@ const TextileProducts = ({ productsObject }) => {
     const [photoIndex, setPhotoIndex] = useState(0)
 
     return (
-        <div className="products-wrapper parallax">
+        <div className="products-wrapper">
             <div>
                 {
                     isOpenCurtain && (

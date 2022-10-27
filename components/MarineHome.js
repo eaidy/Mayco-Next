@@ -7,6 +7,58 @@ import { resolve } from 'styled-jsx/css';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+// class intervalTracker {
+
+//     constructor(callback, interval, samplingFreq, presentCount = 0){
+//         this.callback = callback
+//         this.interval = interval
+//         this.presentCount = presentCount
+//         this.samplingFreq = samplingFreq
+//     }
+
+//     getInterval() {
+//         return this.interval
+//     }
+
+//     getPresentCount() {
+//         return this.presentCount
+//     }
+
+//     async timeout(callback, time) {
+//         return new Promise((resolve) => setTimeout(() => { 
+//             callback && callback()
+//             resolve(0)
+//         }, time ))
+//     }
+
+//     startInterval = (stateUpdate) => {
+//         let refTrack,
+//             leadingTrack
+                    
+//         const carouselInterval = setInterval(async () => {
+//             refTrack = new Date()
+
+//             this.callback && this.callback()
+        
+//             for(let i = 0; i < this.samplingFreq; i++) {
+//                 await this.timeout(() => {
+
+//                     leadingTrack = new Date()
+//                     this.presentCount = leadingTrack - refTrack
+//                     stateUpdate && stateUpdate()
+//                     console.log(this.presentCount)
+
+//                 }, this.interval / this.samplingFreq)
+
+//                 if(this.presentCount > this.interval) {
+//                     this.presentCount = 0
+//                 }
+//             }
+
+//         }, this.interval)
+//     }
+// }
+
 const MarineHome = ({ homeObject }) => {
 
     const defaultProps = {
@@ -15,64 +67,24 @@ const MarineHome = ({ homeObject }) => {
           lng: 28.989316
         },
         zoom: 18
-      };
+    };
+
+    // const next = useRef()
     
-    // class intervalTracker {
+    // const [progress, setProgress] = useState(0)
+    // const carouselInterval = 10000
+    // const samplingFreq = 1000
 
-    //     constructor(callback, interval, samplingFreq, presentCount = 0){
-    //         this.callback = callback
-    //         this.interval = interval
-    //         this.presentCount = presentCount
-    //         this.samplingFreq = samplingFreq
-    //     }
+    // const carouselProgress = new intervalTracker(() => {
 
-    //     getInterval() {
-    //         return this.interval
-    //     }
+    //     next.current.click()
 
-    //     getPresentCount() {
-    //         return this.presentCount
-    //     }
-
-    //     async timeout(callback, time) {
-    //         return new Promise((resolve) => setTimeout(() => { 
-    //             callback && callback()
-    //             resolve(0)
-    //         }, time ))
-    //     }
-
-    //     startInterval = () => {
-    //         let refTrack,
-    //             leadingTrack
-            
-    //         setMyInterval(() => this.getInterval())
-            
-    //         const carouselInterval = setTimeout(async () => {
-    //             refTrack = new Date()
-
-    //             for(let i = 0; i < this.samplingFreq; i++) {
-    //                 await this.timeout(() => {
-
-    //                     leadingTrack = new Date()
-    //                     this.presentCount = leadingTrack - refTrack
-    //                     setProgress(() => this.getPresentCount())
-    //                     console.log(progress)
-
-    //                 }, this.interval / this.samplingFreq)
-
-    //                 if(this.presentCount > this.interval) {
-    //                     this.presentCount = 0
-    //                 }
-    //             }
-
-    //             this.callback && this.callback()
-
-    //         }, this.interval)
-    //     }
-    // }
+    // }, carouselInterval, samplingFreq)
 
     useEffect(() => {
-
+        // carouselProgress.startInterval(() => {
+        //     setProgress(() => carouselProgress.getPresentCount())
+        // })
     }, [])
 
     return (
@@ -82,12 +94,13 @@ const MarineHome = ({ homeObject }) => {
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
-                                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="ride" data-bs-interval="6000" data-bs-pause="false">
+                                <div id="carouselExampleFade" className="carousel slide carousel-fade">
                                     <div className="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
+                                    {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <Image src="/images/marinehome/J45-1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>

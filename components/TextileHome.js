@@ -138,7 +138,7 @@ const TextileHome = ({ homeObject }) => {
                 height: 100,
             }}></div> */}
             <section className="design px-4 py-4">
-                <div className="design-background"></div>
+                {/* <div className="design-background"></div> */}
                 <div className="container-fluid p-4">
                     <h2 className="py-2 border-bottom border-warning border-secondary">
                         { homeObject.design.header }

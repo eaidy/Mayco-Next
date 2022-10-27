@@ -35,7 +35,7 @@ body {
 .design a {
   text-decoration: none;
   position: relative;
-  color: #F8F9FA;
+  color: #F8F9FA !important;
   opacity: 1 !important;
 }
 
@@ -915,9 +915,9 @@ footer .col-12 {
   background-size: cover;
 }
 
-.product-row {
+/* .product-row {
   height: 100vh;
-}
+} */
 
 .product-row-2 p {
   font-size: 1.1em;
@@ -988,6 +988,12 @@ footer .col-12 {
   position: absolute;
   left: 100px;
   top: 200px;
+}
+
+.marine-progress {
+  width: 100%;
+  -webkit-appearance: none;
+  accent-color: gray;
 }
 
 /* MODEL */
