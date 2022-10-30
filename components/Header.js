@@ -55,7 +55,7 @@ const Header = ({ headerObject }) => {
                                                 (
                                                     <li key={dindex} className="p-2 fs-6 dropdown-li-models">
                                                         <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
-                                                            <a className="dropdown-item"><Image src="/images/J45-link.jpeg" height={135} width={180} alt="..."/><br />{ dnav.label }</a>
+                                                            <a className="dropdown-item"><Image src={dnav.linkimg} height={135} width={180} alt="..."/><br />{ dnav.label }</a>
                                                         </Link>
                                                     </li>
                                                 )
