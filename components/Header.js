@@ -30,7 +30,7 @@ const Header = ({ headerObject }) => {
                             {
                                 headerObject.navbar.map((nav, index) => !nav.dropdown ?
                                 (
-                                    <li key={index} className="nav-item mx-xl-1 nav-item-mine">
+                                    <li key={index} className="nav-item mx-xl-2 nav-item-mine">
                                         <Link href={'/' + lang + headerObject.site + nav.path}>
                                             <a className={"nav-link mx-2 py-4 " + "nav-link-" + headerObject.site } aria-current="page">
                                                 { nav.label }
@@ -40,7 +40,7 @@ const Header = ({ headerObject }) => {
                                 ) 
                                 : 
                                 (
-                                    <li key={index} className="nav-item dropdown mx-xl-1 nav-item-mine">
+                                    <li key={index} className="nav-item dropdown mx-xl-2 nav-item-mine">
                                         <a className={"nav-link pe-md-4 dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } style={{ position: "relative" }} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             { nav.label }
                                             <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />

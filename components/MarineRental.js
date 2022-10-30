@@ -94,45 +94,16 @@ const MarineRental = ({ rentalObject }) => {
                     )
                 }
             </div>
-            <div className="container-fluid">
+            <div className="container-fluid m-0 p-0">
                 <div className="row">
-                    <div className="col-12 d-flex justify-content-center">
-                        <div className="carousel-edit">
-                            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="ride" data-bs-interval="6000" data-bs-pause="false">
-                                <div className="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <Image src="/images/marinerental/6169.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                        {/* <div className="carousel-item-text-1">
-                                            MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                        </div> */}
-                                    </div>
-                                    <div className="carousel-item">
-                                        <Image src="/images/marinerental/6177.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                        {/* <div className="carousel-item-text-2">
-                                            MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                        </div> */}
-                                    </div>
-                                    <div className="carousel-item">
-                                        <Image src="/images/marinerental/6197.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                        {/* <div className="carousel-item-text-3">
-                                            Üretimde bilinçi ve profesyonel yaklaşım...
-                                        </div> */}
-                                    </div>
-                                </div>
-                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Previous</span>
-                                </button>
-                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                    <div className="col-sm-4 d-flex justify-content-start">
+                        <Image src="/images/marinerental/archimedes.jpeg" height={480} width={360} alt="..."/>
+                    </div>
+                    <div className="col-sm-8">
+                        <div>
+                            <h2 className="text-center">
+                                ARCHIMEDES ile tanışın!
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -157,7 +128,7 @@ const MarineRental = ({ rentalObject }) => {
                     </div>
                 </div>
                 <div className="row d-flex justify-content-sm-center">
-                    <div className="col-sm-11">
+                    <div className="col-sm-12">
                         <Gallery photos={photos} onClick={(e, { index }) => openLightBox(index)} />
                     </div>
                 </div>

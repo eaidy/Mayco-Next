@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { resolve } from 'styled-jsx/css';
+import MovingText from 'react-moving-text'
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -94,7 +95,7 @@ const MarineHome = ({ homeObject }) => {
                     <div className="row">
                         <div className="col-12 d-flex justify-content-center p-0">
                             <div className="carousel-edit">
-                                <div id="carouselExampleFade" className="carousel slide carousel-fade">
+                                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="85000" data-bs-pause="true">
                                     <div className="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -104,18 +105,99 @@ const MarineHome = ({ homeObject }) => {
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <Image src="/images/marinehome/J45-1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
-                                            {/* <div className="carousel-item-text-1">
-                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                            </div> */}
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3000ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        J-BOATS
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3000ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                    </p>
+                                                </MovingText>
+                                            </div>
                                         </div>
                                         <div className="carousel-item">
                                             <Image src="/images/marinehome/J121-2.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        J-BOATS
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                    </p>
+                                                </MovingText>
+                                            </div>
                                             {/* <div className="carousel-item-text-2">
                                                 MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
                                             </div> */}
                                         </div>
                                         <div className="carousel-item">
                                             <Image src="/images/marinehome/J80.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        J-BOATS
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                    </p>
+                                                </MovingText>
+                                            </div>
                                             {/* <div className="carousel-item-text-3">
                                                 Üretimde bilinçi ve profesyonel yaklaşım...
                                             </div> */}

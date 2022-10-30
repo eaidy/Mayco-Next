@@ -4,7 +4,7 @@
     "header": {
         "navbar": [
             { "label": "Home",  "path": "/" },
-            { "label": "Corporate",  "path": "/corporate" },
+            { "label": "Corporate",  "path": "/corporate/aboutus" },
             { "label": "Our Models",  "path": "/models", "dropdown": [
                 { "label": "J-45",  "path": "/J45" },
                 { "label": "J-70",  "path": "/70" },
@@ -15,8 +15,6 @@
                 { "label": "J-112",  "path": "/J112" },
                 { "label": "J-9",  "path": "/J9" }
             ]},
-            { "label": "Boat Rental",  "path": "/boatrental" },
-            { "label": "Deck Covering",  "path": "/deckcovering" },
             { "label": "Contact",  "path": "/contact" }
         ],
         "site": "marine",

@@ -13,8 +13,6 @@
                 { "label": "J-112",  "path": "/J112" },
                 { "label": "J-9",  "path": "/J9" }
             ]},
-            { "label": "Tekne Kiralama",  "path": "/boatrental" },
-            { "label": "Güverte Kaplama",  "path": "/deckcovering" },
             { "label": "İletişim",  "path": "/contact" }
         ],
         "site": "marine",
@@ -131,7 +129,31 @@
 
         },
         "J80": {
+            "logo": "/images/marinemodels/J80/J80-logo.jpeg",
+            "top": {
 
+            },
+            "article1": {
+                "img": "/images/marinemodels/J80/J-Design.jpeg"
+            },
+            "article2": {
+                "img": "/images/marinemodels/J45/J45-1.jpeg"
+            },
+            "article3": {
+                "img": "/images/marinemodels/J45/J45-2.jpeg"
+            },
+            "article4": {
+                "img": "/images/marinemodels/J45/J45-3.jpeg"
+            },
+            "article5": {
+                "img": "/images/marinemodels/J45/J45-4.jpeg"
+            },
+            "article6": {
+                "img": "/images/marinemodels/J45/J45-5.jpeg"
+            },
+            "article7": {
+                "img": "/images/marinemodels/J45/J45-6.jpeg"
+            }
         },
         "J99": {
 
