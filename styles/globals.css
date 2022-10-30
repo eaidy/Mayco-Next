@@ -327,12 +327,30 @@ ul.siteRoutes li {
   color:#2C3639;
 }
 
+.marine-list-override {
+  width: 750px !important;
+  left: -500px !important;
+}
+
+.dropdown-li-models {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.dropdown-li-models b {
+  color: #888 !important;
+  font-size: 1.2em;
+}
+
 .dropdown-li-models:hover {
-  background-color: #f6f8fb;
+  border-color: #11468F !important;
+  background-color: #F8F9FA;
 }
 
 .dropdown-li-models:hover a {
-  color: #11468F;
+  color: #5F9DF7;
 }
 
 .dropdown-item:hover {
@@ -1149,6 +1167,23 @@ footer .col-12 {
     position: relative;
     transition: all 0.2s;
     transition-timing-function: ease-in;
+  }
+
+  .textile-active {
+    color:#E41D4D !important;
+  }
+
+  .textile-active:before {
+    content: '';
+    position: absolute;
+    border-radius: 1px;
+    left: 0;
+    bottom: -9px;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #E41D4D;
+    border: none !important;
   }
 
   .nav-link-marine {

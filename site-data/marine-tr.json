@@ -4,14 +4,14 @@
             { "label": "Anasayfa",  "path": "/" },
             { "label": "Kurumsal",  "path": "/corporate/aboutus" },
             { "label": "Modellerimiz",  "path": "/models", "dropdown": [
-                { "label": "J-45",  "path": "/J45" },
-                { "label": "J-70",  "path": "/70" },
-                { "label": "J-80",  "path": "/J80" },
-                { "label": "J-99",  "path": "/J99" },
-                { "label": "J-121",  "path": "/J121" },
-                { "label": "J-110",  "path": "/J110" },
-                { "label": "J-112",  "path": "/J112" },
-                { "label": "J-9",  "path": "/J9" }
+                { "label": "J-45 ELEGANCE YACHT",  "path": "/J45" },
+                { "label": "J-70 SPORT SAILBOAT",  "path": "/70" },
+                { "label": "J-80 SPORT SAILBOAT",  "path": "/J80" },
+                { "label": "J-99 SPORT SAILBOAT",  "path": "/J99" },
+                { "label": "J-121 SPORT SAILBOAT",  "path": "/J121" },
+                { "label": "J-110 SPORT SAILBOAT",  "path": "/J110" },
+                { "label": "J-112 ELEGANCE",  "path": "/J112" },
+                { "label": "J-9 ELEGANCE YACHT",  "path": "/J9" }
             ]},
             { "label": "İletişim",  "path": "/contact" }
         ],

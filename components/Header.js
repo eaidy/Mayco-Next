@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import LangSelect from '../components/LangSelect'
 import { RiArrowDownSFill } from 'react-icons/ri'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = ({ headerObject }) => {
 
@@ -11,6 +11,10 @@ const Header = ({ headerObject }) => {
 
     const [lang, ] = useState(() => headerObject.lang === "en" ? "en/" : "")
     const [currentNav, setCurrentNav ] = useState(null)
+
+    useEffect(() => {
+        setCurrentNav(router.pathname)
+    })
 
     return (
         <header>
@@ -45,13 +49,13 @@ const Header = ({ headerObject }) => {
                                             { nav.label }
                                             <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />
                                         </a>
-                                        <ul className="dropdown-menu text-center py-0">
+                                        <ul className="dropdown-menu list-inline marine-list-override text-center p-0">
                                             {   
                                                 nav.dropdown.map((dnav, dindex) => 
                                                 (
                                                     <li key={dindex} className="p-2 fs-6 dropdown-li-models">
                                                         <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
-                                                            <a className="dropdown-item">{ dnav.label }</a>
+                                                            <a className="dropdown-item"><Image src="/images/J45-link.jpeg" height={135} width={180} alt="..."/><br />{ dnav.label }</a>
                                                         </Link>
                                                     </li>
                                                 )
