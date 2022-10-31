@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-image-lightbox": "^5.1.4",
+    "react-image-video-lightbox": "^3.0.0",
     "react-moving-text": "^0.0.7",
     "react-photo-gallery": "^8.0.0",
     "react-player": "^2.11.0",

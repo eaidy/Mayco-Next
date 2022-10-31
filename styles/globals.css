@@ -1025,6 +1025,44 @@ footer .col-12 {
   background-color: #fff;
 }
 
+.model-video-button-div {
+  position: absolute;
+  display: inline;
+  top: 65%;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  padding: 1em;
+}
+
+.model-video-button {
+  padding: 1.4em;
+  border: 2px solid rgba(73, 121, 255, 0.4);
+  background-color: rgba(50, 50, 50, 0.4);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8em;
+  color: #F8F9FA;
+  border-radius: 0.4em;
+  transition: all 0.3s;
+
+}
+
+.model-video-button:hover {
+  padding-left: 1.9em;
+  padding-right: 1.9em;
+  border-color: rgba(73, 121, 255, 0.8);
+  background-color: rgba(50, 50, 50, 0.6);
+  font-size: 1.9em;
+  color: #fff;
+}
+
+.model-video-button:active {
+  border-color: #4979ff;
+  background-color: rgba(50, 50, 50, 0.7);
+  font-size: 1.9em;
+  color: #F8F9FA;
+
+}
 
 /* MEDİA QUERIES */
 
@@ -1161,6 +1199,31 @@ footer .col-12 {
     width: 97%;
     padding: 1em;
     background-color: #fff;
+  }
+
+  .model-top-text {
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    top: 30%;
+    left: 20px;
+    right: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .model-top-text h1 {
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+  }
+
+  .model-top-text p {
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: 1 !important;
   }
 
   .nav-link-textile {

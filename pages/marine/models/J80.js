@@ -5,6 +5,8 @@ import { useState } from "react";
 import MarineBoatModel from "../../../components/MarineBoatModel";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
+import MovingText from 'react-moving-text'
+import ReactImageVideoLightbox from 'react-image-video-lightbox'
 
 const J45 = () => {
 
@@ -15,7 +17,43 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J80/J80-2.jpeg" height={800} width={1600} alt="..."/>
+                    <Image src="/images/marinemodels/J80/J80-2.jpeg" height={800} width={1600} alt="..."/>
+                    <div className="model-video-button-div">
+                        <button 
+                            className="model-video-button"
+                            onClick={() => setVideoDisplay(!videoDisplay)}
+                        >
+                            WATCH THE VIDEO
+                        </button>
+                    </div>
+                    <div className="model-top-text">
+                        <MovingText
+                            type="fadeInFromRight"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <h1>
+                                <i>J-80</i> SPORT SAILBOAT
+                            </h1>
+                        </MovingText>
+                        <MovingText
+                            type="fadeInFromLeft"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <p>
+                                Lorem Ipdsum dolor sat
+                            </p>
+                        </MovingText>
+                    </div>
                 </div>
                 <div className="content-model">
                     {/* <div className="container-fluid model-top">
