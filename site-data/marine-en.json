@@ -7,7 +7,7 @@
             { "label": "Corporate",  "path": "/corporate/aboutus" },
             { "label": "Our Models",  "path": "/models", "dropdown": [
                 { "label": "J-45 ELEGANCE YACHT",  "path": "/J45", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-70 SPORT SAILBOAT",  "path": "/70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
+                { "label": "J-70 SPORT SAILBOAT",  "path": "/J70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
                 { "label": "J-80 SPORT SAILBOAT",  "path": "/J80", "linkimg": "/images/marinelinks/J80-link.jpeg" },
                 { "label": "J-99 SPORT SAILBOAT",  "path": "/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
                 { "label": "J-121 SPORT SAILBOAT",  "path": "/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
