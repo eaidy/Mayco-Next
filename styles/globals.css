@@ -988,14 +988,20 @@ footer .col-12 {
 
 .lightbox-video {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   height: 100%;
   width: 100%;
+  z-index: 20;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .lightbox-close-button {
-  float: right;
+  position: absolute;
+  right: 2px;
+  top: 2px;
   background-color: rgba(0, 0, 0, 0.3);
   border: transparent;
   font-size: 1.3em;
@@ -1005,9 +1011,7 @@ footer .col-12 {
 }
 
 .lightbox-youtube {
-  position: absolute;
-  top: 20%;
-  left: 20%;
+
 }
 
 .model-under {
@@ -1070,14 +1074,31 @@ footer .col-12 {
     text-align: center;
   }
 
-  .model-video-button-div {
+  .model-image-top{  
     position: relative;
+    z-index: 1;
+  }
+
+  .model-video-button-div {
+    position: absolute;
     display: inline;
-    top: 35%;
+    top: 55%;
     left: 20px;
     right: 20px;
     text-align: center;
     padding: 1em;
+  }
+
+  .model-video-button {
+    padding: 0.5em;
+    border: 2px solid rgba(73, 121, 255, 0.4);
+    background-color: rgba(50, 50, 50, 0.4);
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+    color: #F8F9FA;
+    border-radius: 0.4em;
+    transition: all 0.3s;
+  
   }
   
   .model-video-button {
@@ -1165,6 +1186,18 @@ footer .col-12 {
   .equipment-image {
     justify-content: center;
   }
+
+  .model-top-text {
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    top: 20%;
+    left: 20px;
+    right: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+
   .navbar-mobile {
     text-align: center;
   }
@@ -1220,7 +1253,7 @@ footer .col-12 {
   .model-video-button-div {
     position: absolute;
     display: inline;
-    top: 65%;
+    top: 48%;
     left: 20px;
     right: 20px;
     text-align: center;
@@ -1263,14 +1296,16 @@ footer .col-12 {
     top: -80px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 10;
     left: 0;
     right: 0;
     transition: all 0.7s;
     box-shadow: 2px 5px 5px 5px rgba(50, 50, 50, 0.1);
   }
 
-  .model-image-top{
-    z-index: -1;
+  .model-image-top{  
+    position: relative;
+    z-index: 1;
   }
 
   .marine-carousel-box-1 {
@@ -1324,7 +1359,7 @@ footer .col-12 {
     position: absolute;
     background-color: transparent;
     color: #fff;
-    top: 30%;
+    top: 15%;
     left: 20px;
     right: 20px;
     opacity: 1;

@@ -1,16 +1,42 @@
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { IM } from "country-flag-icons/react/3x2";
 
+function getWindowDimensions() {
+    const { innerWidth: deviceWidth, innerHeight: deviceHeight } = window;
+    return {
+      deviceWidth,
+      deviceHeight
+    };
+  }
+  
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(
+      getWindowDimensions()
+    );
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+  
+    return windowDimensions;
+  }
+
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
+    const { deviceHeight, deviceWidth } = useWindowDimensions();
     const [navs, setNavs] = useState(MarineObject.models.J70.equipment.navs)
 
     return (
@@ -301,8 +327,8 @@ const J45 = () => {
                             <ReactPlayer 
                                 url='https://www.youtube.com/watch?v=kHGQTZbNPeU&t=76s&ab_channel=JComposites'
                                 controls={true}
-                                width={16*50}
-                                height={9*50}
+                                width={16*(deviceWidth/20)}
+                                height={9*(deviceWidth/20)}
                             />
                         </div>
                     </div>
