@@ -2,15 +2,16 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../components/MarineBoatModel";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
-import ReactImageVideoLightbox from 'react-image-video-lightbox'
+import { IM } from "country-flag-icons/react/3x2";
 
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
+
+    const [navs, setNavs] = useState(MarineObject.models.J70.equipment.navs)
 
     return (
         <>  
@@ -223,8 +224,63 @@ const J45 = () => {
                             </div>
                         </div>
                     </section>
-                    <section>
-                        
+                    <section className="tabs">
+                        <h2 className="text-center fs-3 my-4">EQUIPMENT</h2>
+                        <ul className="nav nav-tabs my-3 d-flex justify-content-center flex-md-row flex-column border-0">
+                        {
+                            navs.map((nav, index) => (
+                                <li className="mx-md-4">
+                                    <a
+                                        onClick={() => {
+                                            setNavs((prev) => {
+                                                const buffer = prev
+                                                buffer.map((navb, indexb) => {
+                                                    if(indexb === index) {
+                                                        navb.isActive = true
+                                                    } else {
+                                                        navb.isActive = false
+                                                    }
+                                                })
+                                                console.log(buffer)
+                                                return [
+                                                    ...buffer
+                                                ]
+                                            })
+                                        }}
+                                    >
+                                    {
+                                        nav.label
+                                    }
+                                    </a>
+                                </li>
+                            ))
+                        }
+                        </ul>
+                        <div className="containter-fluid tab-panels">
+                            <div className="row d-flex justify-content-center">
+                                {   
+                                    navs.filter((navActive) => navActive.isActive)[0].panels ?
+                                    navs.filter((navActive) => navActive.isActive)[0].panels.map((panel) => (
+                                        
+                                            <article className="col-3">
+                                                <figure>
+                                                    <Image src={panel.img} height={240} width={240} alt="..." />
+                                                </figure>
+                                                <h4>
+                                                    { panel.header }
+                                                </h4>
+                                                <p>
+                                                    { panel.text }
+                                                </p>
+                                            </article>
+                                    )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic) => (
+                                        <div className="col-5 flex-row">
+                                            <Image src={pic} height={350} width={350} alt="..." />
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        </div>
                     </section>
                 </div>
                 {

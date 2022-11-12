@@ -1027,6 +1027,14 @@ footer .col-12 {
   background-color: #fff;
 }
 
+.tabs a {
+  font-size: 1.15em;
+}
+
+.tabs a:hover {
+  cursor: pointer;
+}
+
 /* MEDİA QUERIES */
 
 @media screen and (max-width: 992px) {
