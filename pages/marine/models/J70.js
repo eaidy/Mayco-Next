@@ -228,14 +228,14 @@ const J45 = () => {
                         <h2 className="text-center fs-3 my-4">EQUIPMENT</h2>
                         <ul className="nav nav-tabs my-3 d-flex justify-content-center flex-md-row flex-column border-0">
                         {
-                            navs.map((nav, index) => (
-                                <li className="mx-md-4">
+                            navs.map((nav, indexTab) => (
+                                <li key={indexTab} className="mx-md-4">
                                     <a
                                         onClick={() => {
                                             setNavs((prev) => {
                                                 const buffer = prev
                                                 buffer.map((navb, indexb) => {
-                                                    if(indexb === index) {
+                                                    if(indexb === indexTab) {
                                                         navb.isActive = true
                                                     } else {
                                                         navb.isActive = false
@@ -260,9 +260,9 @@ const J45 = () => {
                             <div className="row d-flex justify-content-center">
                                 {   
                                     navs.filter((navActive) => navActive.isActive)[0].panels ?
-                                    navs.filter((navActive) => navActive.isActive)[0].panels.map((panel) => (
+                                    navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
                                         
-                                            <article className="col-3">
+                                            <article key={indexPanel} className="col-3">
                                                 <figure>
                                                     <Image src={panel.img} height={240} width={240} alt="..." />
                                                 </figure>
@@ -273,8 +273,8 @@ const J45 = () => {
                                                     { panel.text }
                                                 </p>
                                             </article>
-                                    )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic) => (
-                                        <div className="col-5 flex-row">
+                                    )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic, indexPic) => (
+                                        <div key={indexPic} className="col-5 flex-row">
                                             <Image src={pic} height={350} width={350} alt="..." />
                                         </div>
                                     ))
