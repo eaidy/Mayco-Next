@@ -71,12 +71,12 @@ const J45 = () => {
                     </div> */}
                     <section className="container model-under">
                         <div className="row mb-2 py-4 border-bottom">
-                            <div className="col-sm-2 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-2 d-flex justify-content-center align-items-center">
                                 <div className="p-3">
                                     <Image src="/images/marinemodels/J70/J70-logo.jpeg" height={160} width={80} alt="..."/>
                                 </div>
                             </div>
-                            <div className="col-sm-10 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-10 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
                                     J 70 SPORT SAILBOAT
@@ -91,10 +91,10 @@ const J45 = () => {
                             </div>
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-2.jpeg" width={1200} height={600} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     HOIST THE SAILS AND ENJOY
@@ -106,10 +106,10 @@ const J45 = () => {
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-3.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     JOIN THE INTERNATIONAL CLASS
@@ -136,10 +136,10 @@ const J45 = () => {
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-5.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     BENEFIT FROM CUTTING-EDGE EQUIPMENT
@@ -150,39 +150,39 @@ const J45 = () => {
                             </div>
                         </div>
                         <div className="row mb-2 py-4">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-6.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     SIMPLIFY YOUR LIFE
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    When the weather is fine, why wait to make the most of it? A small sportsboat measuring 7m, the J 70 is light as a feather, easy to transport and simple to launch and rig. Her keel is retractable, meaning you can reduce the height on the trailer.                                    </p>
+                                    When the weather is fine, why wait to make the most of it? A lgall sportsboat measuring 7m, the J 70 is light as a feather, easy to transport and simple to launch and rig. Her keel is retractable, meaning you can reduce the height on the trailer.                                    </p>
                                 </article>
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-7.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     BE PART OF A PERFECT SPORTS ORGANISATION
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Its small manufacturing tolerances are a guarantee of sporting equity for all. The network of owner classes offers events of a regional and international scope in each country.
+                                    Its lgall manufacturing tolerances are a guarantee of sporting equity for all. The network of owner classes offers events of a regional and international scope in each country.
                                     </p>
                                 </article>
                             </div>
                         </div>
                         <div className="row mb-2 py-4">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-8.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     DEMAND UNFAILING RELIABILITY
@@ -194,25 +194,25 @@ const J45 = () => {
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-9.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     MAKE THE MOST OF HER ERGONOMIC CABIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    With her small cabin, you’re protected from bad weather. It also means all the equipment for the boat and the team can be easily stowed and transported inside. The forward deck hatch makes it brighter and enables effective ventilation of the interior volume. The outboard engine can be fully stowed down below while sailing.
+                                    With her lgall cabin, you’re protected from bad weather. It also means all the equipment for the boat and the team can be easily stowed and transported inside. The forward deck hatch makes it brighter and enables effective ventilation of the interior volume. The outboard engine can be fully stowed down below while sailing.
                                     </p>
                                 </article>
                             </div>
                         </div>
                         <div className="row mb-2 py-4">
-                            <div className="col-sm-8 py-3">
+                            <div className="col-lg-8 py-3">
                                 <Image src="/images/marinemodels/J70/J70-10.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
+                            <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     GET INTO RACING
@@ -225,61 +225,66 @@ const J45 = () => {
                         </div>
                     </section>
                     <section className="tabs">
-                        <h2 className="text-center fs-3 my-4">EQUIPMENT</h2>
-                        <ul className="nav nav-tabs my-3 d-flex justify-content-center flex-md-row flex-column border-0">
-                        {
-                            navs.map((nav, indexTab) => (
-                                <li key={indexTab} className="mx-md-4">
-                                    <a
-                                        onClick={() => {
-                                            setNavs((prev) => {
-                                                const buffer = prev
-                                                buffer.map((navb, indexb) => {
-                                                    if(indexb === indexTab) {
-                                                        navb.isActive = true
-                                                    } else {
-                                                        navb.isActive = false
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-12">
+                                <h2 className="text-center fs-3 my-4 py-3 border-bottom">EQUIPMENT</h2>
+                                    <ul className="nav nav-tabs my-3 py-2 d-flex justify-content-center flex-md-row flex-column border-0">
+                                        {
+                                            navs.map((nav, indexTab) => (
+                                                <li key={indexTab} className="mx-md-4 d-flex justify-content-center equipment-nav">
+                                                    <a
+                                                        onClick={() => {
+                                                            setNavs((prev) => {
+                                                                const buffer = prev
+                                                                buffer.map((navb, indexb) => {
+                                                                    if(indexb === indexTab) {
+                                                                        navb.isActive = true
+                                                                    } else {
+                                                                        navb.isActive = false
+                                                                    }
+                                                                })
+                                                                console.log(buffer)
+                                                                return [
+                                                                    ...buffer
+                                                                ]
+                                                            })
+                                                        }}
+                                                        style={nav.isActive ? { color: "#5F9DF7" } : {}}
+                                                    >
+                                                    {
+                                                        nav.label
                                                     }
-                                                })
-                                                console.log(buffer)
-                                                return [
-                                                    ...buffer
-                                                ]
-                                            })
-                                        }}
-                                    >
-                                    {
-                                        nav.label
-                                    }
-                                    </a>
-                                </li>
-                            ))
-                        }
-                        </ul>
-                        <div className="containter-fluid tab-panels">
-                            <div className="row d-flex justify-content-center">
-                                {   
-                                    navs.filter((navActive) => navActive.isActive)[0].panels ?
-                                    navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
-                                        
-                                            <article key={indexPanel} className="col-3">
-                                                <figure>
-                                                    <Image src={panel.img} height={240} width={240} alt="..." />
-                                                </figure>
-                                                <h4>
-                                                    { panel.header }
-                                                </h4>
-                                                <p>
-                                                    { panel.text }
-                                                </p>
-                                            </article>
-                                    )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic, indexPic) => (
-                                        <div key={indexPic} className="col-5 flex-row">
-                                            <Image src={pic} height={350} width={350} alt="..." />
-                                        </div>
-                                    ))
-                                }
+                                                    </a>
+                                                </li>
+                                            ))
+                                        }
+                                    </ul>
+                                </div>
                             </div>
+                        </div>
+                        <div className="row d-flex justify-content-center mx-0 my-4">
+                            {   
+                                navs.filter((navActive) => navActive.isActive)[0].panels ?
+                                navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
+                                    
+                                        <article key={indexPanel} className="col-md-3 justify-content-center equipment-panel">
+                                            <figure className="d-flex equipment-image">
+                                                <Image src={panel.img} height={380} width={440} alt="..." />
+                                            </figure>
+                                            <h4>
+                                                { panel.header }
+                                            </h4>
+                                            <p>
+                                                { panel.text }
+                                            </p>
+                                        </article>
+                                )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic, indexPic) => (
+                                    <div key={indexPic} className="col-md-5 d-flex justify-content-center flex-row">
+                                        <Image src={pic} height={350} width={350} alt="..." />
+                                    </div>
+                                ))
+                            }
                         </div>
                     </section>
                 </div>

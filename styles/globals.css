@@ -1027,12 +1027,40 @@ footer .col-12 {
   background-color: #fff;
 }
 
+.equipment-nav a {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.equipment-nav a:hover {
+  opacity: 0.7 !important;
+}
+
+.equipment-panel h4 {
+  font-size: 1.3em;
+}
+
 .tabs a {
   font-size: 1.15em;
 }
 
 .tabs a:hover {
   cursor: pointer;
+}
+
+.tab-underline {
+
+}
+
+.tab-underline a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  color: #5F9DF7;
+
 }
 
 /* MEDİA QUERIES */
@@ -1134,6 +1162,9 @@ footer .col-12 {
 }
 
 @media screen and (max-width: 992px) { 
+  .equipment-image {
+    justify-content: center;
+  }
   .navbar-mobile {
     text-align: center;
   }
