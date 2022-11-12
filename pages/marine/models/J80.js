@@ -2,15 +2,16 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../components/MarineBoatModel";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
-import ReactImageVideoLightbox from 'react-image-video-lightbox'
+import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
+
+    const { deviceHeight, deviceWidth } = useWindowDimensions();
 
     return (
         <>  
@@ -210,8 +211,8 @@ The choice of materials has not diminished in terms of quality over the years. L
                             <ReactPlayer 
                                 url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
                                 controls={true}
-                                width={16*50}
-                                height={9*50}
+                                width={16*(deviceWidth/20)}
+                                height={9*(deviceWidth/20)}
                             />
                         </div>
                     </div>

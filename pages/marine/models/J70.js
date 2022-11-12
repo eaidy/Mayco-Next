@@ -5,32 +5,7 @@ import { useState, useEffect } from "react";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
-import { IM } from "country-flag-icons/react/3x2";
-
-function getWindowDimensions() {
-    const { innerWidth: deviceWidth, innerHeight: deviceHeight } = window;
-    return {
-      deviceWidth,
-      deviceHeight
-    };
-  }
-  
-function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = useState(
-      getWindowDimensions()
-    );
-  
-    useEffect(() => {
-      function handleResize() {
-        setWindowDimensions(getWindowDimensions());
-      }
-  
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
-  
-    return windowDimensions;
-  }
+import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 
 const J45 = () => {
 
