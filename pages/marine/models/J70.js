@@ -303,6 +303,9 @@ const J70 = () => {
                         </div>
                     </section>
                     <section className="p-3">
+                        <h2 className="text-center my-3">
+                            GALLERY
+                        </h2>
                         <ImageGallery items={J70Images}/>
                     </section>
                 </div>
