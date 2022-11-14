@@ -273,7 +273,7 @@ const J45 = () => {
                                             <figure className="d-flex equipment-image">
                                                 <Image src={panel.img} height={380} width={440} alt="..." />
                                             </figure>
-                                            <h4>
+                                            <h4 className="text-center">
                                                 { panel.header }
                                             </h4>
                                             <p>

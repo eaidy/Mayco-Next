@@ -49,7 +49,7 @@ const Contact = ({ contactObject }) => {
 
     return ( 
     <section className="contact-form px-sm-3 py-sm-5">
-        <div className="container-fluid my-sm-4">
+        <div className="container-fluid my-sm-4 px-5">
             <div className="tittle">
                 <h4>
                     { contactObject.title }

@@ -14,7 +14,7 @@ const CorporateNav = ({ corporateObject }) => {
                 {
                     corporateObject.navbar.map((nav, index) => (
                         <Link key={index} href={'/' + lang + corporateObject.site + "/corporate/" + nav.path}>
-                            <a className="corporate-nav d-flex justify-content-between align-items-center border-bottom py-4">
+                            <a className="corporate-nav d-flex justify-content-between align-items-center border-bottom py-4" style={ router.pathname.includes(nav.path) ? { color: "#5F9DF7"} : {}}>
                                 { nav.label }
                                 {
                                     router.pathname.includes(nav.path) &&

@@ -2,13 +2,18 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../components/MarineBoatModel";
 import MarineObject from "../../../site-data/marine-tr.json"
+import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 import ReactPlayer from "react-player"
+import MovingText from 'react-moving-text'
 
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
+
+
+    const { deviceHeight, deviceWidth } = useWindowDimensions();
+    const [navs, setNavs] = useState(MarineObject.models.J45.equipment.navs)
 
     return (
         <>
@@ -16,6 +21,42 @@ const J45 = () => {
             <main className="wrapper bg-light">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinehome/J45-1.jpg" height={800} width={1600} alt="..."/>
+                    <div className="model-video-button-div">
+                        <button 
+                            className="model-video-button"
+                            onClick={() => setVideoDisplay(!videoDisplay)}
+                        >
+                            WATCH THE MEDIA
+                        </button>
+                    </div>
+                    <div className="model-top-text">
+                        <MovingText
+                            type="fadeInFromTop"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <h1>
+                                <i>J-45</i> ELEGEANCE YACHT
+                            </h1>
+                        </MovingText>
+                        <MovingText
+                            type="fadeInFromBottom"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <p>
+                                Lorem Ipdsum dolor sat
+                            </p>
+                        </MovingText>
+                    </div>
                 </div>
                 <div className="content-model">
                     {/* <div className="container-fluid model-top">
@@ -169,7 +210,7 @@ const J45 = () => {
                                 </article>
                             </div>
                         </div>
-                        <div className="row mb-2 py-4 border-bottom ">
+                        <div className="row mb-2 py-4">
                             <div className="col-12 d-flex justify-content-center">
                                 <div className="table-container text-center p-4">
                                     <h3>
@@ -206,7 +247,90 @@ const J45 = () => {
                             </div>
                         </div>
                     </div>
+                    <section className="tabs">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-12">
+                                <h2 className="text-center fs-3 my-4 py-3 border-bottom">EQUIPMENT</h2>
+                                    <ul className="nav nav-tabs my-3 py-2 d-flex justify-content-center flex-md-row flex-column border-0">
+                                        {
+                                            navs.map((nav, indexTab) => (
+                                                <li key={indexTab} className="mx-md-4 d-flex justify-content-center equipment-nav">
+                                                    <a
+                                                        onClick={() => {
+                                                            setNavs((prev) => {
+                                                                const buffer = prev
+                                                                buffer.map((navb, indexb) => {
+                                                                    if(indexb === indexTab) {
+                                                                        navb.isActive = true
+                                                                    } else {
+                                                                        navb.isActive = false
+                                                                    }
+                                                                })
+                                                                console.log(buffer)
+                                                                return [
+                                                                    ...buffer
+                                                                ]
+                                                            })
+                                                        }}
+                                                        style={nav.isActive ? { color: "#5F9DF7" } : {}}
+                                                    >
+                                                    {
+                                                        nav.label
+                                                    }
+                                                    </a>
+                                                </li>
+                                            ))
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row d-flex justify-content-center mx-0 my-4">
+                            {   
+                                navs.filter((navActive) => navActive.isActive)[0].panels ?
+                                navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
+                                    
+                                        <article key={indexPanel} className="col-md-3 justify-content-center equipment-panel">
+                                            <figure className="d-flex equipment-image">
+                                                <Image src={panel.img} height={380} width={440} alt="..." />
+                                            </figure>
+                                            <h4 className="text-center">
+                                                { panel.header }
+                                            </h4>
+                                            <p>
+                                                { panel.text }
+                                            </p>
+                                        </article>
+                                )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic, indexPic) => (
+                                    <div key={indexPic} className="col-md-5 d-flex justify-content-center flex-row">
+                                        <Image src={pic} height={350} width={350} alt="..." />
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    </section>
                 </div>
+                {
+                videoDisplay && (
+                    <div onClick={() => setVideoDisplay(false)} className="lightbox-video">
+                        <button 
+                            className="lightbox-close-button"
+                            onClick={() => setVideoDisplay(false)}
+                        >
+                            Çıkış
+                        </button>
+                        <div className="lightbox-youtube">
+                            <ReactPlayer 
+                                url='https://www.youtube.com/watch?v=1SpbIhH34XM&ab_channel=JComposites'
+                                controls={true}
+                                width={16*(deviceWidth/20)}
+                                height={9*(deviceWidth/20)}
+                            />
+                        </div>
+                    </div>
+                )
+            }
             </main>
             <Footer footerObject={MarineObject.footer}/>
         </>
