@@ -269,11 +269,11 @@ const J45 = () => {
                                 navs.filter((navActive) => navActive.isActive)[0].panels ?
                                 navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
                                     
-                                        <article key={indexPanel} className="col-md-3 justify-content-center equipment-panel">
+                                        <article key={indexPanel} className="col-md-3 justify-content-center text-center equipment-panel">
                                             <figure className="d-flex equipment-image">
                                                 <Image src={panel.img} height={380} width={440} alt="..." />
                                             </figure>
-                                            <h4 className="text-center">
+                                            <h4>
                                                 { panel.header }
                                             </h4>
                                             <p>
