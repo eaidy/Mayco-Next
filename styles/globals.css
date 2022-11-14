@@ -1044,6 +1044,12 @@ footer .col-12 {
   font-size: 1.3em;
 }
 
+.equipment-panel p {
+  font-size: 14px;
+  opacity: 0.85 !important;
+  line-height: 2em;
+}
+
 .tabs a {
   font-size: 1.15em;
 }

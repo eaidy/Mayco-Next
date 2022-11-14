@@ -6,13 +6,27 @@ import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
-const J45 = () => {
+const images = () => {
+    const images = []
+    for(let i = 1; i < 30; i ++ ) {
+        images.push({
+            original: '/images/marinemodels/J70/gallery/' + i + '.jpg',
+            thumbnail: '/images/marinemodels/J70/gallery/' + i + '.jpg'
+        })
+    }
+    return images
+}
+
+const J70 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
     const { deviceHeight, deviceWidth } = useWindowDimensions();
     const [navs, setNavs] = useState(MarineObject.models.J70.equipment.navs)
+    const [J70Images, ] = useState(images)
 
     return (
         <>  
@@ -225,7 +239,7 @@ const J45 = () => {
                             </div>
                         </div>
                     </section>
-                    <section className="tabs">
+                    <section className="tabs border-bottom">
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-12">
@@ -288,6 +302,9 @@ const J45 = () => {
                             }
                         </div>
                     </section>
+                    <section className="p-3">
+                        <ImageGallery items={J70Images}/>
+                    </section>
                 </div>
                 {
                 videoDisplay && (
@@ -315,4 +332,4 @@ const J45 = () => {
     );
 }
  
-export default J45;
+export default J70;
