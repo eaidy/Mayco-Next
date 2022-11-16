@@ -19,7 +19,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J99/J99-1.jpeg" height={800} width={1600} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J99/J99-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -161,7 +161,7 @@ const J45 = () => {
                                 </article>
                             </div>
                         </div>
-                        <div className="row mb-2 py-4 border-bottom">
+                        <div className="row mb-2 py-4">
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J99/J99-7.jpeg" width={1200} height={700} alt="..." />
                             </div>

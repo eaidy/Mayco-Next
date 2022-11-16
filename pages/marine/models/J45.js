@@ -20,7 +20,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinehome/J45-1.jpg" height={800} width={1600} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J45/J45-0.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -40,7 +40,7 @@ const J45 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-45</i> ELEGEANCE YACHT
+                                <i>J-45</i> ELEGANCE YACHT
                             </h1>
                         </MovingText>
                         <MovingText

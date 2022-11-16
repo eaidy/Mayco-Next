@@ -78,7 +78,18 @@
     },
     "models": {
         "J9": {
-
+            "specs": [
+                "Easy-access cockpit with deep, secure 8.4' cockpit seats and backrests, self-draining cockpit and step-on transom for easy swim platform boarding. ",
+                "A deck layout optimized for simplicity and efficiency with sail controls led to the cockpit.",
+                "20” lifelines and rails with starboard and transom boarding gates for secure boarding from a dock or a launch.",
+                "Keel-stepped, tapered aluminum mast with single spreaders.",
+                "Jib roller furling system with single-line self-tacking option.",
+                "Tiller steering – more responsive and maneuverable than a wheel, and the driver can comfortably sit with feet braced across the cockpit.  At anchor, simply hinge up the tiller to expand one’s social area.  And for solo sailors a belowdecks auto-pilot is available.",
+                "Low VCG (vertical center of gravity) 4.9’ fixed keel standard, with shoal-draft 3.9’ optional.",
+                "Auxiliary engine options: inboard diesel, inboard electric, or transom bracket for portable electric or 4-stroke gas outboard.",
+                "Interior with main cabin seating, cooler, storage compartments, ventilation from two opening ports and skylight hatch, and a marine head system forward of the main bulkhead with privacy curtain and optional V-Berth package.",
+                "Easy to trailer behind an SUV or ship overseas on an angled cradle inside a container."
+            ]
         },
         "J45": {
             "logo": "/images/marinemodels/J45/J45-logo.jpeg",

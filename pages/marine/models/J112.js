@@ -2,20 +2,59 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../components/MarineBoatModel";
 import MarineObject from "../../../site-data/marine-tr.json"
+import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 import ReactPlayer from "react-player"
+import MovingText from 'react-moving-text'
 
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
+
+    const { deviceHeight, deviceWidth } = useWindowDimensions();
 
     return (
         <>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J112/J112-1.jpeg" height={800} width={1600} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J112/J112-1.jpg" height={800} width={1600} alt="..."/>
+                    <div className="model-video-button-div">
+                        <button 
+                            className="model-video-button"
+                            onClick={() => setVideoDisplay(!videoDisplay)}
+                        >
+                            WATCH THE MEDIA
+                        </button>
+                    </div>
+                    <div className="model-top-text">
+                        <MovingText
+                            type="fadeInFromTop"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <h1>
+                                <i>J-112</i> ELEGANCE YACHT
+                            </h1>
+                        </MovingText>
+                        <MovingText
+                            type="fadeInFromBottom"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <p>
+                                Lorem Ipdsum dolor sat
+                            </p>
+                        </MovingText>
+                    </div>
                 </div>
                 <div className="content-model">
                     {/* <div className="container-fluid model-top">
@@ -212,10 +251,27 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             </div>
                         </div>
                     </section>
-                    <section>
-                        
-                    </section>
                 </div>
+                {
+                videoDisplay && (
+                    <div onClick={() => setVideoDisplay(false)} className="lightbox-video">
+                        <button 
+                            className="lightbox-close-button"
+                            onClick={() => setVideoDisplay(false)}
+                        >
+                            Çıkış
+                        </button>
+                        <div className="lightbox-youtube">
+                            <ReactPlayer 
+                                url='https://www.youtube.com/watch?v=BrC9Bcd7jyE&ab_channel=JComposites'
+                                controls={true}
+                                width={16*(deviceWidth/20)}
+                                height={9*(deviceWidth/20)}
+                            />
+                        </div>
+                    </div>
+                )
+            }
             </main>
             <Footer footerObject={MarineObject.footer}/>
         </>

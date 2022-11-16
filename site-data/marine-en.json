@@ -80,10 +80,137 @@
     },
     "models": {
         "J9": {
-
+            "specs": [
+                "Easy-access cockpit with deep, secure 8.4' cockpit seats and backrests, self-draining cockpit and step-on transom for easy swim platform boarding. ",
+                "A deck layout optimized for simplicity and efficiency with sail controls led to the cockpit.",
+                "20” lifelines and rails with starboard and transom boarding gates for secure boarding from a dock or a launch.",
+                "Keel-stepped, tapered aluminum mast with single spreaders.",
+                "Jib roller furling system with single-line self-tacking option.",
+                "Tiller steering – more responsive and maneuverable than a wheel, and the driver can comfortably sit with feet braced across the cockpit.  At anchor, simply hinge up the tiller to expand one’s social area.  And for solo sailors a belowdecks auto-pilot is available.",
+                "Low VCG (vertical center of gravity) 4.9’ fixed keel standard, with shoal-draft 3.9’ optional.",
+                "Auxiliary engine options: inboard diesel, inboard electric, or transom bracket for portable electric or 4-stroke gas outboard.",
+                "Interior with main cabin seating, cooler, storage compartments, ventilation from two opening ports and skylight hatch, and a marine head system forward of the main bulkhead with privacy curtain and optional V-Berth package.",
+                "Easy to trailer behind an SUV or ship overseas on an angled cradle inside a container."
+            ]
         },
         "J45": {
             "logo": "/images/marinemodels/J45/J45-logo.jpeg",
+            "equipment": {
+                "navs": [
+                    { 
+                        "label": "Materials", 
+                        "isActive": true,
+                        "panels": [
+                            {
+                                "header": "COMPOSITES",
+                                "text": "A precise selection of materials is put together for infused sandwich composite construction to obtain the best weight ratio on the market by balancing lightweight yet solid qualities.",
+                                "img": "/images/marinemodels/J45/navtabs/Mat-1.jpeg"
+                            },
+                            {
+                                "header": "KEEL",
+                                "text": "The keel comprises a fully encapsulated cast iron keel and a lead bulb for the best possible stability with a flawless finish. You can choose between a deep or shallow draught.",
+                                "img": "/images/marinemodels/J45/navtabs/Mat-2.jpeg"
+                            },
+                            {
+                                "header": "RIG",
+                                "text": "A very specific choice has been made with regards to the rig to provide the best possible standard of equipment on the market, which is geared around long-distance cruising and offshore racing for the J 45.",
+                                "img": "/images/marinemodels/J45/navtabs/Mat-3.jpeg"
+                            },
+                            {
+                                "header": "JOINERY",
+                                "text": "The in-house joinery workshops use traditional methods incorporating high-end solid wood and veneers selected to provide each craft with a unique finish. Available options are walnut, light oak or teak.",
+                                "img": "/images/marinemodels/J45/navtabs/Mat-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Ergonomics", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "POSITION AT THE HELM",
+                                "text": "The twin steering wheels offer a wide range of positions so you can comfortably appreciate the finesse and lightness of touch, making it easy to control your craft without getting weary. The adjustable foot chocks are concealed in the cockpit",
+                                "img": "/images/marinemodels/J45/navtabs/Er-1.jpeg"
+                            },
+                            {
+                                "header": "MANOEUVRABILITY",
+                                "text": "A light sailboat combined with a deep rudder: a guarantee of exceptional manoeuvrability for this long-distance cruiser. You can turn full circle in less than a boat length!",
+                                "img": "/images/marinemodels/J45/navtabs/Er-2.jpeg"
+                            },
+                            {
+                                "header": "DECK HARDWARE",
+                                "text": "Each fitting is very precisely proportioned and selected for its technical appeal and its ability to withstand conditions synonymous with long-distance passages.",
+                                "img": "/images/marinemodels/J45/navtabs/Er-3.jpeg"
+                            },
+                            {
+                                "header": "SAFETY",
+                                "text": "Stability is the first guarantee of safety while solidity enables you to sail with complete peace of mind. J Composites is the only yard to offer a 5-year structural guarantee however you use the boat.",
+                                "img": "/images/marinemodels/J45/navtabs/Er-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Comfort", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "SEATING",
+                                "text": "Particular emphasis has gone into the work on the ergonomics of the seating. The local French manufacture means it is possible to work with high resilience foams to ensure the utmost comfort and provide an extensive range of fabrics to customise your boat to your own taste.",
+                                "img": "/images/marinemodels/J45/navtabs/Com-1.jpeg"
+                            },
+                            {
+                                "header": "STOWAGE",
+                                "text": "Whether it is inside the boat or up on deck, you’re sure to be amazed by the stowage space on a J. There’s plenty of room aboard for all your long-distance cruising gear!",
+                                "img": "/images/marinemodels/J45/navtabs/Com-2.jpeg"
+                            },
+                            {
+                                "header": "SAILING",
+                                "text": "The design of the hull, the architectural features and the build quality offer you a unique level of comfort when sailing, making the miles just fly by.",
+                                "img": "/images/marinemodels/J45/navtabs/Com-3.png"
+                            },
+                            {
+                                "header": "BERTHS",
+                                "text": "The berths have been designed to provide the largest possible surface area, whilst the mattresses incorporate a level of comfort akin to that of a standard mattress topper. Enjoy the well-being you feel at home, out at sea!",
+                                "img": "/images/marinemodels/J45/navtabs/Com-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Technical Specifications", 
+                        "isActive": false,
+                        "pics": [
+                            "/images/marinemodels/J45/navtabs/J45-schema.jpeg",
+                            "/images/marinemodels/J45/navtabs/J45-specs.png"
+                        ]
+                    },
+                    {
+                        "label": "International Reputation", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "A LEADING BRAND",
+                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
+                            },
+                            {
+                                "header": "A HISTORY",
+                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
+                            },
+                            {
+                                "header": "INNOVATIONS",
+                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
+                            },
+                            {
+                                "header": "INTERNATIONAL MONITORING",
+                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
             "top": {
 
             },
@@ -128,13 +255,217 @@
             }
         },
         "J70": {
-
+            "equipment": {
+                "navs": [
+                    { 
+                        "label": "Materials", 
+                        "isActive": true,
+                        "panels": [
+                            {
+                                "header": "COMPOSITES",
+                                "text": "The materials for the sandwich and infusion composite construction are selected with precision so as to achieve the best possible combination of lightness/solidity on the market.",
+                                "img": "/images/marinemodels/J70/navtabs/Mat-1.jpeg"
+                            },
+                            {
+                                "header": "KEEL",
+                                "text": "The retractable keel comprises a 316L stainless steel structure and a lead bulb. The whole thing is encapsulated in a molded structural composites form",
+                                "img": "/images/marinemodels/J70/navtabs/Mat-2.jpeg"
+                            },
+                            {
+                                "header": "RIG",
+                                "text": "The J 70 is delivered with a carbon mast and boom, benefiting its handling, particularly upwind, and making it responsive and stiff. Furthermore, its weight means it can be easily set up by 2 persons",
+                                "img": "/images/marinemodels/J70/navtabs/Mat-3.jpeg"
+                            },
+                            {
+                                "header": "CARBON",
+                                "text": "The carbon parts of the J 70 are made in an autoclave to guarantee unrivalled longevity.",
+                                "img": "/images/marinemodels/J70/navtabs/Mat-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Mobility", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "RETRACTABLE KEEL",
+                                "text": "Transporting the J 70 is made possible by its retractable keel. This enables the boat to sit lower on its trailer making it easier to transport.",
+                                "img": "/images/marinemodels/J70/navtabs/Mob-1.jpeg"
+                            },
+                            {
+                                "header": "DECK-STEPPED MAST",
+                                "text": "The J 70 boasts a deck-stepped carbon mast, which means the process of stepping it is considerably easier as it requires just two people.",
+                                "img": "/images/marinemodels/J70/navtabs/Mob-2.jpeg"
+                            },
+                            {
+                                "header": "LIFTING",
+                                "text": "Lifting your J 70 will be hassle-free thanks to its central sling, meaning the operation can be completed in a matter of minutes.",
+                                "img": "/images/marinemodels/J70/navtabs/Mob-3.jpeg"
+                            },
+                            {
+                                "header": "TOWING",
+                                "text": "Once the boat is on her trailer, the latter can be towed by any kind of vehicle.",
+                                "img": "/images/marinemodels/J70/navtabs/Mob-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "One Design", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "INTERNATIONAL CLASSES",
+                                "text": "The presence of J 70 classes in numerous countries around the world means that a very dynamic one design race circuit is possible.",
+                                "img": "/images/marinemodels/J70/navtabs/Des-1.jpeg"
+                            },
+                            {
+                                "header": "RESPECTING THE CLASS MEASUREMENT",
+                                "text": "J Composites devote a great deal of attention to respecting the class measurement. With over 10,000 sportsboats built in over 30 years, the J Composites yard has fully mastered manufacturing tolerance.",
+                                "img": "/images/marinemodels/J70/navtabs/Des-2.jpeg"
+                            },
+                            {
+                                "header": "EQUIPMENT",
+                                "text": "One design requires specific equipment in terms of deck hardware and sail area, which translates as an interesting racing programme, whilst limiting the expense of the arms race.",
+                                "img": "/images/marinemodels/J70/navtabs/Des-3.jpeg"
+                            },
+                            {
+                                "header": "SENSATIONS",
+                                "text": "The very little separating the boats during races is evidence of the similar, precise construction for every craft. As such thrills are guaranteed during the mark roundings!",
+                                "img": "/images/marinemodels/J70/navtabs/Des-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Technical Specifications", 
+                        "isActive": false,
+                        "pics": [
+                            "/images/marinemodels/J70/navtabs/J70-schema.jpeg",
+                            "/images/marinemodels/J70/navtabs/J70-specs.png"
+                        ]
+                    },
+                    {
+                        "label": "International Reputation", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "A LEADING BRAND",
+                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
+                            },
+                            {
+                                "header": "A HISTORY",
+                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
+                            },
+                            {
+                                "header": "INNOVATIONS",
+                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
+                            },
+                            {
+                                "header": "INTERNATIONAL MONITORING",
+                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         "J80": {
 
         },
         "J99": {
-
+            "equipment": {
+                "navs": [
+                    { 
+                        "label": "Materials", 
+                        "isActive": true,
+                        "panels": [
+                            {
+                                "header": "COMPOSITES",
+                                "text": "A precise selection of materials make up the composite structure to obtain the best strength/weight ratio on the market.",
+                                "img": "/images/marinemodels/J99/navtabs/Mat-1.jpeg"
+                            },
+                            {
+                                "header": "KEEL",
+                                "text": "There is a choice of two options for the keel of the J/99: a bulbed keel with a cast iron fin and lead bulb, or a flat lead keel.",
+                                "img": "/images/marinemodels/J99/navtabs/Mat-2.jpeg"
+                            },
+                            {
+                                "header": "RIG",
+                                "text": "The J/99 is equipped with a custom aluminium mast, demonstrating an extraordinary level of quality for the market. The supreme stiffness of this mast means that the additional costs associated with a carbon rig can be avoided.",
+                                "img": "/images/marinemodels/J99/navtabs/Mat-3.jpeg"
+                            },
+                            {
+                                "header": "INTERIOR",
+                                "text": "The J/99 features a light and highly refined finish with varnished fiddles, creating a more modern, bright and easy to maintain interior.",
+                                "img": "/images/marinemodels/J99/navtabs/Mat-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Specificities", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "SAILS",
+                                "text": "The J/99 is designed to perform with a simplified suit of sails, 4 sails being enough to cover a wide range of conditions: mainsail, jib, staysail and spinnaker.",
+                                "img": "/images/marinemodels/J99/navtabs/Spec-1.jpeg"
+                            },
+                            {
+                                "header": "SENSATIONS",
+                                "text": "Those who love the thrill of sailing will appreciate the J/99’s planing capabilities downwind, making her a genuine racer designed in line with the Sport range concept.",
+                                "img": "/images/marinemodels/J99/navtabs/Spec-2.jpeg"
+                            },
+                            {
+                                "header": "STEERING SYSTEM",
+                                "text": "The J/99 comes with a choice of two steering systems, a single or twin rudder option, to satisfy your sailing programme.",
+                                "img": "/images/marinemodels/J99/navtabs/Spec-3.jpeg"
+                            },
+                            {
+                                "header": "FIXED BOWSPRIT",
+                                "text": "The J/99 features a removable fixed bowsprit enabling increased space down below and enhanced safety, whilst retaining her fine performance downwind.",
+                                "img": "/images/marinemodels/J99/navtabs/Spec-4.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Technical Specifications", 
+                        "isActive": false,
+                        "pics": [
+                            "/images/marinemodels/J99/navtabs/J99-schema.jpeg",
+                            "/images/marinemodels/J99/navtabs/J99-specs.png"
+                        ]
+                    },
+                    {
+                        "label": "International Reputation", 
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "A LEADING BRAND",
+                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
+                            },
+                            {
+                                "header": "A HISTORY",
+                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
+                            },
+                            {
+                                "header": "INNOVATIONS",
+                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
+                            },
+                            {
+                                "header": "INTERNATIONAL MONITORING",
+                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         "J110": {
 

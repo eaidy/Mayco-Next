@@ -2,20 +2,59 @@ import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import MarineBoatModel from "../../../../components/MarineBoatModel";
 import MarineObject from "../../../../site-data/marine-en.json"
 import ReactPlayer from "react-player"
+import MovingText from 'react-moving-text'
+import { useWindowDimensions } from "../../../../hooks/useWindowDimensions";
 
 const J45 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
+    const { deviceHeight, deviceWidth } = useWindowDimensions();
+
     return (
-        <>
+        <>  
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J80/J80-2.jpeg" height={800} width={1600} alt="..."/>
+                    <Image src="/images/marinemodels/J80/J80-2.jpg" height={800} width={1600} alt="..."/>
+                    <div className="model-video-button-div">
+                        <button 
+                            className="model-video-button"
+                            onClick={() => setVideoDisplay(!videoDisplay)}
+                        >
+                            WATCH THE VIDEO
+                        </button>
+                    </div>
+                    <div className="model-top-text">
+                        <MovingText
+                            type="fadeInFromTop"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <h1>
+                                <i>J-80</i> SPORT SAILBOAT
+                            </h1>
+                        </MovingText>
+                        <MovingText
+                            type="fadeInFromBottom"
+                            duration="2400ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="1"
+                            fillMode="none"
+                        >
+                            <p>
+                                Lorem Ipdsum dolor sat
+                            </p>
+                        </MovingText>
+                    </div>
                 </div>
                 <div className="content-model">
                     {/* <div className="container-fluid model-top">
@@ -32,12 +71,12 @@ const J45 = () => {
                     </div> */}
                     <section className="container model-under">
                         <div className="row mb-2 py-4 border-bottom">
-                            <div className="col-sm-2 d-flex justify-content-center">
+                            <div className="col-sm-2 d-flex justify-content-center align-items-center">
                                 <div className="p-3">
                                     <Image src="/images/marinemodels/J80/J80-logo.jpeg" height={160} width={80} alt="..."/>
                                 </div>
                             </div>
-                            <div className="col-sm-10 d-flex align-items-center">
+                            <div className="col-sm-10 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
                                     J 80 SPORT SAILBOAT
@@ -54,7 +93,7 @@ const J45 = () => {
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-7.jpeg" width={1200} height={600} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                         SET SAIL WITH CONFIDENCE!
@@ -69,7 +108,7 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-5.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     HOLD YOUR COURSE!                                    </h2>
@@ -81,10 +120,10 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                             </div>
                         </div>
                         <div className="row flex-column-reverse mb-2 py-4 border-bottom">
-                            <div className="col-12 py-2 d-flex justify-content-center">
+                            <div className="col-12 py-2 d-flex justify-content-center align-items-center">
                                 <Image src="/images/marinemodels/J80/J80-3.jpeg" width={1200} height={650} alt="..." />
                             </div>
-                            <div className="col-12 d-flex justify-content-center">
+                            <div className="col-12 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     FULFIL HER POTENTIAL                                    </h2>
@@ -100,7 +139,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-4.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     GET OFF TO THE PERFECT START IN COMPETITION!                                    </h2>
@@ -114,7 +153,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-6.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     SAIL WITH STYLE                                    </h2>
@@ -128,7 +167,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-8.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     KEEN TO HAVE CLASS?                                    </h2>
@@ -139,11 +178,11 @@ Sportsmanship and sociability are the key words of this class.
                                 </article>
                             </div>
                         </div>
-                        <div className="row flex-row-reverse mb-2 py-4 border-bottom ">
+                        <div className="row flex-row-reverse mb-2 py-4">
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J80/J80-1.jpeg" width={1200} height={700} alt="..." />
                             </div>
-                            <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     TEST HER STRENGTH                                    </h2>
@@ -159,6 +198,26 @@ The choice of materials has not diminished in terms of quality over the years. L
                         
                     </section>
                 </div>
+                {
+                videoDisplay && (
+                    <div onClick={() => setVideoDisplay(false)} className="lightbox-video">
+                        <button 
+                            className="lightbox-close-button"
+                            onClick={() => setVideoDisplay(false)}
+                        >
+                            Çıkış
+                        </button>
+                        <div className="lightbox-youtube">
+                            <ReactPlayer 
+                                url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                                controls={true}
+                                width={16*(deviceWidth/20)}
+                                height={9*(deviceWidth/20)}
+                            />
+                        </div>
+                    </div>
+                )
+            }
             </main>
             <Footer footerObject={MarineObject.footer}/>
         </>

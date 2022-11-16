@@ -18,7 +18,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image src="/images/marinemodels/J80/J80-2.jpeg" height={800} width={1600} alt="..."/>
+                    <Image src="/images/marinemodels/J80/J80-2.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"

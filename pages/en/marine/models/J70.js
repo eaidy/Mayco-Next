@@ -2,24 +2,38 @@ import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import MarineObject from "../../../../site-data/marine-tr.json"
+import MarineObject from "../../../../site-data/marine-en.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../../hooks/useWindowDimensions";
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
-const J45 = () => {
+const images = () => {
+    const images = []
+    for(let i = 1; i < 30; i ++ ) {
+        images.push({
+            original: '/images/marinemodels/J70/gallery/' + i + '.jpg',
+            thumbnail: '/images/marinemodels/J70/gallery/' + i + '.jpg'
+        })
+    }
+    return images
+}
+
+const J70 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
     const { deviceHeight, deviceWidth } = useWindowDimensions();
     const [navs, setNavs] = useState(MarineObject.models.J70.equipment.navs)
+    const [J70Images, ] = useState(images)
 
     return (
         <>  
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper bg-light">
                 <div className="model-image-top">
-                    <Image src="/images/marinemodels/J70/J70-1.jpeg" height={800} width={1600} alt="..."/>
+                    <Image src="/images/marinemodels/J70/J70-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -225,7 +239,7 @@ const J45 = () => {
                             </div>
                         </div>
                     </section>
-                    <section className="tabs">
+                    <section className="tabs border-bottom">
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-12">
@@ -269,11 +283,11 @@ const J45 = () => {
                                 navs.filter((navActive) => navActive.isActive)[0].panels ?
                                 navs.filter((navActive) => navActive.isActive)[0].panels.map((panel, indexPanel) => (
                                     
-                                        <article key={indexPanel} className="col-md-3 justify-content-center equipment-panel">
+                                        <article key={indexPanel} className="col-md-3 justify-content-center text-center equipment-panel">
                                             <figure className="d-flex equipment-image">
                                                 <Image src={panel.img} height={380} width={440} alt="..." />
                                             </figure>
-                                            <h4 className="text-center">
+                                            <h4>
                                                 { panel.header }
                                             </h4>
                                             <p>
@@ -287,6 +301,12 @@ const J45 = () => {
                                 ))
                             }
                         </div>
+                    </section>
+                    <section className="p-3">
+                        <h2 className="text-center my-3">
+                            GALLERY
+                        </h2>
+                        <ImageGallery items={J70Images}/>
                     </section>
                 </div>
                 {
@@ -315,4 +335,4 @@ const J45 = () => {
     );
 }
  
-export default J45;
+export default J70;
