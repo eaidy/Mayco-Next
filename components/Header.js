@@ -10,11 +10,11 @@ const Header = ({ headerObject }) => {
     const router = useRouter()
 
     const [lang, ] = useState(() => headerObject.lang === "en" ? "en/" : "")
-    const [currentNav, setCurrentNav ] = useState(null)
+    // const [currentNav, setCurrentNav ] = useState(null)
 
-    useEffect(() => {
-        setCurrentNav(router.pathname)
-    })
+    // useEffect(() => {
+    //     setCurrentNav(router.pathname)
+    // })
 
     return (
         <header>

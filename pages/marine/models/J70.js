@@ -200,7 +200,7 @@ const J70 = () => {
                                     AKSAMAYAN GÜVENİLİRLİK TALEP EDİN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Yoğun bir şekilde kullanıldığında bile, J 70'in yapı kalitesi rakipsiz direnci ve sağlamlığı garanti eder, bu da yüksek yeniden satış değeri anlamına gelir. Gerçek bir "yarışçı" kültürü, sürekli ayrıntılara gösterilen özen, son derece seçici malzemeler ve sıkı üretim kontrolü sayesinde bu tekne, kullanım açısından mükemmelliğin sınırında.                                    </p>
+                                    Yoğun bir şekilde kullanıldığında bile, J 70&apos;in yapı kalitesi rakipsiz direnci ve sağlamlığı garanti eder, bu da yüksek yeniden satış değeri anlamına gelir. Gerçek bir &quot;yarışçı&quot; kültürü, sürekli ayrıntılara gösterilen özen, son derece seçici malzemeler ve sıkı üretim kontrolü sayesinde bu tekne, kullanım açısından mükemmelliğin sınırında.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ const J70 = () => {
                                     YARIŞA KATILIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J 70'in özellikleri onu herkes için erişilebilir kılar. Genç ve kadın ekipler için mükemmel şekilde uygundur. Yürüyüşle ilgili katı kurallar, yoğun eğitime katılmayanların yine de daha deneyimli ekiplere karşı kolayca rekabet edebileceği anlamına gelir.                                    </p>
+                                    J 70&apos;in özellikleri onu herkes için erişilebilir kılar. Genç ve kadın ekipler için mükemmel şekilde uygundur. Yürüyüşle ilgili katı kurallar, yoğun eğitime katılmayanların yine de daha deneyimli ekiplere karşı kolayca rekabet edebileceği anlamına gelir.                                    </p>
                                 </article>
                             </div>
                         </div>

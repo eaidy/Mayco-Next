@@ -113,7 +113,7 @@ const J45 = () => {
                                     <h2 style={{ fontSize: 28 }}>
                                     PERFORMANS AÇISINDAN RAKİPSİZ BİR DENEYİM                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J/99, J/'nin denizaşırı deneyim zenginliğine dayanan derinlemesine bir çalışmanın meyvesidir. Büyük açık deniz yarış pistinde (Orta Deniz Yarışı / Fastnet Yarışı / Mackinac Yarışı / Armen Yarışı) önemli zaferler ve podyumlar elde eden mimarı, mevcut gövdelerin bilinen güçlü yanlarına güvenirken, özellikle gelişmiş form stabilitesi ile birlikte daha da fazla çok yönlülük sunar. minimum ıslak yüzey.
+                                    J/99, J/&apos;nin denizaşırı deneyim zenginliğine dayanan derinlemesine bir çalışmanın meyvesidir. Büyük açık deniz yarış pistinde (Orta Deniz Yarışı / Fastnet Yarışı / Mackinac Yarışı / Armen Yarışı) önemli zaferler ve podyumlar elde eden mimarı, mevcut gövdelerin bilinen güçlü yanlarına güvenirken, özellikle gelişmiş form stabilitesi ile birlikte daha da fazla çok yönlülük sunar. minimum ıslak yüzey.
                                     </p>
                                 </article>
                             </div>
@@ -140,7 +140,7 @@ const J45 = () => {
                                     <h2 style={{ fontSize: 28 }}>
                                     BİR YAT, BİRÇOK PROGRAM                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J/99'daki güverte düzeni, kısaltılmış konfigürasyonda manevraları kolaylaştırmak için optimize edilmiştir. Tüm ana kontrollere dümen istasyonundan erişilebilir. Çeşitli konfigürasyonlar mevcuttur: tek veya çift dümen / bombeli veya düz kanatlı salma / simetrik veya asimetrik versiyon. Hafif yer değiştirmesi, önemli sertlik ve rafine yönlendirme ile birleştiğinde, tam bir güvenle yelken açmanızı sağlayacaktır.                                    </p>
+                                    J/99&apos;daki güverte düzeni, kısaltılmış konfigürasyonda manevraları kolaylaştırmak için optimize edilmiştir. Tüm ana kontrollere dümen istasyonundan erişilebilir. Çeşitli konfigürasyonlar mevcuttur: tek veya çift dümen / bombeli veya düz kanatlı salma / simetrik veya asimetrik versiyon. Hafif yer değiştirmesi, önemli sertlik ve rafine yönlendirme ile birleştiğinde, tam bir güvenle yelken açmanızı sağlayacaktır.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ const J45 = () => {
                                     <h2 style={{ fontSize: 28 }}>
                                     VERİMLİLİK ETRAFINDA TASARLANMIŞTIR                                    </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    İhtiyaçlarınıza uyum sağlayabilen yüksek performanslı bir yat sunmak için J/99'a büyük bir emek harcandı. Bu şekilde, teknenizi buna göre optimize etmenizi sağlayacak geniş bir ekipman yelpazesine sahip olacaksınız. Ayrıca donanım, profilin sertliğine katkıda bulunan karışık bir paleti entegre eden özel bir alüminyum profil içeren en son teknolojik gelişmeleri yansıtıyor. Çıkarılabilir sabit bowsprit, daha fazla performans ve pratiklik için tasarlanmıştır.                                    </p>
+                                    İhtiyaçlarınıza uyum sağlayabilen yüksek performanslı bir yat sunmak için J/99&apos;a büyük bir emek harcandı. Bu şekilde, teknenizi buna göre optimize etmenizi sağlayacak geniş bir ekipman yelpazesine sahip olacaksınız. Ayrıca donanım, profilin sertliğine katkıda bulunan karışık bir paleti entegre eden özel bir alüminyum profil içeren en son teknolojik gelişmeleri yansıtıyor. Çıkarılabilir sabit bowsprit, daha fazla performans ve pratiklik için tasarlanmıştır.                                    </p>
                                 </article>
                             </div>
                         </div>

@@ -196,7 +196,7 @@ Vinçlerin boyutu ve konumu her manevrayı güvenli hale getirir ve güverte don
                                     <h2 style={{ fontSize: 28 }}>
                                     EKOLOJİK ŞEKİLDE YELKEN AÇIN                             </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Yelken, kesinlikle azami özgürlükle dolaşmanın en keyifli ve ekolojik yoludur. Js'nin performansı sürdürme konusundaki benzersiz yeteneği, motor kullanımınızı en az %15 azaltarak daha az kirletici emisyona neden olur.
+                                    Yelken, kesinlikle azami özgürlükle dolaşmanın en keyifli ve ekolojik yoludur. Js&apos;nin performansı sürdürme konusundaki benzersiz yeteneği, motor kullanımınızı en az %15 azaltarak daha az kirletici emisyona neden olur.
                                     </p>
                                 </article>
                             </div>

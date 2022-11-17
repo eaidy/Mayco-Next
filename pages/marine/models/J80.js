@@ -115,7 +115,7 @@ Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çı
                                     <h2 style={{ fontSize: 28 }}>
                                     ROTANIZI TUTUN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J 80'in çok yüksek yük oranı, etkileyici dengesiyle onu en güvenli spor tekne yapar.
+                                    J 80&apos;in çok yüksek yük oranı, etkileyici dengesiyle onu en güvenli spor tekne yapar.
                                     Dümende üstün esnekliğe sahip olan ve yüksek hız yapabilen bu araç, aynı zamanda rüzgar yönündeki koşullarda da oldukça eğlencelidir.
                                     </p>
                                 </article>
@@ -130,7 +130,7 @@ Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çı
                                     <h2 style={{ fontSize: 28 }}>
                                     POTANSİYELİNİ GERÇEKLEŞTİRİN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Yelkenleri açın ve şimdiden potansiyelinizin %95'inde performans gösteriyor olacaksınız.
+                                    Yelkenleri açın ve şimdiden potansiyelinizin %95&apos;inde performans gösteriyor olacaksınız.
                                     Hafif tasarımı, rüzgar koşullarında uçağa çok hızlı bir şekilde çıkabileceğiniz anlamına gelir.
                                     Rüzgarda 16/18 knot tekne hızına tamamen güvenli bir şekilde ulaşabilen, heyecan verici bir sürüş garantiniz var!
                                     </p>
@@ -159,7 +159,7 @@ Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çı
                                     <h2 style={{ fontSize: 28 }}>
                                     STİL İLE YELKEN AÇ                                 </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J 80'in zamansız tasarımı, bu 8 metrelik tek gövdeli tekneyi gerçek bir stil ikonu haline getirmek amacıyla Rod Johnstone tarafından tasarlanmıştır. Markanın tüm ayırt edici unsurlarını bir araya getirerek, benzersiz bir tasarım ile çığır açan bir ruhun mükemmel karışımını ortaya çıkarıyor.                                    </p>
+                                    J 80&apos;in zamansız tasarımı, bu 8 metrelik tek gövdeli tekneyi gerçek bir stil ikonu haline getirmek amacıyla Rod Johnstone tarafından tasarlanmıştır. Markanın tüm ayırt edici unsurlarını bir araya getirerek, benzersiz bir tasarım ile çığır açan bir ruhun mükemmel karışımını ortaya çıkarıyor.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çı
                                     GÜCÜNÜ TEST ET                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
                                     1993 yılında üretilen ilk model, yeni bir modele karşı yarış kazanma şansına hâlâ sahip.
-                                    Malzeme seçimi yıllar içinde kalite açısından azalmadı. O halde J 80'in referans spor teknesi olmasına şaşmamalı.
+                                    Malzeme seçimi yıllar içinde kalite açısından azalmadı. O halde J 80&apos;in referans spor teknesi olmasına şaşmamalı.
                                     </p>
                                 </article>
                             </div>

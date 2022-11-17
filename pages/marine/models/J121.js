@@ -139,10 +139,10 @@ Ana bölmenin ilerisinde, yelkenlerinizi yerleştirmek için alan bulacaksınız
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    HASSASİYET'E HAYRAN OLUN                                  </h2>
+                                    HASSASİYET&apos;E HAYRAN OLUN                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
                                     Böyle bir performansı elde etmek için, teknenin yapımında detaylara büyük özen gösterilmiştir.
-Bazı hassas takımlar, işlenmiş parçaların gerçekleştirilmesi açısından en yüksek düzeyde uzmanlaşmış Amerikan firmalarından biri olan Symmetrix tarafından geliştirilmiştir. Gerçekten de, hacimsel tolerans 0,1 mm'nin altındadır.
+Bazı hassas takımlar, işlenmiş parçaların gerçekleştirilmesi açısından en yüksek düzeyde uzmanlaşmış Amerikan firmalarından biri olan Symmetrix tarafından geliştirilmiştir. Gerçekten de, hacimsel tolerans 0,1 mm&apos;nin altındadır.
                                     </p>
                                 </article>
                             </div>
@@ -156,7 +156,7 @@ Bazı hassas takımlar, işlenmiş parçaların gerçekleştirilmesi açısında
                                     <h2 style={{ fontSize: 28 }}>
                                     YELKENLERİ KOLAY KULLANIN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    40-footer'ı minimum mürettebatla idare etmek, yelken planının basitleştirilmesini gerektirir. Bu nedenle yat, özellikle zorlu hava koşullarında manevraları kolaylaştırmak için tasarlanmış donanıma sahiptir.
+                                    40-footer&apos;ı minimum mürettebatla idare etmek, yelken planının basitleştirilmesini gerektirir. Bu nedenle yat, özellikle zorlu hava koşullarında manevraları kolaylaştırmak için tasarlanmış donanıma sahiptir.
                                     </p>
                                 </article>
                             </div>

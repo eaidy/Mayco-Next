@@ -87,7 +87,7 @@ const J45 = () => {
                                     SEYİRDE YENİ STANDARTLARIN ÖNÜ AÇILIYOR
                                     </h2>
                                     <p>
-                                    Tüm yelken planlarınızı değiştirebilecek heyecan verici 45' açık deniz yelkenli yat. Önde gelen gövde tasarımı, daha önce hiçbir J'nin olmadığı şekilde seyir konforu ve performansında çıtayı yükseltmek için zarif iç tasarımla buluşuyor.                                    </p>
+                                    Tüm yelken planlarınızı değiştirebilecek heyecan verici 45&apos; açık deniz yelkenli yat. Önde gelen gövde tasarımı, daha önce hiçbir J&apos;nin olmadığı şekilde seyir konforu ve performansında çıtayı yükseltmek için zarif iç tasarımla buluşuyor.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const J45 = () => {
                                         EŞSİZ TASARIM
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    J Boats'ın Amerikan pragmatizmi ile J Composites'in Fransız yeteneği arasındaki ilişki iyi belgelenmiştir, ancak bir şekilde tam anlamını J/45'te almıştır. Mümkün olan en iyi denge için sürekli arayış içinde her ayrıntıyı birlikte düşünerek 3 yılı aşkın ortak çalışma gerektirdi.
+                                    J Boats&apos;ın Amerikan pragmatizmi ile J Composites&apos;in Fransız yeteneği arasındaki ilişki iyi belgelenmiştir, ancak bir şekilde tam anlamını J/45&apos;te almıştır. Mümkün olan en iyi denge için sürekli arayış içinde her ayrıntıyı birlikte düşünerek 3 yılı aşkın ortak çalışma gerektirdi.
                                     Kılavuz ilke, zarif silueti, minimum ıslak yüzey alanını ve kategorisinin açık ara en düşük ağırlık tahminini korurken iç hacmi ve konforu en üst düzeye çıkarmayı içeriyordu.
                                     </p>
                                 </article>
@@ -118,7 +118,7 @@ const J45 = () => {
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
                                     J/ teknelerinin denizdeki iç tutarlılığı ve ergonomisi mutlak bir veridir. J/45 için amaç, bu konuda sınırları zorlamaktı.
-                                    Bunu yapmak için, iç tasarım için Isabelle Racoupeau ile birlikte çalıştık. J/45'te konforu ve zarafeti en üst düzeye çıkarmak için seyir yatları alanındaki engin deneyimini taşımayı başardı.
+                                    Bunu yapmak için, iç tasarım için Isabelle Racoupeau ile birlikte çalıştık. J/45&apos;te konforu ve zarafeti en üst düzeye çıkarmak için seyir yatları alanındaki engin deneyimini taşımayı başardı.
                                     Sonuç, doğal ışığın yelken yaparken hem konfor hem de işlevsellik sağlayan kararlı bir şekilde modern bir tasarımı vurguladığı, benzersiz bir iç mekandır.
                                     </p>
                                 </article>
@@ -134,7 +134,7 @@ const J45 = () => {
                                     PERFORMANS, SEYİR KONFORUNUN GARANTİSİ
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Yepyeni bir standart oluşturmak ancak net ve kesin bir vizyonla mümkündür. Bu, markanın performans DNA'sını renklendiren şeydir ve J/45'e başka hiçbir teknede bulamayacağınız ciddi bir konfor enjeksiyonu sağlar.
+                                    Yepyeni bir standart oluşturmak ancak net ve kesin bir vizyonla mümkündür. Bu, markanın performans DNA&apos;sını renklendiren şeydir ve J/45&apos;e başka hiçbir teknede bulamayacağınız ciddi bir konfor enjeksiyonu sağlar.
                                     Bu performans avantajı, mürettebatın yorulmadan ve stressiz bir şekilde tüm avantajlardan yararlanmasını sağlarken, milleri tam bir güvenlik içinde kat etme becerisinde ifadesini bulur.
                                     Önünüzde açılan yeni daha uzak ufuklarla, olasılıklar yelpazesini genişletme yeteneğinden kesinlikle zevk alacaksınız.
                                     Ayrıca, motoru çalıştırmaya gerek kalmadan ailenizle mola varış zamanlarınızı planlayabilmenin keyfine varacaksınız.
@@ -154,7 +154,7 @@ const J45 = () => {
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
                                     J/45, 2 kabinli / 2 büyük baş bölmeli ve yelkenli dolaplı bir versiyon veya ikiz yataklı kabin seçeneğine sahip 3 kabinli bir varyant olmak üzere çeşitli yerleşim seçeneklerine sahiptir.
-                                    İç kaplama, üç ahşap, meşe, ceviz veya tik seçeneğiyle sunulur. Çok geniş bir üst düzey döşeme yelpazesi sayesinde J/45'te daha fazla kişiselleştirme de mümkün olacak.
+                                    İç kaplama, üç ahşap, meşe, ceviz veya tik seçeneğiyle sunulur. Çok geniş bir üst düzey döşeme yelpazesi sayesinde J/45&apos;te daha fazla kişiselleştirme de mümkün olacak.
                                     </p>
                                 </article>
                             </div>
@@ -169,7 +169,7 @@ const J45 = () => {
                                     ÖNCÜ YAPI TEKNOLOJİSİ
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Bugün J Composites, sandviç ve infüzyon yapımı konusunda dünyanın en deneyimli tersanesidir. Gerçekten de, bu teknoloji 1993'ten beri tüm Fransız yapımı J/ teknelerinde kullanılmaktadır.
+                                    Bugün J Composites, sandviç ve infüzyon yapımı konusunda dünyanın en deneyimli tersanesidir. Gerçekten de, bu teknoloji 1993&apos;ten beri tüm Fransız yapımı J/ teknelerinde kullanılmaktadır.
                                     Sonuç olarak J/45, hafif ama sağlam nitelikleri rakipsiz bir mükemmellik düzeyiyle dengeleyerek piyasadaki mümkün olan en iyi ağırlık oranlarından yararlanacaktır.
                                     </p>
                                 </article>
@@ -186,7 +186,7 @@ const J45 = () => {
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
                                     Hayalini kurduğunuz destansı bir gemi yolculuğu veya yelken açmak için her şeyinizi vereceğiniz özel bir yarış etkinliği var mı?
-                                    J/45, dünyanın hemen hemen her yerine kendi üzerinde yelkenle açılabilir. Kasım ayında ARC Seyir Rallisinde Karayipler'e Kanarya Adaları'ndan yelken açtığınızı hayal edin.
+                                    J/45, dünyanın hemen hemen her yerine kendi üzerinde yelkenle açılabilir. Kasım ayında ARC Seyir Rallisinde Karayipler&apos;e Kanarya Adaları&apos;ndan yelken açtığınızı hayal edin.
                                     J/45, açık deniz yelkenciliğine ayrılmış çok sayıda donanımla birlikte gelir. Bu, onu yelken açmak, kullanmak veya bakımını yapmak için profesyonel bir ekip gerektirmeyen, yatırım sınıfı bir yat yapar.
                                     </p>
                                 </article>

@@ -88,7 +88,7 @@ const J110 = () => {
                                     <p>
                                     <br />
                                     VMG is the best measure of sailboat performance; Velocity Made Good straight into the wind or away from the wind, regardless of tacking or jibing angles. A J/110 sailing at 6.6 knots, 41 degrees off the true wind (27 degrees apparent wind angle), makes good a velocity (VMG) of 5.0 knots straight into the wind. This is the speed attained by larger 42- 46 foot yachts such as Aldens, Hinckleys, Sabres or Little Harbors. <br /> <br />
-                                    J/110's performance is a function of low vertical center of gravity (VCG), a narrow waterline, draft and a higher sail area to displacement ratio. A key contributor to lowering weight in the design is high-tech Baltek laminate construction with 65-70% glass content from TPI's patented SCRIMP resin-infusion process. And, owners can go one step further to lowering VCG with an optional Hall Spars carbon-fiber mast. The 100 lbs. saved up high is the equivalent of having two 180 lb. crew hiking out on the rail when sailing to windward. Reaching at 8+ knots becomes almost a daily occurrence on a J/110 with the J/Sprit and asymmetrical spinnakers.
+                                    J/110&apos;s performance is a function of low vertical center of gravity (VCG), a narrow waterline, draft and a higher sail area to displacement ratio. A key contributor to lowering weight in the design is high-tech Baltek laminate construction with 65-70% glass content from TPI&apos;s patented SCRIMP resin-infusion process. And, owners can go one step further to lowering VCG with an optional Hall Spars carbon-fiber mast. The 100 lbs. saved up high is the equivalent of having two 180 lb. crew hiking out on the rail when sailing to windward. Reaching at 8+ knots becomes almost a daily occurrence on a J/110 with the J/Sprit and asymmetrical spinnakers.
                                     </p>
                                 </article>
                                 <article>
@@ -98,15 +98,15 @@ const J110 = () => {
                                     </h4>
                                     <p>
                                     <br />
-                                    "The J/110's cockpit is ideal for cruising because one person can sail the boat with mainsheet, genoa and backstay adjuster all within reach. And, the helmsman can comfortably lean out against the lifelines, holding the wheel to steer while seeing the headsail." <br /><br />
-                                    The dodger completely covers the companionway and forward seats of the cockpit. With dodger side-curtains in place and an autopilot remote control, this is a great location for an "inside" piloting station or going on deck to join the skipper for a cup of coffee, without having to suit up.
+                                    &quot;The J/110&apos;s cockpit is ideal for cruising because one person can sail the boat with mainsheet, genoa and backstay adjuster all within reach. And, the helmsman can comfortably lean out against the lifelines, holding the wheel to steer while seeing the headsail.&quot; <br /><br />
+                                    The dodger completely covers the companionway and forward seats of the cockpit. With dodger side-curtains in place and an autopilot remote control, this is a great location for an &quot;inside&quot; piloting station or going on deck to join the skipper for a cup of coffee, without having to suit up.
                                     </p>
                                 </article>
                             </div>
                             <div className="col-sm-6">
                                 <article>
                                     <p>
-                                    Two people can safely fly the asymmetrical spinnaker on its 5.5 foot retractable carbon-fiber J/Sprit. No one has to go on deck when the spinnaker is deployed. It's contained in a snuffer sock operated from the cockpit. Jibing is as easy as letting go the old sheet and pulling in the new one. <br /> <br />
+                                    Two people can safely fly the asymmetrical spinnaker on its 5.5 foot retractable carbon-fiber J/Sprit. No one has to go on deck when the spinnaker is deployed. It&apos;s contained in a snuffer sock operated from the cockpit. Jibing is as easy as letting go the old sheet and pulling in the new one. <br /> <br />
                                     Sailing downwind, the spinnaker projects out to windward from behind the wind shadow of the mainsail, driving the apparent wind as much as 45 degrees forward of true wind direction.
                                     </p>
                                 </article>
@@ -117,9 +117,9 @@ const J110 = () => {
                                     </h4>
                                     <p>
                                         <br />
-                                    When you go offshore in a seaway or spend several days living aboard, you will appreciate the J/110's interior design. It's light and open. The impression is clean and functional. The eye can see the shape of the hull from below, like a classic canoe. Yet, looking outside from below, the view is over the deck through large ports. It's as though one didn't go below-decks at all. <br /> <br />
-                                    The sense of spaciousness is created by J/110's classic American cruising yacht decor: "Antique white" panels beautifully trimmed in cold-molded teak. <br /> <br />
-                                    The owner's stateroom is located in the forepeak, a traditional favorite dating back to the 1920's when people spent more time cruising. They learned there's less action and less noise forward of the main bulkhead. One's sleep is not disrupted by late-night storytellers, noisy crew boarding the boat rafted alongside, or early morning pot-bangers. A solid teak and stainless steel main cabin drop-leaf table is placed away from the bulkhead and between settees for better access and as a brace when moving through the cabin at sea.
+                                    When you go offshore in a seaway or spend several days living aboard, you will appreciate the J/110&apos;s interior design. It&apos;s light and open. The impression is clean and functional. The eye can see the shape of the hull from below, like a classic canoe. Yet, looking outside from below, the view is over the deck through large ports. It&apos;s as though one didn&apos;t go below-decks at all. <br /> <br />
+                                    The sense of spaciousness is created by J/110&apos;s classic American cruising yacht decor: &quot;Antique white&quot; panels beautifully trimmed in cold-molded teak. <br /> <br />
+                                    The owner&apos;s stateroom is located in the forepeak, a traditional favorite dating back to the 1920&apos;s when people spent more time cruising. They learned there&apos;s less action and less noise forward of the main bulkhead. One&apos;s sleep is not disrupted by late-night storytellers, noisy crew boarding the boat rafted alongside, or early morning pot-bangers. A solid teak and stainless steel main cabin drop-leaf table is placed away from the bulkhead and between settees for better access and as a brace when moving through the cabin at sea.
                                     </p>
                                 </article>
                             </div>
