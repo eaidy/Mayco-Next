@@ -108,7 +108,7 @@ const MarineHome = ({ homeObject }) => {
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
-                                                    duration="3000ms"
+                                                    duration="3500ms"
                                                     delay="0s"
                                                     direction="normal"
                                                     timing="ease"
