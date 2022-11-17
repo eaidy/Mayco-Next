@@ -104,7 +104,7 @@ const MarineHome = ({ homeObject }) => {
                                     {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <Image src="/images/marinehome/J45-1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <Image src="/images/marinehome/J45-1.jpg" className="d-flex h-100 w-100" alt="..." width={3000} height={1300}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -238,12 +238,12 @@ const MarineHome = ({ homeObject }) => {
                     <div className="row px-md-3">
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article>
-                                    <figure>
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
                                         <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub1.title }</h6>
-                                    <p>
+                                    <p className="mx-3">
                                         { homeObject.subarticles.sub1.text }
                                     </p>
                                 </article>
@@ -251,12 +251,12 @@ const MarineHome = ({ homeObject }) => {
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article className="">
-                                    <figure>
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
                                         <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
-                                    <p>
+                                    <p className="mx-3">
                                         { homeObject.subarticles.sub2.text }
                                     </p>
                                 </article>
@@ -264,12 +264,12 @@ const MarineHome = ({ homeObject }) => {
                         </div>
                         <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
-                                <article className="">
-                                    <figure>
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
                                         <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
-                                    <p>
+                                    <p className="mx-3">
                                         { homeObject.subarticles.sub3.text }
                                     </p>
                                 </article>

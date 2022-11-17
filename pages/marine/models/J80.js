@@ -209,7 +209,7 @@ Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çı
                         </button>
                         <div className="lightbox-youtube">
                             <ReactPlayer 
-                                url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                                url='https://www.youtube.com/watch?v=ewd9v2EHbQg&ab_channel=JComposites'
                                 controls={true}
                                 width={16*(deviceWidth/20)}
                                 height={9*(deviceWidth/20)}

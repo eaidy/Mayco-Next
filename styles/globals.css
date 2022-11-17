@@ -12,88 +12,6 @@ body {
   text-rendering: optimizeSpeed;
 }
 
-.enterance-wrapper {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
-.textile-side {
-  position: absolute;
-  top:0;
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(0 0, 90% 0%, 10% 100%, 0 100%);
-}
-
-.textile-side:hover {
-  cursor: pointer;
-}
-
-.marine-side {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(90% 0, 100% 0%, 100% 100%, 10% 100%);
-}
-
-.marine-side:hover {
-  cursor: pointer;
-}
-
-.marine-site-link {
-  color: #000;
-  position: absolute;
-  z-index: 10;
-  bottom: 10%;
-  right: 24%;
-}
-
-.textile-site-link {
-  color: #000;
-  position: absolute;
-  z-index: 10;
-  top: 10%;
-  left: 24%;
-}
-
-.side-background {
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.anchor-style {
-  text-decoration: none;
-  font-size: 2.1em;
-  letter-spacing: 2px;
-  color: #fff;
-  transition: all 0.25s;
-}
-
-.textile-side:hover .anchor-style {
-  font-size: 2.3em;
-  color: #fff;
-}
-
-.marine-side:hover .anchor-style {
-  font-size: 2.3em;
-  color: #fff;
-}
-
-.side-background img {
-  object-fit: cover;
-  transition: all 0.35s;
-}
-
 .site-toggle-button {
   position: relative;
 }
@@ -299,7 +217,7 @@ ul.siteRoutes li {
 
 .nav-link {
   font-size: 1.1em;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .navigationBarWrapper {
@@ -750,7 +668,6 @@ footer .col-12 {
   height: 320px;
   width: 530px;
   position: relative;
-  margin-bottom: 30px;
   /* font-family: "Rajdhani", sans-serif; */
   overflow: hidden;
   align-items: center;
@@ -852,7 +769,7 @@ footer .col-12 {
   opacity: 0.95;
 }
 .carousel-item {
-  position: relative;
+  position: relative !important;
 }
 .carousel-item-text-1 {
   position: absolute;
@@ -1276,6 +1193,33 @@ footer .col-12 {
     justify-content: center;
   }
 
+  .marine-carousel-header {
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    top: 15%;
+    left: 20px;
+    right: 20px;
+    opacity: 1;
+    text-align: center;
+
+  }
+
+  .marine-carousel-header h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+  }
+
+  .marine-carousel-header p {
+    font-size: 0.9rem;
+    margin-top: 0.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: 1 !important;
+  }
+
   .model-top-text {
     position: absolute;
     background-color: transparent;
@@ -1560,5 +1504,157 @@ footer .col-12 {
     opacity: 0.9 !important;
     padding: 1em !important;
     text-align: start !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .enterance-wrapper {
+  }
+
+  .textile-side {
+    position: relative;
+    height: 50vh;
+  }
+
+  .marine-side {
+    position: relative;
+    height: 50vh;
+  }
+
+  .marine-site-link {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: #000;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+  }
+
+  .textile-site-link {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: #000;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+  }
+
+  .textile-site-link img {
+    z-index: 100;
+  }
+
+  .marine-site-link img {
+    z-index: 100;
+  }
+
+  .side-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+  }
+
+  .anchor-style {
+    text-decoration: none;
+    font-size: 2.1em;
+    letter-spacing: 2px;
+    color: #fff;
+    z-index: 100;
+    transition: all 0.25s;
+  }
+
+  .anchor-style:hover {
+    color: #fff;
+  }
+  
+}
+
+@media screen and (min-width: 768px) { 
+  .enterance-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  .textile-side {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .textile-side:hover {
+    cursor: pointer;
+  }
+
+  .marine-side {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(90% 0, 100% 0%, 100% 100%, 10% 100%);
+  }
+
+  .marine-side:hover {
+    cursor: pointer;
+  }
+
+  .marine-site-link {
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    bottom: 7%;
+    right: 5%;
+  }
+
+  .textile-site-link {
+    color: #000;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    top: 10%;
+    left: 5%;
+  }
+
+  .side-background {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .anchor-style {
+    text-decoration: none;
+    font-size: 2.1em;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: all 0.25s;
+  }
+
+  .textile-side:hover .anchor-style {
+    font-size: 2.3em;
+    color: #fff;
+  }
+
+  .marine-side:hover .anchor-style {
+    font-size: 2.3em;
+    color: #fff;
+  }
+
+  .side-background img {
+    object-fit: cover;
+    transition: all 0.35s;
   }
 }

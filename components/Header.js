@@ -45,7 +45,7 @@ const Header = ({ headerObject }) => {
                                 : 
                                 (
                                     <li key={index} className="nav-item dropdown mx-xl-2 nav-item-mine">
-                                        <a className={"nav-link pe-md-4 dropdown-toggle mx-2 py-4 fw-normal " + "nav-link-" + headerObject.site } style={{ position: "relative" }} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a className={"nav-link pe-md-4 dropdown-toggle mx-2 py-4 " + "nav-link-" + headerObject.site } style={{ position: "relative" }} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             { nav.label }
                                             <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />
                                         </a>

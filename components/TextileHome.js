@@ -174,8 +174,8 @@ const TextileHome = ({ homeObject }) => {
                     </div>
                 </div>
                 <div className="row mt-4">
-                    <div className="col-sm-6 py-3 d-flex justify-content-center">
-                        <div className="textile-home-product-card">
+                    <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
+                        <div className="textile-home-product-card mb-2 me-2">
                             <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas7.jpg")'}}></div>
                             <div className="product-card-detail">
                                 <span>
@@ -189,8 +189,8 @@ const TextileHome = ({ homeObject }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 py-3 d-flex justify-content-center">
-                        <div className="textile-home-product-card">
+                    <div className="col-sm-6 py-3 d-flex justify-content-start align-items-center">
+                        <div className="textile-home-product-card mb-2 ms-2">
                             <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas6.jpg")'}}></div>
                             <div className="product-card-detail">
                                 <span>
@@ -206,8 +206,8 @@ const TextileHome = ({ homeObject }) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-6 py-3 d-flex justify-content-center">
-                        <div className="textile-home-product-card">
+                    <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
+                        <div className="textile-home-product-card mt-2 me-2">
                             <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas10.jpg")'}}></div>
                             <div className="product-card-detail">
                                 <span>
@@ -221,8 +221,8 @@ const TextileHome = ({ homeObject }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 py-3 d-flex justify-content-center">
-                        <div className="textile-home-product-card">
+                    <div className="col-sm-6 py-3 d-flex justify-content-start align-items-center">
+                        <div className="textile-home-product-card mt-2 ms-2">
                             <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas11.jpg")'}}></div>
                             <div className="product-card-detail">
                                 <span>
