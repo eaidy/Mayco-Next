@@ -1,16 +1,24 @@
 import Footer from "../../../../components/Footer";
 import Header from "../../../../components/Header";
-import TextileCorporate from "../../../../components/TextileCorporate";
-import TextileObject from "../../../../site-data/textile-tr.json"
+import MarineObject from "../../../../site-data/marine-en.json"
+import CorporateNav from "../../../../components/CorporateNav";
 
-const Corporate = () => {
+const OurMission = () => {
     return (
         <>
-            <Header headerObject={TextileObject.header}/>
-            <TextileCorporate corporateObject={TextileObject.corporate}/>
-            <Footer footerObject={TextileObject.footer}/>
+            <Header headerObject={MarineObject.header}/>
+            <div className="container-fluid py-3">
+                <div className="row">
+                    <div className="col-sm-3 d-flex justify-content-center">
+                        <CorporateNav corporateObject={MarineObject.corporate}/>
+                    </div>
+                    <div className="col-sm-9">
+                    </div>
+                </div>
+            </div>
+            <Footer footerObject={MarineObject.footer}/>
         </>
     );
 }
  
-export default Corporate;
+export default OurMission;

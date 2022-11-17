@@ -151,7 +151,7 @@ const TextileHome = ({ homeObject }) => {
                     </Link>
                 </div>
             </section>
-            <section className="container-fluid textile-home-cover">
+            <section className="container-fluid textile-home-cover my-4">
                 {/* <div className="row d-flex flex-sm-row-reverse border-bottom">
                     <div className="col-sm-4 d-flex align-items-center justify-content-md-start p-4">
                         <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
