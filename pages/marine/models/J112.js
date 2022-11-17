@@ -7,7 +7,7 @@ import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 
-const J45 = () => {
+const J112 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
@@ -16,7 +16,7 @@ const J45 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J112/J112-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -24,7 +24,7 @@ const J45 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -38,7 +38,7 @@ const J45 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-112</i> ELEGANCE YACHT
+                                <i>J-112</i> ELEGANCE YAT
                             </h1>
                         </MovingText>
                         <MovingText
@@ -79,12 +79,12 @@ const J45 = () => {
                             <div className="col-sm-10 d-flex align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
-                                    J 112 ELEGANCE YACHT
+                                    J 112 ELEGANCE YAT
                                     </h1>
                                     <h2 style={{ fontSize: 28, marginBottom: 15}}>
-                                    GO FORTH AND CONQUER THE OCEAN.                                   </h2>
+                                    İLERİ GİDİN VE OKYANUSU FETHEDİN                                </h2>
                                     <p>
-                                    The J 112 Elegance is the fruit of two years of thought and consideration with a view to finding the best possible balance between performance and interior comfort. No other yacht will offer you such charm, however you use her. Book your J 112e test.
+                                    J 112 Elegance, performans ve iç mekan konforu arasında mümkün olan en iyi dengeyi bulmaya yönelik iki yıllık düşünce ve değerlendirmenin meyvesidir. Onu nasıl kullanırsanız kullanın, başka hiçbir yat size böyle bir çekicilik sunamaz.
                                     </p>
                                 </article>
                             </div>
@@ -96,13 +96,13 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    AWAKEN THE SAILOR IN YOU
+                                    İÇİNİZDEKİ DENİZCİYİ UYANDIRIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The qualities of this boat at sea are second to none.
-                                    Her V-shaped bow provides increased directional stability, enhancing her ability to slip through the waves.
-                                    The forward freeboard and the gunwale help to limit the spray across the deck.
-                                    Her long waterline, associated with a low centre of gravity, give the boat a gentler, more seaworthy motion, akin to that of a 40-footer.
+                                    Bu teknenin denizdeki nitelikleri rakipsizdir.
+                                    V şeklindeki yayı, yön dengesini artırarak dalgaların arasından kayma yeteneğini geliştirir.
+                                    Ön fribord ve küpeşte, güverte boyunca spreyi sınırlamaya yardımcı olur.
+                                    Alçak bir ağırlık merkeziyle ilişkilendirilen uzun su hattı, tekneye 40 fitlik bir tekneye benzer şekilde daha yumuşak, daha denize elverişli bir hareket sağlıyor.
                                     </p>
                                 </article>
                             </div>
@@ -114,9 +114,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    BASK IN COMFORT                                    </h2>
+                                    KONFORLU GÜNEŞLENİN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Designed to recreate the sense of well-being of home, the J 112 Elegance has every detail covered to ensure you have all the comfort you need. The varnished walnut joinery adds an essential classic touch without detracting from the incredible sensation of space.
+                                    Evdeki esenlik duygusunu yeniden yaratmak için tasarlanan J 112 Elegance, ihtiyacınız olan tüm konfora sahip olmanızı sağlamak için her ayrıntıyı kapsar. Cilalı ceviz doğrama, inanılmaz alan hissinden uzaklaşmadan temel bir klasik dokunuş katıyor.
                                     </p>
                                 </article>
                             </div>
@@ -128,11 +128,11 @@ const J45 = () => {
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    FALL FOR HER INTERIOR CHARM                                 </h2>
+                                    İÇ CÜZYESİNE HAYRAN KALIN                                </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The boat’s interior aesthetics reveal an uncluttered atmosphere thanks to a fine selection of wood that gives it a particularly luxurious feel.
-The Roséo Design firm has created the perfect blend of open water functionality and aesthetic design.
-She boasts a bright interior with her large deck hatches and hull portholes opening onto the sky and the sea. The natural light subtly blends with the distinctive interior lighting.
+                                    Teknenin iç estetiği, ona özellikle lüks bir his veren kaliteli ahşap seçimi sayesinde düzenli bir atmosfer ortaya koyuyor.
+                                    Roséo Design firması, açık su işlevselliği ile estetik tasarımın mükemmel karışımını yarattı.
+                                    Geniş güverte kapakları ve gökyüzüne ve denize açılan gövde lumbozları ile aydınlık bir iç mekana sahiptir. Doğal ışık, ayırt edici iç aydınlatma ile zarif bir şekilde karışır.
                                     </p>
                                 </article>
                             </div>
@@ -144,11 +144,11 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    BRAVE THE SEA WITH CONFIDENCE                                    </h2>
+                                    DENİZE GÜVENLE MEYDAN OKUYUN                                </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    For increased safety on deck, the J 112 Elegance boasts long, stainless steel handrails, a full bulwark along her entire length associated with a powerful non-skid deck covering to ensure you have good grip whatever the angle of heel.
-                                    The cockpit can be closed off by a removable platform offered as an option.
-                                    The life raft is located nearby, in a dedicated, easy-to-access cockpit locker.                                    </p>
+                                    Güvertede daha fazla güvenlik için J 112 Elegance, uzun, paslanmaz çelik korkuluklara, tüm uzunluğu boyunca tam bir sipere ve topuk açısı ne olursa olsun iyi bir tutuşa sahip olmanızı sağlamak için güçlü bir kaymaz güverte kaplamasına sahiptir.
+                                    Kokpit, opsiyonel olarak sunulan çıkarılabilir bir platform ile kapatılabilir.
+                                    Can salı yakınlarda, özel, erişimi kolay bir kokpit dolabında bulunur.                                  </p>
                                 </article>
                             </div>
                         </div>
@@ -159,14 +159,14 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    MAKE YOURSELF AT HOME!                                </h2>
+                                    KENDİNİ EVİNDE GİBİ HİSSET!                               </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The boat’s optimised L-shaped galley is perfectly set up so it is intuitive to use.
-                                    Her stowage is both practical and accessible.
-                                    Every element is secure for use at sea.
+                                    Teknenin optimize edilmiş L şeklindeki mutfağı mükemmel bir şekilde ayarlanmıştır, bu nedenle kullanımı sezgiseldir.
+                                    Eşya koyma yeri hem pratik hem de erişilebilir.
+                                    Her unsur denizde kullanım için güvenlidir.
 
-                                    With her two spacious private cabins and her ergonomic and comfortable cockpit, this yacht is as much geared up for long-haul cruises as a trip out to sea in tough conditions, even in shorthanded configuration.
-                                    She’ll surprise you with how easily she can pick up the pace!
+                                    İki geniş özel kabini ve ergonomik ve konforlu kokpiti ile bu yat, kısa süreli konfigürasyonda bile zorlu koşullarda uzun mesafeli yolculuklar kadar deniz gezileri için de uygundur.
+                                    Hızını ne kadar kolay yakalayabildiğiyle sizi şaşırtacak!
                                     </p>
                                 </article>
                             </div>
@@ -178,11 +178,11 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    MODESTLY MANOEUVRE DOUBLE-HANDED                                   </h2>
+                                    ÇİFT ELLİ MÜTEVAZI MANEVRA                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The positioning of the deck hardware on the J 112 Elegance has been carefully studied and selected to make manoeuvring as easy as possible.
-                                    A double-handed configuration is all that’s required to control her and the efforts involved mean that even a child can sail her!
-                                    The size and positioning of the winchs make every manoeuvre safe and the quality of the deck hardware enables effortless sail trimming.
+                                    Güverte donanımının J 112 Elegance üzerindeki konumu dikkatli bir şekilde incelenmiş ve manevrayı olabildiğince kolay hale getirmek için seçilmiştir.
+Onu kontrol etmek için gereken tek şey çift elli bir konfigürasyondur ve harcanan çaba, bir çocuğun bile onunla yelken açabileceği anlamına gelir!
+Vinçlerin boyutu ve konumu her manevrayı güvenli hale getirir ve güverte donanımının kalitesi zahmetsizce yelken trimine olanak tanır.
                                     </p>
                                 </article>
                             </div>
@@ -194,9 +194,9 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    SAIL ECOLOGICALLY                                </h2>
+                                    EKOLOJİK ŞEKİLDE YELKEN AÇIN                             </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Sailing is certainly the most pleasant and ecological way to get around with the utmost freedom. The Js’ unique ability to sustain performance will reduce your engine use by at least 15% leading to fewer polluting emissions.
+                                    Yelken, kesinlikle azami özgürlükle dolaşmanın en keyifli ve ekolojik yoludur. Js'nin performansı sürdürme konusundaki benzersiz yeteneği, motor kullanımınızı en az %15 azaltarak daha az kirletici emisyona neden olur.
                                     </p>
                                 </article>
                             </div>
@@ -208,12 +208,12 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    UNLEASH PERFORMANCE                                    </h2>
+                                    PERFORMANSI ORTAYA ÇIKARIN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Performance is the primary guarantee of comfort when cruising.
-                                    This yacht has been designed for high quality navigation, with the best possible balance of comfort and living space.
-                                    You’ll appreciate being able to plan an exact time of arrival on stopover with children.
-                                    You’ll also enjoy being able to catch up with your sailing companions despite casting off later!
+                                    Performans, seyir sırasında konforun birincil garantisidir.
+                                    Bu yat, mümkün olan en iyi konfor ve yaşam alanı dengesi ile yüksek kaliteli navigasyon için tasarlanmıştır.
+                                    Çocuklarla mola verdiğinizde tam varış zamanını planlayabildiğiniz için memnun kalacaksınız.
+                                    Ayrıca, daha sonra yola çıkmanıza rağmen yelken arkadaşlarınıza yetişebilmenin keyfine varacaksınız!
                                     </p>
                                 </article>
                             </div>
@@ -225,27 +225,27 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    EXPERIENCE EXCELLENCE                                   </h2>
+                                    MÜKEMMELLİĞİ DENEYİMLEYİN                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Your yacht is a J!
-                                    What makes it a top of the range boat is her infusion construction technology. This absolutely unique development provides an unrivalled standard of excellence.
-                                    Solely a J can offer the serenity of the most solid and rigid construction on the market, whilst retaining its unrivalled lightweight design, which establishes its reputation as a high-performance yacht.
+                                    Yatınız bir J!
+                                    Onu sınıfının en iyisi yapan şey, infüzyon yapım teknolojisidir. Bu tamamen benzersiz geliştirme, rakipsiz bir mükemmellik standardı sağlar.
+                                    Yalnızca bir J, yüksek performanslı bir yat olarak ününü pekiştiren rakipsiz hafif tasarımını korurken, piyasadaki en sağlam ve rijit yapının dinginliğini sunabilir.
                                     </p>
                                 </article>
                             </div>
                         </div>
-                        <div className="row mb-2 py-4 border-bottom">
+                        <div className="row mb-2 py-4">
                             <div className="col-sm-8 py-3">
                                 <Image src="/images/marinemodels/J112/J112-11.jpeg" width={1200} height={700} alt="..." />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    YOUR STANDARD YACHT READY TO SAIL                                 </h2>
+                                    STANDART YATINIZ SEYAHATA HAZIR                                </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    In contrast to the majority of the other models on the market, J/ chooses to offer a comprehensive, ready-to-sail boat.
-                                    The standard yacht equipment includes spinnaker hardware on a retractable carbon bowsprit and high-quality standing and running rigging.
-                                    The finish of the profiles and their adjustment is unrivalled, ensuring the best possible glide without any add-ons being required.
+                                    Piyasadaki diğer modellerin çoğunun aksine J/, kapsamlı, denize açılmaya hazır bir tekne sunmayı tercih ediyor.
+Standart yat ekipmanı, geri çekilebilir bir karbon bowsprit üzerinde balon donanımı ve yüksek kaliteli ayakta ve çalışır durumda arma içerir.
+Profillerin bitişi ve ayarı rakipsizdir ve herhangi bir eklenti gerektirmeden mümkün olan en iyi kaymayı sağlar.
                                     </p>
                                 </article>
                             </div>
@@ -278,4 +278,4 @@ She boasts a bright interior with her large deck hatches and hull portholes open
     );
 }
  
-export default J45;
+export default J112;

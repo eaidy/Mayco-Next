@@ -30,7 +30,7 @@ const J110 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J110/J110-1.webp" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">

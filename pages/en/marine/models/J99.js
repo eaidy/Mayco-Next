@@ -17,7 +17,7 @@ const J45 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J99/J99-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">

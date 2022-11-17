@@ -30,7 +30,7 @@ const J110 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J9/J9-1.webp" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -38,7 +38,7 @@ const J110 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -52,7 +52,7 @@ const J110 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-9</i> ELEGANCE YACHT
+                                <i>J-9</i> ELEGANCE YAT
                             </h1>
                         </MovingText>
                         <MovingText
@@ -75,35 +75,30 @@ const J110 = () => {
                         <div className="row my-3">
                             <div className="col-12">
                                 <h2 className="text-center py-3">
-                                J/9 - The Most Comfortable Cockpit Ever?
+                                J/9 - Şimdiye Kadarki En Konforlu Kokpit!
                                 </h2>
                             </div>
                         </div>
                         <div className="row my-4">
                             <div className="col-sm-6">
                                 <p>
-                                Responding to a growing need amongst sailors for a more comfortable, simpler and easy-to-own daysailer, J/Boats is excited to announce a sleek new 28 footer (the “J/9”) with perhaps the most comfortable cockpit and easiest-to-manage sailplan in this size range. 
-                                </p>
+                                Denizcilerin daha rahat, daha basit ve sahip olması kolay bir gündüz yelkenlisine yönelik artan ihtiyaca yanıt veren J/Boats, bu boyut aralığındaki belki de en rahat kokpite ve yönetimi en kolay yelken planına sahip şık yeni J-9 modelini duyurmaktan heyecan duyuyor. .                                </p>
                                 <p>
-                                “With the J/9, we set out to reimagine how to make sailing easier, more relaxing and more inclusive,” said Jeff Johnstone of J/Boats. “This is a boat you can sail by yourself in just a few minutes, or bring along the whole gang with plenty of room to spare. Escaping to the water and enjoying shared family adventure has never been more important, and the J/9 is the perfect platform.”
-                                </p>
+                                J/Boats'tan Jeff Johnstone, "J/9 ile yelkenciliği nasıl daha kolay, daha rahat ve daha kapsayıcı hale getireceğimizi yeniden tasarlamak için yola çıktık" dedi. "Bu, sadece birkaç dakika içinde tek başına yelken açabileceğin ya da tüm çeteni bol bol yerle birlikte getirebileceğin bir tekne. Suya kaçmak ve ortak aile macerasının tadını çıkarmak hiç bu kadar önemli olmamıştı ve J/9 mükemmel bir platform.”                                </p>
                                 <p>
-                                The J/9 cockpit has four great corner seats to nestle into and enjoy the day. With friends and family aboard, everyone can find the perfect place to relax. And access aboard has never been easier. A swim platform behind the cockpit allows walk-through boarding, and on those downwind sails home, you can cool off by dragging your feet in the water.
-                                </p>
+                                J/9 kokpitinde, içine girip günün tadını çıkarmak için dört harika köşe koltuğu vardır. Gemide arkadaşlarınız ve ailenizle herkes dinlenmek için mükemmel bir yer bulabilir. Ve gemiye erişim hiç bu kadar kolay olmamıştı. Kokpitin arkasındaki yüzme platformu, içinden geçerek binişe izin verir ve rüzgar yönündeki yelkenlerde, ayaklarınızı suda sürükleyerek serinleyebilirsiniz.                                </p>
                             </div>
                             <div className="col-sm-6">
                                 <p>
-                                Sailing the J/9 is as easy as hoisting the mainsail and trimming the sheet. Why make it any more complicated? Look around on the water and you’ll notice 80% of the sailboats are sailing with only one sail. The answer is keep it simple!  One tiller, one sheet. The big difference with the J/9 is you will be sailing with one sail more comfortably and quicker than most others with two sails or under motor. Ready for the afterburners? Simply unroll the jib and enjoy effortless, stable & smooth sailing from the comforts of the best J/Boats cockpit ever.  
-                                </p>
+                                J/9 ile yelken açmak, ana yelkeni kaldırmak ve yelkeni düzeltmek kadar kolaydır. Neden daha karmaşık hale getirelim? Suya bakın ve yelkenli teknelerin %80'inin tek yelkenle gittiğini fark edeceksiniz. Cevap, basit tutun! Bir yeke, bir çarşaf. J/9'un en büyük farkı, tek yelkenle diğer birçok çift yelkenli veya motora göre daha rahat ve daha hızlı yelken açacak olmanızdır. Art yakıcılar için hazır mısınız? Sadece jib'i açın ve şimdiye kadarki en iyi J/Boats kokpitinin konforunda zahmetsiz, dengeli ve pürüzsüz yelkenin tadını çıkarın.                                </p>
                                 <p>
-                                The daysailing community has not benefitted from a dedicated design from J/Boats since the award-winning J/100 (33’), which remains one of the most sought-after J’s created. The NEW J/9 offers the cockpit comfort and sailing features of a larger boat, at a price most will find competitive to the best brokerage offerings.
-                                </p>
+                                Günlük yelken topluluğu, J'lerin en çok aranan modellerinden biri olmaya devam eden ödüllü J/100'den (33') bu yana J/Boats'un özel bir tasarımından faydalanamadı. YENİ J/9, daha büyük bir teknenin kokpit konforunu ve seyir özelliklerini, çoğu kişinin en iyi komisyonculuk tekliflerine göre rekabetçi bulacağı bir fiyata sunar.                                </p>
                             </div>
                         </div>
                         <div className="row my-4">
                             <div className="col-12">
                                 <h2 className="text-center py-3">
-                                J/9 - Tech Specs
+                                J/9 - Teknik Özellikler
                                 </h2>
                             </div>
                         </div>
@@ -117,7 +112,7 @@ const J110 = () => {
                         <div className="row my-4">
                             <div className="col-12">
                                 <h2 className="text-center py-3">
-                                J/9 Specification Highlights
+                                J/9 Önemli Özellikler
                                 </h2>
                             </div>
                         </div>
@@ -143,7 +138,7 @@ const J110 = () => {
                         <div className="row">
                             <div className="col-12">
                                 <h2 className="text-center my-3 py-2">
-                                GALLERY
+                                GALERİ
                                 </h2>
                                 <ImageGallery items={J9Images}/>
                             </div>

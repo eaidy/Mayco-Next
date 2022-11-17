@@ -96,85 +96,85 @@
             "equipment": {
                 "navs": [
                     { 
-                        "label": "Materials", 
+                        "label": "Materyaller", 
                         "isActive": true,
                         "panels": [
                             {
-                                "header": "COMPOSITES",
-                                "text": "A precise selection of materials is put together for infused sandwich composite construction to obtain the best weight ratio on the market by balancing lightweight yet solid qualities.",
+                                "header": "KOMPOZİTLER",
+                                "text": "Hafif ancak sağlam nitelikleri dengeleyerek piyasadaki en iyi ağırlık oranını elde etmek için aşılanmış sandviç kompozit yapı için hassas bir malzeme seçimi bir araya getirilir.",
                                 "img": "/images/marinemodels/J45/navtabs/Mat-1.jpeg"
                             },
                             {
-                                "header": "KEEL",
-                                "text": "The keel comprises a fully encapsulated cast iron keel and a lead bulb for the best possible stability with a flawless finish. You can choose between a deep or shallow draught.",
+                                "header": "SALMA",
+                                "text": "Salma, tamamen kapsüllenmiş bir dökme demir salma ve kusursuz bir finisaj ile mümkün olan en iyi stabilite için bir kurşun ampulden oluşur. Derin veya sığ bir taslak arasında seçim yapabilirsiniz.",
                                 "img": "/images/marinemodels/J45/navtabs/Mat-2.jpeg"
                             },
                             {
-                                "header": "RIG",
-                                "text": "A very specific choice has been made with regards to the rig to provide the best possible standard of equipment on the market, which is geared around long-distance cruising and offshore racing for the J 45.",
+                                "header": "TEÇHİZAT",
+                                "text": "J 45 için uzun mesafeli seyir ve açık deniz yarışlarına yönelik, piyasadaki mümkün olan en iyi ekipman standardını sağlamak için teçhizat açısından çok özel bir seçim yapılmıştır.",
                                 "img": "/images/marinemodels/J45/navtabs/Mat-3.jpeg"
                             },
                             {
-                                "header": "JOINERY",
-                                "text": "The in-house joinery workshops use traditional methods incorporating high-end solid wood and veneers selected to provide each craft with a unique finish. Available options are walnut, light oak or teak.",
+                                "header": "MARANGOZLUK",
+                                "text": "Şirket içi marangozluk atölyeleri, her zanaata benzersiz bir yüzey sağlamak için seçilen üst düzey masif ahşap ve kaplamaları içeren geleneksel yöntemleri kullanır. Mevcut seçenekler ceviz, hafif meşe veya tik ağacıdır.",
                                 "img": "/images/marinemodels/J45/navtabs/Mat-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Ergonomics", 
+                        "label": "Ergonomi", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "POSITION AT THE HELM",
-                                "text": "The twin steering wheels offer a wide range of positions so you can comfortably appreciate the finesse and lightness of touch, making it easy to control your craft without getting weary. The adjustable foot chocks are concealed in the cockpit",
+                                "header": "DÜMENDEKİ KONUM",
+                                "text": "İkiz direksiyon simidi, dokunmanın inceliğini ve hafifliğini rahatça takdir edebilmeniz için çok çeşitli konumlar sunar ve zanaatınızı yorulmadan kontrol etmenizi kolaylaştırır. Ayarlanabilir ayak takozları kokpitte gizlenmiştir.",
                                 "img": "/images/marinemodels/J45/navtabs/Er-1.jpeg"
                             },
                             {
-                                "header": "MANOEUVRABILITY",
-                                "text": "A light sailboat combined with a deep rudder: a guarantee of exceptional manoeuvrability for this long-distance cruiser. You can turn full circle in less than a boat length!",
+                                "header": "MANEVRA KABİLİYETİ",
+                                "text": "Derin bir dümenle birleştirilmiş hafif bir yelkenli: Bu uzun mesafe kruvazörü için olağanüstü manevra kabiliyeti garantisi. Tam daireyi bir tekne uzunluğundan daha kısa sürede dönebilirsiniz!",
                                 "img": "/images/marinemodels/J45/navtabs/Er-2.jpeg"
                             },
                             {
-                                "header": "DECK HARDWARE",
-                                "text": "Each fitting is very precisely proportioned and selected for its technical appeal and its ability to withstand conditions synonymous with long-distance passages.",
+                                "header": "GÜVERTE DONANIMI",
+                                "text": "Her bağlantı parçası, teknik çekiciliği ve uzun mesafeli geçişlerle eşanlamlı koşullara dayanma kabiliyeti nedeniyle çok hassas bir şekilde oranlanmıştır ve seçilmiştir.",
                                 "img": "/images/marinemodels/J45/navtabs/Er-3.jpeg"
                             },
                             {
-                                "header": "SAFETY",
-                                "text": "Stability is the first guarantee of safety while solidity enables you to sail with complete peace of mind. J Composites is the only yard to offer a 5-year structural guarantee however you use the boat.",
+                                "header": "EMNİYET",
+                                "text": "İstikrar güvenliğin ilk garantisidir, sağlamlık ise tam bir gönül rahatlığıyla yelken açmanızı sağlar. J Composites, tekneyi nasıl kullanırsanız kullanın 5 yıl yapısal garanti sunan tek tersanedir.",
                                 "img": "/images/marinemodels/J45/navtabs/Er-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Comfort", 
+                        "label": "Konfor", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "SEATING",
-                                "text": "Particular emphasis has gone into the work on the ergonomics of the seating. The local French manufacture means it is possible to work with high resilience foams to ensure the utmost comfort and provide an extensive range of fabrics to customise your boat to your own taste.",
+                                "header": "OTURMA",
+                                "text": "Oturma düzeninin ergonomisine özel önem verilmiştir. Yerel Fransız üretimi, en yüksek konforu sağlamak için yüksek esnekliğe sahip köpüklerle çalışmanın mümkün olduğu ve teknenizi kendi zevkinize göre özelleştirmek için geniş bir kumaş yelpazesinin sunulduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J45/navtabs/Com-1.jpeg"
                             },
                             {
-                                "header": "STOWAGE",
-                                "text": "Whether it is inside the boat or up on deck, you’re sure to be amazed by the stowage space on a J. There’s plenty of room aboard for all your long-distance cruising gear!",
+                                "header": "İSTİFLEME",
+                                "text": "İster teknenin içinde ister güvertede olsun, bir J'deki saklama alanına hayran kalacağınızdan emin olabilirsiniz. Tüm uzun mesafeli seyir teçhizatınız için gemide bolca yer var!",
                                 "img": "/images/marinemodels/J45/navtabs/Com-2.jpeg"
                             },
                             {
-                                "header": "SAILING",
-                                "text": "The design of the hull, the architectural features and the build quality offer you a unique level of comfort when sailing, making the miles just fly by.",
+                                "header": "YELKEN",
+                                "text": "Gövde tasarımı, mimari özellikler ve yapım kalitesi, yelken açarken size eşsiz bir konfor düzeyi sunarak kilometreleri uçup götürür.",
                                 "img": "/images/marinemodels/J45/navtabs/Com-3.png"
                             },
                             {
-                                "header": "BERTHS",
-                                "text": "The berths have been designed to provide the largest possible surface area, whilst the mattresses incorporate a level of comfort akin to that of a standard mattress topper. Enjoy the well-being you feel at home, out at sea!",
+                                "header": "YATAKLAR",
+                                "text": "Yataklar, mümkün olan en geniş yüzey alanını sağlayacak şekilde tasarlanırken, şilteler, standart bir şilte pedine benzer bir konfor seviyesi içerir. Denizde kendinizi evinizde hissettiğiniz esenliğin tadını çıkarın!",
                                 "img": "/images/marinemodels/J45/navtabs/Com-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Technical Specifications", 
+                        "label": "Teknik Özellikler", 
                         "isActive": false,
                         "pics": [
                             "/images/marinemodels/J45/navtabs/J45-schema.jpeg",
@@ -182,27 +182,27 @@
                         ]
                     },
                     {
-                        "label": "International Reputation", 
+                        "label": "Uluslararası İtibar", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "A LEADING BRAND",
-                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "header": "LİDER BİR MARKA",
+                                "text": "Yolculuğunuz sizi nereye götürürse götürsün, yatınız tanınacak ve beğenilecektir. J tekneleri, yelken becerileri, uzun ömürleri ve yelken açmanın ne kadar keyifli olduğu ile ünlüdür.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
                             },
                             {
-                                "header": "A HISTORY",
-                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "header": "TARİH",
+                                "text": "Amacı her zaman kendi kategorisinin en iyi yatını tasarlamak olan bir ailenin ve meraklı bir ekibin hikayesidir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
                             },
                             {
-                                "header": "INNOVATIONS",
-                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "header": "YENİLİKLER",
+                                "text": "İnovasyon her zaman markanın DNA'sının bir parçası olmuştur: infüzyon, geri çekilebilir bir karbon bowsprit kullanımı, yapı teknolojisi…",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
                             },
                             {
-                                "header": "INTERNATIONAL MONITORING",
-                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "header": "ULUSLARARASI İZLEME",
+                                "text": "Yoğun bir uluslararası ağın varlığı, gezineceğiniz ülkelerin çoğunda tavsiye ve hizmetlerin parmaklarınızın ucunda olduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
                             }
                         ]
@@ -231,21 +231,21 @@
                 "img": "/images/marinemodels/J45/J45-6.jpeg"
             },
             "table": {
-                "header": "WHY J45 IS SPECIFIC !",
+                "header": "J45 NEDEN ÖZEL!",
                 "thisHeader": "J45",
-                "othersHeader": "Yachts in the same category",
+                "othersHeader": "Aynı kategorideki yatlar",
                 "rows": [
-                    { "this": "Hull, deck and structural elements made from infused sandwich", "others": "Solely the hull or deck made using infusion construction"},
-                    { "this": "‘Custom performance’ mast with rod rigging as standard", "others": "‘Cruising’ mast with wire rigging"},
-                    { "this": "Size 50 primary winches as standard", "others": "Combined mainsail and primary winch with a maximum size of 46"},
-                    { "this": "Standard jib track with adjustment", "others": "Self-tacking jib track"},
-                    { "this": "Spinnaker fittings as standard", "others": "No spinnaker fittings as standard"},
-                    { "this": "Standard carbon bowsprit", "others": "Standard composite bowsprit"},
-                    { "this": "Hydraulic backstay ram", "others": "Mechanical backstay ram"},
-                    { "this": "Retractable cleats including retractable intermediaries.", "others": "Non-retractable fore and aft cleats only"},
-                    { "this": "Lifeline gate on each side", "others": "Continuous lifelines"},
-                    { "this": "System of integrated curtains", "others": "Non-black-out hatches"},
-                    { "this": "Indirect LED lighting in the saloon", "others": "Standard lighting with no indirect illumination"}
+                    { "this": "İnfüze edilmiş sandviçten yapılmış gövde, güverte ve yapısal elemanlar", "others": "Yalnızca infüzyon yapısı kullanılarak yapılan gövde veya güverte"},
+                    { "this": "Standart olarak çubuk donanıma sahip 'özel performans' direği", "others": "Tel arma ile 'seyir' direği"},
+                    { "this": "Standart olarak 50 boyutunda birincil vinçler", "others": "Maksimum boyutu 46 olan kombine ana yelken ve birincil vinç"},
+                    { "this": "Ayarlı standart pergel paleti", "others": "Kendinden tramolalı pergel paleti"},
+                    { "this": "Kotra yelkeni bağlantı parçaları standarttır", "others": "Standart olarak kotra yelkeni bağlantı parçası yoktur"},
+                    { "this": "Standart karbon cıvadra", "others": "Standart kompozit cıdavra"},
+                    { "this": "Hidrolik arka dayama koçu", "others": "Mekanik arka dayama koçu"},
+                    { "this": "Geri çekilebilir aracılar dahil geri çekilebilir kilitler.", "others": "Yalnızca geri çekilemez ön ve arka kilitler"},
+                    { "this": "Her iki tarafta cankurtaran kapısı", "others": "Sürekli yaşam hatları"},
+                    { "this": "Entegre perde sistemi", "others": "Karartma olmayan kapaklar"},
+                    { "this": "Salonda dolaylı LED aydınlatma", "others": "Dolaylı aydınlatma olmadan standart aydınlatma"}
                 ]
             }
         },
@@ -253,85 +253,85 @@
             "equipment": {
                 "navs": [
                     { 
-                        "label": "Materials", 
+                        "label": "Materyaller", 
                         "isActive": true,
                         "panels": [
                             {
-                                "header": "COMPOSITES",
-                                "text": "The materials for the sandwich and infusion composite construction are selected with precision so as to achieve the best possible combination of lightness/solidity on the market.",
+                                "header": "KOMPOZİTLER",
+                                "text": "Sandviç ve infüzyon kompozit yapı malzemeleri, piyasadaki mümkün olan en iyi hafiflik/sağlamlık kombinasyonunu elde edecek şekilde hassasiyetle seçilir.",
                                 "img": "/images/marinemodels/J70/navtabs/Mat-1.jpeg"
                             },
                             {
-                                "header": "KEEL",
-                                "text": "The retractable keel comprises a 316L stainless steel structure and a lead bulb. The whole thing is encapsulated in a molded structural composites form",
+                                "header": "SALMA",
+                                "text": "Geri çekilebilir salma, 316L paslanmaz çelik bir yapı ve bir kurşun ampul içerir. Her şey, kalıplanmış bir yapısal kompozit formunda kapsüllenmiştir.",
                                 "img": "/images/marinemodels/J70/navtabs/Mat-2.jpeg"
                             },
                             {
-                                "header": "RIG",
-                                "text": "The J 70 is delivered with a carbon mast and boom, benefiting its handling, particularly upwind, and making it responsive and stiff. Furthermore, its weight means it can be easily set up by 2 persons",
+                                "header": "TEÇHİZAT",
+                                "text": "J 70, bir karbon direk ve bomla teslim edilir, bu da özellikle rüzgara karşı yol tutuşuna fayda sağlar ve onu duyarlı ve sert yapar. Ayrıca ağırlığı sayesinde 2 kişi tarafından kolayca kurulabilir.",
                                 "img": "/images/marinemodels/J70/navtabs/Mat-3.jpeg"
                             },
                             {
-                                "header": "CARBON",
-                                "text": "The carbon parts of the J 70 are made in an autoclave to guarantee unrivalled longevity.",
+                                "header": "KARBON",
+                                "text": "J 70'in karbon parçaları, rakipsiz uzun ömürlülüğü garanti etmek için bir otoklavda yapılmıştır.",
                                 "img": "/images/marinemodels/J70/navtabs/Mat-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Mobility", 
+                        "label": "Hareket Kabiliyeti", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "RETRACTABLE KEEL",
-                                "text": "Transporting the J 70 is made possible by its retractable keel. This enables the boat to sit lower on its trailer making it easier to transport.",
+                                "header": "GERİ ÇEKİLEBİLİR SALMA",
+                                "text": "J 70'in taşınması, geri çekilebilir omurgası sayesinde mümkün olmuştur. Bu, teknenin treyler üzerinde daha alçakta oturmasını sağlayarak taşımayı kolaylaştırır.",
                                 "img": "/images/marinemodels/J70/navtabs/Mob-1.jpeg"
                             },
                             {
-                                "header": "DECK-STEPPED MAST",
-                                "text": "The J 70 boasts a deck-stepped carbon mast, which means the process of stepping it is considerably easier as it requires just two people.",
+                                "header": "GÜVERTE BASAMAKLI DİREK",
+                                "text": "J 70, güverte basamaklı bir karbon direğe sahiptir; bu, yalnızca iki kişi gerektirdiğinden, onu basamaklama işleminin oldukça kolay olduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Mob-2.jpeg"
                             },
                             {
-                                "header": "LIFTING",
-                                "text": "Lifting your J 70 will be hassle-free thanks to its central sling, meaning the operation can be completed in a matter of minutes.",
+                                "header": "KALDIRMA",
+                                "text": "Merkezi askısı sayesinde J 70'inizi kaldırmak sorunsuz olacak, yani işlem birkaç dakika içinde tamamlanacak.",
                                 "img": "/images/marinemodels/J70/navtabs/Mob-3.jpeg"
                             },
                             {
-                                "header": "TOWING",
-                                "text": "Once the boat is on her trailer, the latter can be towed by any kind of vehicle.",
+                                "header": "ÇEKME",
+                                "text": "Tekne römorkuna bindikten sonra, römork her türlü araçla çekilebilir.",
                                 "img": "/images/marinemodels/J70/navtabs/Mob-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "One Design", 
+                        "label": "Tek Dizayn", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "INTERNATIONAL CLASSES",
-                                "text": "The presence of J 70 classes in numerous countries around the world means that a very dynamic one design race circuit is possible.",
+                                "header": "ULUSLARARASI DERSLER",
+                                "text": "Dünya çapında çok sayıda ülkede J 70 sınıflarının varlığı, çok dinamik bir tek tasarımlı yarış pistinin mümkün olduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Des-1.jpeg"
                             },
                             {
-                                "header": "RESPECTING THE CLASS MEASUREMENT",
-                                "text": "J Composites devote a great deal of attention to respecting the class measurement. With over 10,000 sportsboats built in over 30 years, the J Composites yard has fully mastered manufacturing tolerance.",
+                                "header": "SINIF ÖLÇÜSÜNE SAYGI",
+                                "text": "J Composites, sınıf ölçümüne uymaya büyük önem verir. 30 yılı aşkın bir sürede inşa edilen 10.000'den fazla spor teknesiyle J Composites tersanesi, üretim toleransında tam anlamıyla uzmanlaştı.",
                                 "img": "/images/marinemodels/J70/navtabs/Des-2.jpeg"
                             },
                             {
-                                "header": "EQUIPMENT",
-                                "text": "One design requires specific equipment in terms of deck hardware and sail area, which translates as an interesting racing programme, whilst limiting the expense of the arms race.",
+                                "header": "EKİPMAN",
+                                "text": "Bir tasarım, güverte donanımı ve yelken alanı açısından özel ekipman gerektirir, bu da silahlanma yarışının masraflarını sınırlarken ilginç bir yarış programı anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Des-3.jpeg"
                             },
                             {
-                                "header": "SENSATIONS",
-                                "text": "The very little separating the boats during races is evidence of the similar, precise construction for every craft. As such thrills are guaranteed during the mark roundings!",
+                                "header": "DUYGULAR",
+                                "text": "Yarışlar sırasında teknelerin çok az ayrılması, her tekne için benzer, hassas yapının kanıtıdır. İşaret yuvarlamaları sırasında bu tür heyecanlar garanti edildiğinden!",
                                 "img": "/images/marinemodels/J70/navtabs/Des-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Technical Specifications", 
+                        "label": "Teknik Özellikler", 
                         "isActive": false,
                         "pics": [
                             "/images/marinemodels/J70/navtabs/J70-schema.jpeg",
@@ -339,27 +339,27 @@
                         ]
                     },
                     {
-                        "label": "International Reputation", 
+                        "label": "Uluslararası İtibar", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "A LEADING BRAND",
-                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "header": "LİDER BİR MARKA",
+                                "text": "Yolculuğunuz sizi nereye götürürse götürsün, yatınız tanınacak ve beğenilecektir. J tekneleri, yelken becerileri, uzun ömürleri ve yelken açmanın ne kadar keyifli olduğu ile ünlüdür.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
                             },
                             {
-                                "header": "A HISTORY",
-                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "header": "TARİH",
+                                "text": "Amacı her zaman kendi kategorisinin en iyi yatını tasarlamak olan bir ailenin ve meraklı bir ekibin hikayesidir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
                             },
                             {
-                                "header": "INNOVATIONS",
-                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "header": "YENİLİKLER",
+                                "text": "İnovasyon her zaman markanın DNA'sının bir parçası olmuştur: infüzyon, geri çekilebilir bir karbon bowsprit kullanımı, yapı teknolojisi…",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
                             },
                             {
-                                "header": "INTERNATIONAL MONITORING",
-                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "header": "ULUSLARARASI İZLEME",
+                                "text": "Yoğun bir uluslararası ağın varlığı, gezineceğiniz ülkelerin çoğunda tavsiye ve hizmetlerin parmaklarınızın ucunda olduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
                             }
                         ]
@@ -398,59 +398,59 @@
             "equipment": {
                 "navs": [
                     { 
-                        "label": "Materials", 
+                        "label": "Materyaller", 
                         "isActive": true,
                         "panels": [
                             {
-                                "header": "COMPOSITES",
-                                "text": "A precise selection of materials make up the composite structure to obtain the best strength/weight ratio on the market.",
+                                "header": "KOMPOZİTLER",
+                                "text": "Hassas bir malzeme seçimi, piyasadaki en iyi güç/ağırlık oranını elde etmek için kompozit yapıyı oluşturur.",
                                 "img": "/images/marinemodels/J99/navtabs/Mat-1.jpeg"
                             },
                             {
-                                "header": "KEEL",
-                                "text": "There is a choice of two options for the keel of the J/99: a bulbed keel with a cast iron fin and lead bulb, or a flat lead keel.",
+                                "header": "SALMA",
+                                "text": "J/99'un salması için iki seçenek vardır: dökme demir kanatlı ve kurşun ampullü bombeli salma veya düz kurşun salma.",
                                 "img": "/images/marinemodels/J99/navtabs/Mat-2.jpeg"
                             },
                             {
-                                "header": "RIG",
-                                "text": "The J/99 is equipped with a custom aluminium mast, demonstrating an extraordinary level of quality for the market. The supreme stiffness of this mast means that the additional costs associated with a carbon rig can be avoided.",
+                                "header": "TEÇHİZAT",
+                                "text": "J/99, pazar için olağanüstü bir kalite seviyesi sergileyen özel bir alüminyum direk ile donatılmıştır. Bu direğin üstün sertliği, bir karbon donanımıyla ilişkili ek maliyetlerin önlenebileceği anlamına gelir.",
                                 "img": "/images/marinemodels/J99/navtabs/Mat-3.jpeg"
                             },
                             {
-                                "header": "INTERIOR",
-                                "text": "The J/99 features a light and highly refined finish with varnished fiddles, creating a more modern, bright and easy to maintain interior.",
+                                "header": "İÇ MEKAN",
+                                "text": "J/99, daha modern, parlak ve bakımı kolay bir iç mekan yaratan, cilalı kemanlarla hafif ve son derece rafine bir kaplamaya sahiptir.",
                                 "img": "/images/marinemodels/J99/navtabs/Mat-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Specificities", 
+                        "label": "Özellikler", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "SAILS",
-                                "text": "The J/99 is designed to perform with a simplified suit of sails, 4 sails being enough to cover a wide range of conditions: mainsail, jib, staysail and spinnaker.",
+                                "header": "YELKENLER",
+                                "text": "J/99, basitleştirilmiş bir yelken takımıyla çalışacak şekilde tasarlanmıştır; 4 yelken, çok çeşitli koşulları karşılamak için yeterlidir: ana yelken, flok, sabit yelken ve balon yelken.",
                                 "img": "/images/marinemodels/J99/navtabs/Spec-1.jpeg"
                             },
                             {
-                                "header": "SENSATIONS",
-                                "text": "Those who love the thrill of sailing will appreciate the J/99’s planing capabilities downwind, making her a genuine racer designed in line with the Sport range concept.",
+                                "header": "DUYGULAR",
+                                "text": "Yelkencilik heyecanını sevenler, J/99'un Sport serisi konseptine uygun olarak tasarlanmış gerçek bir yarışçı olmasını sağlayan rüzgar yönünde kayma kabiliyetini takdir edeceklerdir.",
                                 "img": "/images/marinemodels/J99/navtabs/Spec-2.jpeg"
                             },
                             {
-                                "header": "STEERING SYSTEM",
-                                "text": "The J/99 comes with a choice of two steering systems, a single or twin rudder option, to satisfy your sailing programme.",
+                                "header": "DİREKSİYON SİSTEMİ",
+                                "text": "J/99, yelken programınızı tatmin etmek için iki direksiyon sistemi seçeneği, tek veya çift dümen seçeneği ile birlikte gelir.",
                                 "img": "/images/marinemodels/J99/navtabs/Spec-3.jpeg"
                             },
                             {
-                                "header": "FIXED BOWSPRIT",
-                                "text": "The J/99 features a removable fixed bowsprit enabling increased space down below and enhanced safety, whilst retaining her fine performance downwind.",
+                                "header": "SABİT CIVADRA",
+                                "text": "J/99, rüzgar yönünde iyi performansını korurken, aşağıda daha fazla alan ve gelişmiş güvenlik sağlayan çıkarılabilir bir sabit bowsprite sahiptir.",
                                 "img": "/images/marinemodels/J99/navtabs/Spec-4.jpeg"
                             }
                         ]
                     },
                     {
-                        "label": "Technical Specifications", 
+                        "label": "Teknik Özellikler", 
                         "isActive": false,
                         "pics": [
                             "/images/marinemodels/J99/navtabs/J99-schema.jpeg",
@@ -458,27 +458,27 @@
                         ]
                     },
                     {
-                        "label": "International Reputation", 
+                        "label": "Uluslararası İtibar", 
                         "isActive": false,
                         "panels": [
                             {
-                                "header": "A LEADING BRAND",
-                                "text": "Wherever your voyage takes you, your yacht will be recognised and admired. J boats are renowned for their sailing prowess, their longevity and how enjoyable they are to sail.",
+                                "header": "LİDER BİR MARKA",
+                                "text": "Yolculuğunuz sizi nereye götürürse götürsün, yatınız tanınacak ve beğenilecektir. J tekneleri, yelken becerileri, uzun ömürleri ve yelken açmanın ne kadar keyifli olduğu ile ünlüdür.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-1.jpeg"
                             },
                             {
-                                "header": "A HISTORY",
-                                "text": "It is the story of a family and a team of enthusiasts, whose aim has always been to design the best yacht of its category.",
+                                "header": "TARİH",
+                                "text": "Amacı her zaman kendi kategorisinin en iyi yatını tasarlamak olan bir ailenin ve meraklı bir ekibin hikayesidir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-2.jpeg"
                             },
                             {
-                                "header": "INNOVATIONS",
-                                "text": "Innovation has always been part of the brand’s DNA: infusion, use of a retractable carbon bowsprit, build technology…",
+                                "header": "YENİLİKLER",
+                                "text": "İnovasyon her zaman markanın DNA'sının bir parçası olmuştur: infüzyon, geri çekilebilir bir karbon bowsprit kullanımı, yapı teknolojisi…",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-3.jpeg"
                             },
                             {
-                                "header": "INTERNATIONAL MONITORING",
-                                "text": "The presence of a dense international network means that you have advice and services at your fingertips in the majority of countries you’ll navigate.",
+                                "header": "ULUSLARARASI İZLEME",
+                                "text": "Yoğun bir uluslararası ağın varlığı, gezineceğiniz ülkelerin çoğunda tavsiye ve hizmetlerin parmaklarınızın ucunda olduğu anlamına gelir.",
                                 "img": "/images/marinemodels/J70/navtabs/Brand-4.jpg"
                             }
                         ]

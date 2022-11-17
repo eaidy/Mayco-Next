@@ -7,7 +7,7 @@ import ReactPlayer from "react-player"
 import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 import MovingText from 'react-moving-text'
 
-const J45 = () => {
+const J121 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
@@ -16,7 +16,7 @@ const J45 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J121/J121-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -24,7 +24,7 @@ const J45 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -38,7 +38,7 @@ const J45 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-121</i> ELEGANCE YACHT
+                                <i>J-121</i> SPOR YELKENİ
                             </h1>
                         </MovingText>
                         <MovingText
@@ -79,13 +79,14 @@ const J45 = () => {
                             <div className="col-sm-10 d-flex align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
-                                    J 121 SPORT SAILBOAT
+                                    J 121 SPOR YELKENİ
                                     </h1>
                                     <h2 style={{ fontSize: 28, marginBottom: 15}}>
-                                    THE 40-FOOTER DESIGNED FOR SHORTHANDED SAILING.
+                                    KISALTILMIŞ YOLCULUK İÇİN TASARLANMIŞ 40 FOOTER.
                                     </h2>
                                     <p>
-                                    The new J 121 has been optimised for sailing long distances with a crew of 5 or less. She satisfies the growing need to simplify the organisation of your racing season by limiting the number of crew aboard.                                    </p>
+                                    Yeni J 121, 5 veya daha az mürettebatla uzun mesafelerde yelken açmak için optimize edilmiştir. Gemideki mürettebat sayısını sınırlayarak yarış sezonunuzun organizasyonunu basitleştirmeye yönelik artan ihtiyacı karşılar.
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -96,9 +97,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    SIMPLIFY THE WAY YOU SAIL!                                    </h2>
+                                    YOLCULUĞUNUZU BASİTLEŞTİRİN!                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The J 121 is the answer for those who are looking for a boat offering enjoyment and perfomance in shorthanded configuration. She features ballast tanks that can be easily controlled from the cockpit and is able to compete against honed crews of 8 to 10 people!                                    </p>
+                                    J 121, kısa konfigürasyonda keyif ve performans sunan bir tekne arayanlar için cevaptır. Kokpitten kolayca kontrol edilebilen ve 8 ila 10 kişilik usta ekiplere karşı rekabet edebilen safra tanklarına sahiptir!                                  </p>
                                 </article>
                             </div>
                         </div>
@@ -109,11 +110,12 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    MAKE THE MOST OF THE OPEN, SPACIOUS INTERIOR                                    </h2>
+                                    AÇIK, FERAH İÇ MEKANDAN EN FAZLA FAYDALANIN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The boat’s interior is simple, bright and offers a genuine sense of space.
-The L-shaped galley features an oven and a refrigeration unit, enabling you to head offshore with all the comfort you need.
-Forward of the main bulkhead, you’ll find space to stow your sails, which is practical for hoisting or dumping your spinnaker!                                    </p>
+                                    Teknenin içi sade, aydınlık ve gerçek bir ferahlık hissi sunuyor.
+L şeklindeki mutfakta bir fırın ve bir soğutma ünitesi bulunur ve ihtiyacınız olan tüm konforla açık denizlere çıkmanıza olanak tanır.
+Ana bölmenin ilerisinde, yelkenlerinizi yerleştirmek için alan bulacaksınız, bu balon balonunuzu çekmek veya boşaltmak için pratiktir!
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -124,9 +126,9 @@ Forward of the main bulkhead, you’ll find space to stow your sails, which is p
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    EXPLOIT ITS ERGONOMIC COCKPIT                                   </h2>
+                                    ERGONOMİK KOKPİTİNDEN FAYDALANIN                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    With a large space to manoeuvre and good protection from the elements, the J 121 has been definitively designed for offshore sailing! The helmsman can very easily access the mainsheet.                                    </p>
+                                    Manevra yapmak için geniş bir alana ve dış etkenlerden iyi korumaya sahip olan J 121, kesinlikle açık denizde yelkencilik için tasarlanmıştır! Dümenci, ana sayfaya çok kolay bir şekilde erişebilir.                                  </p>
                                 </article>
                             </div>
                         </div>
@@ -137,10 +139,10 @@ Forward of the main bulkhead, you’ll find space to stow your sails, which is p
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    ADMIRE THE PRECISION                                    </h2>
+                                    HASSASİYET'E HAYRAN OLUN                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    To achieve such performance, the construction of the boat has involved great attention to detail.
-                                    Some precision tooling has been developed by Symmetrix, one of the most highly specialised American firms in terms of the realisation of machined parts. Indeed, the volumetric tolerance is below 0.1mm.
+                                    Böyle bir performansı elde etmek için, teknenin yapımında detaylara büyük özen gösterilmiştir.
+Bazı hassas takımlar, işlenmiş parçaların gerçekleştirilmesi açısından en yüksek düzeyde uzmanlaşmış Amerikan firmalarından biri olan Symmetrix tarafından geliştirilmiştir. Gerçekten de, hacimsel tolerans 0,1 mm'nin altındadır.
                                     </p>
                                 </article>
                             </div>
@@ -152,9 +154,9 @@ Forward of the main bulkhead, you’ll find space to stow your sails, which is p
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    HANDLE THE SAILS WITH EASE                                    </h2>
+                                    YELKENLERİ KOLAY KULLANIN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Handling a 40-footer with the minimum crew requires a simplification of the sail plan. That’s why this yacht features equipment designed to facilitate manoeuvres, particularly in tough weather conditions.
+                                    40-footer'ı minimum mürettebatla idare etmek, yelken planının basitleştirilmesini gerektirir. Bu nedenle yat, özellikle zorlu hava koşullarında manevraları kolaylaştırmak için tasarlanmış donanıma sahiptir.
                                     </p>
                                 </article>
                             </div>
@@ -166,10 +168,10 @@ Forward of the main bulkhead, you’ll find space to stow your sails, which is p
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    ENTER THE REALMS OF ADVENTURE!                                   </h2>
+                                    MACERA ÂLEMLERİNE GİRİN!                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The Rolex Fastnet Race or the Rolex Middle Sea Race, sign up for the famous offshore races and effortlessly sail a boat at her full potential!
-                                    The J 121 will surprise you with her power and her ability to accelerate away, whilst being very easy to control.
+                                    Rolex Fastnet Race veya Rolex Middle Sea Race, ünlü offshore yarışlarına kaydolun ve bir tekneyi tam potansiyeliyle zahmetsizce kullanın!
+J 121, gücü ve hızlanabilme yeteneği ve kontrolü çok kolay olmasıyla sizi şaşırtacak.
                                     </p>
                                 </article>
                             </div>
@@ -202,4 +204,4 @@ Forward of the main bulkhead, you’ll find space to stow your sails, which is p
     );
 }
  
-export default J45;
+export default J121;

@@ -31,7 +31,7 @@ const J70 = () => {
     return (
         <>  
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image src="/images/marinemodels/J70/J70-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -39,7 +39,7 @@ const J70 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -53,7 +53,7 @@ const J70 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-70</i> SPORT SAILBOAT
+                                <i>J-70</i> SPOR YELKENİ
                             </h1>
                         </MovingText>
                         <MovingText
@@ -94,14 +94,13 @@ const J70 = () => {
                             <div className="col-lg-10 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
-                                    J 70 SPORT SAILBOAT
+                                    J 70 YELKEN
                                     </h1>
                                     <h2 style={{ fontSize: 28, marginBottom: 15}}>
-                                    SHIFT FROM PLEASURE TO ADRENALIN.
+                                    ZEVKTEN ADRENALİNE GEÇİN.
                                     </h2>
                                     <p>
-                                    Treat yourself to a genuine icon of one design sailing! The J 70 is the perfect combination of an accessible design and unquestionable performance. It’s THE most widely distributed yacht in the world and for good reason. All is revealed in the video!
-                                    </p>
+                                    Kendinizi bir tasarım yelkenin gerçek bir ikonu ile şımartın! J 70, erişilebilir bir tasarım ile tartışılmaz performansın mükemmel birleşimidir. Dünyadaki en yaygın yat ve bunun iyi bir nedeni var. Videoda her şey ortaya çıkıyor!                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -112,11 +111,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    HOIST THE SAILS AND ENJOY
+                                    YELKENLERİ AÇIN VE KEYFİNİ ÇIKARIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    With this recreational boat, you get to choose how you want to use her: a sporty pressure-free family escapade or a race on equal terms? Her lightweight design means you can quickly enjoy the delights of slipping along and her contained sail plan makes this bestseller totally safe and accessible.
-                                    </p>
+                                    Bu eğlence teknesiyle, onu nasıl kullanmak istediğinizi seçiyorsunuz: sportif, basınçsız bir aile kaçamağı mı yoksa eşit şartlarda bir yarış mı? Hafif tasarımı, kaymanın zevklerini hızla yaşayabileceğiniz anlamına gelir ve kapsamlı yelken planı, bu çok satan kitabı tamamen güvenli ve erişilebilir hale getirir.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -127,11 +125,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    JOIN THE INTERNATIONAL CLASS
+                                    ULUSLARARASI SINIFINA KATIL
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Today the J 70 is considered to be the reference one design on a global scale! A record presence at every international event! The mastery of a precise and identical build process and an international organisation guarantee equal terms for every owner.
-                                    </p>
+                                    Bugün J 70, küresel ölçekte referans bir tasarım olarak kabul ediliyor! Her uluslararası etkinlikte rekor bir varlık! Kesin ve özdeş bir yapım sürecindeki ustalık ve uluslararası bir organizasyon, her mal sahibi için eşit koşulları garanti eder.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -142,11 +139,10 @@ const J70 = () => {
                             <div className="col-12 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    GET USED TO HAVING FUN
+                                    EĞLENCEYE ALIŞIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    A fun craft that is both simple and technical, capable of making 20 knots under spinnaker, this yacht is supported by sociable and united national classes. Her construction is dedicated to downwind enthusiasts, while her size means you can easily head out to sea whenever you fancy.
-                                    </p>
+                                    Balon teknede 20 deniz mili yapabilen, hem basit hem teknik, eğlenceli bir tekne olan bu yat, sosyal ve birleşik ulusal sınıflar tarafından destekleniyor. Yapısı, rüzgar yönü meraklılarına adanmışken, boyutu, canınız ne zaman isterse kolayca denize açılabileceğiniz anlamına gelir.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -157,11 +153,12 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    BENEFIT FROM CUTTING-EDGE EQUIPMENT
+                                    SON TEKNOLOJİ EKİPMANLARDAN FAYDALANIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The strengths of this yacht primarily rely on its latest generation equipment, with a carbon rig and top of the range construction technology, which make it lightweight and stiff with great longevity.                                    </p>
-                                </article>
+                                    Bu yatın güçlü yanları, esas olarak, onu hafif ve sağlam, uzun ömürlü kılan bir karbon kulesi ve sınıfının en iyisi inşaat teknolojisine sahip en yeni nesil ekipmanına dayanmaktadır.
+                                    </p>
+                                    </article>
                             </div>
                         </div>
                         <div className="row mb-2 py-4">
@@ -171,10 +168,11 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    SIMPLIFY YOUR LIFE
+                                    HAYATINI BASİTLEŞTİR
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    When the weather is fine, why wait to make the most of it? A lgall sportsboat measuring 7m, the J 70 is light as a feather, easy to transport and simple to launch and rig. Her keel is retractable, meaning you can reduce the height on the trailer.                                    </p>
+                                    Hava güzelken, neden en iyi şekilde yararlanmak için bekleyesiniz? 7 m boyunda küçük bir spor tekne olan J 70, tüy kadar hafiftir, taşıması kolaydır ve fırlatması ve teçhizatı basittir. Omurgası geri çekilebilir, yani römorktaki yüksekliği azaltabilirsiniz.
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -185,11 +183,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    BE PART OF A PERFECT SPORTS ORGANISATION
+                                    KUSURSUZ BİR SPOR ORGANİZASYONUNUN PARÇASI OLUN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Its lgall manufacturing tolerances are a guarantee of sporting equity for all. The network of owner classes offers events of a regional and international scope in each country.
-                                    </p>
+                                    Küçük üretim toleransları, herkes için sportif eşitliğin garantisidir. Sahip sınıfları ağı, her ülkede bölgesel ve uluslararası kapsamda etkinlikler sunar.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -200,11 +197,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    DEMAND UNFAILING RELIABILITY
+                                    AKSAMAYAN GÜVENİLİRLİK TALEP EDİN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Even when used intensively, the build quality of the J 70 guarantees unrivalled resistance and solidity, which translates as a high resale value. Thanks to a genuine ‘racer’ culture, a constant eye for detail, highly selective materials and strict production control, this boat is bordering on perfection in operating terms.
-                                    </p>
+                                    Yoğun bir şekilde kullanıldığında bile, J 70'in yapı kalitesi rakipsiz direnci ve sağlamlığı garanti eder, bu da yüksek yeniden satış değeri anlamına gelir. Gerçek bir "yarışçı" kültürü, sürekli ayrıntılara gösterilen özen, son derece seçici malzemeler ve sıkı üretim kontrolü sayesinde bu tekne, kullanım açısından mükemmelliğin sınırında.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -215,11 +211,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    MAKE THE MOST OF HER ERGONOMIC CABIN
+                                    ERGONOMİK KABİNİNDEN EN FAZLA FAYDALANIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    With her lgall cabin, you’re protected from bad weather. It also means all the equipment for the boat and the team can be easily stowed and transported inside. The forward deck hatch makes it brighter and enables effective ventilation of the interior volume. The outboard engine can be fully stowed down below while sailing.
-                                    </p>
+                                    Küçük kabini ile kötü hava koşullarından korunursunuz. Aynı zamanda, tekne ve ekip için tüm ekipmanın içeride kolayca istiflenebileceği ve taşınabileceği anlamına gelir. Ön güverte kapağı onu daha parlak hale getirir ve iç hacmin etkili bir şekilde havalandırılmasını sağlar. Dıştan takma motor, seyir halindeyken tamamen aşağıda istiflenebilir.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -230,11 +225,10 @@ const J70 = () => {
                             <div className="col-lg-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    GET INTO RACING
+                                    YARIŞA KATILIN
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The characteristics of the J 70 make her accessible to all. She is perfectly suited to young and women’s crews. The strict rules on hiking mean that those who don’t take part in intensive training can still easily compete against more honed crews.
-                                    </p>
+                                    J 70'in özellikleri onu herkes için erişilebilir kılar. Genç ve kadın ekipler için mükemmel şekilde uygundur. Yürüyüşle ilgili katı kurallar, yoğun eğitime katılmayanların yine de daha deneyimli ekiplere karşı kolayca rekabet edebileceği anlamına gelir.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -304,7 +298,7 @@ const J70 = () => {
                     </section>
                     <section className="p-3">
                         <h2 className="text-center my-3">
-                            GALLERY
+                            GALERİ
                         </h2>
                         <ImageGallery items={J70Images}/>
                     </section>

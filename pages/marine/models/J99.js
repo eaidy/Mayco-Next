@@ -17,7 +17,7 @@ const J45 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J99/J99-1.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -25,7 +25,7 @@ const J45 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -39,7 +39,7 @@ const J45 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-99</i> SPORT SAILBOAT
+                                <i>J-99</i> SPOR YELKENLİ
                             </h1>
                         </MovingText>
                         <MovingText
@@ -80,13 +80,13 @@ const J45 = () => {
                             <div className="col-sm-10 d-flex align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
-                                    J 99 SPORT SAILBOAT
+                                    J 99 SPOR YELKENLİ
                                     </h1>
                                     <h2 style={{ fontSize: 28, marginBottom: 15}}>
-                                    UNLEASH YOUR OFFSHORE DESIRES.
+                                    DENİZDEKİ İSTEKLERİNİZİ SERBEST BIRAKIN.
                                     </h2>
                                     <p>
-                                    The new J/99 completes the Sport range and aims to satisfy multiple demands. A racer that is intended to be both accessible and high-performance, the J/99 will excite your senses and her very attractive price is bound to appeal! Book your J 99 test.                                    </p>
+                                    Yeni J/99, Sport serisini tamamlıyor ve birçok talebi karşılamayı amaçlıyor. Hem erişilebilir hem de yüksek performanslı olması amaçlanan bir yarışçı olan J/99, duyularınızı harekete geçirecek ve çok cazip fiyatı kesinlikle sizi cezbedecek!                                   </p>
                                 </article>
                             </div>
                         </div>
@@ -97,11 +97,10 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    AN OFFSHORE SPEEDSTER ACCESSIBLE TO ALL!
+                                    HERKES İÇİN ERİŞİLEBİLİR BİR AÇIK DENİZ SPEEDSTER!
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The J/99 will be the perfect boat to fulfil your desires. A racer designed for a shorthanded, coastal or offshore race programme, you’ll find a refined sports finish making her interior equally convivial for weekends away with family.
-                                    </p>
+                                    J/99 arzularınızı yerine getirmek için mükemmel bir tekne olacak. Kısa süreli, kıyı veya açık deniz yarış programı için tasarlanmış bir yarışçının iç mekanını aileyle hafta sonları için aynı derecede keyifli hale getiren zarif bir spor kaplama bulacaksınız.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -112,9 +111,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    AN UNRIVALLED EXPERIENCE IN TERMS OF PERFORMANCE                                    </h2>
+                                    PERFORMANS AÇISINDAN RAKİPSİZ BİR DENEYİM                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The J/99 is the fruit of an in-depth study that relies on the J/’s great wealth of offshore experience. Boasting significant victories and podiums across the major offshore racing circuit (Middle Sea Race / Fastnet Race / Mackinac Race / Armen Race) her architect has relied on the recognised strengths of the existing hulls while introducing even greater versatility, notably with enhanced form stability combined with minimal wetted surface.
+                                    J/99, J/'nin denizaşırı deneyim zenginliğine dayanan derinlemesine bir çalışmanın meyvesidir. Büyük açık deniz yarış pistinde (Orta Deniz Yarışı / Fastnet Yarışı / Mackinac Yarışı / Armen Yarışı) önemli zaferler ve podyumlar elde eden mimarı, mevcut gövdelerin bilinen güçlü yanlarına güvenirken, özellikle gelişmiş form stabilitesi ile birlikte daha da fazla çok yönlülük sunar. minimum ıslak yüzey.
                                     </p>
                                 </article>
                             </div>
@@ -126,10 +125,9 @@ const J45 = () => {
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    THE SPORTS YACHT WITH GOOD HEADROOM                                    </h2>
+                                    ZARİF MEKANLI SPOR YATI                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The J/99 features a comfortable layout for offshore passage making with perfectly adapted headroom. Her spacious interior comprises two individual and symmetrical aft cabins, enabling you to rest whatever the tack. In addition, her forward heads compartment, L-shaped galley and forward-facing chart table make her highly functional and add to your comfort on the water.
-                                    </p>
+                                    J/99, mükemmel bir şekilde uyarlanmış boşluk payı ile açık deniz geçişi için rahat bir yerleşim planına sahiptir. Ferah iç mekanı, her koşulda dinlenmenizi sağlayan iki ayrı ve simetrik kıç kabinden oluşur. Ayrıca ön baş bölmesi, L şeklindeki mutfağı ve öne bakan harita masası onu son derece işlevsel kılıyor ve sudaki konforunuzu artırıyor.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -140,10 +138,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    ONE YACHT, SEVERAL PROGRAMS                                    </h2>
+                                    BİR YAT, BİRÇOK PROGRAM                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The deck layout on the J/99 has been optimised to facilitate manoeuvres in shorthanded configuration. All the main controls are accessible from the helming station. Several configurations are available: single or twin rudders / bulbed or plain fin keel / symmetric or asymmetric version. Her light displacement combined with substantial stiffness and refined steering will enable you to sail with complete confidence.
-                                    </p>
+                                    J/99'daki güverte düzeni, kısaltılmış konfigürasyonda manevraları kolaylaştırmak için optimize edilmiştir. Tüm ana kontrollere dümen istasyonundan erişilebilir. Çeşitli konfigürasyonlar mevcuttur: tek veya çift dümen / bombeli veya düz kanatlı salma / simetrik veya asimetrik versiyon. Hafif yer değiştirmesi, önemli sertlik ve rafine yönlendirme ile birleştiğinde, tam bir güvenle yelken açmanızı sağlayacaktır.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -154,10 +151,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    HIGH-QUALITY FOR THE PERFECT COMPROMISE                                    </h2>
+                                    KUSURSUZ ÖDÜN İÇİN YÜKSEK KALİTE                                    </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Balance is key to developing a new model. The build quality comes into its own in the way everything has been thought out. The lightness of its infused composites linked to the incomparable structural stiffness allows for increased stability and hence performance whilst providing the level of comfort and finish clients have come to expect.
-                                    </p>
+                                    Denge, yeni bir model geliştirmenin anahtarıdır. Yapı kalitesi, her şeyin düşünüldüğü şekilde kendini gösterir. Eşsiz yapısal sertliğe bağlı aşılanmış kompozitlerinin hafifliği, artan stabiliteye ve dolayısıyla performansa izin verirken, müşterilerin beklediği konfor ve bitiş seviyesini sağlar.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -168,10 +164,9 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    GEARED AROUND EFFICIENCY                                    </h2>
+                                    VERİMLİLİK ETRAFINDA TASARLANMIŞTIR                                    </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Considerable thought has gone into the J/99 to offer you a high-performance yacht able to adapt to your needs. In this way, you’ll have the option of a vast array of equipment to enable you to optimise your boat accordingly. Furthermore, the rig reflects the latest technological advances, which notably include a dedicated aluminium profile integrating a mixed track contributing to the stiffness of the profile. The removable fixed bowsprit is geared up for increased performance and practicality.
-                                    </p>
+                                    İhtiyaçlarınıza uyum sağlayabilen yüksek performanslı bir yat sunmak için J/99'a büyük bir emek harcandı. Bu şekilde, teknenizi buna göre optimize etmenizi sağlayacak geniş bir ekipman yelpazesine sahip olacaksınız. Ayrıca donanım, profilin sertliğine katkıda bulunan karışık bir paleti entegre eden özel bir alüminyum profil içeren en son teknolojik gelişmeleri yansıtıyor. Çıkarılabilir sabit bowsprit, daha fazla performans ve pratiklik için tasarlanmıştır.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -180,7 +175,7 @@ const J45 = () => {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-12">
-                                <h2 className="text-center fs-3 my-4 py-3 border-bottom">EQUIPMENT</h2>
+                                <h2 className="text-center fs-3 my-4 py-3 border-bottom">EKİPMAN</h2>
                                     <ul className="nav nav-tabs my-3 py-2 d-flex justify-content-center flex-md-row flex-column border-0">
                                         {
                                             navs.map((nav, indexTab) => (

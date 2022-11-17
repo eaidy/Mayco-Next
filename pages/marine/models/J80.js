@@ -7,7 +7,7 @@ import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 
-const J45 = () => {
+const J80 = () => {
 
     const [videoDisplay, setVideoDisplay] = useState(false)
 
@@ -16,7 +16,7 @@ const J45 = () => {
     return (
         <>  
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image src="/images/marinemodels/J80/J80-2.jpg" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -24,7 +24,7 @@ const J45 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE VIDEO
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -38,7 +38,7 @@ const J45 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-80</i> SPORT SAILBOAT
+                                <i>J-80</i> SPOR YELKENİ
                             </h1>
                         </MovingText>
                         <MovingText
@@ -79,13 +79,14 @@ const J45 = () => {
                             <div className="col-sm-10 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h1 style={{ fontSize: 23, marginBottom: 15}}>
-                                    J 80 SPORT SAILBOAT
+                                    J 80 SPOR YELKENİ
                                     </h1>
                                     <h2 style={{ fontSize: 28, marginBottom: 15}}>
-                                    STEP ABOARD A SAFE BET.                                    </h2>
+                                    GÜVENLİ BİR BAHİS İÇİN ADIM ATIN.                               </h2>
                                     <p>
-                                    Boasting 20 years of expertise, the J 80 is the obvious choice!
-                                    Control its power, savour its stability, release the inner racer in you! Book your J 80 test.                                    </p>
+                                    20 yıllık uzmanlığa sahip olan J 80, bariz seçimdir!
+                                    Gücünü kontrol et, dengesinin tadını çıkar, içindeki yarışçıyı serbest bırak!
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -96,11 +97,12 @@ const J45 = () => {
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                        SET SAIL WITH CONFIDENCE!
+                                    GÜVENLE YELKEN AÇIN!
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    You’re aboard a sound boat, inspiring confidence in all conditions.
-Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure begins.</p>
+                                    Her koşulda güven veren sağlam bir teknedesiniz.
+Denize doğru yola çıkın! Basit ve keyifli manevra kabiliyetinin keyfini çıkarın. Macera başlasın!
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -111,10 +113,10 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    HOLD YOUR COURSE!                                    </h2>
+                                    ROTANIZI TUTUN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The J 80’s very high ballast ratio makes it the safest sportsboat around with its impressive stability.
-                                    Featuring supreme flexibility at the helm and capable of high speeds, she’s also a lot of fun in downwind conditions.
+                                    J 80'in çok yüksek yük oranı, etkileyici dengesiyle onu en güvenli spor tekne yapar.
+                                    Dümende üstün esnekliğe sahip olan ve yüksek hız yapabilen bu araç, aynı zamanda rüzgar yönündeki koşullarda da oldukça eğlencelidir.
                                     </p>
                                 </article>
                             </div>
@@ -126,11 +128,11 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                             <div className="col-12 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    FULFIL HER POTENTIAL                                    </h2>
+                                    POTANSİYELİNİ GERÇEKLEŞTİRİN                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    Sheet on the sails and you’ll already be performing at 95% of your potential.
-Her lightweight design means you can very quickly get up on the plane in downwind conditions.
-Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’re guaranteed a thrilling ride!
+                                    Yelkenleri açın ve şimdiden potansiyelinizin %95'inde performans gösteriyor olacaksınız.
+                                    Hafif tasarımı, rüzgar koşullarında uçağa çok hızlı bir şekilde çıkabileceğiniz anlamına gelir.
+                                    Rüzgarda 16/18 knot tekne hızına tamamen güvenli bir şekilde ulaşabilen, heyecan verici bir sürüş garantiniz var!
                                     </p>
                                 </article>
                             </div>
@@ -142,10 +144,9 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    GET OFF TO THE PERFECT START IN COMPETITION!                                    </h2>
+                                    YARIŞMAYA MÜKEMMEL BAŞLANGIÇ YAPIN!                                  </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The jib furler and the asymmetric spinnaker make this one design yacht easy to get a feel for and a thoroughly entertaining way to learn about racing on all types of courses.
-                                    </p>
+                                    Jib furler ve asimetrik balon teknesi, bu tek tasarımlı yatı hissetmeyi kolaylaştırıyor ve her tür parkurda yarış hakkında bilgi edinmenin tamamen eğlenceli bir yolunu sunuyor.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -156,10 +157,9 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    SAIL WITH STYLE                                    </h2>
+                                    STİL İLE YELKEN AÇ                                 </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The timeless design of the J 80 was designed by Rod Johnstone with a view to making this 8m monohull a genuine style icon. It groups together all the brand’s distinctive elements, resulting in the perfect blend of a unique design and a trail-blazing spirit.
-                                    </p>
+                                    J 80'in zamansız tasarımı, bu 8 metrelik tek gövdeli tekneyi gerçek bir stil ikonu haline getirmek amacıyla Rod Johnstone tarafından tasarlanmıştır. Markanın tüm ayırt edici unsurlarını bir araya getirerek, benzersiz bir tasarım ile çığır açan bir ruhun mükemmel karışımını ortaya çıkarıyor.                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -170,10 +170,10 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    KEEN TO HAVE CLASS?                                    </h2>
+                                    DERS ALMAK MI İSTİYORSUNUZ ?                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    With nearly 1,500 boats distributed around the world, this craft benefits from a highly active owners’ class.
-Sportsmanship and sociability are the key words of this class.
+                                    Dünya çapında dağıtılan yaklaşık 1.500 tekne ile bu tekne, oldukça aktif bir sahipler sınıfından yararlanıyor.
+                                    Sportmenlik ve sosyallik bu sınıfın anahtar kelimeleridir..
                                     </p>
                                 </article>
                             </div>
@@ -185,10 +185,10 @@ Sportsmanship and sociability are the key words of this class.
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
-                                    TEST HER STRENGTH                                    </h2>
+                                    GÜCÜNÜ TEST ET                                   </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    The first model built in 1993 still has every chance of winning a race against a recent model.
-The choice of materials has not diminished in terms of quality over the years. Little wonder then that the J 80 is the reference sportsboat.
+                                    1993 yılında üretilen ilk model, yeni bir modele karşı yarış kazanma şansına hâlâ sahip.
+                                    Malzeme seçimi yıllar içinde kalite açısından azalmadı. O halde J 80'in referans spor teknesi olmasına şaşmamalı.
                                     </p>
                                 </article>
                             </div>
@@ -224,4 +224,4 @@ The choice of materials has not diminished in terms of quality over the years. L
     );
 }
  
-export default J45;
+export default J80;

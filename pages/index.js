@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-export default function Home() {
+export default function Home({ navigation}) {
+
+  const router = useRouter()
 
   return (
     // <div className="index-wrapper">
@@ -33,7 +36,7 @@ export default function Home() {
     // </div>
     <div className="enterance-wrapper">
       <div className="textile-side">
-        <div className="side-background">
+        <div onClick={() => router.push('/textile')} className="side-background">
           <Image src="/images/curtain-color.jpg" alt="..." fill={true} layout="fill"/>
         </div>
         <span className="textile-site-link">
@@ -43,7 +46,7 @@ export default function Home() {
         </span>
       </div>
       <div className="marine-side">
-        <div className="side-background">
+        <div onClick={() => router.push('/marine')} className="side-background">
           <Image src="/images/marine-link-bg.jpeg" alt="..." fill={true} layout="fill" />
         </div>
         <span className="marine-site-link">

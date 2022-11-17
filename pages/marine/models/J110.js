@@ -30,7 +30,7 @@ const J110 = () => {
     return (
         <>
             <Header headerObject={MarineObject.header}/>
-            <main className="wrapper bg-light">
+            <main className="wrapper">
                 <div className="model-image-top">
                     <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J110/J110-1.webp" height={800} width={1600} alt="..."/>
                     <div className="model-video-button-div">
@@ -38,7 +38,7 @@ const J110 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            MEDYAYI SEYRET
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -52,7 +52,7 @@ const J110 = () => {
                             fillMode="none"
                         >
                             <h1>
-                                <i>J-110</i> ELEGANCE YACHT
+                                <i>J-110</i> ELEGANCE YAT
                             </h1>
                         </MovingText>
                         <MovingText
@@ -75,7 +75,7 @@ const J110 = () => {
                         <div className="row my-3">
                             <div className="col-12">
                                 <h2 className="text-center py-3">
-                                The Superbly Comfortable, Double-Handed Performance Cruiser
+                                Son Derece Konforlu, Çift Elle Kullanılabilen Performans Gezi Teknesi
                                 </h2>
                             </div>
                         </div>
@@ -83,41 +83,41 @@ const J110 = () => {
                             <div className="col-sm-6">
                                 <article>
                                     <h4>
-                                    Superior Cruising Performance
+                                    Üstün Seyir Performansı
                                     </h4>
                                     <p>
                                     <br />
-                                    VMG is the best measure of sailboat performance; Velocity Made Good straight into the wind or away from the wind, regardless of tacking or jibing angles. A J/110 sailing at 6.6 knots, 41 degrees off the true wind (27 degrees apparent wind angle), makes good a velocity (VMG) of 5.0 knots straight into the wind. This is the speed attained by larger 42- 46 foot yachts such as Aldens, Hinckleys, Sabres or Little Harbors. <br /> <br />
-                                    J/110's performance is a function of low vertical center of gravity (VCG), a narrow waterline, draft and a higher sail area to displacement ratio. A key contributor to lowering weight in the design is high-tech Baltek laminate construction with 65-70% glass content from TPI's patented SCRIMP resin-infusion process. And, owners can go one step further to lowering VCG with an optional Hall Spars carbon-fiber mast. The 100 lbs. saved up high is the equivalent of having two 180 lb. crew hiking out on the rail when sailing to windward. Reaching at 8+ knots becomes almost a daily occurrence on a J/110 with the J/Sprit and asymmetrical spinnakers.
+                                    VMG, yelkenli performansının en iyi ölçüsüdür; Hız İyileştirildi, kontra veya savurma açılarından bağımsız olarak, doğrudan rüzgara doğru veya rüzgardan uzağa doğru. 6,6 knot hızla, gerçek rüzgardan 41 derece saparak (27 derece görünür rüzgar açısı) seyreden bir J/110, doğrudan rüzgara doğru 5,0 knot'luk iyi bir hız (VMG) sağlar. Bu, Aldens, Hinckleys, Sabres veya Little Harbors gibi daha büyük 42-46 fitlik yatların ulaştığı hızdır. <br /> <br />
+                                    J/110'un performansı, düşük dikey ağırlık merkezinin (VCG), dar su hattının, su çekiminin ve daha yüksek yelken alanı/yer değiştirme oranının bir fonksiyonudur. Tasarımdaki ağırlığın düşürülmesine önemli bir katkı, TPI'nin patentli SCRIMP reçine infüzyon sürecinden elde edilen %65-70 cam içeriğine sahip yüksek teknolojili Baltek laminat yapısıdır. Ve sahipler, isteğe bağlı bir Hall Spars karbon fiber direk ile VCG'yi düşürmek için bir adım daha ileri gidebilirler. 100 pound. Yüksek tasarruf, rüzgar yönüne doğru yelken açarken ray üzerinde yürüyen iki 180 lb. mürettebata sahip olmaya eşdeğerdir. J/Sprit ve asimetrik hava balonları ile J/110'da 8+ düğüme ulaşmak neredeyse günlük bir olay haline gelir.
                                     </p>
                                 </article>
                                 <article>
                                     <h4>
-                                    On-Deck Comfort
+                                    Güvertede Konfor
                                     </h4>
                                     <p>
                                     <br />
-                                    "The J/110's cockpit is ideal for cruising because one person can sail the boat with mainsheet, genoa and backstay adjuster all within reach. And, the helmsman can comfortably lean out against the lifelines, holding the wheel to steer while seeing the headsail." <br /><br />
-                                    The dodger completely covers the companionway and forward seats of the cockpit. With dodger side-curtains in place and an autopilot remote control, this is a great location for an "inside" piloting station or going on deck to join the skipper for a cup of coffee, without having to suit up.
+                                    "J/110'un kokpiti seyir için idealdir, çünkü bir kişi ana yelken, cenova ve arka payanda ayarlayıcısı elinizin altındayken teknede seyredebilir. Ve dümenci cankurtaran halatlarına rahatça yaslanabilir, dümeni ön yelkeni görürken yönlendirmek için tutabilir. " <br /><br />
+                                     Dodger, yolcu yolunu ve kokpitin ön koltuklarını tamamen kaplar. Dodger yan perdeleri ve bir otomatik pilot uzaktan kumandası ile burası, "iç" bir pilot istasyonu veya giyinmek zorunda kalmadan bir fincan kahve içmek için kaptana katılmak üzere güverteye çıkmak için harika bir konumdur.
                                     </p>
                                 </article>
                             </div>
                             <div className="col-sm-6">
                                 <article>
                                     <p>
-                                    Two people can safely fly the asymmetrical spinnaker on its 5.5 foot retractable carbon-fiber J/Sprit. No one has to go on deck when the spinnaker is deployed. It's contained in a snuffer sock operated from the cockpit. Jibing is as easy as letting go the old sheet and pulling in the new one. <br /> <br />
-                                    Sailing downwind, the spinnaker projects out to windward from behind the wind shadow of the mainsail, driving the apparent wind as much as 45 degrees forward of true wind direction.
+                                    İki kişi, 5,5 fitlik geri çekilebilir karbon fiber J/Sprit üzerinde asimetrik balonu güvenle uçurabilir. Balon balon konuşlandırıldığında kimsenin güverteye çıkması gerekmez. Kokpitten çalıştırılan bir enfiye çorabında bulunur. Jibing, eski çarşafı bırakıp yenisini çekmek kadar kolaydır. <br /> <br />
+                                    Rüzgar yönünde seyreden balon, ana yelkenin rüzgar gölgesinin arkasından rüzgar yönüne doğru çıkıntı yaparak görünen rüzgarı gerçek rüzgar yönünün 45 derece ilerisine kadar sürer.
                                     </p>
                                 </article>
                                 <article>
                                     <h4>
-                                    The Liveable Interior of A Classic Yacht
+                                    Klasik Bir Yatın Yaşanabilir İç Mekanı
                                     </h4>
                                     <p>
                                         <br />
-                                    When you go offshore in a seaway or spend several days living aboard, you will appreciate the J/110's interior design. It's light and open. The impression is clean and functional. The eye can see the shape of the hull from below, like a classic canoe. Yet, looking outside from below, the view is over the deck through large ports. It's as though one didn't go below-decks at all. <br /> <br />
-                                    The sense of spaciousness is created by J/110's classic American cruising yacht decor: "Antique white" panels beautifully trimmed in cold-molded teak. <br /> <br />
-                                    The owner's stateroom is located in the forepeak, a traditional favorite dating back to the 1920's when people spent more time cruising. They learned there's less action and less noise forward of the main bulkhead. One's sleep is not disrupted by late-night storytellers, noisy crew boarding the boat rafted alongside, or early morning pot-bangers. A solid teak and stainless steel main cabin drop-leaf table is placed away from the bulkhead and between settees for better access and as a brace when moving through the cabin at sea.
+                                    Bir deniz yolunda açık denizlere çıktığınızda veya gemide birkaç gün geçirdiğinizde, J/110'un iç tasarımını beğeneceksiniz. Hafif ve açık. İzlenim temiz ve işlevseldir. Göz, klasik bir kano gibi, gövdenin şeklini aşağıdan görebilir. Yine de, aşağıdan dışarıya bakıldığında, manzara, büyük limanlardan güverte üzerindedir. Güverte altına hiç inilmemiş gibi. <br /> <br />
+                                    Ferahlık hissi, J/110'un klasik Amerikan seyir yat dekoru tarafından yaratılmıştır: Soğuk kalıplanmış tik ağacından güzelce işlenmiş "Antika beyaz" paneller. <br /> <br />
+                                    Sahibinin kamarası, insanların deniz yolculuklarında daha fazla zaman geçirdikleri 1920'lere kadar uzanan geleneksel bir favori olan ön tepede yer almaktadır. Ana bölmenin önünde daha az hareket ve daha az gürültü olduğunu öğrendiler. Gece geç saatlerde hikaye anlatıcıları, yan yana rafting yapılan tekneye binen gürültülü ekip veya sabah erken saatlerde esrar çalan kişiler uykunuzu bölmez. Sağlam bir tik ve paslanmaz çelik ana kabin açılır kanatlı masası, daha iyi erişim için ve denizde kabin içinde hareket ederken bir destek olarak bölmeden uzağa ve kanepelerin arasına yerleştirilmiştir.
                                     </p>
                                 </article>
                             </div>
@@ -125,7 +125,7 @@ const J110 = () => {
                         <div className="row my-4">
                             <div className="col-12">
                                 <h2 className="text-center py-3">
-                                J/110 - Tech Specs
+                                J/110 - Teknik Özellikler
                                 </h2>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ const J110 = () => {
                         <div className="row">
                             <div className="col-12">
                                 <h2 className="text-center my-3 py-2">
-                                GALLERY
+                                GALERİ
                                 </h2>
                                 <ImageGallery items={J9Images}/>
                             </div>
