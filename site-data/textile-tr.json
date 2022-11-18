@@ -1,7 +1,7 @@
 {
     "header": {
         "navbar": [
-            { "label": "Anasayfa", "path": ""},
+            { "label": "Anasayfa", "path": "/"},
             { "label": "Kurumsal",  "path": "/corporate/aboutus"},
             { "label": "Ürünlerimiz",  "path": "/products"},
             { "label": "İletişim",  "path": "/contact" }

@@ -108,28 +108,26 @@ const TextileProducts = ({ productsObject }) => {
                     )
                 }
             </div>
-            <section className="text-center">
-                <h1 className="py-5">
-                    <span className="px-3">
+            <section className="products-section text-center">
+                <h1 className="py-3">
                     { productsObject.header }
-                    </span>
                 </h1>
                 <div className="sidebar d-flex justify-content-center">
                     <ul className="d-flex flex-row">
-                    {
-                        productsObject.scrollNavs.map((scrollNav, index) => (
-                            <li
-                                key={index}
-                                className={"sidebar-nav d-flex w-25 justify-content-center p-1" + " " + "sidebar-" + scrollNav.path }
-                            >
-                                <div className="">
-                                    <a href={"#" + scrollNav.path} className="m-4">
-                                        { scrollNav.text }
-                                    </a>
-                                </div>
-                            </li>    
-                        ))
-                    }
+                        {
+                            productsObject.scrollNavs.map((scrollNav, index) => (
+                                <li
+                                    key={index}
+                                    className={"sidebar-nav d-flex w-25 justify-content-center p-1" + " " + "sidebar-" + scrollNav.path }
+                                >
+                                    <div className="">
+                                        <a href={"#" + scrollNav.path} className="m-4">
+                                            { scrollNav.text }
+                                        </a>
+                                    </div>
+                                </li>    
+                            ))
+                        }
                     </ul>
                 </div>
             </section>

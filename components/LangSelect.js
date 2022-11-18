@@ -12,7 +12,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
     const [currentSiteState, ] = useState(currentSite)
 
     return (
-        <div className="container-fuild d-flex bg-light justify-content-between align-items-center px-2">
+        <div className="container-fuild d-flex justify-content-between align-items-center px-2">
             
             {/* <div className="header-phones d-flex justify-content-center align-items-center">
                 <div className="container">

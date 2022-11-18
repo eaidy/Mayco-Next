@@ -1,7 +1,7 @@
 {
     "header": {
         "navbar": [
-            { "label": "Home", "path": ""},
+            { "label": "Home", "path": "/"},
             { "label": "Corporate",  "path": "/corporate/aboutus"},
             { "label": "Products",  "path": "/products"},
             { "label": "Contact",  "path": "/contact" }
