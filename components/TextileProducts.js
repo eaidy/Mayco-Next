@@ -109,36 +109,30 @@ const TextileProducts = ({ productsObject }) => {
                 }
             </div>
             <section className="products-section text-center">
-                <h1 className="py-3">
+                {/* <h1 className="py-3">
                     { productsObject.header }
-                </h1>
-                <div className="sidebar d-flex justify-content-center">
-                    <ul className="d-flex flex-row">
+                </h1> */}
+                <div className="container my-1">
+                    <div className="row d-flex justify-content-center">
                         {
-                            productsObject.scrollNavs.map((scrollNav, index) => (
-                                <li
-                                    key={index}
-                                    className={"sidebar-nav d-flex w-25 justify-content-center p-1" + " " + "sidebar-" + scrollNav.path }
-                                >
-                                    <div className="">
-                                        <a href={"#" + scrollNav.path} className="m-4">
-                                            { scrollNav.text }
-                                        </a>
-                                    </div>
-                                </li>    
+                            productsObject.scrollNavs.map((nav) => (
+                                <div className="col-sm-3 d-flex justify-content-center align-items-center p-2">
+                                    <a href={"#" + nav.path} style={{   backgroundImage: `url('/images/textileproductnavs/${nav.path}.jpeg')`, backgroundRepeat: 'no-repeat' }}>
+                                        { nav.text }
+                                    </a>
+                                </div>
                             ))
                         }
-                    </ul>
+                    </div>
                 </div>
             </section>
 
             <section>
-                <div className="container-fluid products-main py-3">
+                <div className="container-fluid products-main py-1">
                     {
                         productsObject.productsArray.map((product, index) => (
                         <div className="product-row bg-light rounded-2" key={index}>
                             <div 
-                                key={index}
                                 id={product.id} 
                                 className="row mt-5 py-2 px-4 product-row-2 mx-2"
                             >
@@ -165,28 +159,36 @@ const TextileProducts = ({ productsObject }) => {
                                         }
                                     </ul>
                                 </div>
-                                <div className="col-sm-6 p-3 d-flex flex-column justify-content-center">
-                                        <span
-                                            onClick={() => {
-                                                if(product.id === "curtain"){
-                                                    setIsOpenCurtain(true)
-                                                }
-                                                else if(product.id === "fabric"){
-                                                    setIsOpenFabric(true)
-                                                }
-                                                else if(product.id === "towel"){
-                                                    setIsOpenTowel(true)
-                                                }
-                                                else if(product.id === "tshirt"){
-                                                    setIsOpenTshirt(true)
-                                                }
-                                            }}
-                                            className="textile-product-button text-center"
-                                        >
-                                            { product.imgExp }
-                                        </span>
-                                        <div className="product-img">
+                                <div className="col-sm-6 p-3 d-flex justify-content-start align-items-center">
+                                        {/* <div className="product-img">
                                             <Image src={product.img} height={350} width={600} alt="..."/>
+                                        </div> */}
+                                        <div className="textile-home-product-card mt-2 ms-2">
+                                            <div className="product-card-img" style={{ backgroundImage: `url("${product.img}")`}}></div>
+                                            <div className="product-card-detail">
+                                                <span>
+                                                    { product.header }
+                                                </span>
+                                                <a
+                                                    onClick={() => {
+                                                        if(product.id === "curtain"){
+                                                            setIsOpenCurtain(true)
+                                                        }
+                                                        else if(product.id === "fabric"){
+                                                            setIsOpenFabric(true)
+                                                        }
+                                                        else if(product.id === "towel"){
+                                                            setIsOpenTowel(true)
+                                                        }
+                                                        else if(product.id === "tshirt"){
+                                                            setIsOpenTshirt(true)
+                                                        }
+                                                    }}
+                                                    className="detail-button text-center"
+                                                >
+                                                    { product.imgExp }
+                                                </a>
+                                            </div>
                                         </div>
                                 </div>
                             </div>

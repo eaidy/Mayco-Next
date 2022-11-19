@@ -38,10 +38,14 @@ const Contact = ({ contactObject }) => {
 
         const isValid = await formSchema.isValid(formData)
 
+        const formattedMessage = `${formData.message}%0D%0A%0D%0A${formData.name}%0D%0A${formData.email}%0D%0A${formData.phone}`
+
         setFormValid(isValid)
 
         if (isValid) {
-            
+            var mail = document.createElement("a");
+            mail.href = `mailto:info@maycotex.com.tr?subject=${formData.subject}&body=${formattedMessage}`;
+            mail.click();
         }
 
         console.log(isValid)
@@ -99,7 +103,7 @@ const Contact = ({ contactObject }) => {
                     <div className="contact-form">
                         <form role="form" id="contact_form" className="contact-form" method="post" onSubmit={(e) => submitForm(e)}>
                             <div className="container-fluid">
-                                <ul className="row">
+                                <ul className="row mx-0 px-0">
                                     <li className="col-sm-6">
                                         <label>
                                             <input type="text" className="form-control my-3" name="name" id="name" placeholder={ contactObject.form.name } />
