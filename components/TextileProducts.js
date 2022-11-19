@@ -134,13 +134,13 @@ const TextileProducts = ({ productsObject }) => {
                         <div className="product-row bg-light rounded-2" key={index}>
                             <div 
                                 id={product.id} 
-                                className="row mt-5 py-2 px-4 product-row-2 mx-2"
+                                className="row mt-5 py-2 px-4 product-row-2 mx-sm-2"
                             >
                                 <div className="col-12 py-3 d-flex flex-column justify-content-center align-items-center text-center">
                                     <h3 className="my-3">
                                         { product.header }
                                     </h3>
-                                    <p className="my-3 d-flex w-75 px-3">
+                                    <p className="my-3 d-flex w-75 px-sm-3">
                                         { product.exp }
                                     </p>
                                 </div>
@@ -159,11 +159,11 @@ const TextileProducts = ({ productsObject }) => {
                                         }
                                     </ul>
                                 </div>
-                                <div className="col-sm-6 p-3 d-flex justify-content-start align-items-center">
+                                <div className="col-sm-6 p-sm-3 d-flex justify-content-start align-items-center">
                                         {/* <div className="product-img">
                                             <Image src={product.img} height={350} width={600} alt="..."/>
                                         </div> */}
-                                        <div className="textile-home-product-card mt-2 ms-2">
+                                        <div className="textile-home-product-card">
                                             <div className="product-card-img" style={{ backgroundImage: `url("${product.img}")`}}></div>
                                             <div className="product-card-detail">
                                                 <span>
