@@ -66,6 +66,7 @@ body {
 
 .product-row {
   background-color: transparent;
+  width: 100%;
 }
 
 .dropdownMenuButton-textile {
@@ -909,6 +910,9 @@ footer .col-12 {
   font-size: 2em;
 }
 
+.products-wrapper {
+}
+
 .products-section a {
   text-decoration: none;
   text-align: center;
@@ -932,7 +936,7 @@ footer .col-12 {
 
 .product-row-2 p {
   font-size: 1.1em;
-  line-height: 1.4em;
+  line-height: 1.8em;
 }
 
 .product-img {
@@ -945,17 +949,33 @@ footer .col-12 {
 }
 
 .product-row-2 p {
-  font-size: 1.2em !important;
+  font-size: 1.1em !important;
+  letter-spacing: 1px;
+  line-height: 1.5em;
 }
 
 .product-row-2 h3 {
+  font-weight: 400;
+  letter-spacing: 0.2em;
   font-size: 1.9em !important;
 }
 
+.product-row-3 ul {
+  list-style: none;
+  padding: 0;
+}
+
 .product-row-3 ul li {
-  margin-bottom: 1.5em;
-  font-size: 1.15em;
-  opacity: 0.8;
+  margin-bottom: 0.5em;
+  font-size: 0.96em;
+  opacity: 0.85 !important;
+  line-height: 2em;
+}
+
+.product-row-3 ul li p {
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 10px;
 }
 
 /* CORPORATE */
@@ -1485,7 +1505,6 @@ footer .col-12 {
   .nav-link-textile:after {
     content: '';
     position: absolute;
-    border-radius: 1px;
     left: 0;
     bottom: -9px;
     display: block;
@@ -1499,7 +1518,6 @@ footer .col-12 {
   .nav-link-marine:after {
     content: '';
     position: absolute;
-    border-radius: 1px;
     left: 0;
     bottom: -9px;
     display: block;

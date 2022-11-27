@@ -34,12 +34,12 @@
             "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
         },
         "curtainCard": {
-            "header": "PERDE",
+            "header": "HAZIR PERDE",
             "path": "/textile/products#curtain",
             "detail": "İNCELE"
         },
         "fabricCard": {
-            "header": "PERDE KUMAŞI",
+            "header": "PERDELİK KUMAŞ",
             "path": "/textile/products#fabric",
             "detail": "İNCELE"
         },
@@ -49,8 +49,8 @@
             "detail": "İNCELE"
         },
         "tshirtCard": {
-            "header": "T-SHIRT",
-            "path": "/textile/products#tshirt",
+            "header": "DİĞER",
+            "path": "/textile/products#others",
             "detail": "İNCELE"
         },
         "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
@@ -73,12 +73,12 @@
     },
     "mission": {
         "header": "MİSYONUMUZ",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "Güçlü Dünya markalarının ve çevreye saygılı yerli üreticilerin hizmet ortağı olmak.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "vision": {
         "header": "VİZYONUMUZ",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "Farklılıklar yaratarak , paydaşlarımızla “kazan-kazan” anlayışı doğrultusunda servis kalitemizi arttırarak büyümek.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "about": {
@@ -92,7 +92,7 @@
             { "path": "curtain", "text": "Hazır Perde"},
             { "path": "fabric", "text": "Perdelik Kumaş"},
             { "path": "towel", "text": "Havlu"},
-            { "path": "tshirt", "text": "T-Shirt"}
+            { "path": "tshirt", "text": "Diğer"}
         ],
         "productsArray": [
             {
@@ -100,17 +100,17 @@
                 "header": "HAZIR PERDE",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Yılın trend renklerinde tasarımlar",
+                    "Doğa dostu, Geri dönüştürülebilir – Recycled – iplik kullanımı",
+                    "Ökoteks ve Reach standartlarına göre üretim",
+                    "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
                 "img": "/images/textilegeneral/kumas17.jpg",
                 "imgExp": "GALERİYE GÖZAT"
             },
             {
                 "id": "fabric",
-                "header": "PERDE KUMAŞI",
+                "header": "PERDELİK KUMAŞ",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -135,8 +135,8 @@
                 "imgExp": "GALERİYE GÖZAT"
             },
             {
-                "id": "tshirt",
-                "header": "T-SHIRT",
+                "id": "others",
+                "header": "DİĞER",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

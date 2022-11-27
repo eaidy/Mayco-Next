@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
+import { FcCheckmark } from'react-icons/fc'
 
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
@@ -128,29 +129,32 @@ const TextileProducts = ({ productsObject }) => {
             </section>
 
             <section>
-                <div className="container-fluid products-main py-1">
+                <div className="container flex-column d-flex justify-content-center products-main py-1">
                     {
                         productsObject.productsArray.map((product, index) => (
-                        <div className="product-row bg-light rounded-2" key={index}>
+                        <div className="product-row bg-light mb-4 pb-3" key={index}>
                             <div 
                                 id={product.id} 
-                                className="row mt-5 py-2 px-4 product-row-2 mx-sm-2"
+                                className="row mt-3 py-2 px-4 product-row-2 mx-sm-2"
                             >
-                                <div className="col-12 py-3 d-flex flex-column justify-content-center align-items-center text-center">
-                                    <h3 className="my-3">
+                                <div className="col-12 py-3 d-flex flex-column">
+                                    <h3 className="my-3 ms-md-5">
                                         { product.header }
                                     </h3>
-                                    <p className="my-3 d-flex w-75 px-sm-3">
+                                    <p className="my-3 d-flex px-sm-3">
                                         { product.exp }
                                     </p>
                                 </div>
                             </div>
                             <div className="row product-row-3 px-4 mx-2">
-                                <div className="col-sm-6 d-flex justify-content-center align-items-center">
+                                <div className="col-sm-6 d-flex justify-content-start align-items-center">
                                     <ul className="mt-2">
                                         {
                                             product.specs.map((spec, indexA) => (
-                                                <li key={indexA}>
+                                                <li className="d-flex" key={indexA}>
+                                                    <span>
+                                                    <FcCheckmark size={20}/>
+                                                    </span>
                                                     <p>
                                                     { spec }
                                                     </p>

@@ -34,12 +34,12 @@
             "link": {"label": "About Us", "path": "/corporate/aboutus"}
         },
         "curtainCard": {
-            "header": "CURTAIN",
+            "header": "READY CURTAIN",
             "path": "/en/textile/products#curtain",
             "detail": "BROWSE"
         },
         "fabricCard": {
-            "header": "FABRIC",
+            "header": "DRAPERY",
             "path": "/en/textile/products#fabric",
             "detail": "BROWSE"
         },
@@ -49,8 +49,8 @@
             "detail": "BROWSE"
         },
         "tshirtCard": {
-            "header": "T-SHIRT",
-            "path": "/en/textile/products#tshirt",
+            "header": "OTHERS",
+            "path": "/en/textile/products#others",
             "detail": "BROWSE"
         },
         "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
@@ -92,12 +92,12 @@
             { "path": "curtain", "text": "Curtain"},
             { "path": "fabric", "text": "Fabric"},
             { "path": "towel", "text": "Towel"},
-            { "path": "tshirt", "text": "T-Shirt"}
+            { "path": "others", "text": "Others"}
         ],
         "productsArray": [
             {
                 "id": "curtain",
-                "header": "CURTAIN",
+                "header": "READY CURTAIN",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -110,7 +110,7 @@
             },
             {
                 "id": "fabric",
-                "header": "FABRIC",
+                "header": "DRAPERY",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -135,8 +135,8 @@
                 "imgExp": "PHOTO GALLERY"
             },
             {
-                "id": "tshirt",
-                "header": "T-SHIRT",
+                "id": "others",
+                "header": "OTHERS",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
