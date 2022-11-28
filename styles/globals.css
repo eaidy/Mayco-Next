@@ -22,7 +22,7 @@ body {
   bottom: 20px;
 }
 .design {
-  background-image: url('/images/textilehome/textile-design.jpeg');
+  background-image: url('/images/textilehome/desen-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -441,6 +441,15 @@ footer .col-12 {
 .social-links .instagram a:hover .social-icon {
   color: #BD4B4B;
   opacity: 1;
+}
+.social-links .instagram {
+  text-decoration: none;
+}
+.social-links .facebook {
+  text-decoration: none;
+}
+.social-links .instagram a:hover {
+  color: #BD4B4B;
 }
 .social-icon {
   width: 1.3em;

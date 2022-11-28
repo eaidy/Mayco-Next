@@ -138,15 +138,15 @@ const TextileProducts = ({ productsObject }) => {
                                 className="row mt-3 py-2 px-4 product-row-2 mx-sm-2"
                             >
                                 <div className="col-12 py-3 d-flex flex-column">
-                                    <h3 className="my-3 ms-md-5">
+                                    <h3 className="my-3">
                                         { product.header }
                                     </h3>
-                                    <p className="my-3 d-flex px-sm-3">
+                                    <p className="my-3 d-flex">
                                         { product.exp }
                                     </p>
                                 </div>
                             </div>
-                            <div className="row product-row-3 px-4 mx-2">
+                            <div className="row flex-row-reverse product-row-3 px-4 mx-2">
                                 <div className="col-sm-6 d-flex justify-content-start align-items-center">
                                     <ul className="mt-2">
                                         {

@@ -140,7 +140,7 @@ const TextileHome = ({ homeObject }) => {
             <section className="design px-4 py-4">
                 {/* <div className="design-background"></div> */}
                 <div className="container-fluid p-4">
-                    <h2 className="py-2 border-bottom border-warning border-secondary">
+                    <h2 className="py-2 border-bottom border-danger border-secondary">
                         { homeObject.design.header }
                     </h2>
                     <p>
@@ -166,9 +166,9 @@ const TextileHome = ({ homeObject }) => {
                 </div> */}
                 <div className="row">
                     <div className="col-12 d-flex justify-content-center align-items-center">
-                        <article className="d-flex mx-4 py-4 w-100 justify-content-center">
+                        <article className="d-flex mx-4 py-4 justify-content-center" style={{ width: '88%'}}>
                             <p className="home-article-main pt-4 text-center">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
+                                { homeObject.expText }
                             </p>
                         </article>
                     </div>

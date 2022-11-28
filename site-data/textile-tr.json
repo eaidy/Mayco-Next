@@ -30,9 +30,10 @@
         "lang": "",
         "design": {
             "header": "Mayco Tekstil",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac convallis nisl. Phasellus sit amet vestibulum eros. Donec quis augue dui. Morbi at augue nibh. Proin a urna at sapien.",
+            "text": "Ev tekstili ve dokuma kumaşlarda 35 yılı aşkın tecrübemizle, perde, döşemelik ve havlu kumaşlar uzmanlık alanımızdır.",
             "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
         },
+        "expText": "Müşterilerimize güvenilir tedarikçilerle, en iyi hizmeti vermeyi ilke edinen Mayco; Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere gibi Avrupa'nın birçok tanınmış markasıyla çalışarak Türkiye'deki ürün olanaklarını alıcılarıyla buluşturmuştur.",
         "curtainCard": {
             "header": "HAZIR PERDE",
             "path": "/textile/products#curtain",
@@ -68,8 +69,8 @@
     },
     "production": {
         "header": "ÜRETİM",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
-        "img": "/images/textilecorporate/production.jpeg"
+        "text": "Ökoteks ve Reach standartlarında, geri dönüştürülebilir iplikler kullanılarak, istenen renk ve desen tasarımlarını üretimi, saha kontrol çalışanlarımızın son kontrolü ile gerçekleşir.",
+        "img": "/images/textilecorporate/production/production-1.png"
     },
     "mission": {
         "header": "MİSYONUMUZ",
@@ -98,7 +99,7 @@
             {
                 "id": "curtain",
                 "header": "HAZIR PERDE",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "İsteğe göre dar-geniş ende ve çeşitli uzunluklarda üretilebilen, geniş kumaş, renk, desen ve kompozisyon skalasında kullanıma hazır perdeler.",
                 "specs": [
                     "Yılın trend renklerinde tasarımlar",
                     "Doğa dostu, Geri dönüştürülebilir – Recycled – iplik kullanımı",
