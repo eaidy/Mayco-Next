@@ -116,8 +116,8 @@ const TextileProducts = ({ productsObject }) => {
                 <div className="container my-1">
                     <div className="row d-flex justify-content-center">
                         {
-                            productsObject.scrollNavs.map((nav) => (
-                                <div className="col-sm-3 d-flex justify-content-center align-items-center p-2">
+                            productsObject.scrollNavs.map((nav, index) => (
+                                <div key={index} className="col-sm-3 d-flex justify-content-center align-items-center p-2">
                                     <a href={"#" + nav.path} style={{   backgroundImage: `url('/images/textileproductnavs/${nav.path}.jpeg')`, backgroundRepeat: 'no-repeat' }}>
                                         { nav.text }
                                     </a>
