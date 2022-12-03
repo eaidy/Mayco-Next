@@ -1,4 +1,3 @@
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
@@ -8,36 +7,31 @@ import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
-const imagesTowel = [
-    "/images/textilegeneral/kumas6.jpg",
-    "/images/textilegeneral/kumas7.jpg",
-    "/images/textilegeneral/kumas12.jpg"
-]
 
-const imagesCurtain = [
-    "/images/textilegeneral/kumas6.jpg",
-    "/images/textilegeneral/kumas7.jpg",
-    "/images/textilegeneral/kumas12.jpg"
-]
+const setImages = (dir, count) => {
+    let images = []
 
-const imagesTshirt = [
-    "/images/textilegeneral/kumas6.jpg",
-    "/images/textilegeneral/kumas7.jpg",
-    "/images/textilegeneral/kumas12.jpg"
-]
+    for(let i = 1; i <= count; i++){
+        images.push(dir + '/' + i + '.jpg')
+    }
 
-const imagesFabric = [
-    "/images/textilegeneral/kumas6.jpg",
-    "/images/textilegeneral/kumas7.jpg",
-    "/images/textilegeneral/kumas12.jpg"
-]
+    return images
+}
+
+const imagesTowel = setImages('/images/textileproducts/towel', 3)
+
+const imagesCurtain = setImages('/images/textileproducts/curtain', 4)
+
+const imagesOthers = setImages('/images/textileproducts/others',7)
+
+const imagesFabric = setImages('/images/textileproducts/fabric',20)
 
 const TextileProducts = ({ productsObject }) => {
 
     const [isOpenTowel, setIsOpenTowel] = useState(false)
     const [isOpenCurtain, setIsOpenCurtain] = useState(false)
     const [isOpenFabric, setIsOpenFabric] = useState(false)
-    const [isOpenTshirt, setIsOpenTshirt] = useState(false)
+    const [isOpenOthers, setIsOpenOthers] = useState(false)
 
     const [photoIndex, setPhotoIndex] = useState(0)
 
@@ -93,17 +87,17 @@ const TextileProducts = ({ productsObject }) => {
                     )
                 }
                 {
-                    isOpenTshirt && (
+                    isOpenOthers && (
                     <Lightbox
-                        mainSrc={imagesTshirt[photoIndex]}
-                        nextSrc={imagesTshirt[(photoIndex + 1) % imagesTshirt.length]}
-                        prevSrc={imagesTshirt[(photoIndex + imagesTshirt.length - 1) % imagesTshirt.length]}
-                        onCloseRequest={() => setIsOpenTshirt(false)}
+                        mainSrc={imagesOthers[photoIndex]}
+                        nextSrc={imagesOthers[(photoIndex + 1) % imagesOthers.length]}
+                        prevSrc={imagesOthers[(photoIndex + imagesOthers.length - 1) % imagesOthers.length]}
+                        onCloseRequest={() => setIsOpenOthers(false)}
                         onMovePrevRequest={() =>
-                        setPhotoIndex((photoIndex + imagesTshirt.length - 1) % imagesTshirt.length)
+                        setPhotoIndex((photoIndex + imagesOthers.length - 1) % imagesOthers.length)
                         }
                         onMoveNextRequest={() =>
-                        setPhotoIndex((photoIndex + 1) % imagesTshirt.length)
+                        setPhotoIndex((photoIndex + 1) % imagesOthers.length)
                         }
                     />
                     )
@@ -184,8 +178,8 @@ const TextileProducts = ({ productsObject }) => {
                                                         else if(product.id === "towel"){
                                                             setIsOpenTowel(true)
                                                         }
-                                                        else if(product.id === "tshirt"){
-                                                            setIsOpenTshirt(true)
+                                                        else if(product.id === "others"){
+                                                            setIsOpenOthers(true)
                                                         }
                                                     }}
                                                     className="detail-button text-center"

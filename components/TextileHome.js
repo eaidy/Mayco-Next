@@ -21,7 +21,7 @@ const TextileHome = ({ homeObject }) => {
       };
 
     return (
-        <>
+        <main className="textile-home-wrapper">
                 {/*
                 
                 <div className="container-fluid px-0">
@@ -140,7 +140,7 @@ const TextileHome = ({ homeObject }) => {
             <section className="design px-4 py-4">
                 {/* <div className="design-background"></div> */}
                 <div className="container-fluid p-4">
-                    <h2 className="py-2 border-bottom border-danger border-secondary">
+                    <h2 className="py-2 border-bottom">
                         { homeObject.design.header }
                     </h2>
                     <p>
@@ -176,7 +176,7 @@ const TextileHome = ({ homeObject }) => {
                 <div className="row mt-4">
                     <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
                         <div className="textile-home-product-card mb-2 me-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas7.jpg")'}}></div>
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/curtain-splash.png")'}}></div>
                             <div className="product-card-detail">
                                 <span>
                                     { homeObject.curtainCard.header }
@@ -208,7 +208,7 @@ const TextileHome = ({ homeObject }) => {
                 <div className="row">
                     <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
                         <div className="textile-home-product-card mt-2 me-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas10.jpg")'}}></div>
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/towel-splash.jpg")'}}></div>
                             <div className="product-card-detail">
                                 <span>
                                     { homeObject.towelCard.header }
@@ -223,7 +223,7 @@ const TextileHome = ({ homeObject }) => {
                     </div>
                     <div className="col-sm-6 py-3 d-flex justify-content-start align-items-center">
                         <div className="textile-home-product-card mt-2 ms-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas11.jpg")'}}></div>
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/masa-ortusu-1.png")'}}></div>
                             <div className="product-card-detail">
                                 <span>
                                     { homeObject.tshirtCard.header }
@@ -254,7 +254,7 @@ const TextileHome = ({ homeObject }) => {
                     </GoogleMapReact>
                 </div>
             </section> */}
-        </>
+        </main>
     );
 }
  

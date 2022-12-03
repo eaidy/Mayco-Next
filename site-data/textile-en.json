@@ -30,9 +30,10 @@
         "lang": "en",
         "design": {
             "header": "Mayco Textile",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac convallis nisl. Phasellus sit amet vestibulum eros. Donec quis augue dui. Morbi at augue nibh. Proin a urna at sapien.",
+            "text": "With more than 35 years of experience in home textiles and woven fabrics, curtain, upholstery and towel fabrics are our specialty.",
             "link": {"label": "About Us", "path": "/corporate/aboutus"}
         },
+        "expText": "Mayco, which adopts the principle of providing the best service to our customers with reliable suppliers; Working with many well-known brands in Europe such as the Netherlands, France, Germany, Switzerland, Finland and England, it has brought together the product opportunities in Turkey with its buyers.",
         "curtainCard": {
             "header": "READY CURTAIN",
             "path": "/en/textile/products#curtain",
@@ -68,17 +69,17 @@
     },
     "production": {
         "header": "PRODUCTION",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "The production of the desired color and pattern designs by using recyclable yarns in Ökoteks and Reach standards is realized with the final control of our field control staff.",
         "img": "/images/textilecorporate/production.jpeg"
     },
     "mission": {
         "header": "Our Mission",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "To be the service partner of strong world brands and environmentally friendly local manufacturers.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "vision": {
         "header": "OUR VISION",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "To grow by creating differences and increasing our service quality in line with the “win-win” approach with our stakeholders.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "about": {
@@ -98,40 +99,40 @@
             {
                 "id": "curtain",
                 "header": "READY CURTAIN",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "Ready-to-use curtains in wide fabric, color, pattern and composition scales, which can be produced in narrow-wide widths and various lengths upon request.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Designs in trend colors of the year",
+                    "Eco-friendly, Recyclable – Recycled – use of yarn",
+                    "Production according to Oeko-Tex and Reach standards",
+                    "Final quality control on site with our field quality control staff"
                 ],
-                "img": "/images/textilegeneral/kumas17.jpg",
+                "img": "/images/textilehome/curtain-splash.png",
                 "imgExp": "PHOTO GALLERY"
             },
             {
                 "id": "fabric",
                 "header": "DRAPERY",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "Wide range of pattern, print, color, thread count and material alternatives",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Designs in trend colors of the year",
+                    "Eco-friendly, Recyclable – Recycled – use of yarn",
+                    "Production according to Oeko-Tex and Reach standards",
+                    "Final quality control on site with our field quality control staff"
                 ],
-                "img": "/images/textilegeneral/kumas19.jpg",
+                "img": "/images/textilegeneral/kumas6.jpg",
                 "imgExp": "PHOTO GALLERY"
             },
             {
                 "id": "towel",
                 "header": "TOWEL",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "Sustainable products in desired weights and colors, in any size, plain or dobby.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Designs in trend colors of the year",
+                    "Eco-friendly, Recyclable – Recycled – use of yarn",
+                    "Production according to Oeko-Tex and Reach standards",
+                    "Final quality control on site with our field quality control staff"
                 ],
-                "img": "/images/textilegeneral/kumas10.jpg",
+                "img": "/images/textilehome/towel-splash.jpg",
                 "imgExp": "PHOTO GALLERY"
             },
             {
@@ -139,12 +140,12 @@
                 "header": "OTHERS",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Designs in trend colors of the year",
+                    "Eco-friendly, Recyclable – Recycled – use of yarn",
+                    "Production according to Oeko-Tex and Reach standards",
+                    "Final quality control on site with our field quality control staff"
                 ],
-                "img": "/images/textilegeneral/kumas7.jpg",
+                "img": "/images/textilehome/masa-ortusu-1.png",
                 "imgExp": "PHOTO GALLERY"
             }
         ]

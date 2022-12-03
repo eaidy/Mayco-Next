@@ -53,9 +53,7 @@
             "header": "DİĞER",
             "path": "/textile/products#others",
             "detail": "İNCELE"
-        },
-        "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
-        "article2": { "header": "Misyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." }
+        }
     },
     "corporate": {
         "lang": "tr",
@@ -93,7 +91,7 @@
             { "path": "curtain", "text": "Hazır Perde"},
             { "path": "fabric", "text": "Perdelik Kumaş"},
             { "path": "towel", "text": "Havlu"},
-            { "path": "tshirt", "text": "Diğer"}
+            { "path": "others", "text": "Diğer"}
         ],
         "productsArray": [
             {
@@ -106,33 +104,33 @@
                     "Ökoteks ve Reach standartlarına göre üretim",
                     "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
-                "img": "/images/textilegeneral/kumas17.jpg",
+                "img": "/images/textilehome/curtain-splash.png",
                 "imgExp": "GALERİYE GÖZAT"
             },
             {
                 "id": "fabric",
                 "header": "PERDELİK KUMAŞ",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "Geniş aralıkta desen, baskı, renk, iplik sayısı ve materyal alternatifleri",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Yılın trend renklerinde tasarımlar",
+                    "Doğa dostu, Geri dönüştürülebilir – Recycled – iplik kullanımı",
+                    "Ökoteks ve Reach standartlarına göre üretim",
+                    "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
-                "img": "/images/textilegeneral/kumas19.jpg",
+                "img": "/images/textilegeneral/kumas6.jpg",
                 "imgExp": "GALERİYE GÖZAT"
             },
             {
                 "id": "towel",
                 "header": "HAVLU",
-                "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
+                "exp": "İstenilen gramaj ve renklerde, her türlü ebatta, düz veya armürlü, sürdürülebilir ürünler.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Yılın trend renklerinde tasarımlar",
+                    "Doğa dostu, Geri dönüştürülebilir – Recycled – iplik kullanımı",
+                    "Ökoteks ve Reach standartlarına göre üretim",
+                    "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
-                "img": "/images/textilegeneral/kumas10.jpg",
+                "img": "/images/textilehome/towel-splash.jpg",
                 "imgExp": "GALERİYE GÖZAT"
             },
             {
@@ -140,12 +138,12 @@
                 "header": "DİĞER",
                 "exp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique dui nec metus malesuada mollis. Nunc fermentum nec turpis et dignissim. Ut augue felis, sagittis in libero nec, commodo lobortis.",
                 "specs": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "Yılın trend renklerinde tasarımlar",
+                    "Doğa dostu, Geri dönüştürülebilir – Recycled – iplik kullanımı",
+                    "Ökoteks ve Reach standartlarına göre üretim",
+                    "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
-                "img": "/images/textilegeneral/kumas7.jpg",
+                "img": "/images/textilehome/masa-ortusu-1.png",
                 "imgExp": "GALERİYE GÖZAT"
             }
         ]

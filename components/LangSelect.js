@@ -2,6 +2,7 @@ import { GB, TR } from 'country-flag-icons/react/3x2'
 import { BsTelephoneFill } from'react-icons/bs'
 import { HiMail } from'react-icons/hi'
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -45,10 +46,22 @@ const LangSelect = ({ currentSite, currentLang}) => {
                         }
                     </button>
                 </div> */}
+                <Link href={ '/' + (currentSite === 'textile' ? 'marine' : 'textile') }>
+                    <a className="site-toggle-button px-2 me-3">
+                        <span className="site-toggle-img">
+                            <Image src={'/logos/' + (currentSite === 'textile' ? 'marine' : 'textile') + '.svg'} width={28} height={28} alt="..." />
+                        </span>
+                        <span className="site-toggle-text">
+                            {
+                                currentSite === 'textile' ? 'MARINE' : 'TEXTILE'
+                            }
+                        </span>
+                    </a>
+                </Link>
                 <div className="dropdown">
                     <button className={"p-1 bg-transparent d-sm-inline-block text-secondary dropdown-toggle dropdownMenuButton-" + currentSiteState} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         {
-                            currentLang === 'en' ? 'English' : 'Türkçe'
+                            currentLang === 'en' ? <GB title="English" className="flagIcon"/> : <TR title="Türkçe" className="flagIcon"/> 
                         }
                     </button>
                     <ul className="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1">

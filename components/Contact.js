@@ -149,7 +149,7 @@ const Contact = ({ contactObject }) => {
                 <div className="col-12">
                     <div style={{ height: '50vh', width: '100%' }}>
                         <GoogleMapReact
-                            bootstrapURLKeys={{ key: "" }}
+                            bootstrapURLKeys={{ key: "AIzaSyDswN_NNdYrTvgHi_K11it2nujdbCWQMSE" }}
                             defaultCenter={defaultProps.center}
                             defaultZoom={defaultProps.zoom}
                         >
