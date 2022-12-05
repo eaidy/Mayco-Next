@@ -5,6 +5,7 @@ import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { resolve } from 'styled-jsx/css';
 import MovingText from 'react-moving-text'
+import Iframe from 'react-iframe';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -281,7 +282,7 @@ const MarineHome = ({ homeObject }) => {
 
             <section>
                 <div style={{ height: '50vh', width: '100%' }}>
-                    <GoogleMapReact
+                    {/* <GoogleMapReact
                         bootstrapURLKeys={{ key: "" }}
                         defaultCenter={defaultProps.center}
                         defaultZoom={defaultProps.zoom}
@@ -291,7 +292,15 @@ const MarineHome = ({ homeObject }) => {
                         lng={28.989316}
                         text="MAYCO Inc"
                         />
-                    </GoogleMapReact>
+                    </GoogleMapReact> */}
+                    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.498995847303!2d28.98719071541492!3d41.036215679298024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77ae98fbef5%3A0x4ca4ccfe1861a966!2sMayco%20Tekstil%20End%C3%BCstri%20ve%20Ticaret%20A.%C5%9E.!5e0!3m2!1str!2str!4v1670249206582!5m2!1str!2str"
+                        width="100%" 
+                        height="100%"
+                        style="border:0;" 
+                        allowFullScreen="" 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
                 </div>
             </section>
         </>
