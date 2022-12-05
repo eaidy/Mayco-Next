@@ -11,7 +11,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = () => {
     const images = []
-    for(let i = 1; i < 30; i ++ ) {
+    for(let i = 1; i < 38; i ++ ) {
         images.push({
             original: '/images/marinemodels/J70/gallery/' + i + '.jpg',
             thumbnail: '/images/marinemodels/J70/gallery/' + i + '.jpg'
@@ -33,7 +33,7 @@ const J70 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image src="/images/marinemodels/J70/J70-1.jpg" height={800} width={1600} alt="..."/>
+                    <Image src="/images/marinemodels/J70/J70-1.jpg" height={1500} width={3000} alt="..."/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"

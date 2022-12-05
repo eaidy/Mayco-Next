@@ -11,6 +11,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
     const router = useRouter()
 
     const [currentSiteState, ] = useState(currentSite)
+    const [lang, ] = useState(() => currentLang === "en" ? "en/" : "")
 
     return (
         <div className="container-fuild d-flex justify-content-between align-items-center px-2">
@@ -46,7 +47,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
                         }
                     </button>
                 </div> */}
-                <Link href={ '/' + (currentSite === 'textile' ? 'marine' : 'textile') }>
+                <Link href={ '/' + lang + (currentSite === 'textile' ? 'marine' : 'textile') }>
                     <a className="site-toggle-button px-2 me-3">
                         <span className="site-toggle-img">
                             <Image src={'/logos/' + (currentSite === 'textile' ? 'marine' : 'textile') + '.svg'} width={28} height={28} alt="..." />

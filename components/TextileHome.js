@@ -208,7 +208,7 @@ const TextileHome = ({ homeObject }) => {
                 <div className="row">
                     <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
                         <div className="textile-home-product-card mt-2 me-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/towel-splash.jpg")'}}></div>
+                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/havlu-3.png")'}}></div>
                             <div className="product-card-detail">
                                 <span>
                                     { homeObject.towelCard.header }

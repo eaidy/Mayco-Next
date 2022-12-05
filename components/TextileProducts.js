@@ -24,7 +24,7 @@ const imagesCurtain = setImages('/images/textileproducts/curtain', 4)
 
 const imagesOthers = setImages('/images/textileproducts/others',7)
 
-const imagesFabric = setImages('/images/textileproducts/fabric',20)
+const imagesFabric = setImages('/images/textileproducts/fabric',18)
 
 const TextileProducts = ({ productsObject }) => {
 

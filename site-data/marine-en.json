@@ -46,7 +46,10 @@
             "sub1": { "title": "DESIGN", "text": "At its core, a J boat is all about performance-related specifications and how easy it is to sail. Secondly, we improve the interior by optimizing the spaces as much as we can. We continue to believe that the primary asset of a sailboat is the pleasure you get from sailing it."},
             "sub2": { "title": "STANDARD EQUIPMENT", "text": "The standard version offers an unrivaled hardware standard. Standard spinnaker hardware on a retractable carbon bowsprit is just one such example. The body finish and inserts are also unique in this market."},
             "sub3": { "title": "INFUSION TECHNOLOGY", "text": "The infusion technique is the best way to get a solid yet light boat! No gaps are left to prevent excess resin. Since J's are groundbreaking in terms of infusion, it's a technique we've mastered from the start, which means our mastery of the subject is unrivaled."}
-        } 
+        },
+        "sliderText1": { "main": "J-BOATS", "sub": "Turkey Distributor"},
+        "sliderText2": { "main": "J-BOATS", "sub": "Turkey Distributor"},
+        "sliderText3": { "main": "J-BOATS", "sub": "Turkey Distributor"}
     },
     "corporate": {
         "lang": "en",
@@ -60,21 +63,21 @@
     },
     "production": {
         "header": "PRODUCTION",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "Enter Everett Pearson, the owner of Tillotson Pearson, Inc, a highly respected boat builder in Warren Rhode Island. He was quite taken with Rod's design and agreed to produce the boat on spec in return for the U.S. building rights. Display ads in Soundings got the word out. That winter they set up a makeshift factory in an old textile mill in nearby Fall River, Massachusetts, and began popping out J/24s.",
         "img": "/images/textilecorporate/production.jpeg"
     },
     "mission": {
         "header": "Our Mission",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "The story begins in 1975. Rod, then an ad salesman for the sailing trade magazine, Soundings, and an active one-design sailor decided to build a sailboat he had been designing since completing a Westlawn School of Yacht Design correspondence course in the 60's. With $400-worth of fiberglass and wood, some rigging and hardware left over from a Soling of Bob's, he built the 24' x 9' wide RAGTIME on weekends in his 3 car garage at his home in Stonington, Connecticut. During the summer of 1976, with an all family crew aboard, RAGTIME beat everything in sight. Rod realized he had created something special.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "vision": {
         "header": "OUR VISION",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non bibendum eros. Sed ullamcorper imperdiet rhoncus. Vestibulum porttitor eu turpis nec ullamcorper. Duis at ornare quam, a vulputate tellus. Nunc nec ante magna. In euismod rutrum purus, non sagittis justo vulputate commodo. Integer dui turpis, malesuada vel scelerisque at, tristique et est. Aenean eu dui semper, vulputate ligula sed, venenatis turpis. Etiam laoreet leo a rhoncus auctor. Ut commodo nisl eu tincidunt tempor. Proin vitae libero quis eros bibendum ultrices efficitur eget elit. Aenean hendrerit molestie libero in venenatis. Donec elementum tincidunt porttitor.",
+        "text": "While other brands may sell more boats, the Johnstones have won the performance-oriented segment of the market. Theirs is the so-called racer/cruiser category: boats that perform well on the race course but which are comfortable and easy enough for the family to daysail and cruise. It is with knowledgeable, experienced sailors that the Johnstones have done best.",
         "img": "/images/textilecorporate/vision.jpeg"
     },
     "about": {
-        "text": "Mayco Textiles has been founded in 1984 by Mr. Bulent Icgoren in Istanbul, Turkey. With over 35 years of experience in home textiles and wowen fabrics, Mayco is specialized in curtain, upholstery and terry cloths. Committed to provide the best service with the most trusted suppliers to our customers, Mayco has been working with many well-known brands in Europe such as Netherlands, France, Germany, Switzerland, Finland and United Kingdom and introduced Turkish product possibilites to it's buyers. With Mayco's reliable network of fabrics producers in Turkey, we offer the best quality products and reasonable prices in the shortest given time possible. Our own quality control department makes random checks before every shipment to ensure high quality products. Our customers can easily buy meter goods and also packed ready made goods as well. We have huge variety of product range.",
+        "text": "The story of J/Boats is a classic entrepreneurial tale: With a $20,000 investment, and a speedy 24-foot sailboat that Rod Johnstone built in his garage, Rod & his brother Bob Johnstone went into business. That was 1977. Now, that boat (the J/24), has become the most popular recreational offshore keelboat in the world. The Johnstone family has made an undeniable mark on the sailing world. In addition to the 5,500 J/24s cruising the waves, there are over 9,500 more J/Boats, ranging from the International J/22 to the J/65, that sailing enthusiasts have bought at prices ranging from $10,000 to $2,000,000.",
         "header": "About Us",
         "img": "/images/textilecorporate/about.jpeg"
     },

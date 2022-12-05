@@ -116,7 +116,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <h1>
-                                                        J-BOATS
+                                                        { homeObject.sliderText1.main }
                                                     </h1>
                                                 </MovingText>
                                                 <MovingText
@@ -129,7 +129,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <p>
-                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                        { homeObject.sliderText1.sub }
                                                     </p>
                                                 </MovingText>
                                             </div>
@@ -147,7 +147,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <h1>
-                                                        J-BOATS
+                                                        { homeObject.sliderText2.main }
                                                     </h1>
                                                 </MovingText>
                                                 <MovingText
@@ -160,7 +160,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <p>
-                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                        { homeObject.sliderText2.sub }
                                                     </p>
                                                 </MovingText>
                                             </div>
@@ -181,7 +181,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <h1>
-                                                        J-BOATS
+                                                        { homeObject.sliderText3.main }
                                                     </h1>
                                                 </MovingText>
                                                 <MovingText
@@ -194,7 +194,7 @@ const MarineHome = ({ homeObject }) => {
                                                     fillMode="none"
                                                 >
                                                     <p>
-                                                        TÜRKİYE DİSTRİBÜTÖRÜ
+                                                        { homeObject.sliderText3.sub }
                                                     </p>
                                                 </MovingText>
                                             </div>

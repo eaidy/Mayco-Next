@@ -17,9 +17,10 @@ body {
 
 .site-toggle-button {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   text-decoration: none;
+  padding: 2px;
   color: #666;
   transition: all 0.15s;
   font-size: 0.95em;
@@ -103,12 +104,10 @@ body {
 }
 
 .dropdownMenuButton-marine:hover {
-  background-color: #F1F6F9 !important;
   color: gray !important;
 }
 
 .dropdownMenuButton-textile:hover {
-  background-color: #F1F6F9 !important;
   color: gray !important;
 }
 
@@ -954,7 +953,7 @@ footer .col-12 {
 
 .products-section a:hover {
   cursor: pointer;
-  border-color: #CCC;
+  border-color: #E41D4D;
 }
 
 .product-row-2 p {
@@ -1158,6 +1157,16 @@ footer .col-12 {
     top: 55%;
     left: 20px;
     right: 20px;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .three-d-button {
+    position: absolute;
+    display: inline;
+    top: 20%;
+    right: 10%;
+    z-index: 120;
     text-align: center;
     padding: 1em;
   }
@@ -1506,7 +1515,7 @@ footer .col-12 {
     color:#11468F !important;
   }
 
-  .marine-active:before {
+  /* .marine-active:before {
     content: '';
     position: absolute;
     border-radius: 1px;
@@ -1517,7 +1526,7 @@ footer .col-12 {
     width: 100%;
     background-color: #11468F;
     border: none !important;
-  }
+  } */
 
   .nav-link-marine {
     position: relative;
@@ -1566,7 +1575,7 @@ footer .col-12 {
   }
 
   .nav-link-marine:hover:after {
-    width: 2px;
+    height: 2px;
   }
 
   .table-container h3 {

@@ -20,7 +20,7 @@ const Header = ({ headerObject }) => {
     }, [router.pathname])
 
     const isNavActive = (navPath) => {
-        if(navPath === '/' && router.pathname === `/${headerObject.site}`) {
+        if(navPath === '/' && (router.pathname === `/${headerObject.site}` || router.pathname === `/en/${headerObject.site}`)) { 
             return `${headerObject.site}-active`
         } else {
             if(router.pathname.includes(navPath) && navPath !== '/'){
@@ -36,7 +36,7 @@ const Header = ({ headerObject }) => {
             <LangSelect currentSite={headerObject.site} currentLang={headerObject.lang}/>
             <nav className="navbar navbar-expand-lg py-2 bg-white border-top border-bottom navbar-mobile">
                 <div className="container-fluid">
-                    <Link href={'/'}>
+                    <Link href={'/' + lang + currentSite}>
                         <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="65" width="210"/>
                     </Link>
 
