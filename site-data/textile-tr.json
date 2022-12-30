@@ -26,34 +26,19 @@
         "facebooklink": ""
     },
     "home": {
-        "site": "textile",
-        "lang": "",
-        "design": {
-            "header": "Mayco Tekstil",
-            "text": "Ev tekstili ve dokuma kumaşlarda 35 yılı aşkın tecrübemizle, perde, döşemelik ve havlu kumaşlar uzmanlık alanımızdır.",
-            "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
+        "article1": {
+            "title": "HAKKIMIZDA",
+            "paragraph1": "J/Boats, Newport, Rhode Island merkezli ve 1977 yılında Rod Johnstone tarafından kurulmuş bir Amerikan tekne üreticisidir. Şirket, fiberglas yelkenli teknelerin tasarımı ve üretiminde uzmanlaşmıştır. Tüm J/Boat tasarımları, özlü sandviç fiberglastan yapılmış tek gövdeli, sloop donanımlı salma teknelerdir. Mevcut ürün hattı, J/70'den J/122E'ye, 22.75 ila 40 ft (6.9 ila 12,2 m) arasında değişen sekiz modelden oluşmaktadır.",
+            "paragraph2": "2022 yılında J Boats Türkiye Distribütörlüğünü alan yönetim kurulu başkanımız Emir İçgören, aynı zamanda profesyonel yelken sporcusudur. Çocukluğundan beri yelkenle içiçe olan İçgören, bunu profesyonel hayatına taşımak istemiş ve distribütörlüğün yanı sıra; haftalık tekne kiralama ve güverte kaplama uygulayıcılığını da şirketin iş tanımına eklemiştir."
         },
-        "expText": "Müşterilerimize güvenilir tedarikçilerle, en iyi hizmeti vermeyi ilke edinen Mayco; Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere gibi Avrupa'nın birçok tanınmış markasıyla çalışarak Türkiye'deki ürün olanaklarını alıcılarıyla buluşturmuştur.",
-        "curtainCard": {
-            "header": "HAZIR PERDE",
-            "path": "/textile/products#curtain",
-            "detail": "İNCELE"
+        "subarticles": {
+            "sub1": { "title": "HAZIR PERDE", "text": "Özünde, bir J teknesi, performansla bağlantılı spesifikasyonlar ve yelken açmanın ne kadar kolay olduğu ile ilgilidir. İkinci olarak, alanları elimizden geldiğince optimize ederek iç mekanı geliştiriyoruz. Bir yelkenli teknenin birincil varlığının, onu yelken açmaktan aldığınız zevk olduğuna inanmaya devam ediyoruz."},
+            "sub2": { "title": "PERDELİK KUMAŞ", "text": "Standart versiyon, rakipsiz bir donanım standardı sunar. Geri çekilebilir bir karbon bowsprit üzerindeki standart spinnaker donanımı sadece böyle bir örnektir. Gövdenin bitişi ve eklentiler de bu pazarda benzersizdir."},
+            "sub3": { "title": "HAVLU", "text": "Sağlam ancak hafif bir tekne elde etmek için infüzyon tekniği en iyi yöntemdir! Fazla reçineyi önlemek için boşluk bırakılmaz. J'ler infüzyon açısından çığır açıcı olduğundan, başından beri ustalaştığımız bir tekniktir, bu da konuya olan ustalığımızın rakipsiz olduğu anlamına gelir."}
         },
-        "fabricCard": {
-            "header": "PERDELİK KUMAŞ",
-            "path": "/textile/products#fabric",
-            "detail": "İNCELE"
-        },
-        "towelCard": {
-            "header": "HAVLU",
-            "path": "/textile/products#towel",
-            "detail": "İNCELE"
-        },
-        "tshirtCard": {
-            "header": "DİĞER",
-            "path": "/textile/products#others",
-            "detail": "İNCELE"
-        }
+        "sliderText1": { "main": "MAYCO TEKSTİL", "sub": ""},
+        "sliderText2": { "main": "MAYCO TEKSTİL", "sub": ""},
+        "sliderText3": { "main": "MAYCO TEKSTİL", "sub": ""}
     },
     "corporate": {
         "lang": "tr",

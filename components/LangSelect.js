@@ -39,7 +39,7 @@ const LangSelect = ({ currentSite, currentLang}) => {
                 </div>
             </div>
 
-            <div className="d-flex">
+            <div className="d-flex flex-sm-row">
                 {/* <div>
                     <button onClick={() => router.push('/')} className="btn btn-secondary bg-transparent text-secondary" id="dropdownMenuButton1" type="button">
                         {

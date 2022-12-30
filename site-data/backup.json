@@ -1,0 +1,32 @@
+{
+    "home": {
+    "site": "textile",
+    "lang": "",
+    "design": {
+        "header": "Mayco Tekstil",
+        "text": "Ev tekstili ve dokuma kumaşlarda 35 yılı aşkın tecrübemizle, perde, döşemelik ve havlu kumaşlar uzmanlık alanımızdır.",
+        "link": {"label": "Hakkımızda", "path": "/corporate/aboutus"}
+    },
+    "expText": "Müşterilerimize güvenilir tedarikçilerle, en iyi hizmeti vermeyi ilke edinen Mayco; Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere gibi Avrupa'nın birçok tanınmış markasıyla çalışarak Türkiye'deki ürün olanaklarını alıcılarıyla buluşturmuştur.",
+    "curtainCard": {
+        "header": "HAZIR PERDE",
+        "path": "/textile/products#curtain",
+        "detail": "İNCELE"
+    },
+    "fabricCard": {
+        "header": "PERDELİK KUMAŞ",
+        "path": "/textile/products#fabric",
+        "detail": "İNCELE"
+    },
+    "towelCard": {
+        "header": "HAVLU",
+        "path": "/textile/products#towel",
+        "detail": "İNCELE"
+    },
+    "tshirtCard": {
+        "header": "DİĞER",
+        "path": "/textile/products#others",
+        "detail": "İNCELE"
+    }
+}
+}

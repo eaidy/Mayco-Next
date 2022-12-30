@@ -651,14 +651,14 @@ footer .col-12 {
 }
 
 .marine-sub-article h6 {
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0.95 !important;
 }
 
 .marine-sub-article p {
-  font-size: 13px;
-  opacity: 0.85 !important;
-  line-height: 2em;
+  font-size: 15px;
+  opacity: 0.9 !important;
+  line-height: 1.8em;
 }
 
 /* ABOUT US SECTION*/
@@ -756,6 +756,7 @@ footer .col-12 {
 }
 
 .textile-home-product-card:Hover {
+  cursor: pointer;
   -webkit-box-shadow: 0 0 0 2px #E41D4D;
   box-shadow: 0 0 0 2px #E41D4D;
   -webkit-transform: scale(1.02);

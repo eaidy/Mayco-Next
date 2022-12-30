@@ -20,9 +20,9 @@ const setImages = (dir, count) => {
 
 const imagesTowel = setImages('/images/textileproducts/towel', 3)
 
-const imagesCurtain = setImages('/images/textileproducts/curtain', 4)
+const imagesCurtain = setImages('/images/textileproducts/curtain', 7)
 
-const imagesOthers = setImages('/images/textileproducts/others',7)
+const imagesOthers = setImages('/images/textileproducts/others',8)
 
 const imagesFabric = setImages('/images/textileproducts/fabric',18)
 
@@ -161,7 +161,24 @@ const TextileProducts = ({ productsObject }) => {
                                         {/* <div className="product-img">
                                             <Image src={product.img} height={350} width={600} alt="..."/>
                                         </div> */}
-                                        <div className="textile-home-product-card">
+                                        <div onClick={
+                                                () => {
+                                                    if(product.id === "curtain"){
+                                                        setIsOpenCurtain(true)
+                                                    }
+                                                    else if(product.id === "fabric"){
+                                                        setIsOpenFabric(true)
+                                                    }
+                                                    else if(product.id === "towel"){
+                                                        setIsOpenTowel(true)
+                                                    }
+                                                    else if(product.id === "others"){
+                                                        setIsOpenOthers(true)
+                                                    }
+                                                }
+                                            }
+                                            className="textile-home-product-card"
+                                        >
                                             <div className="product-card-img" style={{ backgroundImage: `url("${product.img}")`}}></div>
                                             <div className="product-card-detail">
                                                 <span>

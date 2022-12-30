@@ -1,260 +1,215 @@
-import { Carousel } from "react-responsive-carousel";
-import GoogleMapReact from 'google-map-react';
-import Link from "next/link";
-import { AiOutlineArrowRight } from "react-icons/ai"
-import Image from "next/image";
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { useState } from "react";
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import MovingText from 'react-moving-text'
+import Iframe from 'react-iframe';
 
 const TextileHome = ({ homeObject }) => {
 
-    const [lang, ] = useState(() => homeObject.lang === "en" ? "en/" : "")
-
-    const defaultProps = {
-        center: {
-          lat: 41.036230,
-          lng: 28.989316
-        },
-        zoom: 18
-      };
-
     return (
-        <main className="textile-home-wrapper">
-                {/*
-                
-                <div className="container-fluid px-0">
-                    <div className="row px-0">
-                        <div className="col-12 px-0">
-                            <div className="textile-home-slider">
-                            <Carousel
-                                autoPlay={true}
-                                interval={5000}
-                                infiniteLoop={true}
-                                stopOnHover={false}
-                                dynamicHeight={false}
-                                showThumbs={false}
-                                emulateTouch={true}
-                                swipeable={true}
-                                showStatus={false}
-                                transitionTime={2000}
-                                animationHandler={"fade"}
-                            >
-                                <div>
-                                    <Image src="/images/textileabout/about-1.jpeg" alt="..."/>
-                                </div>
-                                <div>
-                                    <Image src="/images/textileabout/about-2.jpeg" alt="..."/>
-                                </div>
-                            </Carousel>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-                {/* <section>
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-12 d-flex justify-content-center p-0">
-                                <div className="carousel-edit">
-                                    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="false">
-                                        <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        </div>
-                                        <div className="carousel-inner">
-                                            <div className="carousel-item active">
-                                                <Image src="/images/curtain-color.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                                <div className="carousel-item-text-1">
-                                                    MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                                </div>
-                                            </div>
-                                            <div className="carousel-item">
-                                                <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                                <div className="carousel-item-text-2">
-                                                    MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
-                                                </div>
-                                            </div>
-                                            <div className="carousel-item">
-                                                <Image src="/images/production.jpg" className="d-block w-100" alt="..." width={1500} height={500}/>
-                                                <div className="carousel-item-text-3">
-                                                    Üretimde bilinçi ve profesyonel yaklaşım...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span className="visually-hidden">Previous</span>
-                                        </button>
-                                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span className="visually-hidden">Next</span>
-                                        </button>
+        <>
+            <section>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-12 d-flex justify-content-center p-0">
+                            <div className="carousel-edit">
+                                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="85000" data-bs-pause="true">
+                                    <div className="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
+                                    {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
+                                            <Image src="/images/textileorijinals/shadowed/3.jpg" className="d-flex h-100 w-100" alt="..." width={3000} height={1300}/>
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3600ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        { homeObject.sliderText1.main }
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3000ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        { homeObject.sliderText1.sub }
+                                                    </p>
+                                                </MovingText>
+                                            </div>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <Image src="/images/textileorijinals/shadowed/5.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        { homeObject.sliderText2.main }
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        { homeObject.sliderText2.sub }
+                                                    </p>
+                                                </MovingText>
+                                            </div>
+                                            {/* <div className="carousel-item-text-2">
+                                                MAYCO Tekstil sektörde 36 yıllık güvenilir tecrübe...
+                                            </div> */}
+                                        </div>
+                                        <div className="carousel-item">
+                                            <Image src="/images/textileorijinals/shadowed/1.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <div className="marine-carousel-header">
+                                                <MovingText
+                                                    type="fadeInFromTop"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <h1>
+                                                        { homeObject.sliderText3.main }
+                                                    </h1>
+                                                </MovingText>
+                                                <MovingText
+                                                    type="fadeInFromBottom"
+                                                    duration="3400ms"
+                                                    delay="0s"
+                                                    direction="normal"
+                                                    timing="ease"
+                                                    iteration="1"
+                                                    fillMode="none"
+                                                >
+                                                    <p>
+                                                        { homeObject.sliderText3.sub }
+                                                    </p>
+                                                </MovingText>
+                                            </div>
+                                            {/* <div className="carousel-item-text-3">
+                                                Üretimde bilinçi ve profesyonel yaklaşım...
+                                            </div> */}
+                                        </div>
+                                    </div>
+                                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span className="visually-hidden">Previous</span>
+                                    </button>
+                                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="visually-hidden">Next</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section> */}
-
-            {/* <section className="container-fluid p-5 my-3">
-                <div className="row">
-                    <div className="col-sm-6 d-flex align-items-center text-center">
-                        <article className="lh-lg">
-                            <h4>
-                                { homeObject.article1.header }
-                            </h4>
-                            <p>
-                                { homeObject.article1.text }
-                            </p>
-                        </article>
-                    </div>
-                    <div className="col-sm-6">
-                        <Image src="/images/textilehome/home-2.jpg" width={650} height={350} alt="..."/>
                     </div>
                 </div>
-                <div className="row my-5">
-                    <div className="col-sm-6">
-                        <figure>
-                            <Image src="/images/textilehome/home-3.jpg" width={650} height={350} alt="..."/>
-                        </figure>
-                    </div>
-                    <div className="col-sm-6 d-flex align-items-center text-center">
-                        <article className="lh-lg">
-                                <h4>
-                                    { homeObject.article2.header }
+            </section>
+
+            <section className="marine-home-section p-md-3">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-12 pb-5 d-flex justify-content-center">
+                            <article className="marine-about text-center py-3" style={{ width: "90%"}}>
+                                <h4 className="mb-4 py-3">
+                                    { homeObject.article1.title}
                                 </h4>
                                 <p>
-                                    { homeObject.article2.text }
+                                    { homeObject.article1.paragraph1}
                                 </p>
-                        </article>
-                    </div>
-                </div>
-            </section> */}
-            {/* <div style={{ 
-                backgroundImage: 'url("/images/textilegeneral/kumas19.jpg")',
-                width: "100%",
-                height: 100,
-            }}></div> */}
-            <section className="design px-4 py-4">
-                {/* <div className="design-background"></div> */}
-                <div className="container-fluid p-4">
-                    <h2 className="py-2 border-bottom">
-                        { homeObject.design.header }
-                    </h2>
-                    <p>
-                        { homeObject.design.text }
-                    </p>
-                    <Link href={'/' + lang + homeObject.site + homeObject.design.link.path}>
-                        <a>{ homeObject.design.link.label } <AiOutlineArrowRight /></a>
-                    </Link>
-                </div>
-            </section>
-            <section className="container-fluid textile-home-cover my-4">
-                {/* <div className="row d-flex flex-sm-row-reverse border-bottom">
-                    <div className="col-sm-4 d-flex align-items-center justify-content-md-start p-4">
-                        <Image src="/images/textilegeneral/textile-logo-kolaj.png" width={250} height={250} alt="..."/>
-                    </div>
-                    <div className="col-sm-8 d-flex align-items-center justify-content-center home-article-main">
-                        <article className="d-flex w-75 justify-content-center">
-                            <p className="">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper, sapien eget bibendum pretium, nulla sem vehicula leo, vitae rhoncus urna ipsum non nisl. Vestibulum non varius libero. Vestibulum ultrices tortor eros. Etiam in velit ac tellus laoreet viverra non in diam. Donec non turpis vitae nisl gravida consequat. Praesent interdum vel dolor a scelerisque. In imperdiet et dolor ut.
-                            </p>
-                        </article>
-                    </div>
-                </div> */}
-                <div className="row">
-                    <div className="col-12 d-flex justify-content-center align-items-center">
-                        <article className="d-flex mx-4 py-4 justify-content-center" style={{ width: '88%'}}>
-                            <p className="home-article-main pt-4 text-center">
-                                { homeObject.expText }
-                            </p>
-                        </article>
-                    </div>
-                </div>
-                <div className="row mt-4">
-                    <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
-                        <div className="textile-home-product-card mb-2 me-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/curtain-splash.png")'}}></div>
-                            <div className="product-card-detail">
-                                <span>
-                                    { homeObject.curtainCard.header }
-                                </span>
-                                <Link href={homeObject.curtainCard.path}>
-                                    <a className="detail-button">
-                                        { homeObject.curtainCard.detail }
-                                    </a>
-                                </Link>
-                            </div>
+                                <p>
+                                    { homeObject.article1.paragraph2 }
+                                </p>
+                            </article>
                         </div>
                     </div>
-                    <div className="col-sm-6 py-3 d-flex justify-content-start align-items-center">
-                        <div className="textile-home-product-card mb-2 ms-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilegeneral/kumas6.jpg")'}}></div>
-                            <div className="product-card-detail">
-                                <span>
-                                    { homeObject.fabricCard.header }
-                                </span>
-                                <Link href={homeObject.fabricCard.path}>
-                                    <a className="detail-button">
-                                        { homeObject.fabricCard.detail }
-                                    </a>
-                                </Link>
+                    <div className="row px-md-5">
+                        <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
+                                        <Image className="img-responsive" src="/images/textilehome/curtain-splash.png" width={360} height={360} alt="..."/>
+                                    </figure>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub1.title }</h6>
+                                    <p className="mx-3">
+                                        { homeObject.subarticles.sub1.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-sm-6 py-3 d-flex justify-content-end align-items-center">
-                        <div className="textile-home-product-card mt-2 me-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/havlu-3.png")'}}></div>
-                            <div className="product-card-detail">
-                                <span>
-                                    { homeObject.towelCard.header }
-                                </span>
-                                <Link href={homeObject.towelCard.path}>
-                                    <a className="detail-button">
-                                        { homeObject.towelCard.detail }
-                                    </a>
-                                </Link>
+                        <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
+                                        <Image className="img-responsive" src="/images/textilegeneral/kumas6.jpg" width={360} height={360} alt="..."/>
+                                    </figure>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
+                                    <p className="mx-3">
+                                        { homeObject.subarticles.sub2.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-sm-6 py-3 d-flex justify-content-start align-items-center">
-                        <div className="textile-home-product-card mt-2 ms-2">
-                            <div className="product-card-img" style={{ backgroundImage: 'url("/images/textilehome/masa-ortusu-1.png")'}}></div>
-                            <div className="product-card-detail">
-                                <span>
-                                    { homeObject.tshirtCard.header }
-                                </span>
-                                <Link href={homeObject.tshirtCard.path}>
-                                    <a className="detail-button">
-                                        { homeObject.tshirtCard.detail }
-                                    </a>
-                                </Link>
+                        <div className="col-sm-4 d-flex justify-content-center">
+                            <div className="marine-sub-article d-flex justify-content-center p-2">
+                                <article className='d-flex flex-column align-items-center text-center'>
+                                    <figure className='d-flex'>
+                                        <Image className="img-responsive" src="/images/textilehome/havlu-3.png" width={360} height={360} alt="..."/>
+                                    </figure>
+                                    <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
+                                    <p className="mx-3">
+                                        { homeObject.subarticles.sub3.text }
+                                    </p>
+                                </article>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
-            {/* <section>
+
+            <section>
                 <div style={{ height: '50vh', width: '100%' }}>
-                    <GoogleMapReact
-                        bootstrapURLKeys={{ key: "" }}
-                        defaultCenter={defaultProps.center}
-                        defaultZoom={defaultProps.zoom}
-                    >
-                        <AnyReactComponent
-                        lat={41.036230}
-                        lng={28.989316}
-                        text="MAYCO Inc"
-                        />
-                    </GoogleMapReact>
+                    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.498995847303!2d28.98719071541492!3d41.036215679298024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77ae98fbef5%3A0x4ca4ccfe1861a966!2sMayco%20Tekstil%20End%C3%BCstri%20ve%20Ticaret%20A.%C5%9E.!5e0!3m2!1str!2str!4v1670249206582!5m2!1str!2str"
+                        width="100%" 
+                        height="100%"
+                        style="border:0;" 
+                        allowFullScreen="" 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
                 </div>
-            </section> */}
-        </main>
+            </section>
+        </>
     );
 }
  

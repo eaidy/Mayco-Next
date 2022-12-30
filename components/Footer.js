@@ -10,14 +10,14 @@ const Footer = ({ footerObject }) => {
         <footer>
             <div className="container-fluid border-top">
                 <div className="row">
-                    <div className="col-12 px-5 my-3 d-flex footer-icon">
+                    <div className="col-12 px-5 me-1 mt-3 d-flex footer-icon">
                         {
                             footerObject.site ?
                             (
-                                <Image className="mt-3 mx-2" src="/logos/mayco-marine.svg" width={200} height={70} alt="..." />
+                                <Image className="" src="/logos/marine-logo-text.svg" width={200} height={70} alt="..." />
                             ) : 
                             (
-                                <Image className="mt-3 mx-2" src="/logos/mayco-textile.svg" width={200} height={70} alt="..."/>
+                                <Image className="" src="/logos/textile-logo-text.svg" width={200} height={70} alt="..."/>
                             )
                         }
                     </div>

@@ -37,7 +37,7 @@ const Header = ({ headerObject }) => {
             <nav className="navbar navbar-expand-lg py-2 bg-white border-top border-bottom navbar-mobile">
                 <div className="container-fluid">
                     <Link href={'/' + lang + currentSite}>
-                        <Image src="/images/logov2.svg" className="comp-logo" alt="MAYCO" height="65" width="210"/>
+                        <Image src={`/logos/${currentSite}-logo-text.svg`} className="comp-logo" alt="MAYCO" height="65" width="210"/>
                     </Link>
 
                     <button className="navbar-toggler my-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

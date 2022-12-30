@@ -1,1 +1,34 @@
-<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200"><defs><style>.cls-1{fill:#e42320;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:10.42px;}</style></defs><polygon class="cls-1" points="59.96 382.09 372.8 69.24 525.63 69.24 59.96 520.53 59.96 382.09"/><polygon class="cls-1" points="59.96 646.38 640.7 69.24 806.11 69.24 59.96 810 59.96 646.38"/><rect class="cls-1" x="-14.44" y="477.48" width="1099.71" height="109.67" transform="translate(-219.59 534.51) rotate(-45)"/><polygon class="cls-1" points="1140.04 817.91 827.2 1130.76 674.37 1130.76 1140.04 679.47 1140.04 817.91"/><polygon class="cls-1" points="1140.04 553.62 559.3 1130.76 393.89 1130.76 1140.04 390 1140.04 553.62"/><rect class="cls-1" x="114.73" y="612.85" width="1099.71" height="109.67" transform="translate(1606.64 669.87) rotate(135)"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="2de35c76-9106-40b8-a7da-8771c9ef037d"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="53cce358-b0a9-4598-9575-a812d21d7ce3"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 -121.89 -121.06)"  >
+<polygon style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-92.39,34.6 31.74,-89.53 92.38,-89.53 -92.39,89.53 " />
+</g>
+		<g transform="matrix(1 0 0 1 -66.25 -63.64)"  >
+<polygon style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-148.03,82.03 82.4,-146.95 148.03,-146.95 -148.03,146.96 " />
+</g>
+		<g transform="matrix(0.71 -0.71 0.71 0.71 -25.63 -26.85)"  >
+<rect style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-218.17" y="-21.76" rx="0" ry="0" width="436.34" height="43.52" />
+</g>
+		<g transform="matrix(1 0 0 1 121.89 121.06)"  >
+<polygon style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="92.38,-34.6 -31.75,89.53 -92.38,89.53 92.38,-89.53 " />
+</g>
+		<g transform="matrix(1 0 0 1 66.25 63.63)"  >
+<polygon style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="148.03,-82.03 -82.4,146.95 -148.03,146.95 148.03,-146.95 " />
+</g>
+		<g transform="matrix(-0.71 0.71 -0.71 -0.71 25.62 26.85)"  >
+<rect style="stroke: rgb(29,29,27); stroke-width: 4.1341; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(182,21,18); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-218.17" y="-21.76" rx="0" ry="0" width="436.34" height="43.52" />
+</g>
+</g>
+</g>
+</svg>
