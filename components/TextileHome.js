@@ -187,7 +187,7 @@ const TextileHome = ({ homeObject }) => {
                                         <Image className="img-responsive" src="/images/textilehome/havlu-3.png" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
-                                    <p className="mx-3">
+                                    <p className="mx-4 px-4">
                                         { homeObject.subarticles.sub3.text }
                                     </p>
                                 </article>

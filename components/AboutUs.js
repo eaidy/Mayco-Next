@@ -15,7 +15,9 @@ const AboutUs = ({ corporotePageObject }) => {
                     </p>
                 </div>
                 <figure>
-                    <Image src={corporotePageObject.img} width={1000} height={350} alt="..."/>
+                    <div className="container-fluid d-flex justify-content-center">
+                        <Image src={corporotePageObject.img} width={1000} height={500} alt="..."/>
+                    </div>
                 </figure>
             </article>
     );

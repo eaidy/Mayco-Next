@@ -1496,7 +1496,7 @@ footer .col-12 {
   }
 
   .textile-active {
-    color:#E41D4D !important;
+    color:#555 !important;
   }
 
   /* .textile-active:before {
@@ -1543,7 +1543,7 @@ footer .col-12 {
     display: block;
     height: 0px;
     width: 100%;
-    background-color: #E41D4D;
+    background-color: #555;
     border: none !important;
     transition: all 0.25s;
   }
@@ -1567,7 +1567,7 @@ footer .col-12 {
   }
 
   .nav-link-textile:hover {
-    color: #E41D4D !important;
+    color: #555 !important;
     /* border-bottom: 3px solid #E41D4D; */
   }
 

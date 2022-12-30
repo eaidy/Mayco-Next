@@ -32,8 +32,8 @@
             "paragraph2": "2022 yılında J Boats Türkiye Distribütörlüğünü alan yönetim kurulu başkanımız Emir İçgören, aynı zamanda profesyonel yelken sporcusudur. Çocukluğundan beri yelkenle içiçe olan İçgören, bunu profesyonel hayatına taşımak istemiş ve distribütörlüğün yanı sıra; haftalık tekne kiralama ve güverte kaplama uygulayıcılığını da şirketin iş tanımına eklemiştir."
         },
         "subarticles": {
-            "sub1": { "title": "HAZIR PERDE", "text": "Özünde, bir J teknesi, performansla bağlantılı spesifikasyonlar ve yelken açmanın ne kadar kolay olduğu ile ilgilidir. İkinci olarak, alanları elimizden geldiğince optimize ederek iç mekanı geliştiriyoruz. Bir yelkenli teknenin birincil varlığının, onu yelken açmaktan aldığınız zevk olduğuna inanmaya devam ediyoruz."},
-            "sub2": { "title": "PERDELİK KUMAŞ", "text": "Standart versiyon, rakipsiz bir donanım standardı sunar. Geri çekilebilir bir karbon bowsprit üzerindeki standart spinnaker donanımı sadece böyle bir örnektir. Gövdenin bitişi ve eklentiler de bu pazarda benzersizdir."},
+            "sub1": { "title": "PERDELİK KUMAŞ", "text": "Özünde, bir J teknesi, performansla bağlantılı spesifikasyonlar ve yelken açmanın ne kadar kolay olduğu ile ilgilidir. İkinci olarak, alanları elimizden geldiğince optimize ederek iç mekanı geliştiriyoruz. Bir yelkenli teknenin birincil varlığının, onu yelken açmaktan aldığınız zevk olduğuna inanmaya devam ediyoruz."},
+            "sub2": { "title": "DÖŞEMELİK KUMAŞ", "text": "Standart versiyon, rakipsiz bir donanım standardı sunar. Geri çekilebilir bir karbon bowsprit üzerindeki standart spinnaker donanımı sadece böyle bir örnektir. Gövdenin bitişi ve eklentiler de bu pazarda benzersizdir."},
             "sub3": { "title": "HAVLU", "text": "Sağlam ancak hafif bir tekne elde etmek için infüzyon tekniği en iyi yöntemdir! Fazla reçineyi önlemek için boşluk bırakılmaz. J'ler infüzyon açısından çığır açıcı olduğundan, başından beri ustalaştığımız bir tekniktir, bu da konuya olan ustalığımızın rakipsiz olduğu anlamına gelir."}
         },
         "sliderText1": { "main": "MAYCO TEKSTİL", "sub": ""},
@@ -58,12 +58,12 @@
     "mission": {
         "header": "MİSYONUMUZ",
         "text": "Güçlü Dünya markalarının ve çevreye saygılı yerli üreticilerin hizmet ortağı olmak.",
-        "img": "/images/textilecorporate/vision.jpeg"
+        "img": "/images/textilecorporate/production/production-2.png"
     },
     "vision": {
         "header": "VİZYONUMUZ",
         "text": "Farklılıklar yaratarak , paydaşlarımızla “kazan-kazan” anlayışı doğrultusunda servis kalitemizi arttırarak büyümek.",
-        "img": "/images/textilecorporate/vision.jpeg"
+        "img": "/images/textilecorporate/production/production-3.png"
     },
     "about": {
         "text": "Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır. En güvenilir üreticilerle en iyi hizmeti sağlamaya odaklı olan firmamız Avrupa’nın en bilinen markaları ile çalışmaktadır. Türkiye üretimi ürünlerini Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere’ye ihracatını sağlamaktadır. Şirketimizin güvenilir üreticileri sayesinde, müşterilerimize en kısa sürede uygun fiyatlı ve kaliteli ürünleri sağlamaktayız. Şirketimiz bünyesinde kurulan kalite kontrol departmanı sayesinde her yüklemeden önce kendi kalite kontrolümüzü sağlamaktayız. Müşterilerimiz metre bazında sipariş verirken aynı zamanda paketlenmiş ürünleri de rahatlıkla sipariş verebilmektedir.",
@@ -73,15 +73,15 @@
     "products": {
         "header": "ÜRÜNLERİMİZ",
         "scrollNavs": [
-            { "path": "curtain", "text": "Hazır Perde"},
-            { "path": "fabric", "text": "Perdelik Kumaş"},
+            { "path": "curtain", "text": "Perdelik Kumaş"},
+            { "path": "fabric", "text": "Döşemelik Kumaş"},
             { "path": "towel", "text": "Havlu"},
             { "path": "others", "text": "Diğer"}
         ],
         "productsArray": [
             {
                 "id": "curtain",
-                "header": "HAZIR PERDE",
+                "header": "PERDELİK KUMAŞ",
                 "exp": "İsteğe göre dar-geniş ende ve çeşitli uzunluklarda üretilebilen, geniş kumaş, renk, desen ve kompozisyon skalasında kullanıma hazır perdeler.",
                 "specs": [
                     "Yılın trend renklerinde tasarımlar",
@@ -94,7 +94,7 @@
             },
             {
                 "id": "fabric",
-                "header": "PERDELİK KUMAŞ",
+                "header": "DÖŞEMELİK KUMAŞ",
                 "exp": "Geniş aralıkta desen, baskı, renk, iplik sayısı ve materyal alternatifleri",
                 "specs": [
                     "Yılın trend renklerinde tasarımlar",

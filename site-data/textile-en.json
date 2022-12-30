@@ -28,6 +28,19 @@
     "home": {
         "site": "textile",
         "lang": "en",
+        "article1": {
+            "title": "ABOUT US",
+            "paragraph1": "Mayco Textiles has been founded in 1984 by Mr. Bulent Icgoren in Istanbul, Turkey. With over 35 years of experience in home textiles and wowen fabrics, Mayco is specialized in curtain, upholstery and terry cloths. Committed to provide the best service with the most trusted suppliers to our customers, Mayco has been working with many well-known brands in Europe such as Netherlands, France, Germany, Switzerland, Finland and United Kingdom and introduced Turkish product possibilites to it's buyers. With Mayco's reliable network of fabrics producers in Turkey, we offer the best quality products and reasonable prices in the shortest given time possible. Our own quality control department makes random checks before every shipment to ensure high quality products. Our customers can easily buy meter goods and also packed ready made goods as well. We have huge variety of product range.",
+            "paragraph2": ""
+        },
+        "subarticles": {
+            "sub1": { "title": "DRAPERY", "text": "Ready-to-use curtains in wide fabric, color, pattern and composition scales, which can be produced in narrow-wide widths and various lengths upon request."},
+            "sub2": { "title": "SOFT FURNISHING", "text": "Wide range of pattern, print, color, thread count and material alternatives"},
+            "sub3": { "title": "TOWEL", "text": "Sustainable products in desired weights and colors, in any size, plain or dobby."}
+        },
+        "sliderText1": { "main": "MAYCO TEXTILE", "sub": ""},
+        "sliderText2": { "main": "MAYCO TEXTILE", "sub": ""},
+        "sliderText3": { "main": "MAYCO TEXTILE", "sub": ""},
         "design": {
             "header": "Mayco Textile",
             "text": "With more than 35 years of experience in home textiles and woven fabrics, curtain, upholstery and towel fabrics are our specialty.",
@@ -35,12 +48,12 @@
         },
         "expText": "Mayco, which adopts the principle of providing the best service to our customers with reliable suppliers; Working with many well-known brands in Europe such as the Netherlands, France, Germany, Switzerland, Finland and England, it has brought together the product opportunities in Turkey with its buyers.",
         "curtainCard": {
-            "header": "READY CURTAIN",
+            "header": "DRAPERY",
             "path": "/en/textile/products#curtain",
             "detail": "BROWSE"
         },
         "fabricCard": {
-            "header": "DRAPERY",
+            "header": "SOFT FURNISHING",
             "path": "/en/textile/products#fabric",
             "detail": "BROWSE"
         },
@@ -53,9 +66,7 @@
             "header": "OTHERS",
             "path": "/en/textile/products#others",
             "detail": "BROWSE"
-        },
-        "article1": { "header": "Vizyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." },
-        "article2": { "header": "Misyon", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum placerat venenatis. Sed vulputate sollicitudin eros, in fermentum ante commodo a. Donec lobortis nunc eu nulla elementum, id pretium ante faucibus. Mauris nibh erat, fringilla non fringilla ut, cursus vitae." }
+        }
     },
     "corporate": {
         "lang": "en",
@@ -70,17 +81,17 @@
     "production": {
         "header": "PRODUCTION",
         "text": "The production of the desired color and pattern designs by using recyclable yarns in Ökoteks and Reach standards is realized with the final control of our field control staff.",
-        "img": "/images/textilecorporate/production.jpeg"
+        "img": "/images/textilecorporate/production/production-1.png"
     },
     "mission": {
         "header": "Our Mission",
         "text": "To be the service partner of strong world brands and environmentally friendly local manufacturers.",
-        "img": "/images/textilecorporate/vision.jpeg"
+        "img": "/images/textilecorporate/production/production-2.png"
     },
     "vision": {
         "header": "OUR VISION",
         "text": "To grow by creating differences and increasing our service quality in line with the “win-win” approach with our stakeholders.",
-        "img": "/images/textilecorporate/vision.jpeg"
+        "img": "/images/textilecorporate/production/production-3.png"
     },
     "about": {
         "text": "Mayco Textiles has been founded in 1984 by Mr. Bulent Icgoren in Istanbul, Turkey. With over 35 years of experience in home textiles and wowen fabrics, Mayco is specialized in curtain, upholstery and terry cloths. Committed to provide the best service with the most trusted suppliers to our customers, Mayco has been working with many well-known brands in Europe such as Netherlands, France, Germany, Switzerland, Finland and United Kingdom and introduced Turkish product possibilites to it's buyers. With Mayco's reliable network of fabrics producers in Turkey, we offer the best quality products and reasonable prices in the shortest given time possible. Our own quality control department makes random checks before every shipment to ensure high quality products. Our customers can easily buy meter goods and also packed ready made goods as well. We have huge variety of product range.",
@@ -98,7 +109,7 @@
         "productsArray": [
             {
                 "id": "curtain",
-                "header": "READY CURTAIN",
+                "header": "DRAPERY",
                 "exp": "Ready-to-use curtains in wide fabric, color, pattern and composition scales, which can be produced in narrow-wide widths and various lengths upon request.",
                 "specs": [
                     "Designs in trend colors of the year",
@@ -111,7 +122,7 @@
             },
             {
                 "id": "fabric",
-                "header": "DRAPERY",
+                "header": "SOFT FURNISHING",
                 "exp": "Wide range of pattern, print, color, thread count and material alternatives",
                 "specs": [
                     "Designs in trend colors of the year",
