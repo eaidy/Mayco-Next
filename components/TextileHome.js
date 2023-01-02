@@ -148,9 +148,6 @@ const TextileHome = ({ homeObject }) => {
                                 <p>
                                     { homeObject.article1.paragraph1}
                                 </p>
-                                <p>
-                                    { homeObject.article1.paragraph2 }
-                                </p>
                             </article>
                         </div>
                     </div>
