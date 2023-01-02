@@ -184,7 +184,7 @@ const TextileHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive" src="/images/textilehome/havlu-3.png" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive" src="/images/textilehome/towel.jpeg" width={360} height={360} alt="..."/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
                                     <p className="mx-4 px-4">
