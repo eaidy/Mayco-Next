@@ -3,6 +3,7 @@ import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import MovingText from 'react-moving-text'
 import Iframe from 'react-iframe';
+import Link from 'next/link';
 
 const TextileHome = ({ homeObject }) => {
 
@@ -153,8 +154,8 @@ const TextileHome = ({ homeObject }) => {
                             </article>
                         </div>
                     </div>
-                    <div className="row px-md-5">
-                        <div className="col-sm-4 d-flex justify-content-center">
+                    <div className="row px-md-5 products-textile-home">
+                        <div className="col-sm-4 d-flex justify-content-center border-md-end">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
@@ -164,10 +165,13 @@ const TextileHome = ({ homeObject }) => {
                                     <p className="mx-3">
                                         { homeObject.subarticles.sub1.text }
                                     </p>
+                                    <Link href={homeObject.subarticles.sub1.path}>
+                                        <a className="mt-md-auto">Gözat</a>
+                                    </Link>
                                 </article>
                             </div>
                         </div>
-                        <div className="col-sm-4 d-flex justify-content-center">
+                        <div className="col-sm-4 d-flex justify-content-center border-md-end">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
@@ -177,6 +181,9 @@ const TextileHome = ({ homeObject }) => {
                                     <p className="mx-3">
                                         { homeObject.subarticles.sub2.text }
                                     </p>
+                                    <Link href={homeObject.subarticles.sub2.path}>
+                                        <a className="mt-md-auto">Gözat</a>
+                                    </Link>
                                 </article>
                             </div>
                         </div>
@@ -190,6 +197,9 @@ const TextileHome = ({ homeObject }) => {
                                     <p className="mx-4 px-4">
                                         { homeObject.subarticles.sub3.text }
                                     </p>
+                                    <Link href={homeObject.subarticles.sub3.path}>
+                                        <a className="mt-md-auto">Gözat</a>
+                                    </Link>
                                 </article>
                             </div>
                         </div>
