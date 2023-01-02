@@ -51,7 +51,7 @@ export default function Home({ navigation}) {
           <Image src="/images/marine-link-bg.jpg" alt="..." fill={true} layout="fill" />
         </div>
         <span className="marine-site-link">
-          <Image src="/logos/mayco-marine-1.svg" alt="..." width={110} height={110}/>
+          <Image src="/logos/marine.svg" alt="..." width={110} height={110}/>
           <Link href="/marine">
             <a className="anchor-style">MAYCO MARINE</a>
           </Link>
