@@ -23,7 +23,9 @@
         "socialexp": "Our Social Media Links",
         "company": "1984 Mayco Textile, Inc",
         "instagramlink": "",
-        "facebooklink": ""
+        "facebooklink": "",
+        "faceName": "Mayco Textile",
+        "instaName": "maycotextile"
     },
     "home": {
         "site": "textile",
@@ -155,7 +157,7 @@
                     "Production according to Oeko-Tex and Reach standards",
                     "Final quality control on site with our field quality control staff"
                 ],
-                "img": "/images/textilehome/havlu-3.png",
+                "img": "/images/textileproducts/towel/5.jpg",
                 "imgExp": "PHOTO GALLERY"
             },
             {

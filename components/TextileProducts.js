@@ -18,13 +18,13 @@ const setImages = (dir, count) => {
     return images
 }
 
-const imagesTowel = setImages('/images/textileproducts/towel', 3)
+const imagesTowel = setImages('/images/textileproducts/towel', 5)
 
 const imagesCurtain = setImages('/images/textileproducts/curtain', 7)
 
 const imagesOthers = setImages('/images/textileproducts/others',8)
 
-const imagesFabric = setImages('/images/textileproducts/fabric',18)
+const imagesFabric = setImages('/images/textileproducts/fabric',8)
 
 const TextileProducts = ({ productsObject }) => {
 

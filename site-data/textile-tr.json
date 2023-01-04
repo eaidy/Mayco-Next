@@ -23,7 +23,9 @@
         "socialexp": "Sosyal Medya bağlantılarımız",
         "company": "1984 Mayco Textile, Inc",
         "instagramlink": "",
-        "facebooklink": ""
+        "facebooklink": "",
+        "faceName": "Mayco Tekstil",
+        "instaName": "maycotextile"
     },
     "home": {
         "article1": {
@@ -127,7 +129,7 @@
                     "Ökoteks ve Reach standartlarına göre üretim",
                     "Saha kalite kontrol çalışanlarımızla yerinde son kalite kontrol"
                 ],
-                "img": "/images/textilehome/havlu-3.png",
+                "img": "/images/textileproducts/towel/5.jpg",
                 "imgExp": "GALERİYE GÖZAT"
             },
             {

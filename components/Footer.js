@@ -71,10 +71,10 @@ const Footer = ({ footerObject }) => {
                             <h6 className="border-bottom mb-3 py-2">{ footerObject.socialexp }</h6>
                             <ul className="social-links px-0">
                                 <li className="facebook">
-                                    <a className="facebook" href={footerObject.facebooklink} target="_blank" rel="noreferrer"><FaFacebookF className="social-icon"/> Facebook</a>
+                                    <a className="facebook" href={footerObject.facebooklink} target="_blank" rel="noreferrer"><FaFacebookF className="social-icon"/> Facebook : {footerObject.faceName}</a>
                                 </li>
                                 <li className="instagram">
-                                    <a className="instagram" href={footerObject.instagramlink} target="_blank" rel="noreferrer"><BsInstagram className="social-icon"/> Instagram</a>
+                                    <a className="instagram" href={footerObject.instagramlink} target="_blank" rel="noreferrer"><BsInstagram className="social-icon"/> Instagram : {footerObject.instaName}</a>
                                 </li>
                             </ul>
                         </div>

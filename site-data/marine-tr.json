@@ -32,7 +32,9 @@
         "company": "2021 Mayco Marine, Inc",
         "instagramlink": "https://www.instagram.com/maycomarine",
         "facebooklink": "https://www.facebook.com/MaycoMarine",
-        "site": "marine"
+        "site": "marine",
+        "faceName": "Mayco Marine",
+        "instaName": "maycomarine"
     },
     "home": {
         "article1": {
