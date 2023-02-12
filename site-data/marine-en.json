@@ -12,7 +12,7 @@
                 { "label": "J-99 SPORT SAILBOAT",  "path": "/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
                 { "label": "J-121 SPORT SAILBOAT",  "path": "/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
                 { "label": "J-110 SPORT SAILBOAT",  "path": "/J110", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-112 ELEGANCE",  "path": "/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
+                { "label": "J-112 ELEGANCE YACHT",  "path": "/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
                 { "label": "J-9 ELEGANCE YACHT",  "path": "/J9", "linkimg": "/images/marinelinks/J45-link.jpeg" }
             ]},
             { "label": "Contact",  "path": "/contact" }

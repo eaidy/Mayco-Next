@@ -51,7 +51,7 @@ const J80 = () => {
                             fillMode="none"
                         >
                             <p>
-                                Lorem Ipdsum dolor sat
+                                
                             </p>
                         </MovingText>
                     </div>
