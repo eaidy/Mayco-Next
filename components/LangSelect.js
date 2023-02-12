@@ -31,15 +31,15 @@ const LangSelect = ({ currentSite, currentLang}) => {
                 </div>
             </div> */}
             <div className="header-phones d-flex">
-                <div className="px-2">
+                <div className="px-1">
                     <a href="tel:+90212-251-0895"><BsTelephoneFill className="telephone-icon"/>+90 212 251 0895</a>
                 </div>
-                <div className="px-2">
+                <div className="px-1">
                     <a href="mailto:info@maycotex.com.tr"><HiMail className="mail-icon"/>info@maycotex.com.tr</a>
                 </div>
             </div>
 
-            <div className="d-flex flex-sm-row">
+            <div className="d-flex flex-row">
                 {/* <div>
                     <button onClick={() => router.push('/')} className="btn btn-secondary bg-transparent text-secondary" id="dropdownMenuButton1" type="button">
                         {
@@ -48,9 +48,9 @@ const LangSelect = ({ currentSite, currentLang}) => {
                     </button>
                 </div> */}
                 <Link href={ '/' + lang + (currentSite === 'textile' ? 'marine' : 'textile') }>
-                    <a className="site-toggle-button px-2 me-3">
+                    <a className="site-toggle-button px-2 me-2">
                         <span className="site-toggle-img">
-                            <Image src={'/logos/' + (currentSite === 'textile' ? 'marine' : 'textile') + '.svg'} width={28} height={28} alt="..." />
+                            <Image src={'/logos/' + (currentSite === 'textile' ? 'marine' : 'textile') + '.svg'} width={28} height={28} alt="logo" />
                         </span>
                         <span className="site-toggle-text">
                             {

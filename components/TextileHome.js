@@ -23,7 +23,7 @@ const TextileHome = ({ homeObject }) => {
                                     {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <Image src="/images/textileorijinals/shadowed/3.jpg" className="d-flex h-100 w-100" alt="..." width={3000} height={1300}/>
+                                            <Image src="/images/textileorijinals/shadowed/3.jpg" className="d-flex h-100 w-100" alt="curtain" width={3000} height={1300}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -54,7 +54,7 @@ const TextileHome = ({ homeObject }) => {
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/textileorijinals/shadowed/5.jpg" className="d-block w-100" alt="..." width={3000} height={1300}/>
+                                            <Image src="/images/textileorijinals/shadowed/5.jpg" className="d-block w-100" alt="curtain" width={3000} height={1300}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -88,7 +88,7 @@ const TextileHome = ({ homeObject }) => {
                                             </div> */}
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/textileorijinals/shadowed/1.jpg" className="d-block w-100" alt="..." width={3000} height={1300}/>
+                                            <Image src="/images/textileorijinals/shadowed/1.jpg" className="d-block w-100" alt="curtain and pillow styles" width={3000} height={1300}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -156,7 +156,7 @@ const TextileHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive rounded-1" src="/images/textilehome/curtain-splash.png" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive rounded-1" src="/images/textilehome/curtain-splash.png" width={360} height={360} alt="curtain"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub1.title }</h6>
                                     <p className="mx-3">
@@ -172,7 +172,7 @@ const TextileHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive rounded-1" src="/images/textilegeneral/kumas6.jpg" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive rounded-1" src="/images/textilegeneral/kumas6.jpg" width={360} height={360} alt="drapery"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
                                     <p className="mx-3">
@@ -188,7 +188,7 @@ const TextileHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive rounded-1" src="/images/textileproducts/towel/5.jpg" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive rounded-1" src="/images/textileproducts/towel/5.jpg" width={360} height={360} alt="towel"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
                                     <p className="mx-4 px-4">

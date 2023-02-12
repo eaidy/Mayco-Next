@@ -18,7 +18,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J112/J112-1.jpg" height={1500} width={3000} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J112/J112-1.jpg" height={1500} width={3000} alt="J-112 Elegance Yacht"/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -73,7 +73,7 @@ const J45 = () => {
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-2 d-flex justify-content-center">
                                 <div className="p-3">
-                                    <Image src="/images/marinemodels/J112/J112-logo.jpeg" height={160} width={80} alt="..."/>
+                                    <Image src="/images/marinemodels/J112/J112-logo.jpeg" height={160} width={80} alt=""/>
                                 </div>
                             </div>
                             <div className="col-sm-10 d-flex align-items-center">
@@ -91,7 +91,7 @@ const J45 = () => {
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-2.jpeg" width={1200} height={600} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-2.jpeg" width={1200} height={600} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -109,7 +109,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-3.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-3.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -123,7 +123,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-column-reverse mb-2 py-4 border-bottom">
                             <div className="col-12 py-2 d-flex justify-content-center">
-                                <Image src="/images/marinemodels/J112/J112-4.jpeg" width={1200} height={650} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-4.jpeg" width={1200} height={650} alt="" />
                             </div>
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
@@ -139,7 +139,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-5.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-5.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -154,7 +154,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-6.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-6.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -173,7 +173,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row flex-column-reverse mb-2 py-4 border-bottom">
                             <div className="col-12 py-3">
-                                <Image src="/images/marinemodels/J112/J112-7.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-7.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
@@ -189,7 +189,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom ">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-8.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-8.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -203,7 +203,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-9.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-9.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -220,7 +220,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom ">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-10.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-10.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -236,7 +236,7 @@ She boasts a bright interior with her large deck hatches and hull portholes open
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J112/J112-11.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J112/J112-11.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>

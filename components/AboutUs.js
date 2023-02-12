@@ -16,7 +16,7 @@ const AboutUs = ({ corporotePageObject }) => {
                 </div>
                 <figure>
                     <div className="container-fluid d-flex justify-content-center">
-                        <Image src={corporotePageObject.img} width={1000} height={500} alt="..."/>
+                        <Image src={corporotePageObject.img} width={1000} height={500} alt={corporotePageObject.alt}/>
                     </div>
                 </figure>
             </article>

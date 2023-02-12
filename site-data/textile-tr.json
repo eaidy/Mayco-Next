@@ -67,22 +67,26 @@
     "production": {
         "header": "ÜRETİM",
         "text": "Ökoteks ve Reach standartlarında, geri dönüştürülebilir iplikler kullanılarak, istenen renk ve desen tasarımlarını üretimi, saha kontrol çalışanlarımızın son kontrolü ile gerçekleşir.",
-        "img": "/images/textilecorporate/production/production-1.png"
+        "img": "/images/textilecorporate/production/production-1.png",
+        "alt": "textile factory production"
     },
     "mission": {
         "header": "MİSYONUMUZ",
         "text": "Güçlü Dünya markalarının ve çevreye saygılı yerli üreticilerin hizmet ortağı olmak.",
-        "img": "/images/textilecorporate/production/production-2.png"
+        "img": "/images/textilecorporate/production/production-2.png",
+        "alt": "textile factory machine"
     },
     "vision": {
         "header": "VİZYONUMUZ",
         "text": "Farklılıklar yaratarak , paydaşlarımızla “kazan-kazan” anlayışı doğrultusunda servis kalitemizi arttırarak büyümek.",
-        "img": "/images/textilecorporate/production/production-3.png"
+        "img": "/images/textilecorporate/production/production-3.png",
+        "alt": "textile factory machine"
     },
     "about": {
         "text": "Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır. En güvenilir üreticilerle en iyi hizmeti sağlamaya odaklı olan firmamız Avrupa’nın en bilinen markaları ile çalışmaktadır. Türkiye üretimi ürünlerini Hollanda, Fransa, Almanya, İsviçre, Finlandiya ve İngiltere’ye ihracatını sağlamaktadır. Şirketimizin güvenilir üreticileri sayesinde, müşterilerimize en kısa sürede uygun fiyatlı ve kaliteli ürünleri sağlamaktayız. Şirketimiz bünyesinde kurulan kalite kontrol departmanı sayesinde her yüklemeden önce kendi kalite kontrolümüzü sağlamaktayız. Müşterilerimiz metre bazında sipariş verirken aynı zamanda paketlenmiş ürünleri de rahatlıkla sipariş verebilmektedir.",
         "header": "HAKKIMIZDA",
-        "img": "/images/textilecorporate/about.jpeg"
+        "img": "/images/textilecorporate/about.jpeg",
+        "alt": "textile fabric"
     },
     "products": {
         "header": "ÜRÜNLERİMİZ",

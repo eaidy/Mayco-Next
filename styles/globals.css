@@ -132,7 +132,7 @@ ul.siteRoutes li {
   height: 1em;
   display: inline-block;
   border-radius: 0.3em;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.27em;
 }
 .header-phones {
   display: flex;
@@ -142,7 +142,7 @@ ul.siteRoutes li {
 .header-phones a {
   text-decoration: none;
   color:#444444;
-  font-size: 0.85em;
+  font-size: 0.78em;
   opacity: 0.7;
   transition: color 0.2s;
 }
@@ -1018,6 +1018,7 @@ footer .col-12 {
 
 .corporate-navbar {
   padding: 0.7em;
+  border-radius: 0.5em;
   background-color: #f6f8fb;
 }
 

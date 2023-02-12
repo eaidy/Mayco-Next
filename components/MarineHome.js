@@ -105,7 +105,7 @@ const MarineHome = ({ homeObject }) => {
                                     {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <Image src="/images/marinehome/J45-1.jpg" className="d-flex h-100 w-100" alt="..." width={3000} height={1300}/>
+                                            <Image src="/images/marinehome/J45-1.jpg" className="d-flex h-100 w-100" alt="boat" width={3000} height={1300}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -136,7 +136,7 @@ const MarineHome = ({ homeObject }) => {
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/marinehome/J121-2.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <Image src="/images/marinehome/J121-2.jpg" className="d-block w-100" alt="boat" width={1500} height={650}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -170,7 +170,7 @@ const MarineHome = ({ homeObject }) => {
                                             </div> */}
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/marinehome/J80.jpg" className="d-block w-100" alt="..." width={1500} height={650}/>
+                                            <Image src="/images/marinehome/J80.jpg" className="d-block w-100" alt="boat" width={1500} height={650}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -241,7 +241,7 @@ const MarineHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive" src="/images/marinehome/about-1.jpeg" width={360} height={360} alt="boat design"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub1.title }</h6>
                                     <p className="mx-3">
@@ -254,7 +254,7 @@ const MarineHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive" src="/images/marinehome/J121-3.jpg" width={360} height={360} alt="standard equipment"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub2.title }</h6>
                                     <p className="mx-3">
@@ -267,7 +267,7 @@ const MarineHome = ({ homeObject }) => {
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
-                                        <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="..."/>
+                                        <Image className="img-responsive" src="/images/marinehome/about-2.jpeg" width={360} height={360} alt="infusion technology"/>
                                     </figure>
                                     <h6 className="my-3">{ homeObject.subarticles.sub3.title }</h6>
                                     <p className="mx-3">

@@ -32,7 +32,7 @@ const J110 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J9/J9-1.webp" height={1500} width={3000} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J9/J9-1.webp" height={1500} width={3000} alt="J-9 Elegance Yacht"/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -104,9 +104,9 @@ const J110 = () => {
                         </div>
                         <div className="row d-flex justify-content-center my-5">
                             <div className="col-10">
-                                <Image src="/images/marinemodels/J9/J9-schema.webp" height={359} width={1154} alt="..."/>
-                                <Image src="/images/marinemodels/J9/J9-schema-2.webp" height={359} width={1154} alt="..."/>
-                                <Image src="/images/marinemodels/J9/J9-specs.png" height={550} width={1100} alt="..."/>
+                                <Image src="/images/marinemodels/J9/J9-schema.webp" height={359} width={1154} alt="J-9 Schema"/>
+                                <Image src="/images/marinemodels/J9/J9-schema-2.webp" height={359} width={1154} alt="J-9 Schema"/>
+                                <Image src="/images/marinemodels/J9/J9-specs.png" height={550} width={1100} alt="J-9 Technical Specifications"/>
                             </div>
                         </div>
                         <div className="row my-4">

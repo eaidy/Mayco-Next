@@ -95,22 +95,26 @@
     "production": {
         "header": "PRODUCTION",
         "text": "The production of the desired color and pattern designs by using recyclable yarns in Ökoteks and Reach standards is realized with the final control of our field control staff.",
-        "img": "/images/textilecorporate/production/production-1.png"
+        "img": "/images/textilecorporate/production/production-1.png",
+        "alt": "textile factory production"
     },
     "mission": {
         "header": "Our Mission",
         "text": "To be the service partner of strong world brands and environmentally friendly local manufacturers.",
-        "img": "/images/textilecorporate/production/production-2.png"
+        "img": "/images/textilecorporate/production/production-2.png",
+        "alt": "textile factory machine"
     },
     "vision": {
         "header": "OUR VISION",
         "text": "To grow by creating differences and increasing our service quality in line with the “win-win” approach with our stakeholders.",
-        "img": "/images/textilecorporate/production/production-3.png"
+        "img": "/images/textilecorporate/production/production-3.png",
+        "alt": "textile factory machine"
     },
     "about": {
         "text": "Mayco Textiles has been founded in 1984 by Mr. Bulent Icgoren in Istanbul, Turkey. With over 35 years of experience in home textiles and wowen fabrics, Mayco is specialized in curtain, upholstery and terry cloths. Committed to provide the best service with the most trusted suppliers to our customers, Mayco has been working with many well-known brands in Europe such as Netherlands, France, Germany, Switzerland, Finland and United Kingdom and introduced Turkish product possibilites to it's buyers. With Mayco's reliable network of fabrics producers in Turkey, we offer the best quality products and reasonable prices in the shortest given time possible. Our own quality control department makes random checks before every shipment to ensure high quality products. Our customers can easily buy meter goods and also packed ready made goods as well. We have huge variety of product range.",
         "header": "About Us",
-        "img": "/images/textilecorporate/about.jpeg"
+        "img": "/images/textilecorporate/about.jpeg",
+        "alt": "textile fabric"
     },
     "products": {
         "header": "PRODUCTS",

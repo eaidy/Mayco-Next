@@ -32,7 +32,7 @@ const J110 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J110/J110-1.webp" height={1500} width={3000} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J110/J110-1.webp" height={1500} width={3000} alt="J-110 Sport Sailboat"/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -131,8 +131,8 @@ const J110 = () => {
                         </div>
                         <div className="row d-flex justify-content-center my-5">
                             <div className="col-10 d-flex align-items-center">
-                                <Image src="/images/marinemodels/J110/J110-schema.webp" height={375} width={665} alt="..."/>
-                                <Image src="/images/marinemodels/J110/J110-specs.png" height={600} width={250} alt="..."/>
+                                <Image src="/images/marinemodels/J110/J110-schema.webp" height={375} width={665} alt=""/>
+                                <Image src="/images/marinemodels/J110/J110-specs.png" height={600} width={250} alt=""/>
                             </div>
                         </div>
                     </div>

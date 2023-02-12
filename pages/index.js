@@ -37,10 +37,10 @@ export default function Home({ navigation}) {
     <div className="enterance-wrapper">
       <div className="textile-side">
         <div onClick={() => router.push('/textile')} className="side-background">
-          <Image src="/images/textile-link-bg.jpg" alt="..." fill={true} layout="fill"/>
+          <Image src="/images/textile-link-bg.jpg" alt="curtain background" fill={true} layout="fill"/>
         </div>
         <span className="textile-site-link">
-          <Image src="/logos/mayco-textile-1.svg" alt="..." width={110} height={110}/>
+          <Image src="/logos/mayco-textile-1.svg" alt="logo" width={110} height={110}/>
           <Link href="/textile">
             <a className="anchor-style">MAYCO TEXTILE</a>
           </Link>
@@ -48,10 +48,10 @@ export default function Home({ navigation}) {
       </div>
       <div className="marine-side">
         <div onClick={() => router.push('/marine')} className="side-background">
-          <Image src="/images/marine-link-bg.jpg" alt="..." fill={true} layout="fill" />
+          <Image src="/images/marine-link-bg.jpg" alt="boat background" fill={true} layout="fill" />
         </div>
         <span className="marine-site-link">
-          <Image src="/logos/marine.svg" alt="..." width={110} height={110}/>
+          <Image src="/logos/marine.svg" alt="logo" width={110} height={110}/>
           <Link href="/marine">
             <a className="anchor-style">MAYCO MARINE</a>
           </Link>

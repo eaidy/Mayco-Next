@@ -14,10 +14,10 @@ const Footer = ({ footerObject }) => {
                         {
                             footerObject.site ?
                             (
-                                <Image className="" src="/logos/marine-logo-text.svg" width={200} height={70} alt="..." />
+                                <Image className="" src="/logos/marine-logo-text.svg" width={200} height={70} alt="logo" />
                             ) : 
                             (
-                                <Image className="" src="/logos/textile-logo-text.svg" width={200} height={70} alt="..."/>
+                                <Image className="" src="/logos/textile-logo-text.svg" width={200} height={70} alt="logo"/>
                             )
                         }
                     </div>

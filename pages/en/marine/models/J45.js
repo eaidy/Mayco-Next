@@ -19,7 +19,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J45/J45-0.jpg" height={1500} width={3000} alt="..."/>
+                    <Image onClick={() => setVideoDisplay(true)} src="/images/marinemodels/J45/J45-0.jpg" height={1500} width={3000} alt="J-45 Elegance Yacht"/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -74,7 +74,7 @@ const J45 = () => {
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-2 d-flex justify-content-center">
                                 <div className="p-3">
-                                    <Image src={MarineObject.models.J45.logo} height={160} width={80} alt="..."/>
+                                    <Image src={MarineObject.models.J45.logo} height={160} width={80} alt="J-45 logo"/>
                                 </div>
                             </div>
                             <div className="col-sm-10 d-flex align-items-center">
@@ -93,7 +93,7 @@ const J45 = () => {
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article1.img} width={1200} height={600} alt="..." />
+                                <Image src={MarineObject.models.J45.article1.img} width={1200} height={600} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -109,7 +109,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article2.img} width={1200} height={700} alt="..." />
+                                <Image src={MarineObject.models.J45.article2.img} width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -126,7 +126,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-column-reverse mb-2 py-4 border-bottom">
                             <div className="col-12 py-2 d-flex justify-content-center">
-                                <Image src={MarineObject.models.J45.article3.img} width={1200} height={650} alt="..." />
+                                <Image src={MarineObject.models.J45.article3.img} width={1200} height={650} alt="" />
                             </div>
                             <div className="col-12 d-flex justify-content-center">
                                 <article>
@@ -143,7 +143,7 @@ const J45 = () => {
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article4.img} width={1200} height={700} alt="..." />
+                                <Image src={MarineObject.models.J45.article4.img} width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -160,7 +160,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article5.img} width={1200} height={700} alt="..." />
+                                <Image src={MarineObject.models.J45.article5.img} width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -177,7 +177,7 @@ const J45 = () => {
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article6.img} width={1200} height={700} alt="..." />
+                                <Image src={MarineObject.models.J45.article6.img} width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -194,7 +194,7 @@ const J45 = () => {
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom ">
                             <div className="col-sm-8 py-3">
-                                <Image src={MarineObject.models.J45.article7.img} width={1200} height={700} alt="..." />
+                                <Image src={MarineObject.models.J45.article7.img} width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center">
                                 <article>
@@ -292,7 +292,7 @@ const J45 = () => {
                                     
                                         <article key={indexPanel} className="col-md-3 justify-content-center text-center equipment-panel">
                                             <figure className="d-flex equipment-image">
-                                                <Image src={panel.img} height={380} width={440} alt="..." />
+                                                <Image src={panel.img} height={380} width={440} alt="" />
                                             </figure>
                                             <h4>
                                                 { panel.header }
@@ -303,7 +303,7 @@ const J45 = () => {
                                         </article>
                                 )) : navs.filter((navActive) => navActive.isActive)[0].pics.map((pic, indexPic) => (
                                     <div key={indexPic} className="col-md-5 d-flex justify-content-center flex-row">
-                                        <Image src={pic} height={350} width={350} alt="..." />
+                                        <Image src={pic} height={350} width={350} alt="" />
                                     </div>
                                 ))
                             }

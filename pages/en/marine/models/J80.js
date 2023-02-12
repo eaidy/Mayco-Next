@@ -18,7 +18,7 @@ const J45 = () => {
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
-                    <Image src="/images/marinemodels/J80/J80-2.jpg" height={1500} width={3000} alt="..."/>
+                    <Image src="/images/marinemodels/J80/J80-2.jpg" height={1500} width={3000} alt="J-80 Sport Sailboat"/>
                     <div className="model-video-button-div">
                         <button 
                             className="model-video-button"
@@ -73,7 +73,7 @@ const J45 = () => {
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-2 d-flex justify-content-center align-items-center">
                                 <div className="p-3">
-                                    <Image src="/images/marinemodels/J80/J80-logo.jpeg" height={160} width={80} alt="..."/>
+                                    <Image src="/images/marinemodels/J80/J80-logo.jpeg" height={160} width={80} alt=""/>
                                 </div>
                             </div>
                             <div className="col-sm-10 d-flex justify-content-center align-items-center">
@@ -91,7 +91,7 @@ const J45 = () => {
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-7.jpeg" width={1200} height={600} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-7.jpeg" width={1200} height={600} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
@@ -106,7 +106,7 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-5.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-5.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
@@ -121,7 +121,7 @@ Head out to sea! Enjoy its simple and pleasant manoeuvrability. The adventure be
                         </div>
                         <div className="row flex-column-reverse mb-2 py-4 border-bottom">
                             <div className="col-12 py-2 d-flex justify-content-center align-items-center">
-                                <Image src="/images/marinemodels/J80/J80-3.jpeg" width={1200} height={650} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-3.jpeg" width={1200} height={650} alt="" />
                             </div>
                             <div className="col-12 d-flex justify-content-center align-items-center">
                                 <article>
@@ -137,7 +137,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-4.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-4.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
@@ -151,7 +151,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-6.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-6.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
@@ -165,7 +165,7 @@ Able to reach 16/18 knots of boat speed in the breeze in complete safety, you’
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-8.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-8.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>
@@ -180,7 +180,7 @@ Sportsmanship and sociability are the key words of this class.
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4">
                             <div className="col-sm-8 py-3">
-                                <Image src="/images/marinemodels/J80/J80-1.jpeg" width={1200} height={700} alt="..." />
+                                <Image src="/images/marinemodels/J80/J80-1.jpeg" width={1200} height={700} alt="" />
                             </div>
                             <div className="col-sm-4 d-flex justify-content-center align-items-center">
                                 <article>

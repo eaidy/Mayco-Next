@@ -37,7 +37,7 @@ const Header = ({ headerObject }) => {
             <nav className="navbar navbar-expand-lg py-2 bg-white border-top border-bottom navbar-mobile">
                 <div className="container-fluid">
                     <Link href={'/' + lang + currentSite}>
-                        <Image src={`/logos/${currentSite}-logo-text.svg`} className="comp-logo" alt="MAYCO" height="65" width="210"/>
+                        <Image src={`/logos/${currentSite}-logo-text.svg`} className="comp-logo" alt="logo" height="65" width="210"/>
                     </Link>
 
                     <button className="navbar-toggler my-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +70,7 @@ const Header = ({ headerObject }) => {
                                                 (
                                                     <li key={dindex} className="p-2 fs-6 dropdown-li-models">
                                                         <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
-                                                            <a className="dropdown-item"><Image src={dnav.linkimg} height={135} width={180} alt="..."/><br />{ dnav.label }</a>
+                                                            <a className="dropdown-item"><Image src={dnav.linkimg} height={135} width={180} alt="boat link"/><br />{ dnav.label }</a>
                                                         </Link>
                                                     </li>
                                                 )
