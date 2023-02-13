@@ -359,6 +359,7 @@ ul.siteRoutes li {
 }
 
 .not-found {
+  margin-top: 15%;
   text-align: center;
 }
 .not-found a{

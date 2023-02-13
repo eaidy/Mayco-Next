@@ -10,9 +10,9 @@ const NotFound = () => {
     return (
         <>
             <div className="not-found">
-                <h1>Oooooops...</h1>
+                <h1>404 Not Found</h1>
                 <h2>That page cannot be found.</h2>
-                <p>Go back to the <a role="button" onClick={() => router.back()}>Homepage</a></p>
+                <p>Go back to the <a role="button" style={{color: "#4979ff"}} onClick={() => router.back()}>Homepage</a></p>
             </div>
         </>
     );
