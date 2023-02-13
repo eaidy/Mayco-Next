@@ -152,7 +152,7 @@ const TextileHome = ({ homeObject }) => {
                         </div>
                     </div>
                     <div className="row px-md-4 products-textile-home">
-                        <div className="col-sm-4 d-flex justify-content-center border-end">
+                        <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
@@ -168,7 +168,7 @@ const TextileHome = ({ homeObject }) => {
                                 </article>
                             </div>
                         </div>
-                        <div className="col-sm-4 d-flex justify-content-center border-end">
+                        <div className="col-sm-4 d-flex justify-content-center">
                             <div className="marine-sub-article d-flex justify-content-center p-2">
                                 <article className='d-flex flex-column align-items-center text-center'>
                                     <figure className='d-flex'>
