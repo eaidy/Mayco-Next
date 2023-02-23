@@ -11,6 +11,9 @@ const Textile = () => {
         <>
             <Head>
                 <title>MAYCO Tekstil</title>
+
+                <meta name="description" content="Mayco Tekstil 1984 yılında Bülent İçgören tarafından İstanbul’da kurulmuştur. Şuan ise ikinci kuşak temsilcisi olan Emir İçgören’in yönetim kurulu başkanlığında hizmet vermeye devam etmektedir. Ev Tekstili ve dokuma ürünlerinde 35 yıllık tecrübe barındıran Mayco Tekstil, Perde, Döşemelik kumaş ve havlu gruplarında uzmanlaşmıştır." />
+                <meta name="keywords" content="Tekstil, Textile, Drapery, Curtain, Perde, Döşemelik, Kumaş, tekstil, textile, drapery, curtain perde, döşemelik, kumaş" />
             </Head>
             <Header headerObject={TextileObject.header} />
             <TextileHome homeObject={TextileObject.home}/>

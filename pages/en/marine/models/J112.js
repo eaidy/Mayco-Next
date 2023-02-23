@@ -34,7 +34,7 @@ const J45 = () => {
                     </div>
                     <div className="model-3d-link-div">
                             <AiOutlinePlayCircle color="#fff" className="play-icon"/>
-                            <a className="model-3d-link" href="https://my.matterport.com/show/?m=nWXcdAWGXBH" target="_blank">
+                            <a className="model-3d-link" href="https://my.matterport.com/show/?m=nWXcdAWGXBH" target="_blank" rel="noreferrer">
                                 3D Tour
                             </a>
                     </div>
