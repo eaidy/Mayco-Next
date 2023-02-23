@@ -1178,6 +1178,26 @@ footer .col-12 {
     padding: 1em;
   }
 
+  .model-3d-link-div {
+    position: absolute;
+    display: inline;
+    top: 3%;
+    right: 3%;
+    text-align: center;
+  }
+
+  .model-3d-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .play-icon {
+    margin-bottom: 2px;
+    margin-right: 3px;
+    font-size: 18px;
+  }
+
   .three-d-button {
     position: absolute;
     display: inline;
@@ -1373,6 +1393,46 @@ footer .col-12 {
 }
 
   .model-under {
+  }
+
+  .model-3d-link-div {
+    position: absolute;
+    display: inline;
+    top: 3%;
+    right: 3%;
+    text-align: center;
+  }
+
+  .model-3d-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.15s;
+  }
+
+  .model-3d-link:hover {
+    color: #fff;
+  }
+
+  .model-3d-link-div:hover {
+    cursor: pointer;
+  }
+
+  .model-3d-link-div:hover .model-3d-link {
+    color: #4979ff !important;
+    font-size: 19px;
+  }
+  .model-3d-link-div:hover .play-icon {
+    color: #4979ff !important;
+    font-size: 28px;
+  }
+
+  .play-icon {
+    margin-bottom: 2px;
+    margin-right: 5px;
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.15s;
   }
 
   .model-video-button-div {

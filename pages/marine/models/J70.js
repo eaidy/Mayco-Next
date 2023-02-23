@@ -7,6 +7,7 @@ import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
 import ImageGallery from 'react-image-gallery';
+import Head from "next/head";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = () => {
@@ -30,6 +31,9 @@ const J70 = () => {
 
     return (
         <>  
+            <Head>
+                <title>J-70</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">

@@ -5,7 +5,9 @@ import { useState } from "react";
 import MarineObject from "../../../site-data/marine-tr.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
+import Head from "next/head";
 import { useWindowDimensions } from "../../../hooks/useWindowDimensions";
+import { AiOutlinePlayCircle } from "react-icons/ai"
 
 const J45 = () => {
 
@@ -16,6 +18,9 @@ const J45 = () => {
 
     return (
         <>
+            <Head>
+                <title>J-99</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">
@@ -27,6 +32,12 @@ const J45 = () => {
                         >
                             MEDYAYI SEYRET
                         </button>
+                    </div>
+                    <div className="model-3d-link-div">
+                        <AiOutlinePlayCircle color="#fff" className="play-icon"/>
+                        <a className="model-3d-link" href="https://my.matterport.com/show/?m=8TNQ9YhUGM2" target="_blank">
+                            3D Tur
+                        </a>
                     </div>
                     <div className="model-top-text">
                         <MovingText

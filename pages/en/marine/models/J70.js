@@ -8,6 +8,7 @@ import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../../hooks/useWindowDimensions";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import Head from "next/head";
 
 const images = () => {
     const images = []
@@ -30,6 +31,9 @@ const J70 = () => {
 
     return (
         <>  
+            <Head>
+                <title>J-70 | Sport Sailboat</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">

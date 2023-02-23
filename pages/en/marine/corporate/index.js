@@ -2,10 +2,14 @@ import Footer from "../../../../components/Footer";
 import Header from "../../../../components/Header";
 import MarineObject from "../../../../site-data/marine-en.json"
 import CorporateNav from "../../../../components/CorporateNav";
+import Head from "next/head";
 
 const OurMission = () => {
     return (
         <>
+            <Head>
+                <title>MAYCO | Corporate</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <div className="container-fluid py-3">
                 <div className="row">

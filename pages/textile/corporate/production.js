@@ -3,10 +3,14 @@ import Header from "../../../components/Header";
 import AboutUs from "../../../components/AboutUs";
 import TextileObject from "../../../site-data/textile-tr.json"
 import CorporateNav from "../../../components/CorporateNav";
+import Head from "next/head";
 
 const TextileProduction = () => {
     return (  
         <>
+            <Head>
+                <title>MAYCO | Üretim</title>
+            </Head>
             <Header headerObject={TextileObject.header}/>
             <div className="container-fluid py-3">
                 <div className="row">

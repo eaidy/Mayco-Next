@@ -6,6 +6,7 @@ import MarineObject from "../../../../site-data/marine-en.json"
 import ReactPlayer from "react-player"
 import MovingText from 'react-moving-text'
 import { useWindowDimensions } from "../../../../hooks/useWindowDimensions";
+import Head from "next/head";
 
 const J45 = () => {
 
@@ -15,6 +16,9 @@ const J45 = () => {
 
     return (
         <>  
+            <Head>
+                <title>J-80 | Sport Sailboat</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">

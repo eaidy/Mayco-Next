@@ -8,6 +8,7 @@ import MovingText from 'react-moving-text'
 import Image from "next/image";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import Head from "next/head";
 
 const images = () => {
     const images = []
@@ -29,6 +30,9 @@ const J110 = () => {
 
     return (
         <>
+            <Head>
+                <title>J-9 | Elegance Yacht</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
                 <div className="model-image-top">

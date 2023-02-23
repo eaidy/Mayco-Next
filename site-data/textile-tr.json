@@ -152,6 +152,7 @@
         ]
     },
     "contact": {
+        "lang": "tr",
         "title": "Bize Ulaşın",
         "contactInfo": "İletişim Bilgilerimiz",
         "address": { "header": "Adres", "text": "İnöncü Caddesi, No: 47/4, PK: 34437 Gümüşsuyu, Beyoğlu İstanbul"},

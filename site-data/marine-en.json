@@ -489,6 +489,7 @@
 
     },
     "contact": {
+        "lang": "en",
         "title": "Contact Us",
         "contactInfo": "Contact Information",
         "address": { "header": "Address", "text": "Inonu Avene, No: 47/4, Postal Code: 34437 Gumussuyu, Beyoglu  Istanbul"},

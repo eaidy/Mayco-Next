@@ -3,10 +3,14 @@ import Header from "../../../components/Header";
 import AboutUs from "../../../components/AboutUs";
 import MarineObject from "../../../site-data/marine-tr.json"
 import CorporateNav from "../../../components/CorporateNav";
+import Head from "next/head";
 
 const OurMission = () => {
     return (
         <>
+            <Head>
+                <title>MAYCO | Misyon</title>
+            </Head>
             <Header headerObject={MarineObject.header}/>
             <div className="container-fluid py-3">
                 <div className="row">
