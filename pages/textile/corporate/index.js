@@ -6,6 +6,7 @@ import CorporateNav from "../../../components/CorporateNav";
 
 const OurMission = () => {
     return (
+        
         <>
             <Head>
                 <title>MAYCO | Kurumsal</title>
