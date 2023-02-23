@@ -12,7 +12,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = () => {
     const images = []
-    for(let i = 1; i < 38; i ++ ) {
+    for(let i = 1; i < 37; i ++ ) {
         images.push({
             original: '/images/marinemodels/J70/gallery/' + i + '.jpg',
             thumbnail: '/images/marinemodels/J70/gallery/' + i + '.jpg'
