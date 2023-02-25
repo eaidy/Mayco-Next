@@ -19,7 +19,10 @@ const J45 = () => {
     return (
         <>
             <Head>
-                <title>J-45</title>
+                <title>J-45 | Elegance Yacht</title>
+
+                <meta name="description" content="Tüm yelken planlarınızı değiştirebilecek heyecan verici 45' açık deniz yelkenli yat. Önde gelen gövde tasarımı, daha önce hiçbir J'nin olmadığı şekilde seyir konforu ve performansında çıtayı yükseltmek için zarif iç tasarımla buluşuyor..." />
+                <meta name="keywords" content="j-45, J-45, J45, j45, boat, yacht, marine, elegance, yat, bot, elegant" />                
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

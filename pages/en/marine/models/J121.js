@@ -18,6 +18,9 @@ const J45 = () => {
         <>
             <Head>
                 <title>J-121 | Sport Sailboat</title>
+
+                <meta name="description" content="The new J 121 has been optimised for sailing long distances with a crew of 5 or less. She satisfies the growing need to simplify the organisation of your racing season by limiting the number of crew aboard." />
+                <meta name="keywords" content="j-121, J-121, J121, j121, boat, sport, marine, sailboat" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

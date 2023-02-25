@@ -17,7 +17,10 @@ const J121 = () => {
     return (
         <>
             <Head>
-                <title>J-121</title>
+                <title>J-121 | Sport Sailboat</title>
+
+                <meta name="description" content="Yeni J 121, 5 veya daha az mürettebatla uzun mesafelerde yelken açmak için optimize edilmiştir. Gemideki mürettebat sayısını sınırlayarak yarış sezonunuzun organizasyonunu basitleştirmeye yönelik artan ihtiyacı karşılar." />
+                <meta name="keywords" content="j-121, J-121, J121, j121, boat, sport, marine, sailboat, bot, yelken, spor" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

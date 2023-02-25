@@ -19,6 +19,9 @@ const J45 = () => {
         <>
             <Head>
                 <title>J-112 | Elegance Yacht</title>
+
+                <meta name="description" content="The J 112 Elegance is the fruit of two years of thought and consideration with a view to finding the best possible balance between performance and interior comfort. No other yacht will offer you such charm, however you use her." />
+                <meta name="keywords" content="j-112, J-112, J112, j112, boat, yacht, marine, elegance" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

@@ -32,6 +32,9 @@ const J110 = () => {
         <>
             <Head>
                 <title>J-9 | Elegance Yacht</title>
+
+                <meta name="description" content="Responding to a growing need amongst sailors for a more comfortable, simpler and easy-to-own daysailer, J/Boats is excited to announce a sleek new 28 footer (the “J/9”) with perhaps the most comfortable cockpit and easiest-to-manage sailplan in this size range." />
+                <meta name="keywords" content="j-9, J-9, J9, j9, boat, yacht, marine, elegance" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

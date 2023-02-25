@@ -19,7 +19,10 @@ const J45 = () => {
     return (
         <>
             <Head>
-                <title>J-99</title>
+                <title>J-99 | Sport Sailboat</title>
+
+                <meta name="description" content="Yeni J/99, Sport serisini tamamlıyor ve birçok talebi karşılamayı amaçlıyor. Hem erişilebilir hem de yüksek performanslı olması amaçlanan bir yarışçı olan J/99, duyularınızı harekete geçirecek ve çok cazip fiyatı kesinlikle sizi cezbedecek!" />
+                <meta name="keywords" content="j-99, J-99, J99, j99, boat, sport, marine, sailboat, bot, yelken, spor" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

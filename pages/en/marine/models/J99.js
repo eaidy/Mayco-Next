@@ -20,6 +20,9 @@ const J45 = () => {
         <>
             <Head>
                 <title>J-99 | Sport Sailboat</title>
+
+                <meta name="description" content="The new J/99 completes the Sport range and aims to satisfy multiple demands. A racer that is intended to be both accessible and high-performance, the J/99 will excite your senses and her very attractive price is bound to appeal!" />
+                <meta name="keywords" content="j-99, J-99, J99, j99, boat, sport, marine, sailboat" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

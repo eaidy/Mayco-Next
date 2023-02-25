@@ -32,6 +32,9 @@ const J110 = () => {
         <>
             <Head>
                 <title>J-110 | Sport Sailboat</title>
+
+                <meta name="description" content="J/110's performance is a function of low vertical center of gravity (VCG), a narrow waterline, draft and a higher sail area to displacement ratio. A key contributor to lowering weight in the design is high-tech Baltek laminate construction with 65-70% glass content from TPI's patented SCRIMP resin-infusion process." />
+                <meta name="keywords" content="j-110, J-110, J110, j110, boat, sport, marine, sailboat" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

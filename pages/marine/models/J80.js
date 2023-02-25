@@ -17,7 +17,10 @@ const J80 = () => {
     return (
         <>  
             <Head>
-                <title>J-80</title>
+                <title>J-80 | Sport Sailboat</title>
+
+                <meta name="description" content="20 yıllık uzmanlığa sahip olan J 80, bariz seçimdir! Gücünü kontrol et, dengesinin tadını çıkar, içindeki yarışçıyı serbest bırak!" />
+                <meta name="keywords" content="j-80, J-80, J80, j80, boat, sport, marine, sailboat, bot, yelken, spor" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

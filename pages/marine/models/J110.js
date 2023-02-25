@@ -31,7 +31,10 @@ const J110 = () => {
     return (
         <>
             <Head>
-                <title>J-110</title>
+                <title>J-110 | Elegance Yacht</title>
+
+                <meta name="description" content="J/110'un performansı, düşük dikey ağırlık merkezinin (VCG), dar su hattının, su çekiminin ve daha yüksek yelken alanı/yer değiştirme oranının bir fonksiyonudur. Tasarımdaki ağırlığın düşürülmesine önemli bir katkı, TPI'nin patentli SCRIMP reçine infüzyon sürecinden elde edilen %65-70 cam içeriğine sahip yüksek teknolojili Baltek laminat yapısıdır." />
+                <meta name="keywords" content="j-110, J-110, J110, j110, boat, yacht, marine, elegance, yat, bot, elegant" />      
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

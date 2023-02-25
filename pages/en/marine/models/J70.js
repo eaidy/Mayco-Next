@@ -33,6 +33,9 @@ const J70 = () => {
         <>  
             <Head>
                 <title>J-70 | Sport Sailboat</title>
+
+                <meta name="description" content="Treat yourself to a genuine icon of one design sailing! The J 70 is the perfect combination of an accessible design and unquestionable performance. It’s THE most widely distributed yacht in the world and for good reason." />
+                <meta name="keywords" content="j-70, J-70, J70, j70, boat, sport, marine, sailboat" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">

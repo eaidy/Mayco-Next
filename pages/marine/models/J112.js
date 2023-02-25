@@ -18,7 +18,10 @@ const J112 = () => {
     return (
         <>
             <Head>
-                <title>J-112</title>
+                <title>J-112 | Elegance Yacht</title>
+
+                <meta name="description" content="J 112 Elegance, performans ve iç mekan konforu arasında mümkün olan en iyi dengeyi bulmaya yönelik iki yıllık düşünce ve değerlendirmenin meyvesidir. Onu nasıl kullanırsanız kullanın, başka hiçbir yat size böyle bir çekicilik sunamaz." />
+                <meta name="keywords" content="j-112, J-112, J112, j112, boat, yacht, marine, elegance, yat, bot, elegant" />  
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
