@@ -226,8 +226,8 @@ ul.siteRoutes li {
 }
 
 .nav-link {
-  font-size: 1.1em;
-  font-weight: 500 !important;
+  font-size: 1em;
+  font-weight: 400 !important;
 }
 
 .navigationBarWrapper {
@@ -365,6 +365,10 @@ ul.siteRoutes li {
 .not-found a{
   color: #4979ff;
   text-decoration: underline;
+}
+
+.specs-table span {
+  opacity: 0.8 !important;
 }
 
 /* FOOTER */
@@ -1163,6 +1167,10 @@ footer .col-12 {
     text-align: center;
   }
 
+  .st900-article {
+    flex-direction: column;
+  }
+
   .model-image-top{  
     position: relative;
     z-index: 1;
@@ -1381,6 +1389,7 @@ footer .col-12 {
 
 .dropdown-li-models:hover {
   background-color: #fff;
+  cursor: pointer;
 }
 
 .dropdown-li-models:hover a {

@@ -3,15 +3,19 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import LangSelect from '../components/LangSelect'
 import { RiArrowDownSFill } from 'react-icons/ri'
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const Header = ({ headerObject }) => {
+
+    const dwRef = useRef(null)
 
     const router = useRouter()
 
     const [lang, ] = useState(() => headerObject.lang === "en" ? "en/" : "")
     const [currentNav, setCurrentNav ] = useState(null)
     const [currentSite, setCurrentSite] = useState(headerObject.site)
+
+    const [activeModels, setActiveModels] = useState(null)
 
     useEffect(() => {
         setCurrentNav(router.pathname)
@@ -30,6 +34,17 @@ const Header = ({ headerObject }) => {
             }
         }
     }
+
+    const brandClickHandle = (dropdown) => {
+        if(dropdown == activeModels)
+            setActiveModels(null)
+        else
+            setActiveModels(dropdown)
+    }
+
+    const handleClick = (event) => {
+        event.stopPropagation();
+    };  
 
     return (
         <header>
@@ -64,17 +79,57 @@ const Header = ({ headerObject }) => {
                                             { nav.label }
                                             <RiArrowDownSFill className="dropdown-below-icon" size={23} style={{ position: "absolute", right: 1, bottom: 2, top: 25 }} />
                                         </a>
-                                        <ul className="dropdown-menu list-inline marine-list-override text-center p-0">
+                                        <ul onClick={handleClick} className="dropdown-menu list-inline marine-list-override text-center p-0">
                                             {   
-                                                nav.dropdown.map((dnav, dindex) => 
-                                                (
-                                                    <li key={dindex} className="p-2 fs-6 dropdown-li-models">
-                                                        <Link href={'/' + lang + headerObject.site + nav.path + dnav.path}>
-                                                            <a className="dropdown-item"><Image src={dnav.linkimg} height={135} width={180} alt="boat link"/><br />{ dnav.label }</a>
-                                                        </Link>
-                                                    </li>
-                                                )
-                                                )
+                                                <div className="pt-3">
+                                                    <div>
+                                                    {     
+                                                    nav.dropdown.map((dnav, dindex) => dnav.dropdown &&
+                                                        (
+                                                            <li key={dindex} className="p-2 fs-6 dropdown-li-models">
+                                                                <a 
+                                                                    onClick={() => brandClickHandle(dnav.dropdown)}
+                                                                    className="dropdown-item"
+                                                                >
+                                                                    <Image src={dnav.linkimg} height={65} width={85} alt="brand"/>
+                                                                    <br />
+                                                                    <span className="my-4">
+                                                                    { dnav.label }
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                        )
+                                                        )
+                                                    }  
+                                                    </div>
+                                                    
+                                                    {
+                                                        activeModels && (
+                                                        <>
+                                                            <hr />
+                                                            <div>
+                                                                <ul className="list-inline marine-list-override text-center p-0">
+                                                                    {
+                                                                    activeModels && activeModels.map((model, mindex) => (
+                                                                        <li key={mindex} className="p-2 fs-6 dropdown-li-models">
+                                                                            <Link href={'/' + lang + headerObject.site + model.path}>
+                                                                                <a
+                                                                                    className={"nav-link mx-2 py-4 "}
+                                                                                >
+                                                                                    { model.linkimg && (<Image src={model.linkimg} height={80} width={120} alt="boat link"/>)}
+                                                                                    <br />
+                                                                                    { model.label }
+                                                                                </a>
+                                                                            </Link>
+                                                                        </li>
+                                                                    ))
+                                                                    } 
+                                                                </ul>
+                                                            </div>
+                                                        </>
+                                                        )
+                                                    }
+                                                </div>
                                             }
                                         </ul>
                                     </li>

@@ -3,16 +3,25 @@
         "navbar": [
             { "label": "Anasayfa",  "path": "/" },
             { "label": "Kurumsal",  "path": "/corporate/aboutus" },
-            { "label": "Modellerimiz",  "path": "/models", "dropdown": [
-                { "label": "J-45 ELEGANCE YACHT",  "path": "/J45", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-70 SPORT SAILBOAT",  "path": "/J70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
-                { "label": "J-80 SPORT SAILBOAT",  "path": "/J80", "linkimg": "/images/marinelinks/J80-link.jpeg" },
-                { "label": "J-99 SPORT SAILBOAT",  "path": "/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
-                { "label": "J-121 SPORT SAILBOAT",  "path": "/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
-                { "label": "J-110 SPORT SAILBOAT",  "path": "/J110", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-112 ELEGANCE YACHT",  "path": "/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
-                { "label": "J-9 ELEGANCE YACHT",  "path": "/J9", "linkimg": "/images/marinelinks/J45-link.jpeg" }
-            ]},
+            { "label": "Markalarımız", "path": "", "dropdown": [
+                { "label": "J-Boats", "path": "/jboats", "linkimg": "/images/marinelinks/jboats-logo.jpeg", "dropdown": [
+                    { "label": "J-45 ELEGANCE YACHT",  "path": "/jboats/J45", "linkimg": "/images/marinelinks/J45-link.jpeg" },
+                    { "label": "J-70 SPORT SAILBOAT",  "path": "/jboats/J70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
+                    { "label": "J-80 SPORT SAILBOAT",  "path": "/jboats/J80", "linkimg": "/images/marinelinks/J80-link.jpeg" },
+                    { "label": "J-99 SPORT SAILBOAT",  "path": "/jboats/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
+                    { "label": "J-121 SPORT SAILBOAT",  "path": "/jboats/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
+                    { "label": "J-110 SPORT SAILBOAT",  "path": "/jboats/J110", "linkimg": "/images/marinelinks/J45-link.jpeg" },
+                    { "label": "J-112 ELEGANCE YACHT",  "path": "/jboats/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
+                    { "label": "J-9 ELEGANCE YACHT",  "path": "/jboats/J9", "linkimg": "/images/marinelinks/J45-link.jpeg" }
+                ]},
+                { "label": "Flipper", "path": "/flipper", "linkimg": "/images/marinelinks/flipper-logo-2.png", "dropdown": [
+                    { "label": "900 ST", "path": "/flipper/ST900", "linkimg": ""}
+                ]},
+                { "label": "Virtue Yachts", "path": "/virtueyachts", "linkimg": "/images/marinelinks/virtue-logo.svg", "dropdown": [
+                    { "label": "V-10", "path": "/virtueyachts/V10", "linkimg": ""}
+                ]}
+            ]
+            },
             { "label": "İletişim",  "path": "/contact" }
         ],
         "site": "marine",
@@ -48,8 +57,8 @@
             "sub3": { "title": "İNFÜZYON TEKNOLOJİSİ", "text": "Sağlam ancak hafif bir tekne elde etmek için infüzyon tekniği en iyi yöntemdir! Fazla reçineyi önlemek için boşluk bırakılmaz. J'ler infüzyon açısından çığır açıcı olduğundan, başından beri ustalaştığımız bir tekniktir, bu da konuya olan ustalığımızın rakipsiz olduğu anlamına gelir."}
         },
         "sliderText1": { "main": "J-BOATS", "sub": "Türkiye Distribütörü"},
-        "sliderText2": { "main": "J-BOATS", "sub": "Türkiye Distribütörü"},
-        "sliderText3": { "main": "J-BOATS", "sub": "Türkiye Distribütörü"}
+        "sliderText2": { "main": "VIRTUE YACHTS", "sub": "Türkiye Distribütörü"},
+        "sliderText3": { "main": "FLIPPER", "sub": "Türkiye Distribütörü"}
     },
     "corporate": {
         "lang": "tr",
@@ -499,6 +508,45 @@
         },
         "J121": {
 
+        },
+        "ST900": {
+            "specs": {
+                "navs": [
+                    {
+                        "label": "EŞŞİZ GÖVDE HIZI",
+                        "isActive": true,
+                        "panels": [
+                            {
+                                "header": "EŞŞİZ GÖVDE HIZI",
+                                "text": "Her Flipper teknesi, her koşulda daha yüksek hızlara ve sportif sürüş deneyimine olanak tanıyan benzersiz bir Speedhull tasarımına sahiptir. Vakum teknolojisiyle yapılan özel çift çerçeve yapısı, gövdeyi son derece sağlam hale getiriyor; bu da yine mükemmel sürüş kabiliyetine ve kokpitte daha az gürültüye katkıda bulunuyor.",
+                                "img": "/images/marinemodels/900ST/navtabs/1.png"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "ÇOK YÖNLÜ DÜZEN",
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "ÇOK YÖNLÜ DÜZEN",
+                                "text": "Benzersiz düzen, teknenin suda eğlenmek için çeşitli şekillerde kullanılmasına olanak tanır. Sosyalleşme, yemek yeme, güneşlenme, su sporları, geceleme, kamp yapma ve diğer aktiviteler mümkün olduğunca rahat bir şekilde gerçekleşir. Arka güverte ve kabin alanları dinlenmeye ve güneşlenmeye son derece uygundur. Tekne, kiler platformu veya tam kiler ile donatılmıştır. Çoğu Palet, isteğe bağlı veya standart bir deniz tuvaleti ile birlikte gelir.",
+                                "img": "/images/marinemodels/900ST/navtabs/2.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "MÜKEMMEL MOTOR ENTEGRASYONU",
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "MÜKEMMEL MOTOR ENTEGRASYONU",
+                                "text": "Konu teknecilik deneyimine gelince, Flipper tekneler ve Mercury motorlar kazanan bir takımdır. Zaten tasarım aşamasında olan Flipper teknelerinin Mercury motorları için optimize edilmesi, mükemmel sürülebilirlik ve düşük ses seviyelerinin anahtarıdır. Kullanımı olabildiğince kolaydır ve ergonomisi mükemmeldir. İsteğe bağlı cam köprü çizici, tüm motor ve sürüş verilerinin tek ekranda gösterilmesini sağlar. Mercury aktif trim, motorların her zaman doğru seviyeye ayarlanmasını sağlar. Bu, yakıt tasarrufu sağlar ve sürüşü kolay ve keyifli hale getirir.",
+                                "img": "/images/marinemodels/900ST/navtabs/3.jpeg"
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     },
     "boatrental": {

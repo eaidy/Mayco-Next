@@ -105,7 +105,7 @@ const MarineHome = ({ homeObject }) => {
                                     {/* <progress className="marine-progress" value={progress} max={carouselInterval}></progress> */}
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <Image src="/images/marinehome/J45-1.jpg" className="d-flex h-100 w-100" alt="boat" width={3000} height={1300}/>
+                                            <Image src="/images/marinehome/J45-1.jpg" className="d-flex h-100 w-100" alt="boat" width={1500} height={1000}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -136,7 +136,7 @@ const MarineHome = ({ homeObject }) => {
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/marinehome/J121-2.jpg" className="d-block w-100" alt="boat" width={1500} height={650}/>
+                                            <Image src="/images/marinehome/v10.jpg" className="d-block w-100" alt="boat" width={1500} height={1000}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
@@ -170,7 +170,7 @@ const MarineHome = ({ homeObject }) => {
                                             </div> */}
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/marinehome/J80.jpg" className="d-block w-100" alt="boat" width={1500} height={650}/>
+                                            <Image src="/images/marinehome/st900.jpg" className="d-block w-100" alt="boat" width={1500} height={1000}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"

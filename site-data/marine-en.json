@@ -5,16 +5,25 @@
         "navbar": [
             { "label": "Home",  "path": "/" },
             { "label": "Corporate",  "path": "/corporate/aboutus" },
-            { "label": "Our Models",  "path": "/models", "dropdown": [
-                { "label": "J-45 ELEGANCE YACHT",  "path": "/J45", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-70 SPORT SAILBOAT",  "path": "/J70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
-                { "label": "J-80 SPORT SAILBOAT",  "path": "/J80", "linkimg": "/images/marinelinks/J80-link.jpeg" },
-                { "label": "J-99 SPORT SAILBOAT",  "path": "/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
-                { "label": "J-121 SPORT SAILBOAT",  "path": "/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
-                { "label": "J-110 SPORT SAILBOAT",  "path": "/J110", "linkimg": "/images/marinelinks/J45-link.jpeg" },
-                { "label": "J-112 ELEGANCE YACHT",  "path": "/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
-                { "label": "J-9 ELEGANCE YACHT",  "path": "/J9", "linkimg": "/images/marinelinks/J45-link.jpeg" }
-            ]},
+            { "label": "Our Brands", "path": "", "dropdown": [
+                { "label": "J-Boats", "path": "/jboats", "linkimg": "/images/marinelinks/jboats-logo.jpeg", "dropdown": [
+                    { "label": "J-45 ELEGANCE YACHT",  "path": "/jboats/J45", "linkimg": "/images/marinelinks/J45-link.jpeg" },
+                    { "label": "J-70 SPORT SAILBOAT",  "path": "/jboats/J70", "linkimg": "/images/marinelinks/J70-link.jpeg" },
+                    { "label": "J-80 SPORT SAILBOAT",  "path": "/jboats/J80", "linkimg": "/images/marinelinks/J80-link.jpeg" },
+                    { "label": "J-99 SPORT SAILBOAT",  "path": "/jboats/J99", "linkimg": "/images/marinelinks/J99-link.jpg" },
+                    { "label": "J-121 SPORT SAILBOAT",  "path": "/jboats/J121", "linkimg": "/images/marinelinks/J121-link.jpeg" },
+                    { "label": "J-110 SPORT SAILBOAT",  "path": "/jboats/J110", "linkimg": "/images/marinelinks/J45-link.jpeg" },
+                    { "label": "J-112 ELEGANCE YACHT",  "path": "/jboats/J112", "linkimg": "/images/marinelinks/J112-link.jpeg" },
+                    { "label": "J-9 ELEGANCE YACHT",  "path": "/jboats/J9", "linkimg": "/images/marinelinks/J45-link.jpeg" }
+                ]},
+                { "label": "Flipper", "path": "/flipper", "linkimg": "/images/marinelinks/flipper-logo-2.png", "dropdown": [
+                    { "label": "900 ST", "path": "/flipper/ST900", "linkimg": ""}
+                ]},
+                { "label": "Virtue Yachts", "path": "/virtueyachts", "linkimg": "/images/marinelinks/virtue-logo.svg", "dropdown": [
+                    { "label": "V-10", "path": "/virtueyachts/V10", "linkimg": ""}
+                ]}
+            ]
+            },
             { "label": "Contact",  "path": "/contact" }
         ],
         "site": "marine",
@@ -50,8 +59,8 @@
             "sub3": { "title": "INFUSION TECHNOLOGY", "text": "The infusion technique is the best way to get a solid yet light boat! No gaps are left to prevent excess resin. Since J's are groundbreaking in terms of infusion, it's a technique we've mastered from the start, which means our mastery of the subject is unrivaled."}
         },
         "sliderText1": { "main": "J-BOATS", "sub": "Turkey Distributor"},
-        "sliderText2": { "main": "J-BOATS", "sub": "Turkey Distributor"},
-        "sliderText3": { "main": "J-BOATS", "sub": "Turkey Distributor"}
+        "sliderText2": { "main": "VIRTUE YACHTS", "sub": "Turkey Distributor"},
+        "sliderText3": { "main": "FLIPPER", "sub": "Turkey Distributor"}
     },
     "corporate": {
         "lang": "en",
@@ -480,6 +489,45 @@
         },
         "J121": {
 
+        },
+        "ST900": {
+            "specs": {
+                "navs": [
+                    {
+                        "label": "UNIQUE SPEEDHULL",
+                        "isActive": true,
+                        "panels": [
+                            {
+                                "header": "UNIQUE SPEEDHULL",
+                                "text": "Every Flipper boat has a unique Speedhull design that enables higher speeds and sporty driving experience under all conditions. The special double frame construction made with the vacuum technology makes the hull extremely stiff – which again contributes to excellent drivability and less noise in the cockpit.",
+                                "img": "/images/marinemodels/900ST/navtabs/1.png"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "VERSATILE LAYOUT",
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "VERSATILE LAYOUT",
+                                "text": "The unique layout enables using the boat in various ways to have fun on the water. Socializing, dining, sunbathing, water sports, overnighting, camping and other activities take place as conveniently as possible. The back deck and cabin areas suit excellently for resting and sunbathing. The boat is equipped with either a pantry platform or a full pantry. Most Flippers come with an optional or standard marine toilet.",
+                                "img": "/images/marinemodels/900ST/navtabs/2.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "EXCELLENT ENGINE INTEGRATION",
+                        "isActive": false,
+                        "panels": [
+                            {
+                                "header": "EXCELLENT ENGINE INTEGRATION",
+                                "text": "When it comes to boating experience, Flipper boats and Mercury engines are a winning team. Optimizing Flipper boats for Mercury engines already at the design stage is the key for excellent drivability and low sound levels. Handling is as easy as it can get, and the ergonomics excellent. The optional glass bridge plotter enables showing all engine and driving data on one screen. The Mercury active trim ensures the engines are always set on the right level. This saves fuel and makes driving easy and pleasant.",
+                                "img": "/images/marinemodels/900ST/navtabs/3.jpeg"
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     },
     "boatrental": {
