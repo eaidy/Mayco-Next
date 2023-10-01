@@ -195,10 +195,10 @@ Thinking about the soundtrack for your escape? The V10 has an option to install 
                     </section>
                     <section className="d-flex align-items-center justify-content-center text-center flex-column mt-5 v10-tech">
                         <h2 className="p-3">V10 Technical Specifications</h2>
-                        <div className="text-center w-50">
+                        <div className="text-start w-md-75">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>TWIN ENGINE V10</h5>
+                                    <h5 className="text-center">TWIN ENGINE V10</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -266,10 +266,10 @@ Thinking about the soundtrack for your escape? The V10 has an option to install 
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5">
+                        <div className="text-start w-md-75 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>SINGLE MOTOR V10</h5>
+                                    <h5 className="text-center">SINGLE MOTOR V10</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -337,10 +337,10 @@ Thinking about the soundtrack for your escape? The V10 has an option to install 
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5 border border-2 border-success p-4">
+                        <div className="text-start w-md-75 mt-5 border border-2 border-success p-4">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>ELECTRIC DRIVE</h5>
+                                    <h5 className="text-center">ELECTRIC DRIVE</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -360,10 +360,10 @@ Thinking about the soundtrack for your escape? The V10 has an option to install 
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5">
+                        <div className="text-start w-md-75 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>ALL MODELS</h5>
+                                    <h5 className="text-center">ALL MODELS</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>

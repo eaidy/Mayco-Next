@@ -207,7 +207,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                     </section>
                     <section className="d-flex align-items-center justify-content-center text-center flex-column mt-5 v10-tech">
                         <h2 className="p-3">V10 Teknik Özellikler</h2>
-                        <div className="text-center w-50">
+                        <div className="text-start w-md-50">
                             <div>
                                 <div className="border-bottom py-3">
                                     <h5>İKİZ MOTORLU V10</h5>
@@ -278,7 +278,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5">
+                        <div className="text-start w-md-50 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
                                     <h5>TEK MOTORLU V10</h5>
@@ -349,7 +349,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5 border border-2 border-success p-4">
+                        <div className="text-start w-md-50 mt-5 border border-2 border-success p-4">
                             <div>
                                 <div className="border-bottom py-3">
                                     <h5>ELECTRIC DRIVE</h5>
@@ -372,7 +372,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center w-50 mt-5">
+                        <div className="text-start w-md-50 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
                                     <h5>BÜTÜN MODELLER İÇİN</h5>

@@ -96,7 +96,7 @@ const ST900 = () => {
                             <div className="text-center py-4">
                                 <h5>Specifications</h5>
                             </div>
-                            <div className="col-md-6 text-center w-50">
+                            <div className="col-md-6 text-center w-md-50">
                                 <div className="d-flex justify-content-between border-danger border-opacity-50 border-bottom py-4">
                                     <div>
                                         <span className="pe-4">Weight</span>
@@ -138,7 +138,7 @@ const ST900 = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 text-center w-50">
+                            <div className="col-md-6 text-center w-md-50">
                                 <div className="d-flex justify-content-between border-danger border-opacity-50 border-bottom py-4">
                                     <div>
                                         <span className="pe-4">Draft</span>

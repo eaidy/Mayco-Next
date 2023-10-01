@@ -7,8 +7,6 @@ import { useEffect, useState, useRef } from "react";
 
 const Header = ({ headerObject }) => {
 
-    const dwRef = useRef(null)
-
     const router = useRouter()
 
     const [lang, ] = useState(() => headerObject.lang === "en" ? "en/" : "")
