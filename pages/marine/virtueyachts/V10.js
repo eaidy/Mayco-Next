@@ -34,7 +34,7 @@ const V10 = () => {
                 <title>The Virtue V10</title>
 
                 <meta name="description" content="Treat yourself to a genuine icon of one design sailing! The J 70 is the perfect combination of an accessible design and unquestionable performance. It’s THE most widely distributed yacht in the world and for good reason." />
-                <meta name="keywords" content="j-70, J-70, J70, j70, boat, sport, marine, sailboat" />
+                <meta name="keywords" content="V10, v-10, v10, boat, sport, marine, sailboat" />
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
@@ -138,11 +138,8 @@ const V10 = () => {
                                 </article>
                             </div>
                         </div>
-                        <div className="row flex-column-reverse mb-2 py-4 border-bottom">
-                            <div className="col-12 py-2 d-flex justify-content-center align-items-center">
-                                <Image src="/images/marinemodels/V10/3.jpeg" width={1200} height={650} alt="" />
-                            </div>
-                            <div className="col-12 d-flex justify-content-center align-items-center">
+                        <div className="row flex-row-reverse mb-2 py-4 border-bottom">
+                            <div className="col-5 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     İşlevsellik
@@ -151,9 +148,11 @@ const V10 = () => {
                                     V10'un özellikleri modern bir açık yaylı orta konsol tasarımıdır. Güverte, 8 kişiye kadar maksimum konforla dinlenmenize veya aktif olmanıza olanak tanır. Pruvada bardak tutuculu çift kişilik bir şezlong bulunurken, kıç tarafta geniş tasarımlı saklama dolaplarının üzerinde esnek bir oturma alanı bulunmaktadır. Alan, ortadaki masa yükseltilmiş olarak ayrı ayrı öne veya arkaya bakan banklar veya masa indirilmiş olarak rahat bir şezlong olarak yapılandırılabilir.
 
 Döşemeli dış elemanlar hem kolçak hem de içecek tutucusu görevi görüyor. Dümen ile arka oturma alanı arasında, sabit üst kısım tarafından dış etkenlerden korunan, buzdolabı, elektrikli veya gazlı ızgara, lavabo ve yemek hazırlama masasıyla cömertçe donatılmış bir mutfak bulunmaktadır. Pruvada standart olarak oldukça geniş bir çift kişilik yatak, bir gardırop, kilitli dolaplar ve tuvalet ve duşlu bir banyo ile donatılmış tam bir kabin bulunmaktadır.
-
-Bir seçenek olarak 12V DC klima mevcuttur (böylece harici şarj veya güç jeneratörü olmadan, motorlar çalışmadan hareketsiz durumdayken kullanılabilir). V10'un elektrik sistemi, ister demirliyken ister kullanımda olsun, çatısındaki standart güneş panelleri tarafından destekleniyor.                                  </p>
+                                    </p>
                                 </article>
+                            </div>
+                            <div className="col-7 py-2 d-flex justify-content-center align-items-center">
+                                <Image src="/images/marinemodels/V10/3.jpg" width={650*1.6} height={650} alt="" />
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
@@ -210,7 +209,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                         <div className="text-start w-md-50">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>İKİZ MOTORLU V10</h5>
+                                    <h5 className="text-center">İKİZ ÇİFT MOTORLU V10</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -281,7 +280,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                         <div className="text-start w-md-50 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>TEK MOTORLU V10</h5>
+                                    <h5 className="text-center">TEK MOTORLU V10</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -352,7 +351,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                         <div className="text-start w-md-50 mt-5 border border-2 border-success p-4">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>ELECTRIC DRIVE</h5>
+                                    <h5 className="text-center">ELECTRIC DRIVE</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>
@@ -375,7 +374,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                         <div className="text-start w-md-50 mt-5">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5>BÜTÜN MODELLER İÇİN</h5>
+                                    <h5 className="text-center">BÜTÜN MODELLER İÇİN</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>

@@ -21,7 +21,7 @@ const V10 = () => {
                 <title>The Virtue V10</title>
 
                 <meta name="description" content="Treat yourself to a genuine icon of one design sailing! The J 70 is the perfect combination of an accessible design and unquestionable performance. It’s THE most widely distributed yacht in the world and for good reason." />
-                <meta name="keywords" content="j-70, J-70, J70, j70, boat, sport, marine, sailboat" />
+                <meta name="keywords" content="V10, v-10, v10, boat, sport, marine, sailboat" />           
             </Head>
             <Header headerObject={MarineObject.header}/>
             <main className="wrapper">
@@ -125,11 +125,8 @@ const V10 = () => {
                                 </article>
                             </div>
                         </div>
-                        <div className="row flex-column-reverse mb-2 py-4 border-bottom">
-                            <div className="col-12 py-2 d-flex justify-content-center align-items-center">
-                                <Image src="/images/marinemodels/V10/3.jpeg" width={1200} height={650} alt="" />
-                            </div>
-                            <div className="col-12 d-flex justify-content-center align-items-center">
+                        <div className="row flex-row-reverse mb-2 py-4 border-bottom">
+                            <div className="col-5 d-flex justify-content-center align-items-center">
                                 <article>
                                     <h2 style={{ fontSize: 28 }}>
                                     Functionality
@@ -138,9 +135,11 @@ const V10 = () => {
                                     The V10 features is a modern open-bow center console design. The deck allows up to 8 people to relax or be active in ultimate comfort. The bow features a double sunbed with cupholders, while aft, there is a flexible seating area on top of spaciously designed storage lockers. The area can be configured as either benches individually facing forward or backwards with the table in the middle raised, or as a comfortable sunbed with the table lowered.
 
 The upholstered exterior elements serve as both armrests and drink holders. Between the helm and the back seating area, covered from the elements by the fixed top, is a galley generously equipped with a refrigerator, electric or gas grill, sink and food preparation board. In the bow is a full cabin that comes standard equipped with a fairly wide double bed, a wardrobe, lockers, and a bathroom with toilet and shower.
-
-Available as an option is a 12V DC air conditioner (so it can be used without external charging or a power generator, while at rest without the engines running). The V10’s electrical system is supported by standard solar panels on its roof, charging whether moored or in use.                                    </p>
+                                    </p>
                                 </article>
+                            </div>
+                            <div className="col-7 py-2 d-flex justify-content-center align-items-center">
+                                <Image src="/images/marinemodels/V10/3.jpg" width={650*1.6} height={650} alt="" />
                             </div>
                         </div>
                         <div className="row flex-row-reverse mb-2 py-4 border-bottom">
