@@ -25,6 +25,10 @@ const Header = ({ headerObject }) => {
         if(navPath === '/' && (router.pathname === `/${headerObject.site}` || router.pathname === `/en/${headerObject.site}`)) { 
             return `${headerObject.site}-active`
         } else {
+            if(navPath === ""){
+                return null
+            }
+
             if(router.pathname.includes(navPath) && navPath !== '/'){
                 return `${headerObject.site}-active`
             } else {
