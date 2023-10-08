@@ -93,20 +93,41 @@ const V10 = () => {
                     <section className="container model-under">
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-lg-6 p-4 text-center border-end">
-                                <h3 className="text-center py-3"><i>V10 Top</i></h3>
-                                
-                                <p className="text-left">
-                                Piyasadaki en yumuşak ve en sürdürülebilir macera teknesi. Doğa şartlarından kalıcı olarak korunmak için sabit bir çatıya sahip olan bu güzellik, suda aktif dinlenme ve eğlence için pek çok özelliği bünyesinde barındırırken, daha verimli ve ekolojik olmak için tekne yapımı kitabındaki her hileyi kullanıyor.
-                                </p>
-                                <Image src="/images/marinemodels/V10/V10-top.jpeg" width={442} height={250} alt="" />
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <h3 className="text-center py-3"><i>V10 Top</i></h3>
+                                        
+                                            <p style={{textAlign: "justify"}}>
+                                            Piyasadaki sert havalarda dalgayı en az hissedceğiniz yumuşak ve en sürdürülebilir macera teknesidir. Güneş ve yağmurdan korunabileceğiniz bir hardtop’a sahip olan bu güzellik, suda aktif dinlenme ve eğlence için pek çok özelliği bünyesinde barındırırken, daha verimli ve ekolojik olmak için elinden geleni yapıyor.
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <Image src="/images/marinemodels/V10/V10-top.jpeg" width={442} height={250} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div className="col-lg-6 text-center p-4">
-                                <h3 className="text-center py-3"><i>V10 Open</i></h3>
-                                
-                                <p className="text-left">
-                                V10 Top kadar güzel, aynı seçeneklere sahip, ancak ruhunuzu gökyüzüne ulaştırma özgürlüğüne sahip. En ileri görüşlü alıcılar için tamamen elektrikli tahrik imkanı sunan süper verimli gövde, çevre dostu tekneciliği başka bir seviyeye taşıyor.
-                                </p>
-                                <Image src="/images/marinemodels/V10/V10-open.jpeg" width={442} height={250} alt="" />
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <h3 className="text-center py-3"><i>V10 Open</i></h3>
+                                    
+                                            <p style={{textAlign: "justify"}}>
+                                            V10 Top kadar güzel, aynı seçeneklere sahip, ancak ruhunuzu gökyüzüne ulaştırma özgürlüğüne sahip. En ileri görüşlü alıcılar için tamamen elektrikli motor imkanı sunan süper verimli gövde, çevre dostu tekneciliği başka bir seviyeye taşıyor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <Image src="/images/marinemodels/V10/V10-open.jpeg" width={442} height={250} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="row mb-2 py-4 border-bottom">
@@ -119,7 +140,7 @@ const V10 = () => {
                                     Vizyonerler için düşük emisyonlu bir yat
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    V10, piyasadaki en çağdaş ürünleri bekleyen ve aynı zamanda yarının gezegenini önemseyen, çevreye duyarlı tüketicilere yönelik yüksek teknolojili, düşük karbonlu bir yattır. Son derece canlı karakterini lüks standart donanım ve kaliteyle birleştiren V10, İskandinav tarzından ilham alıyor, yüksek verimli İsveç Petestep gövde teknolojisine sahip ve Norveç elektrikli EVOY dıştan takmalı motorlarını (motor seçeneklerinden biri olarak) kullanarak dalgalar boyunca güç sağlıyor.
+                                    V10, piyasadaki en çağdaş ürünleri barındıran ve aynı zamanda çevreye duyarlı tüketicilere yönelik yüksek teknolojili, düşük karbonlu bir sürat teknesidir. Son derece canlı karakterini lüks standart donanım ve kaliteyle birleştiren V10, İskandinav tarzından ilham alıyor, yüksek verimli İsveç Petestep gövde teknolojisine sahip ve Norveç elektrikli EVOY dıştan takmalı motorlarını (motor seçeneklerinden biri olarak) kullanarak dalgalar boyunca güç sağlıyor.
                                     </p>
                                 </article>
                             </div>
@@ -134,7 +155,8 @@ const V10 = () => {
                                     Konsept ve Öne Çıkanlar
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    V10, 10x3 metrelik bir marina bağlama kutusuna rahatça sığar; bu çok yaygın bir Avrupa marina boyutudur ve maliyeti genellikle 10 metrenin üzerinde uzunluktan önemli ölçüde daha azdır. Daha hafif seçenekli modeller, 3,5 to'luk bir tekne römorku ile çekilebilir ve kaydırılabilir. V10, su üzerinde aktif eğlence ve rahatlama merkezinizdir.                                    </p>
+                                    Virtue V10 modeli, 10 metre boya x 3 metre ene sahiptir. Marinalarda çok uygun rakamlara konaklayabileceğiniz gibi, kendi römorkunuzla 3.500 kilogram ağırlığındaki teknenizi istediğiniz yere çekebilirsiniz.
+                                    </p>
                                 </article>
                             </div>
                         </div>
@@ -165,9 +187,7 @@ Döşemeli dış elemanlar hem kolçak hem de içecek tutucusu görevi görüyor
                                     Güçlü İtici Kuvvet
                                     </h2>
                                     <p style={{ lineHeight: 2 }}>
-                                    V10, gücünü benzinli dıştan takma motorlardan alıyor; standart versiyonda tekli 300 HP veya V10R versiyonunda çift 250 HP'lik kurulum. Ek olarak V10 BSO, Konstanz Gölü için Mercury 150 HP BSO II sertifikalı ikiz motorlara sahiptir.
-
-V10 Next, yüksek güçlü elektrik motoru tasarımında öncü olan Norveçli şirket EVOY'un elektrikli dıştan takmalı motorlarıyla çalışıyor. Her biri 150 beygir gücüne kadar tek veya çift motorla donatılabiliyor ve bir veya iki akü ekleme seçeneği de mevcut. EVOY'un menzili, tek akü ile tek motorla 70 kilometreye kadardır (25 deniz mili hızda seyir)
+                                    V10, gücünü benzinli dıştan takma motorlardan alıyor; standart versiyonda tekli 300 HP veya V10R versiyonunda çift 300 HP'lik Yamaha motorları sunabiliyor.  Çift motorlu seçenekte ıslanmadan 50 knot sürat yapabilen Virtue V10 aynı zamanda Yüksek güçlü elektrik motoru tasarımında öncü olan Norveçli şirket EVOY'un elektrikli dıştan takmalı motorlarıyla çalışabiliyor. Her biri 150 beygir gücüne kadar tek veya çift motorla donatılabiliyor ve bir veya iki akü ekleme seçeneği de mevcut. EVOY'un menzili, tek akü ile tek motorla 70 kilometreye kadardır (25 deniz mili hızda seyir)
                                     </p>
                                 </article>
                             </div>
@@ -209,7 +229,7 @@ Kaçışınızın müziğini mi düşünüyorsunuz? V10'un, boyutlarına göre �
                         <div className="text-start w-md-50">
                             <div>
                                 <div className="border-bottom py-3">
-                                    <h5 className="text-center">İKİZ ÇİFT MOTORLU V10</h5>
+                                    <h5 className="text-center">ÇİFT MOTORLU V10</h5>
                                 </div>
                                 <div className="d-flex justify-content-between border-bottom py-4">
                                     <div>

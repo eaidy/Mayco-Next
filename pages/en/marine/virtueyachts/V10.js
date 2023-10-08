@@ -80,20 +80,42 @@ const V10 = () => {
                     <section className="container model-under">
                         <div className="row mb-2 py-4 border-bottom">
                             <div className="col-lg-6 p-4 text-center border-end">
-                                <h3 className="text-center py-3"><i>V10 Top</i></h3>
-                                
-                                <p className="text-left">
-                                The smoothest and most sustainable adventure boat on the market. With a fixed roof for permanent protection from the elements, this beauty boats many features for active relaxation and fun in the water, while using every trick in the boat building book to be more efficient and ecological.
-                                </p>
-                                <Image src="/images/marinemodels/V10/V10-top.jpeg" width={442} height={250} alt="" />
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <h3 className="text-center py-3"><i>V10 Top</i></h3>
+                                        
+                                            <p style={{textAlign: "justify"}}>
+                                            The smoothest and most sustainable adventure boat on the market. With a fixed roof for permanent protection from the elements, this beauty boats many features for active relaxation and fun in the water, while using every trick in the boat building book to be more efficient and ecological.
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <Image src="/images/marinemodels/V10/V10-top.jpeg" width={442} height={250} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div className="col-lg-6 text-center p-4">
-                                <h3 className="text-center py-3"><i>V10 Open</i></h3>
-                                
-                                <p className="text-left">
-                                As beautiful as the V10 Top with all the same options, but the freedom to let your spirits reach the sky. The super-efficient hull with the possibility of fully electric propulsion for the most visionary buyer takes eco-friendly boating to another level.
-                                </p>
-                                <Image src="/images/marinemodels/V10/V10-open.jpeg" width={442} height={250} alt="" />
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <h3 className="text-center py-3"><i>V10 Open</i></h3>
+                                        
+                                            <p style={{textAlign: "justify"}}>
+                                            As beautiful as the V10 Top with all the same options, but the freedom to let your spirits reach the sky. The super-efficient hull with the possibility of fully electric propulsion for the most visionary buyer takes eco-friendly boating to another level.
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <Image src="/images/marinemodels/V10/V10-open.jpeg" width={442} height={250} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="row mb-2 py-4 border-bottom">

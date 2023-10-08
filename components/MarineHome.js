@@ -136,7 +136,7 @@ const MarineHome = ({ homeObject }) => {
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <Image src="/images/marinehome/v10.jpg" className="d-block w-100" alt="boat" width={1500} height={1000}/>
+                                            <Image src="/images/marinehome/v10.jpeg" className="d-block w-100" alt="boat" width={1500} height={1000}/>
                                             <div className="marine-carousel-header">
                                                 <MovingText
                                                     type="fadeInFromTop"
