@@ -58,9 +58,16 @@ const V10 = () => {
                             iteration="1"
                             fillMode="none"
                         >
-                            <p>
-                                
-                            </p>
+                            <div className="mt-md-4">
+                                <a 
+                                    target="_blank" 
+                                    rel="noreferrer"
+                                    href="http://www.maycotex.com.tr/catalogs/Virtue-V10%20Overview-TR.pdf"
+                                    className="fs-4 fw-bold fst-italic text-decoration-none"
+                                >
+                                    SEE CATALOG
+                                </a>
+                            </div>
                         </MovingText>
                     </div>
                 </div>
@@ -108,7 +115,6 @@ const V10 = () => {
                                             As beautiful as the V10 Top with all the same options, but the freedom to let your spirits reach the sky. The super-efficient hull with the possibility of fully electric propulsion for the most visionary buyer takes eco-friendly boating to another level.
                                             </p>
                                         </div>
-                                        
                                     </div>
                                     <div className="row">
                                         <div className="col-12">

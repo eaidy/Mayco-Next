@@ -71,9 +71,16 @@ const V10 = () => {
                             iteration="1"
                             fillMode="none"
                         >
-                            <p>
-                                
-                            </p>
+                            <div className="mt-md-4">
+                                <a 
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href="http://www.maycotex.com.tr/catalogs/Virtue-V10%20Overview-TR.pdf"
+                                    className="fs-4 fw-bold fst-italic text-decoration-none"
+                                >
+                                    KATALOĞU İNCELE
+                                </a>
+                            </div>
                         </MovingText>
                     </div>
                 </div>
