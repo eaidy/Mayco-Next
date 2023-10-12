@@ -46,7 +46,7 @@ const J70 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            WATCH THE MEDIA
+                            WATCH THE VIDEO
                         </button>
                     </div>
                     <div className="model-top-text">

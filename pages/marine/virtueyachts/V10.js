@@ -45,7 +45,7 @@ const V10 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            MEDYAYI SEYRET
+                            VİDEOYU İZLE
                         </button>
                     </div>
                     <div className="model-top-text">
@@ -76,7 +76,7 @@ const V10 = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                     href="http://www.maycotex.com.tr/catalogs/Virtue-V10%20Overview-TR.pdf"
-                                    className="fs-4 fw-bold fst-italic text-decoration-none"
+                                    className="fs-4 fw-bold text-white fst-italic text-decoration-none"
                                 >
                                     KATALOĞU İNCELE
                                 </a>

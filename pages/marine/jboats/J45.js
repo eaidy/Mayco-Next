@@ -33,7 +33,7 @@ const J45 = () => {
                             className="model-video-button"
                             onClick={() => setVideoDisplay(!videoDisplay)}
                         >
-                            MEDYAYI SEYRET
+                            VİDEOYU İZLE
                         </button>
                     </div>
                     <div className="model-top-text">
