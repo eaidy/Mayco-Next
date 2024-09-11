@@ -43,17 +43,20 @@
             "sub1": { 
                 "title": "DRAPERY", 
                 "text": "Ready-to-use curtains in wide fabric, color, pattern and composition scales, which can be produced in narrow-wide widths and various lengths upon request.",
-                "path": "/en/textile/products#curtain"
+                "path": "/en/textile/products#curtain",
+                "browseButtonText": "Browse"
             },
             "sub2": { 
                 "title": "SOFT FURNISHING", 
                 "text": "Wide range of pattern, print, color, thread count and material alternatives",
-                "path": "/en/textile/products#fabric"
+                "path": "/en/textile/products#fabric",
+                "browseButtonText": "Browse"
             },
             "sub3": { 
                 "title": "TOWEL", 
                 "text": "Sustainable products in desired weights and colors, in any size, plain or dobby.",
-                "path": "/en/textile/products#towel"
+                "path": "/en/textile/products#towel",
+                "browseButtonText": "Browse"
             }
         },
         "sliderText1": { "main": "MAYCO TEXTILE", "sub": ""},

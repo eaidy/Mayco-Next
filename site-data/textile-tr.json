@@ -42,17 +42,20 @@
             "sub1": { 
                 "title": "PERDELİK KUMAŞ", 
                 "text": "İsteğe göre dar-geniş ende ve çeşitli uzunluklarda üretilebilen, geniş kumaş, renk, desen ve kompozisyon skalasında kullanıma hazır perdeler.",
-                "path": "/textile/products/#curtain"
+                "path": "/textile/products/#curtain",
+                "browseButtonText": "Gözat"
             },
             "sub2": { 
                 "title": "DÖŞEMELİK KUMAŞ", 
                 "text": "Geniş aralıkta desen, baskı, renk, iplik sayısı ve materyal alternatifleri",
-                "path": "/textile/products/#fabric"
+                "path": "/textile/products/#fabric",
+                "browseButtonText": "Gözat"
             },
             "sub3": { 
                 "title": "HAVLU", 
                 "text": "İstenilen gramaj ve renklerde, her türlü ebatta, düz veya armürlü, sürdürülebilir ürünler.",
-                "path": "/textile/products/#towel"
+                "path": "/textile/products/#towel",
+                "browseButtonText": "Gözat"
             }
         },
         "sliderText1": { "main": "MAYCO TEKSTİL", "sub": ""},

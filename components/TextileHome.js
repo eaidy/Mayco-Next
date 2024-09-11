@@ -178,7 +178,7 @@ const TextileHome = ({ homeObject }) => {
                                         { homeObject.subarticles.sub1.text }
                                     </p>
                                     <Link href={homeObject.subarticles.sub1.path}>
-                                        <a className="mt-md-auto">Gözat</a>
+                                        <a className="mt-md-auto">{homeObject.subarticles.sub1.browseButtonText}</a>
                                     </Link>
                                 </article>
                             </div>
@@ -194,7 +194,7 @@ const TextileHome = ({ homeObject }) => {
                                         { homeObject.subarticles.sub2.text }
                                     </p>
                                     <Link href={homeObject.subarticles.sub2.path}>
-                                        <a className="mt-md-auto">Gözat</a>
+                                        <a className="mt-md-auto">{homeObject.subarticles.sub1.browseButtonText}</a>
                                     </Link>
                                 </article>
                             </div>
@@ -210,7 +210,7 @@ const TextileHome = ({ homeObject }) => {
                                         { homeObject.subarticles.sub3.text }
                                     </p>
                                     <Link href={homeObject.subarticles.sub3.path}>
-                                        <a className="mt-md-auto">Gözat</a>
+                                        <a className="mt-md-auto">{homeObject.subarticles.sub1.browseButtonText}</a>
                                     </Link>
                                 </article>
                             </div>
